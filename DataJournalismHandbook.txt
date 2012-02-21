@@ -44,6 +44,7 @@ Could add one line biographies for each person - highlighting their interest in 
   * Brian Boyer, Chicago Tribune
   * Jane Park, Creative Commons
   * Paul Bradshaw, Birmingham City University, City University London
+  * Wendy Carlisle, ABC News
   * Lucy Chambers, Open Knowledge Foundation
   * Helen Darbishire, Access Info Europe
   * Steve Doig, Cronkite School of Journalism
@@ -349,6 +350,101 @@ There's a tremendous upside to hacking iteratively, on a deadline: We're always 
 ### Projects realized with external experts
 
 Some datasets or methods require special skills i.e. programming skills to manage the data and visualize it. Don't stop your passion for your idea because of missing these skills in your newsroom. There are a lot of highly motivated developers and designers out there to come into your project.
+
+===  The ABC’s data journalism play by Wendy Carlisle ===
+
+Now in its 70th year the Australian Broadcasting Corporation is Australia’s national public broadcaster. Annual funding is around AUS$1bn which delivers seven radio networks, 60 local radio stations, three digital television services, a new international television service and an online platform to deliver this ever expanding offering of digital and user generated content. At last count there were in excess of 4,500 full time equivalent staff and nearly 70% of them make content.
+
+We are a national broadcaster fiercely proud of our independence – because although funded by government – we are separated at arm’s length through law. Our traditions are independent public service journalism. The ABC is regarded the most trusted news organisation in the country.
+
+These are exciting times  and under a managing director – the former newspaper executive Mark Scott – content makers at the ABC have been encouraged to  as the   corporate mantra puts it – be “agile”. 
+
+Of course that’s easier said than done. 
+
+But one initiative in recent times designed to encourage this has been  a competitive staff pitch for money to develop multi-platform projects.
+
+This is how the ABC’s first ever data journalism project was conceived.
+
+Sometime early in 2010 I wandered into the pitch session to face with three senior “ideas” people with my proposal.
+
+I’d been chewing it over for some time. Greedily lapping up the data journalism that the now legendary Guardian data journalism blog was offering, and that was just for starters.
+
+It was my argument that no doubt within 5 years the ABC would have its own data journalism unit. It was inevitable, I opined. But the question was how are we going to get there, and whose going to start.
+
+For those readers unfamiliar with the ABC  think of a vast bureaucracy built up over 70 years. Its primary offering was always radio and television. With the advent of online in the last decade this content offering unfurled into text, stills and a degree of interactivity previously unimagined. The web space was forcing the ABC to rethink how it cut the cake (money) and rethink what kind of cake it was baking (content).
+
+It is of course a work in progress. 
+
+But something else was happening with data journalism. Government 2.0 (which as we discovered is largely observed in the breach in Australia) was starting to offer new ways of telling stories that were hitherto buried in the zero’s and dots.
+
+All this I said to the folk during my pitch. I also said we needed to identify new skills sets, train journalists in new tools. We needed a project to hit play. 
+
+And they gave me the money. 
+
+On the 24th of November 2011 the ABC’s multiplatform project and ABC News Online went live with “Coal Seam Gas by the Numbers” 
+
+http://www.abc.net.au/news/specials/coal-seam-gas-by-the-numbers/promise/
+
+It was five pages of interactive maps, data visualisations and text. 
+
+////
+
+Insert screenshot
+
+////
+
+
+It wasn’t exclusively data journalism – but a hybrid of journalisms that was born of the mix of people on the team and the story, which to put in context is raging as one of the hottest issues in Australia.  
+
+The jewel was an interactive map showing coal seam gas wells and leases in Australia. Users could search by location and switch between modes to show leases or wells. By zooming in users could see who the explorer was, the status of the well and its drill date.  Another map showed the location of coal Seam gas activity compared to the location of groundwater systems in Australia. 
+
+We had data visualisations which specifically addressed this issue of waste salt and water production that would be produced depending on the scenario that emerged.   
+
+Another section of the project investigated the release of chemicals into a local river system
+
+*Our team*
+
+  * A web developer and designer. 
+  * A lead journalist  
+  * A part time researcher with expertise in data extraction, excel spread sheets and data cleaning
+  * A part time junior journalist.
+  * A consultant executive producer
+  * A academic consultant with expertise in data mining, graphic visualisation and advanced research skills.
+  * The services of a project manager and the administrative assistance of the ABC’s multi-platform unit.
+  * Importantly we also had a reference group of journalists and others whom we consulted on a needs basis.
+
+*Where did we get the data from?*
+
+The data for the interactive maps were scrapped from shapefiles downloaded from government websites. 
+
+Other data on salt and water were taken from a variety of reports.
+
+The data on chemical releases was taken from Environmental permits issued by the government. 
+
+*“The Learnings”*
+
+Coal seam gas by the numbers was an ambitious in content and scale.  Uppermost in my mind was what did we learn and how might we do it differently next time?
+
+The data journalism project brought a lot of people into the room who do not normally meet at the ABC. In lay terms – the hacks and the hackers. Many of us did not speak the same language or even appreciate what the other does.  Data journalism is disruptive!   
+
+The practical things:
+
+  * Co-location of the team is vital. Our developer and designer were off-site and came in for meetings. This is definitely not optimal! Place in the same room as the journalists. 
+  * Our consultant EP was also on another level of the building. We needed to be much closer, just for the drop-by factor
+  * Choose a story that is solely data driven.
+
+**The big picture…some ideas.**
+
+  * Big media organisations need to engage in capacity building to meet the challenges of data journalism. My hunch is there are a lot of geeks and hackers hiding in media technical departments desperate to get out. So –we need “hack and hacker meets” workshops where the secret geeks, younger journalists, web developers and designers come out to play with more experienced journalists for skill sharing and mentoring. Task: download this data set and go for it! 
+  * Ipso facto Data journalism is interdisciplinary.  DJ teams are made of people who would not in the past have worked together. The digital space has blurred the boundaries/
+  * We live in a fractured, distrustful body politic.  The digital space makes everyone a content maker…we can all be journalists now, right?  Wrong. Journalists need to reassert themselves as ethical, trustworthy, honest story tellers.  Data journalism offers the opportunity to turn  the signal to noise ratio into something we can all understand. Journalists are going to need to be literate in data journalism tools to
+  * Data journalism is still all about story telling. 
+  * Increasingly the journalists of tomorrow will be   data journalists.
+  * Australia is behind Europe and the United States in data journalism. Why? That’s another discussion….
+
+Wendy Carlisle has been an ABC journalist for 20 years and is primarily an investigative reporter working with radio’s investigative program “Background Briefing” and the Four Corners program on ABC TV.  She was the lead journalist on “Coal Seam gas: by the Numbers” 
+Background Briefing http://www.abc.net.au/radionational/programs/backgroundbriefing/
+Four Corners http://www.abc.net.au/4corners/
 
 === Data journalism at the Zeit Online by Sascha Venohr (Zeit Online) ===
 
