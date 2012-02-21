@@ -12,10 +12,13 @@ To all of those people who have contributed and are not listed below, we say two
 
 === Contributor list ===
 
+  * Gregor Aisch, Open Knowledge Foundation
+  * Brigitte Alfter, Freelance Journalist
   * David Banisar, Article 19
   * Caelainn Barr, EU Data Journalist
   * Michael Blastland, BBC
   * Mariano Blejman, Hacks/Hackers
+  * John Bones, Verdens Gang
   * Marianne Bouchart, Data Journalism Blog
   * Liliana Bounegru, European Journalism Centre
   * Brian Boyer, Chicago Tribune
@@ -32,27 +35,37 @@ To all of those people who have contributed and are not listed below, we say two
   * Jonathan Gray, Open Knowledge Foundation
   * Ted Han, DocumentCloud
   * Kate Hudson, Open Journalism
+  * Mark Lee Hunter (Affiliation?)
+  * Mark Irungu, Internews Network
   * Francis Irving, ScraperWiki
   * Lizzie Jackson, Ravensbourne College
-  * Nicolas Kayser-Bril, Data Journalist
+  * Nicolas Kayser-Bril, J++
   * John Keefe, New York Public Radio
   * Friedrich Lindenberg, Open Knowledge Foundation
+  * Mirko Lorenz, Deutsche Welle
+  * Esa M√§kinen, Helsingin Sanomat
   * Lorenz Matzat, OpenDataCity
+  * David McCandless, Information Is Beautiful
+  * Geoff McGhee, Stanford University
   * Aidan McGuire, ScraperWiki
   * Philip Meyer, University of North Carolina at Chapel Hill
+  * Claire Miller, WalesOnline
   * Cynthia O'Murchu, Financial Times
   * Aron Pilhofer, New York Times
+  * Cl√©ment Renaud, Sharism Lab?
   * Anthony Reuben, BBC
   * Simon Rogers, Guardian Datablog
   * Martin Rosenbaum, BBC
   * Amanda Rossi, Freelance journalist
   * Fabrizio Scrollini, London School of Economics
   * Adam Thomas, Source Fabric
+  * Jack Thurston, FarmSubsidy (TBC)
   * Andrew Vande Moere, infosthetics.com
   * Sascha Venohr, Zeit Online
   * Jerry Vermanen, De Stentor
   * César Viana, Estacio de Sa University
   * Farida Vis, University of Leicester
+  * Luk N. Van Wassenhove (Affiliation?)
 
 == Preface ==
 
@@ -64,9 +77,9 @@ Lamentably the act of reading this book will not supply you with a comprehensive
 
 The Data Journalism Handbook is a work in progress. If you think there is anything which needs to be amended or is conspicuously absent, then please flag it for inclusion in the next version. It is also freely available under a Creative Commons Attribution Sharealike license, and we strongly encourage you to share it with anyone that you think might be interested in reading it.
 
-== Introduction ==
+== 1. Introduction ==
 
-=== What is data journalism? by Paul Bradshaw, City University ===
+=== What is data journalism? by Paul Bradshaw (City University) ===
 
 What is data journalism? I could answer, simply, that it is journalism done with data. But that doesn't help much.
 
@@ -84,7 +97,7 @@ Data journalism can help a journalist tell a complex story through engaging info
 
 Data can be the source of data journalism, or it can be the tool with which the story is told - or it can be both. Like any source, it should be treated with scepticism; and like any tool, we should be conscious of how it can shape and restrict the stories that are created with it.
 
-=== Why journalists should use data by Mirko Lorenz ===
+=== Why journalists should use data by Mirko Lorenz (Deutsche Welle) ===
 
 Journalism is under siege. In the past we relied on being the only ones operating a technology to multiply and distribute what had happened over night. The printing press served as a gateway, if anybody wanted reach the people of a city or region the next morning, they would turn to newspapers.
 
@@ -224,7 +237,15 @@ Data journalism serves two important purposes for news organisations: finding un
 From the standpoint of a regional newspaper, data journalism is crucial. We have the saying `a loose tile in front of your door is considered more important than a riot in a far-away country'. It's hits you in the face and impacts your life more directly. At the same time, digitization is everywhere. Because local newspapers have this direct impact in their neighbourhood and sources become digitalized, a journalist must know how to find, analyze and visualize a story from data.
 ____
 
-== In the newsroom ==
+=== Data journalism in perspective by Liliana Bounegru (European Journalism Centre) ===
+
+////
+
+Todo: short section
+
+////
+
+== 2. In the newsroom ==
 
 
 ////
@@ -258,7 +279,7 @@ In the following chapter journalists involved in data journalism projects explai
 
 In-house expertise
 
-=== How the news apps team at Chicago Tribune works by Brian Boyer ===
+=== How the news apps team at Chicago Tribune works by Brian Boyer (Chicago Tribune) ===
 
 The news applications team at the Chicago Tribune is a band of happy hackers embedded in the newsroom. We work closely with editors and reporters to help 1) research and report stories, 2) illustrate stories online and 3) build evergreen web resources for the fine people of Chicagoland.
 
@@ -274,7 +295,7 @@ There's a tremendous upside to hacking iteratively, on a deadline: We're always 
 
 Some datasets or methods require special skills i.e. programming skills to manage the data and visualize it. Don't stop your passion for your idea because of missing these skills in your newsroom. There are a lot of highly motivated developers and designers out there to come into your project.
 
-=== Data journalism at the Zeit Online by Sascha Venohr ===
+=== Data journalism at the Zeit Online by Sascha Venohr (Zeit Online) ===
 
 The PISA based Wealth Comparison project is an interactive visualisation that enables comparison of standards of living in different countries. The interactive uses data from the OECD's comprehensive world education ranking report, PISA 2009, published in December 2010. The report is based on a questionnaire which asks fifteen-year-old pupils about their living situation at home.
 
@@ -295,7 +316,7 @@ The result of our hand in hand work was a very successful interactive which got 
 
 For links and more information related to this case study. Please see the appendix.
 
-=== How to hire a hacker by Lucy Chambers ===
+=== How to hire a hacker by Lucy Chambers (Open Knowledge Foundation) ===
 
 One of the things that I am regularly asked by journalists is 'how do I get a coder to help me with my project?'. Don't be deceived into thinking this is a one-way process; civic-minded hackers and data-wranglers are often just as keen to get in touch with journalists. Reporters are power-users of the tools they build, often thinking outside the box to use them in contexts they hadn't considered before so feedback is invaluable, they also help to build context and buzz around projects and give them social relevance. It's obviously a symbiotic relationship. Whether you are looking to hire, or possibilities to collaborate with a shoestring budget, there will be someone out there to help.
 
@@ -318,7 +339,7 @@ Making contacts & possibilities for collaboration
   * Hackathons & Competitions. Whether or not there is prize money available: app and visualisation competitions and development days are often fruitful ground for collaboration and making connections.
   * Ask a nerd! Nerds hang around with more nerds, as seen in Sascha's example, communities such as the open data community are often good places to start.
 
-=== Regiohack by Jerry Vermanen ===
+=== Regiohack by Jerry Vermanen (De Stentor) ===
 
 Introduction
 
@@ -398,7 +419,7 @@ But for data journalism to work, we have to integrate it in the newsroom. Journa
 
 (Late addition)
 
-=== The Mapa76 hackathon by Mariano Blejman ===
+=== The Mapa76 hackathon by Mariano Blejman (Hacks/Hackers) ===
 
 We opened the chapter of Hacks/Hackers Buenos Aires in April 2011, and we made two meetups to publicize the idea of working associatively between journalists and software developers. To these meetups attended between 120 and 150 people each time. The third meeting was a 30-hour hackathon, where eight people worked in html5 interactive visualization and popcorn in a digital journalism conference in the city of Rosario, 300 kilometers from Buenos Aires. During these meetings, an idea showed up: apply scrapping techniques to interpret large volumes of data and then display them. Then came a project that we called Mapa76.info, which aims to go from the automatic extraction of data to display lifre stories in timeline display and maps. A difficult task.
 
@@ -532,7 +553,7 @@ Mapa76.info is an initiative of the Buenos Aires chapter of Hacks / Hackers, an 
 meeting comprised of journalists, software programmers and designers who come together to help build the future of media. The organizers of Hacks / Hackers Buenos Aires is made up Mariano Blejman (P√°gina/12), Martin Sarsale (Sumavisos), Guillermo Movia (Mozilla Argentina), Cesar Miquel (EasyTech), Mariana Berruezo, Sorin Sergio and Ezequiel Clerici.
 
 
-== Case studies ==
+== 3. Case studies ==
 
 So you have the data... what next? Where do you start and where could you end?
 
@@ -612,7 +633,7 @@ So if you're investigating paper clip spending, are you also getting the followi
 - the additional data you need to ensure comparisons are fair, such as population size?
 - other data which might provide interesting analysis to compare or relate the spending to?
 
-=== Hospital billing by Steve Doig ===
+=== Hospital billing by Steve Doig (Walter Cronkite School of Journalism and Mass Communication) ===
 
 Investigative reporters at CaliforniaWatch had gotten tips from sources that a large chain of hospitals in California might be systematically gaming the federal Medicare program that pays for the costs of medical treatments of Americans aged 65 or older. The particular scam that was alleged is called "upcoding", which means reporting patients having more complicated conditions ‚Äì worth higher reimbursement ‚Äì than actually existed. But a key source was a union that was fighting with the hospital chain's management, and the CaliforniaWatch team knew that independent verification was necessary for the story to have credibility.
 
@@ -628,7 +649,7 @@ For other stories, the analysis used similar techniques to examine the reported 
 
 To summarize, stories like these become possible when you use data to produce evidence to test independently allegations being made by sources who may have their own agendas. These stories also are a good example of the necessity for strong public records laws; the reason the government requires hospitals to report this data is so that these kinds of analyses can be done, whether by government, academics, investigators or even citizen journalists. The subject of these stories is important because it examines whether millions of dollars of public money is being spent properly.
 
-=== Care home crisis by Cynthia O'Murchu ===
+=== Care home crisis by Cynthia O'Murchu (Financial Times) ===
 
 A Financial Times investigation into the quality of care provided in care homes began with a simple question: is care provided by private providers better than that offered by the non-profit sector or the government?
 
@@ -651,7 +672,7 @@ Some tips:
   * Check and double check the data. Do the analysis several times (if need be from scratch).
   * If you mention particular companies or individuals, give them a right to reply.
 
-=== A 9 month investigation into European Structural Funds by Cynthia O'Murchu
+=== A 9 month investigation into European Structural Funds by Cynthia O'Murchu (Financial Times) ===
 
 In 2010, the Financial Times and the Bureau of Investigative Journalism (BIJ) joined forces to investigate European Structural Funds. The intention was to review who the beneficiaries of European Structural Funds are and check whether the money was put to good use. At ‚Ç¨347bn over seven years Structural Funds is the second largest subsidy programme in the EU. The programme has existed for decades, but apart from broad, generalised overviews, there was little transparency about who the beneficiaries are. As part of a rule change in the current funding round, authorities are obliged to make public a list of beneficiaries, including project description and amount of EU and national funding received.
 
@@ -715,7 +736,7 @@ After a very successful launch of the Project in Germany, we recognized a great 
 See the data
 Read the story
 
-=== Citizen data reporters by Amanda Rossi ===
+=== Citizen data reporters by Amanda Rossi (Friends of Janu√°ria) ===
 
 Coordinator of the Friends of Janu√°ria citizen media project, Brasil
 
@@ -749,7 +770,7 @@ Although these two reports, written by Soraia and Alysson, are very simple, they
 
 "I was able to learn how to look for data about my town on the Internet. I invite my readers to look for data about your own town on the Internet. I searched about my town and wrote a piece about it", says Alysson. If you like his example, accept his challenging invitation.
 
-=== Which car model? MOT failure rates by Martin Rosenbaum (BBC)
+=== Which car model? MOT failure rates by Martin Rosenbaum (BBC) ===
 
 In January 2010 the BBC obtained data about the MOT pass and fail rates for different makes and models of cars. This is the test which assesses whether a car is safe and roadworthy ‚Äì any car over three years old has to have an MOT test annually.
 
@@ -817,7 +838,7 @@ The tools we used for the project were: Excel and Google Refine for data cleanin
 
 What did we learn? Perhaps the most important thing was, that data structures can be very hard. If the original data is not in suitable format, recalculating and converting it will take a lot of time. 
 
-=== Illinois school report cards by Brian Boyer ===
+=== Illinois school report cards by Brian Boyer (Chicago Tribune) ===
 
 http://schools.chicagotribune.com/
 2011 Illinois school report cards
@@ -850,9 +871,9 @@ A few key ideas we took away from this project are:
 2. Ask the newsroom for help. This is the second project for which we've conducted a newsroom-wide survey and interviews, and it's a great way to get the opinion of thoughtful people who, like our audience, are diverse in background and generally uncomfortable with computers. :)
 3. Show your work! Much of our feedback has been requests for the data that the application. We've made a lot of the data publicly available via an API, and we will shortly release the stuff that we didn't think to include initially.
 
-== Finding data ==
+== 4. Finding data ==
 
-=== Seeking data ===
+=== Where to look? ===
 
 ‚óè   Overview: An overview of open data sources, what they contain, how to find them, how to search them, examples of open data being used by journalists
 ‚óã   Is data copyrightable? "In the United States, data will be protected by copyright only if they express creativity. Some databases will satisfy this condition, such as a database containing poetry or a wiki containing prose. Many databases, however, contain factual information that may have taken a great deal of effort to gather, such as the results of a series of complicated and creative experiments." http://sciencecommons.org/old/databases/
@@ -1056,6 +1077,7 @@ Submit international requests: Increasingly requests can be submitted electronic
 Use appropriate language: use language and etiquette appropriate to any other professional communication in your country.
 
 Tip: If you are planning to send the same request to many public authorities start by sending an initial draft of the request to a few authorities as a pilot exercise. This will show you whether you are using the right terminology to obtain the material you want and whether answering your questions is feasible, so that you can then revise the request if necessary before sending it to everyone.
+
 Mention your right to information: Usually the law does not require that you mention the access to information law or freedom of information act, but this is recommended because it shows you know your legal rights and is likely to encourage correct processing of the requests according to the law. We note that for requests to the EU it's important to mention that it's an access to documents request and it's best to make a specific mention of Regulation 1049/2001.
 Hide your request in a more general one: If you decide to hide your real request in a more general one, then you should make your request broad enough so that it captures the information you want but not so broad as to be unclear or discourage a response. Specific and clear requests tend to get faster and better answers.
 Anticipate the exceptions: If you think that exceptions might be applied to your request, then, when preparing your questions, separate the question about the potentially sensitive information from the other information that common sense would say should not fall under an exception. Then split your question in two and submit the two requests separately.
@@ -1083,7 +1105,7 @@ In the following sections you will find a brief definition of what access to inf
 Read More: A recent report by the Open Knowledge Foundation and Access Info Europe provides a thorough description of this evolving field.
 Case Studies
 
-=== Wobbing works. Use it! by Brigitte Alfter ===
+=== Wobbing works. Use it! by Brigitte Alfter (Freelance Journalist) ===
 
 www.alfter.dk, journalist / co-founder of the www.Wobbing.eu network, co-founder of the www.Farmsubsidy.org network
 
@@ -1136,7 +1158,7 @@ Lessons learnt: Get out good raw material even if you find it in unexpected plac
 Useful resources
 For further case studies and tools to facilitate making FOI requests, please see Further Resources. 
 
-=== Getting data from the web by Friedrich Lindenberg ===
+=== Getting data from the web by Friedrich Lindenberg (Open Knowledge Foundation) ===
 
 Note for JWYG: see also original scraping chapter and import useful bits: https://docs.google.com/document/d/1idnhY0XSFeLSRlRfMU2nm_dnjN-8iKLWP7W_8-WqVi4/edit - old scraping version
 
@@ -1239,6 +1261,7 @@ As can be seen on the next line (Line. 7), where we're applying another selector
 
 Note that some elements in the DOM contain actual text, i.e. text that is not part of any markup language, which we can access using the "[element].text" syntax seen on line 8. Finally, in line 9, we're printing that text to the ScraperWiki console. If you hit run in your scraper, the smaller window should now start listing the event's names from the IAEA web site.
 
+=== Crowdsourcing data by Marianne Bouchart (Data Journalism Blog) ===
 
 ### Crowdsourcing data ###
 
@@ -1517,7 +1540,7 @@ Getting the data out
 Authors: Ted Han?
 Length: 1 page
 
-== Understanding data ==
+== 5. Understanding data ==
 
 Other ideas for this section:
 
@@ -1730,7 +1753,7 @@ To test whether your data is dodgy, all you have to do it take the leading digit
 
 - Link to 3.3 tools for analysing data (more specific on the types of things you can do to mend data with
 
-=== The £32 loaf of bread by Claire Miller ===
+=== The £32 loaf of bread by Claire Miller (WalesOnline) ===
 
 A story for Wales on Sunday about how much the Welsh Government is spending on prescriptions for gluten-free products, contained the headline figure that it was paying £32 for a loaf of bread. (http://www.walesonline.co.uk/news/wales-news/2011/07/17/prescriptions-for-gluten-free-bread-costing-welsh-taxpayers-32-a-loaf-91466-29067430/)
 
@@ -1748,7 +1771,7 @@ Generally newspapers want things that make good headlines, so unless something o
 
 But the responsibility is to check the ridiculous claims even if it drops the story down the newslist.
 
-== Fresh out of the packet. Data journalists discuss their tools of choice. ==
+=== Fresh out of the packet. Data journalists discuss their tools of choice. ===
 
 Pssst. That is the sound of your data decompressing from its airtight wrapper. Now what? What do you look for? And what tools do you use to look?
 
@@ -1883,7 +1906,7 @@ add propublica tutorials to this chapter
 Add: Edward Borasky DDJ Develper Studio - open sources - ask Liliana
 
 
-=== Start with the data, finish with a story by Caelainn Barr ===
+=== Start with the data, finish with a story by Caelainn Barr (EU Data Journalist) ===
 
 Approach 1: Think Headline
 
@@ -1916,9 +1939,9 @@ Approach 3: Just explore
 
 You never know what you might find in a dataset, so just have a look. You have to be quite bold and this approach generally works best when trying to identify obvious characteristics that will show up through filtering (the biggest, extremes, most common etc.).
 
-== Delivering data ==
+== 6. Delivering data ==
 
-  * Data visualisation chapter by Geoff McGhee
+=== Cunning Title for data visualisation chapter by Geoff McGhee (Stanford University) ===
 
 Roles of visualisation in journalism
 what function(s) visualisations play in reportage (what do journalists use visualisations for): (1) to find stories, (2) to tell a story
@@ -1993,7 +2016,7 @@ When is a visualisation good, when is a visualisation bad?
 Examples of good and base use of visualisations to tell a story with explanation of what makes them a good/bad case.
 
  
-=== Using data visualisation to find insights in data by Gregor Aisch ===
+=== Using data visualisation to find insights in data by Gregor Aisch (Open Knowledge Foundation) ===
 
 Visualization is critical to data analysis. It provides a front line of attack, revealing intricate structure in data that cannot be absorbed in any other way. We discover unimagined effects, and we challenge imagined ones.
 
@@ -2149,7 +2172,7 @@ The author of this chapter has been influenced by the book Visualizing Data by W
 
 
 
-=== When to use and when not to use visualisations to tell a story by Aron Pilhofer ===
+=== When to use and when not to use visualisations to tell a story by Aron Pilhofer (New York Times) ===
 
 There are times when data can tell a story better than words or photos, and this is why terms like "news application" and "data visualization" have attained buzzword status in so many newsrooms of late. Also fueling interest is the bumper crop of new tools and technologies designed to help even the most technically challenged journalist turn data into a piece of visual storytelling‚Äîmany of them free.
 
@@ -2386,7 +2409,7 @@ Layout: Size, position, white space are the variables you have to play with. As 
 Keys (or legends): Avoid using them whenever possible. It's much more effective to label lines, points, bars directly. If you do have to use a key, put it at the top, in a prominent position.
 Platform: Design for the platform that your visualisation is going to live on. If both print and online, re-design it to work on the other one. A print graphic directly uploaded to a website rarely works as well as it could online, and vice versa of course. It's almost always necessary to re-work.
 
-=== How data visualisation is used at the most read daily newspaper in Norway by John Bones ===
+=== How data visualisation is used at the most read daily newspaper in Norway by John Bones (Verdens Gang) ===
 
 Some comments: 
 * English translation of the titles.
@@ -2604,7 +2627,7 @@ Authors: Aron Pilhofer, Matt Stiles
 Length: 2-3 pages (including examples)
 
 
-=== Data-driven apps case studies ‚Äì Internews in Kenya by Mark Irungu ===
+=== Data-driven apps case studies ‚Äì Internews in Kenya by Mark Irungu (Internews Network) ===
 
 (ask liliana for images for this case study)
 
@@ -2717,7 +2740,7 @@ Case studies, good uses, bad uses
 When social media is a good choice, when a bad choice
 
 
-== Telling the world ==
+== 7. Telling the world ==
 
 
 === Needs A Title by Duncan Geere (Wired.co.uk) ===
@@ -2763,7 +2786,7 @@ Africa: What's Your Story" is a collaborative platform of the citizen news agenc
 The collaborative ways of treating or recirculating information and the bias for popular mobilizations are already means for important changes in this recent world of new media, big data sources and participatory culture. Even if only around 30 percent of the world population was online by the end 2010 (source: 2011 ITU report), there are space for commitment to spread the principles of freedom and to share experiences, best practice and opportunities to improve the capability of citizens and other stakeholders to write/interact/play/sense the next chapters of the history of press. 
 
 
-== The bottom line ==
+== 8. The bottom line ==
 
 
 ### How to pitch a data story to your editor (possibly) ###
@@ -2937,7 +2960,7 @@ Our job as data journalists is to provide the framework or environment for this.
 
 There is still a lot to learn and experiment. But luckily there is the games industry, which designs digital narratives, ecosystems and interfaces for several decades now. So when developing for datajournalism we should closely watch how gamedesign works and stories are told in games. Why are casual games like Tetris such fun? And what makes the open worlds of sandbox games like Grand Theft Auto or Skyrim rock?
 
-=== Kaas og Mulvad: Semi-finished content for stakeholder groups by Mark Lee Hunter and Luk N. Van Wassenhove ===
+=== Kaas og Mulvad: Semi-finished content for stakeholder groups by Mark Lee Hunter and Luk N. Van Wassenhove (Affiliations?) ===
 
 Stakeholder media often lack capacity even more cruelly than do the news media, and the function of Kaas og Mulvad, a for-profit Danish corporation, is to provide it. The firm originated in 2007 as a spinoff of the non-profit Danish Institute for Computer-Assisted Reporting (Dicar), which sold investigative reports to media and trained journalists in data analysis. Its founders, Tommy Kaas and Nils Mulvad, were previously reporters in the news industry. Their new firm offers what they call "data plus journalistic insight" to stakeholder media, which finalise the content and distribute it to news media, as well as through their own media.  Direct clients include government institutions, PR firms, labour unions and NGOs such as EU Transparency and the World Wildlife Fund. The NGO work includes monitoring farm and fishery subsidies, and regular updates on EU lobbyist activities generated through "scraping" of pertinent websites. Indirect clients include foundations that fund NGO projects. The firm also works with the news industry: A tabloid newspaper purchased a celebrity monitoring service.
 
@@ -2962,7 +2985,7 @@ Turnover in 2009 was approximately 2.5 million Danish kroner, or ‚Ç¨ 336,000
 ‚Ä¢	From a revenue standpoint, a single product or service is not enough. Successful watchdog enterprises would do better to take a portfolio approach, in which consulting, teaching, speaking and other services bring in extra revenue, support the watchdog brand, and enrich the lifestyle of the operators.
 
 
-=== When code pays for words by Cl√©ment Renaud ===
+=== When code pays for words by Cl√©ment Renaud (Sharism Lab?) ===
 
 Example from OWNI
 
