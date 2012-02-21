@@ -986,6 +986,56 @@ A few key ideas we took away from this project are:
 2. Ask the newsroom for help. This is the second project for which we've conducted a newsroom-wide survey and interviews, and it's a great way to get the opinion of thoughtful people who, like our audience, are diverse in background and generally uncomfortable with computers. :)
 3. Show your work! Much of our feedback has been requests for the data that the application. We've made a lot of the data publicly available via an API, and we will shortly release the stuff that we didn't think to include initially.
 
+=== Electoral Hack in real-time by Hacks/Hackers Buenos Aires ===
+
+With input from Andy Tow, Sergio Sorin, Mariana Berruezo, Martin Sarsale and Mariano Blejman
+
+Electoral Hack http://elecciones.hhba.info is a Web environment of political analysis that illustrates real-time data from the provisional ballot results of the elections of October 23, 2011, in Argentina and provides several levels of analysis. The system also features a selection of information from previous elections and socio-demographic statistics from across the country. Electoral Hack was an initiative of Hacks/Hackers Buenos Aires with the political analyst Andy Tow, and was the result of joint volunteer work by members of the local chapter of Hacks/Hackers (journalists, programmers, designers, analysts, political scientists, etc.). Thematic maps of the primary elections of 2011and the general elections of 2007, as well as sociodemographic variables, are also available. Information was updated in real time with information from the provisional ballot count of the national elections of 2011 in Argentina and gave summaries of the presidential and vice-presidential elections as well as the renewal of Congress.
+
+What data did we use?
+All information posted came from official sources. The National Electoral Bureau provided access to data of the provisional count by Indra; the Department of the Interior provided information about elected posts and candidates from different political parties; the university project yoquierosaber.org provided biographical information and the policy platforms of each presidential ticket; while socio-demographic information came from the 2001 National Census of Population and Housing (INDEC), except for the total population which corresponded to the 2010 Census (INDEC), and from the Ministry of Health of the Nation.
+
+How was it developed?
+The application was generated during the 2011 Election Hackathon by Hacks/Hackers Buenos Aires the day before the election on October 23, 2011.  The hackathon was a day of work and programming with collaborations from 30 volunteer specialists. Electoral Hack was developed as an open platform for anyone interested in introducing improvements over time.  As technological tools we utilized developments that integrated Google Fusion Tables, maps, and vector graphics libraries, etc.
+
+
+We worked on the construction of polygons for displaying geographic mapping and electoral demographics. Combining polygons in GIS software and geometries from public tables in Google Fusion Tables we generated tables with keys corresponding to the electoral database of the Ministry of Interior—Indra and sociodemographic data from INDEC, creating from this data visualizations in Google Maps.
+
+Using the GoogleMaps API we put several thematic maps online representing the spatial distribution of voting with different tones of color, where the gradation of intensity expressed different intervals of the percentage of votes for the various presidential tickets in different administrative departments and polling stations, with particular emphasis on major urban centers: the City of Buenos Aires, the 24 districts of Greater Buenos Aires, the City of Cordoba, and Rosario.
+
+We used the same technique to generate thematic maps of previous elections, namely the presidential primaries of 2011 and the election of 2007, as well as of the distribution of sociodemographic data, such as for poverty, child mortality, and living conditions, allowing for analysis and comparison. We also put a display online showing the spatial distribution of the differences in percentage of votes obtained by each ticket in the general election of October compared to the August primary election.
+
+Later, using partial data from the provisional ballot counts, we created an animated map depicting the anatomy of the count, in which the progress of the vote count can be seen in accelerated time from the closing of the local polls until the following morning.
+
+Pros:
+
+* We set out to find data and articulate it and we were able to do that.  At hand we had the Unicef’s database of child sociodemographics, http://infoargentina.unicef.org.ar/, as well as the database of candidates created by the group yoquierosaber.org of Torcuato Di Tella University.  During the hackathon we gathered a large volume of additional data that we did not end up including.
+
+* It was clear that the journalistic and programming work was enriched by scholarship. Without the contribution of Andy Tow and Hilario Moreno Campos, the project would have been impossible to pull off.
+
+Cons:
+
+* We ran into several problems: that the sociodemographic data we could use (indices of basic needs unmet, population, housing, etc.) were not up-to-date (most were from the 2001 census), and that their systematization was not publicly available or did not go to the local level (local average GDP, main economic activity, education level, number of schools, doctors per capita, and a long list of possibilities that would been great to have).
+
+* On the other hand, the system was intended as a tool, one that others could use to recombine and display whatever data they wanted, so that the press could insert into their sites the information that interested them.  But it remained for future development.
+
+* As participation was voluntary and collaborative, and as we had such a short time to plan, there was the practical impossibility of finishing what he had imagined as the final development. But we showed we were on the right track and we were able to develop a massive project.
+
+* For the same reason, all the collaborative work of 30 people ended up condensed into a single programmer when the data offered by the government began to appear, and we ran into some problems regarding the importation of date in real time that were solved within hours.
+
+Implications
+Electoral Hack’s platform had a big impact at the media, with television coverage, radio, graphics and online sites; its maps were used by several media platforms during the elections and in subsequent days. As the days went by, the maps and visualizations were updated, increasing traffic even more. On Election Day, the site created that very day received about 20 thousand unique visitors and its maps were reproduced by the newspaper Página/12 on its cover page for two consecutive days as well as in articles in La Nacion; some of its maps appeared in the print edition of the newspaper Clarín. It was the first time that an interactive display of real-time maps had been used in the history of Argentine journalism. In the central maps one could clearly see the overwhelming victory of Cristina Fernandez de Kirchner by 54 percent of the vote, broken up by color saturation. It also served to help understand very specific individual cases where local candidates swept the provincial votes.
+
+What is Hacks/Hackers Buenos Aires?
+In April 2011, a local chapter of Hacks / Hackers opened in Buenos Aires, a meeting space comprising journalists, software developers, and IT professionals coming together to help build the future of media. The organizers of Hacks / Hackers Buenos Aires are Mariano Blejman (Página/12), Martin Sarsale (Sumavisos), Guillermo Movia (Mozilla Argentina), Cesar Miquel (EasyTech), Mariana Berruezo, Sorin Sergio Clerici, and Ezekiel. In 2011 there were four meetups, four hackathons, a conference, and a webinar. We currently have a base of 540 people, including journalists, programmers, designers, and entrepreneurs.
+
+For this project, the Buenos Aires Chapter of Hacks/Hackers joined with the blogger and political analyst Andy Tow Hilario and political scientist Moreno-Field – of the PR consulting firm Dicen – to develop  with journalists, social scientists, programmers and graphic designers an innovative information system. Those who worked on the  idea of Sergio Sorin’s included: Andy Tow - Andres Snitcofsky - Catalina Marino - Cesar Miquel - Damian Janowski – Ezequiel Clerici - Federico Ricciardi - Fernanda Roux - Florence Coelho - Guido Labonia - Guillermo Movia - Hilario Moreno Campos - Juan Pablo Renzi - Kevin Hanna - Lucas Aznar - Luis E. Guardiola - Mariana Berruezo - Mariano Mancuso - Martin Sarsale – Momi Peralta Ramos - Nicholas Cisco - Oscar Guindzberg - Sebastian Alvarez - Sebastian Melendez - Soledad Gherardi - Tania Wassaf - Valeria Bula and Mariano Blejman.
+
+Twitter @ HacksHackersBA
+Mail ba@hackshackers.com
+Web http://meetupba.hackshackers.com
+Blog http://www.hackshackers.com
+
 == 4. Finding data ==
 
 === Where to look? ===
@@ -2809,6 +2859,7 @@ Preprocess shapefile for Tableau Tutorial Video
 Hey! Your Tableau Public Viz is Ugly *and* Confusing
 
 
+
 ### Data driven applications ###
 
 Overview: Step by step guide, tips and tricks for how newsrooms can produce data driven applications
@@ -2960,6 +3011,42 @@ It goes without saying that you need to publish the raw data alongside your arti
 Think beyond the comment box, too. Can you attach comments to particular cells in a spreadsheet? Or a particular region of an infographic? Make sure that other users can see those comments too -- they have almost as much value as the original data, in a lot of cases.
 
 Finally, other people might want to publish their own infographics and stories on the same sources of data -- think about how best to tie that information together. You could use a hashtag specific to the dataset, for example, or if it's highly pictorial then you could share it in a Flickr group. Having a route to share information more confidentially could be useful too -- in some cases it might not be safe for people to publicly share their contributions to a dataset, or they might simply not be comfortable doing so.
+
+=== Public Data goes Social by Full Name Here ===
+
+Data is invaluable. To the uninformed person where information asymmetry thrives, access to data illuminates the path to facts and provokes emotions that trigger results. Nevertheless, poor handling of data puts valuable facts in an opaque structure that communicates nothing. Data could be in a maze of thick document riddled with complex terms or iterations of figures that doesn’t connect the user.  Not being able to promote discussion nor give provide contextual understanding, data may could be worthless. 
+
+Nigeria returned to democracy in 1999 after lengthy years of military rule. Data under the barrel of the gun was an exclusive preserve of rulers as probing the facts behind data is taken as an affront to authority and strive to question the stained reputation of the junta. Civil servants were bound by the Official Secrets Act not to share government information hereby putting the citizens in the dark. Even after thirteen years of return to democracy, there is clearly a gap in accessing public data with some government officials still stricken with military era hangover. Data especially in terms of public expenditure communicates little to the larger sections of public who are not versed in financial accounting nor have requisite understanding to evaluate the complex arithmetic. 
+
+BudgIT, creative startup sees a huge opportunity in using creative data visualization to stimulate interests concerning public expenditure. Understanding the ubiquity of the mobile device within the Nigerian locality and the increasing number of Nigerians online, BudgIT sees the opportunity to engage Nigerians and explain public expenditure in a simpler way. This thrives on building engagement across all platforms, encouraging the community to action via NGOs and reaching out to everyone to promote citizen participation. This is about making public data a social object and building an extensive network that demands change. 
+
+*Building The Community*
+
+Across our interactions with users, we see a gulf in understanding what the budget is and what the citizens usually expect. We have engaged over 10,000 Nigerians over the budget and we profile them into three to ensure optimum value is delivered. The categories are briefly explained below: 
+
+*Singular Users*:  These are users who want information in simple and quick format. There are interested in data but not in a deeper scale of analyzing the content or probing further. A series of simple tweets is enough for them to retell the stories or interactive applications that give a snapshot. 
+
+*Closed Loop Users*:  A set of  users who stimulate a discussion pattern, engage the data channel effectively to increase their knowledge of subject matter or  challenge the assumptions of data. These set of users are adherents of the platform via social media, hence they ensure in building the platform through feedack systems or referral to their social connections. 
+
+*The Data Hog*: This set of users want the raw datasets to rework visualization or do extensive analysis for personal or enterprise purposes. We simply give them the data for their definitive purposes.  
+
+
+*Engaging the Citizen*
+
+Across every society lies a literacy span and engaging every component is highly critical to the societal growth and stability. There is always a storyboard in every life that volumes of data can be matched with. People constantly want to be more informed especially concerning issues that they find difficult to understand. Engaging citizens is to take critical analysis of the target users at a time and itemize the possible profiles. A look at user profile demands a thorough analysis of their empathy, attention and insight towards the data available to them. What does the Nigerian citizen care about? Where is the information gap? How quickly can we reach out to them and place data in the storyboard of their lives? A critical understanding of the user’s psychology and the perceived response to the data is the first needed level of analysis. BudgIT’s immediate reach is to the average literate Nigerian connected to online forums and social media. Most online users amidst the array of interests in gaming, reading and sharing social connections within a limited timeframe will definitely need data in a brief and concise manner. After a snapshot of data  either as a tweet or infographics, there’s an opportunity to build linked data on other platforms where the big picture can be set and interaction can be enhanced.  
+
+An important angle of visualization to us is understanding the data appreciation level of the users. Complex diagrams, superb infographics and aesthetic interactive applications might not convey the exact meaning to user based on his/her previous approach to data. Data vizualization needs to take into consideration how users can easily grasp the vizualized data and subject it to personal interpretation. A good visualization transfers knowledge and mostly important brings forth a story the user can easily connect with. 
+
+For us in BudgIT, our engagement model is anchored on the following: 
+
+*Stimulating discussion around Trends*: In engaging with users on public data, BudgIT keeps track of online and offline discussions and seeks to provide data to enliven the interactions. A glaring example was the fuel strikes in January 2012 where there was a constant agitation among the protesters on the need to reduce the size of governance. BudgIT tracking the discussion via social media in 36 active hours quickly built an app that allows citizens to cut the Nigerian budget. The huge response with over 3,000 users who interacted with the budget using the app refined our  engagement model. We keep looking for trends in the polity and matching it with relevant data quickly rendered into tweets or infographic display that quickly  extends our influence. 
+
+*Constructive feedback mechanism and Balanced outlook*: Data speaks volumes and individuals subject it to personal interpretations. In the engagement with users, feedback is enabled through discussion boards or retweets. Most users throw up discussions that tend to ask about stories behind the data and seeking opinions of BudgIT. Its of utmost priority to ensure that opinions only explain the facts  behind the data and does not conform to individual disposition to the subject matter. It’s most necessary to build up feedback channels and engage the users creatively to ensure the community built around the data is sustained. 
+
+*Localize Outlook of Data*: For a dataset targeted at a particular group, BudgIT is building competency to localize its content and promote a channel of discussion that connects to the users. This involves taking a cultural outlook at the icons, symbols, objects and language to ensure that engagement concerning the budget flows seamlessly. This phase of engagement is with the grassroots who  mostly don’t have access to Internet but only possess SMS-based mobile phones. 
+
+After making the public expenditure data  available in an easy-to-read format as shown on our portal yourbudgit.com, we reach out to the citizens through the civil society organizations to ensure that citizens monitor capital projects in the budget. We also plan to develop a participatory framework where citizens and government institutions can meet in town halls to define key items in the budget that needs to be prioritized. Once we get citizens to be aware of capital projects in the budget and connect them with civil societies where BudgIT is not located, citizens can track report projects and report status. Ensuring that citizens of any literacy span are armed with data and possess a clear path to demand action, BudgIT is crossing the rubicon from open data to open action. 
+
 
 
 === Citizen engagement with data journalism by C√©sar Viana (Estacio de Sa University) ===
