@@ -2263,7 +2263,7 @@ You never know what you might find in a dataset, so just have a look. You have t
 
 == 6. Delivering data ==
 
-=== Cunning Title for data visualisation chapter by Geoff McGhee (Stanford University) ===
+=== Cunning Title for data visualisation chapter by Sarah Cohen (Washington Post) ===
 
 ////
 
@@ -2312,10 +2312,8 @@ Toolkits and tutorials
 
 
 
-Roles of visualisation in journalism
+=== Roles of visualisation in journalism by Lulu Pinney ===
 
-
-(Lulu Pinney)
 The function of data visualisations in reportage is twofold. Firstly they are a tool for exploring the data to find where any stories are. Their second use is for telling a story. And it is worth noting that - for the same set of data - it is more than likely that the visuals best suited to finding a story will not be best suited to the telling of it.
 
 Using visualisations to explore data is a more objective exercise, and sometimes it is appropriate to create an interface so your audience can have a go themselves. Alternatively having explored and interpreted the data yourself, you can choose just to present the stories you have found in a more subjective - or editorial - manner to your audience, with or without supporting visualisations.
@@ -2325,16 +2323,16 @@ Using visualisations to explore data is a more objective exercise, and sometimes
 more on this from Sarah Cohen at the end of Feb.; more specifically Mainly on the use of it inside the newsroom to hone the story -- expanding on that handout you found. The real weakness there is that there are not good, free tools to use when you're not willing to make your data public.
 ////
 
-4.3.2 Tools, tutorials and good examples of using visualisations to find stories
+=== 4.3.2 Tools, tutorials and good examples of using visualisations to find stories - Gregor Aisch===
 
 When do you need to visualise a dataset to explore it and find a story? When don't you need to?
 How do you go about discovering a story? What tools do you use? What "protocol" do you follow? What clues do you follow, what do you pay attention to? (lessons, tips, advice).
 Examples of how to explore a dataset with a visualisation tool with a step by step description of the "protocol" followed to find the story.
 Case study
 
+Sarah Cohen
 
-
-4.3.3 Tools, tutorials and good examples of using visualisations to tell stories
+=== 4.3.3 Tools, tutorials and good examples of using visualisations to tell stories - Geoff McGhee (Stanford University) ===
 
 When do you need to visualise a story and when don't you need to?
 What types of visualisations are good for presenting what types of stories?
@@ -2580,7 +2578,8 @@ Map of Radiation Readings Near Fukushima Daiichi
 Fractions of a Second: An Olympic Musical - Interactive Graphic - NYTimes.com
 
 
-4.3.x Visualization vocabulary (Kate hudson)
+=== 4.3.x Visualization vocabulary (Kate hudson) ===
+
 Types of graphs/visualizations: choosing an appropriate visualization tool
 Comparison
 Distribution
@@ -2669,7 +2668,7 @@ More information below deepening information
 
 
 
-Guardian Riot map (Farida)
+=== Guardian Riot map (Farida) ===
 
 During the summer of 2011 the UK was hit by a wave of riots (full government report here todo: find link). Politicians suggested that these actions were categorically not linked to poverty and those that did the looting were simply criminals. The Guardian newspaper played a crucial role in using data driven journalism and a range of data visualizations in telling this story, allowing for better understanding who was doing the looting and why. By using simple maps (Google Fusion Tables) they showed the location of confirmed riots spots and through mashing up deprivation data with where the riots took place started debunking the main political narrative that there was no link to poverty. Both these examples use off the shelf visualization tools and in the second example combine location data with another data set, to start making other links. A final example worth mentioning here is the visualization the paper built around the use of social media. Again politicians had started to suggest that social media use might have to be curtailed during such troubles in future, but offering little concrete evidence that social media, Twitter in this case, played a role in encouraging people to riot. A visualization of riot related hashtags used during this period, highlighted that Twitter was mainly used to respond to the riots rather than to organize people to go looting, with #riotcleanup showing the most significant spike during the riot period.
 
@@ -2688,7 +2687,7 @@ http://www.ted.com/talks/lang/eng/hans_rosling_on_global_population_growth.html
 
 
 
-When is a visualisation good and when is it bad?
+=== When is a visualisation good and when is it bad? ===
 
 A good visualisation clarifies, explains, reveals or adds meaning. It makes the audience say 'ah-ha, I get it'. They take away with them the story you set out to tell.
 
