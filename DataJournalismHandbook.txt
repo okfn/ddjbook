@@ -64,7 +64,7 @@ Could add one line biographies for each person - highlighting their interest in 
   * John Keefe, New York Public Radio
   * Friedrich Lindenberg, Open Knowledge Foundation
   * Mirko Lorenz, Deutsche Welle
-  * Esa M√§kinen, Helsingin Sanomat
+  * Esa M�kinen, Helsingin Sanomat
   * Lorenz Matzat, OpenDataCity
   * David McCandless, Information Is Beautiful
   * Geoff McGhee, Stanford University
