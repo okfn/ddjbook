@@ -189,7 +189,21 @@ And, increasingly, journalists see that particular opportunity. The European Jou
 
 Will data journalism remain the preserve of a small handful of pioneers - or will every news organisation soon have its own dedicated data journalism team? We hope this handbook will help more journalists and newsrooms to take advantage of this emerging field.
 
-=== What is it good for? Notes from the field ===
+=== Why is data journalism important? by Various Contributors ===
+
+////
+
+Todo: add quotes from Simon Rogers on how data journalism is just journalism done well
+
+Todo: review secondary literature and see if there are other quotes we could use or adapt, or if there is anyone else that we should ask.
+
+Todo: ask Chris Taggart for something on this - along lines of his talk in Utrecht.
+
+Todo: ask nearly everyone who can write well who has contributed to the handbook for quotes on this. We can pick the best ones.
+
+////
+
+We asked some of data journalism's leading practitioners and proponents why they think data journalism is an important development. Here is what they said.
 
 *Filtering the flow of data*
 [quote, Philip Meyer (University of North Carolina at Chapel Hill)]
@@ -296,19 +310,6 @@ Data journalism serves two important purposes for news organisations: finding un
 From the standpoint of a regional newspaper, data journalism is crucial. We have the saying `a loose tile in front of your door is considered more important than a riot in a far-away country'. It's hits you in the face and impacts your life more directly. At the same time, digitization is everywhere. Because local newspapers have this direct impact in their neighbourhood and sources become digitalized, a journalist must know how to find, analyze and visualize a story from data.
 ____
 
-////
-
-Todo: add quotes from Simon Rogers on how data journalism is just journalism done well
-
-////
-
-=== Our favourite examples ===
-
-////
-
-Todo: collect screenshots + quotes from leading data journalists on their favourite examples
-
-////
 
 === Data journalism in perspective by Liliana Bounegru (European Journalism Centre) ===
 
@@ -318,7 +319,7 @@ Todo: short section on history of data journalism, what it is, what it isn't and
 
 ////
 
-== 2. In the newsroom ==
+== 2. In The Newsroom ==
 
 
 ////
@@ -346,11 +347,15 @@ How to hire a hacker: Where to look
 The Hackathon Model: RegioHack, a 30 hour datajournalism hackathon with regional subjects (Netherlands)
 ////
 
-A survey on training needs for data journalism circulated by the European Journalism Centre between April and August 2011 showed that 39% of the 234 respondents envisioned their organisation to start engaging in data journalism through engaging a combination of external experts and existing staff. 36% envisioned training existing staff.
+////
+To incorporate into short intro:
+
+A http://datadrivenjournalism.net/news_and_analysis/data_journalism_survey_analysis[survey] on training needs for data journalism circulated by the European Journalism Centre between April and August 2011 showed that 39% of the 234 respondents envisioned their organisation to start engaging in data journalism through engaging a combination of external experts and existing staff. 36% envisioned training existing staff.
 
 In the following chapter journalists involved in data journalism projects explain models for doing data journalism in their newsroom.
 
 In-house expertise
+////
 
 === How the news apps team at Chicago Tribune works by Brian Boyer (Chicago Tribune) ===
 
@@ -360,7 +365,7 @@ Todo: ask Brian for a nice picture of Chicago Tribune hackers
 
 ////
 
-The news applications team at the Chicago Tribune is a band of happy hackers embedded in the newsroom. We work closely with editors and reporters to help 1) research and report stories, 2) illustrate stories online and 3) build evergreen web resources for the fine people of Chicagoland.
+The news applications team at the Chicago Tribune is a band of happy hackers embedded in the newsroom. We work closely with editors and reporters to help: (1) research and report stories, (2) illustrate stories online and (3) build evergreen web resources for the fine people of Chicagoland.
 
 It's important that we sit in the newsroom. We usually find work via face-to-face conversations with reporters. They know that we're happy to help write a screen scraper for a crummy government website, tear up a stack of PDFs, or otherwise turn non-data into something you can analyze. It's sort of our team's loss leader -- this way we find out about potential data projects at their outset.
 
