@@ -310,6 +310,9 @@ Data journalism serves two important purposes for news organisations: finding un
 From the standpoint of a regional newspaper, data journalism is crucial. We have the saying `a loose tile in front of your door is considered more important than a riot in a far-away country'. It's hits you in the face and impacts your life more directly. At the same time, digitization is everywhere. Because local newspapers have this direct impact in their neighbourhood and sources become digitalized, a journalist must know how to find, analyze and visualize a story from data.
 ____
 
+=== Favourite examples by Various Contributors ===
+
+We asked some of our contributors for their favourite examples of data journalism and what they liked about them. Here they are.
 
 === Data journalism in perspective by Liliana Bounegru (European Journalism Centre) ===
 
