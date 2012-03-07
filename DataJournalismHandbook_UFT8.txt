@@ -46,7 +46,7 @@ Could add one line biographies for each person - highlighting their interest in 
   * Brian Boyer, Chicago Tribune
   * Jane Park, Creative Commons
   * Paul Bradshaw, Birmingham City University + City University London
-  * Wendy Carlisle, ABC News
+  * Wendy Carlisle, Australian Broadcasting Corporation
   * Lucy Chambers, Open Knowledge Foundation
   * Helen Darbishire, Access Info Europe
   * Steve Doig, Cronkite School of Journalism
@@ -316,6 +316,13 @@ We asked some of our contributors for their favourite examples of data journalis
 
 === Data journalism in perspective by Liliana Bounegru (European Journalism Centre) ===
 
+This section will look at:
+
+  * Background, history, relationship with CAR
+  * What is distinctive/new about data journalism
+  * What is its potential - what will it / won't it do
+  * ...
+
 ////
 
 Todo: short section on history of data journalism, what it is, what it isn't and how it is distinctive as a form of journalism, gesture towards the future
@@ -360,11 +367,27 @@ In the following chapter journalists involved in data journalism projects explai
 In-house expertise
 ////
 
+////
+### Projects realized with external experts
+
+Some datasets or methods require special skills i.e. programming skills to manage the data and visualize it. Don't stop your passion for your idea because of missing these skills in your newsroom. There are a lot of highly motivated developers and designers out there to come into your project.
+////
+
 === How the news apps team at Chicago Tribune works by Brian Boyer (Chicago Tribune) ===
 
 ////
 
-Todo: ask Brian for a nice picture of Chicago Tribune hackers
+Comments:
+
+Short and sweet.
+
+No suggested changes, except minor formatting. Ready to send back to him to revise/approve.
+
+Nice how it is, but there could be more detail, if Brian has anything to add. E.g. perhaps give a few examples of data-driven apps that CT has done, how these differed from other forms of reporting, what they brought to the newsroom that was new. Also could cover what other people in the newsroom originally thought about the apps team, how it got started, etc.
+
+Todo:
+
+ask Brian for a nice picture of Chicago Tribune hackers. Perhaps of 5 minute standup meeting - or of developers programming in pairs?
 
 ////
 
@@ -378,17 +401,13 @@ We work in an agile fashion. To make sure we're always in sync, every morning be
 
 There's a tremendous upside to hacking iteratively, on a deadline: We're always updating our toolkit. Every week we crank out an app or two, then, unlike normal software shops, we can put it to the back of our mind and move on to the next project. It's a joy we share with the reporters, every week we learn something new.
 
-### Projects realized with external experts
-
-Some datasets or methods require special skills i.e. programming skills to manage the data and visualize it. Don't stop your passion for your idea because of missing these skills in your newsroom. There are a lot of highly motivated developers and designers out there to come into your project.
-
-===  The ABC's data journalism play by Wendy Carlisle ===
+===  The ABC's data journalism play by Wendy Carlisle (Australian Broadcasting Corporating) ===
 
 Now in its 70th year the Australian Broadcasting Corporation is Australia's national public broadcaster. Annual funding is around AUS$1bn which delivers seven radio networks, 60 local radio stations, three digital television services, a new international television service and an online platform to deliver this ever expanding offering of digital and user generated content. At last count there were in excess of 4,500 full time equivalent staff and nearly 70% of them make content.
 
-We are a national broadcaster fiercely proud of our independence ‚Äì because although funded by government ‚Äì we are separated at arm's length through law. Our traditions are independent public service journalism. The ABC is regarded the most trusted news organisation in the country.
+We are a national broadcaster fiercely proud of our independence - because although funded by government - we are separated at arm's length through law. Our traditions are independent public service journalism. The ABC is regarded the most trusted news organisation in the country.
 
-These are exciting times  and under a managing director ‚Äì the former newspaper executive Mark Scott ‚Äì content makers at the ABC have been encouraged to  as the   corporate mantra puts it ‚Äì be ‚Äúagile‚Äù. 
+These are exciting times  and under a managing director - the former newspaper executive Mark Scott - content makers at the ABC have been encouraged to  as the corporate mantra puts it - be `agile'.
 
 Of course that's easier said than done. 
 
@@ -396,7 +415,7 @@ But one initiative in recent times designed to encourage this has been  a compet
 
 This is how the ABC's first ever data journalism project was conceived.
 
-Sometime early in 2010 I wandered into the pitch session to face with three senior ‚Äúideas‚Äù people with my proposal.
+Sometime early in 2010 I wandered into the pitch session to face with three senior `ideas' people with my proposal.
 
 I'd been chewing it over for some time. Greedily lapping up the data journalism that the now legendary Guardian data journalism blog was offering, and that was just for starters.
 
@@ -410,24 +429,19 @@ But something else was happening with data journalism. Government 2.0 (which as 
 
 All this I said to the folk during my pitch. I also said we needed to identify new skills sets, train journalists in new tools. We needed a project to hit play. 
 
-And they gave me the money.‚Ä®
+And they gave me the money.
 
-On the 24th of November 2011 the ABC's multiplatform project and ABC News Online went live with ‚ÄúCoal Seam Gas by the Numbers‚Äù 
+On the 24th of November 2011 the ABC's multiplatform project and ABC News Online went live with http://www.abc.net.au/news/specials/coal-seam-gas-by-the-numbers/promise/[`Coal Seam Gas by the Numbers'].
 
-http://www.abc.net.au/news/specials/coal-seam-gas-by-the-numbers/promise/
+image::Figures/02-01.png[width=600]
 
 It was five pages of interactive maps, data visualisations and text. 
 
-////
+It wasn't exclusively data journalism - but a hybrid of journalisms that was born of the mix of people on the team and the story, which to put in context is raging as one of the hottest issues in Australia.  
 
-Insert screenshot
+The jewel was an interactive map showing coal seam gas wells and leases in Australia. Users could search by location and switch between modes to show leases or wells. By zooming in users could see who the explorer was, the status of the well and its drill date. Another map showed the location of coal Seam gas activity compared to the location of groundwater systems in Australia. 
 
-////
-
-
-It wasn't exclusively data journalism ‚Äì but a hybrid of journalisms that was born of the mix of people on the team and the story, which to put in context is raging as one of the hottest issues in Australia.  
-
-The jewel was an interactive map showing coal seam gas wells and leases in Australia. Users could search by location and switch between modes to show leases or wells. By zooming in users could see who the explorer was, the status of the well and its drill date.  Another map showed the location of coal Seam gas activity compared to the location of groundwater systems in Australia. 
+image::Figures/02-02.png[width=600]
 
 We had data visualisations which specifically addressed this issue of waste salt and water production that would be produced depending on the scenario that emerged.   
 
@@ -446,17 +460,17 @@ Another section of the project investigated the release of chemicals into a loca
 
 *Where did we get the data from?*
 
-The data for the interactive maps were scrapped from shapefiles downloaded from government websites. 
+The data for the interactive maps were scrapped from shapefiles (a common kind of file for geospatial data) downloaded from government websites. 
 
 Other data on salt and water were taken from a variety of reports.
 
 The data on chemical releases was taken from Environmental permits issued by the government. 
 
-*‚ÄúThe Learnings‚Äù*
+*What did we learn?*
 
-Coal seam gas by the numbers was an ambitious in content and scale.  Uppermost in my mind was what did we learn and how might we do it differently next time?
+`Coal Seam Gas by the Numbers' was an ambitious in content and scale.  Uppermost in my mind was what did we learn and how might we do it differently next time?
 
-The data journalism project brought a lot of people into the room who do not normally meet at the ABC. In lay terms ‚Äì the hacks and the hackers. Many of us did not speak the same language or even appreciate what the other does.  Data journalism is disruptive!   
+The data journalism project brought a lot of people into the room who do not normally meet at the ABC. In lay terms - the hacks and the hackers. Many of us did not speak the same language or even appreciate what the other does.  Data journalism is disruptive!   
 
 The practical things:
 
@@ -464,45 +478,56 @@ The practical things:
   * Our consultant EP was also on another level of the building. We needed to be much closer, just for the drop-by factor
   * Choose a story that is solely data driven.
 
-**The big picture‚Ä¶some ideas.**
+**The big picture: some ideas**
 
-  * Big media organisations need to engage in capacity building to meet the challenges of data journalism. My hunch is there are a lot of geeks and hackers hiding in media technical departments desperate to get out. So ‚Äìwe need ‚Äúhack and hacker meets‚Äù workshops where the secret geeks, younger journalists, web developers and designers come out to play with more experienced journalists for skill sharing and mentoring. Task: download this data set and go for it! 
-  * Ipso facto Data journalism is interdisciplinary.  DJ teams are made of people who would not in the past have worked together. The digital space has blurred the boundaries/
-  * We live in a fractured, distrustful body politic.  The digital space makes everyone a content maker‚Ä¶we can all be journalists now, right?  Wrong. Journalists need to reassert themselves as ethical, trustworthy, honest story tellers.  Data journalism offers the opportunity to turn  the signal to noise ratio into something we can all understand. Journalists are going to need to be literate in data journalism tools to
-  * Data journalism is still all about story telling. 
-  * Increasingly the journalists of tomorrow will be   data journalists.
-  * Australia is behind Europe and the United States in data journalism. Why? That's another discussion‚Ä¶.
+  * Big media organisations need to engage in capacity building to meet the challenges of data journalism. My hunch is there are a lot of geeks and hackers hiding in media technical departments desperate to get out. So -we need `hack and hacker meets' workshops where the secret geeks, younger journalists, web developers and designers come out to play with more experienced journalists for skill sharing and mentoring. Task: download this data set and go for it! 
+  * Ipso facto Data journalism is interdisciplinary. Data journalism teams are made of people who would not in the past have worked together. The digital space has blurred the boundaries.
+  * We live in a fractured, distrustful body politic.  The digital space makes everyone a content maker: we can all be journalists now, right?  Wrong. Journalists need to reassert themselves as ethical, trustworthy, honest story tellers. Data journalism offers the opportunity to turn  the signal to noise ratio into something we can all understand. Journalists are going to need to be literate in data journalism tools to
+  * Data journalism is still all about story telling.
+  * Increasingly the journalists of tomorrow will be data journalists.
+  * Australia is behind Europe and the United States in data journalism. Why? That's another discussion.
 
-Wendy Carlisle has been an ABC journalist for 20 years and is primarily an investigative reporter working with radio's investigative program ‚ÄúBackground Briefing‚Äù and the Four Corners program on ABC TV.  She was the lead journalist on ‚ÄúCoal Seam gas: by the Numbers‚Äù 
+////
+Wendy Carlisle has been an ABC journalist for 20 years and is primarily an investigative reporter working with radio's investigative program 'Background Briefing' and the Four Corners program on ABC TV.  She was the lead journalist on 'Coal Seam gas: by the Numbers' 
 Background Briefing http://www.abc.net.au/radionational/programs/backgroundbriefing/
 Four Corners http://www.abc.net.au/4corners/
+////
 
 === Data journalism at the Zeit Online by Sascha Venohr (Zeit Online) ===
 
 ////
 
-To add: screenshot from PISA based Wealth comparison project
+Comments:
+
+This is good, but this is currently a bit too focused on one example to fit seamlessly into this section. Need more on how data journalism fits 'in the newsroom' of Zeit Online as a whole.
+
+Could we have a bit more detail on things like:
+
+  * Backround - what made Zeit Online interested in data journalism, who pushed for it, how they got started, where the budget came from, how others at Zeit Online felt about this
+  * Mention of other data journalism projects at Zeit Online
+  * Current status of data journalism within Zeit Online
+  * Other comments/tips that could be useful/relevant to other news organisations getting started with data journalism, e.g. on how to pitch this, what its value is, why/how to pursue it.
 
 ////
 
-The PISA based Wealth Comparison project is an interactive visualisation that enables comparison of standards of living in different countries. The interactive uses data from the OECD's comprehensive world education ranking report, PISA 2009, published in December 2010. The report is based on a questionnaire which asks fifteen-year-old pupils about their living situation at home.
+image::Figures/02-03.png[width=600]
+
+The http://opendata.zeit.de/pisa-wohlstands-vergleich/visualisierung.php#/en/DEU-OECD[PISA based Wealth Comparison] project is an interactive visualisation that enables comparison of standards of living in different countries. The interactive uses data from the OECD's comprehensive world education ranking report, http://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment[PISA 2009], published in December 2010. The report is based on a questionnaire which asks fifteen-year-old pupils about their living situation at home.
 
 The idea was to analyse and visualise this data to provide a unique way of comparing standards of living in different countries.
 
 First of all our in-house editorial team decided which facts seemed to be useful to make living standards comparable and should be visualised, including:
 
-Wealth (number of owned TVs, cars and available bathrooms at home)
-Family-situation (are there grandparents living with the family together, percentage share of families with only one child, unemployment of parents and mother's job status)
-Access to knowledge sources (internet at home, frequency of using e-mail and quantity of owned books)
-Additionally the OECD set three regional wealth-items in the questionnaire. This preselection of items shows on very special way the development-level of each country.
+  * Wealth (number of owned TVs, cars and available bathrooms at home)
+  * Family-situation (are there grandparents living with the family together, percentage share of families with only one child, unemployment of parents and mother's job status)
+  * Access to knowledge sources (internet at home, frequency of using e-mail and quantity of owned books)
+  * Three additional indicators on the level of development of each country.
 
 With the help of the internal design team these facts were translated into self-explanatory icons. A front end design was built to make comparison between the different countries like in a card-game possible.
 
-Next we contacted people from the German Open Data Network to find developers who could help with the project. This community of highly motivated people suggested Gregor Aisch, a very talented information designer, to code the application that would make our dreams come true (Flash-free#, which is important to us!). Based on the Rapha√´l-Javascript Library he created a very high quality and interactive visualisation with a beautiful bubble-style.
+Next we contacted people from the German http://opendata-network.org/[German Open Data Network] to find developers who could help with the project. This community of highly motivated people suggested Gregor Aisch, a very talented information designer, to code the application that would make our dreams come true (without using flash - which was very important to us!). Gregor created a very high quality and interactive visualisation with a beautiful bubble-style, based on the http://raphaeljs.com/[Raphaël-Javascript Library].
 
-The result of our hand in hand work was a very successful interactive which got a lot of traffic and because of the easy possibility to combine two countries by URL. We can re-use the tool in our daily editorial work (i.e. on the coverage of the living situation in Indonesia we can have a quick view on the situation in that country compared to Germany. The know-how transferred to our in house-team was a great starting-capital for future projects.
-
-For links and more information related to this case study. Please see the appendix.
+The result of our hand in hand work was a very successful interactive which got a lot of traffic. It is easy to compare any two countries, which makes it useful as a reference tool. This means that we can re-use it in our daily editorial work. For example if we are covering something related to the living situation in Indonesia, we can quickly and easily embed a graphic http://opendata.zeit.de/pisa-wohlstands-vergleich/visualisierung.php#/en/DEU-IDN[comparing the living situation in Indonesia and Germany]. The know-how transferred to our in house-team was a great investment for future projects.
 
 === How to hire a hacker by Lucy Chambers (Open Knowledge Foundation) ===
 
@@ -1156,7 +1181,7 @@ Electoral Hack's platform had a big impact at the media, with television coverag
 What is Hacks/Hackers Buenos Aires?
 In April 2011, a local chapter of Hacks / Hackers opened in Buenos Aires, a meeting space comprising journalists, software developers, and IT professionals coming together to help build the future of media. The organizers of Hacks / Hackers Buenos Aires are Mariano Blejman (P√°gina/12), Martin Sarsale (Sumavisos), Guillermo Movia (Mozilla Argentina), Cesar Miquel (EasyTech), Mariana Berruezo, Sorin Sergio Clerici, and Ezekiel. In 2011 there were four meetups, four hackathons, a conference, and a webinar. We currently have a base of 540 people, including journalists, programmers, designers, and entrepreneurs.
 
-For this project, the Buenos Aires Chapter of Hacks/Hackers joined with the blogger and political analyst Andy Tow Hilario and political scientist Moreno-Field ‚Äì of the PR consulting firm Dicen ‚Äì to develop  with journalists, social scientists, programmers and graphic designers an innovative information system. Those who worked on the  idea of Sergio Sorin's included: Andy Tow - Andres Snitcofsky - Catalina Marino - Cesar Miquel - Damian Janowski ‚Äì Ezequiel Clerici - Federico Ricciardi - Fernanda Roux - Florence Coelho - Guido Labonia - Guillermo Movia - Hilario Moreno Campos - Juan Pablo Renzi - Kevin Hanna - Lucas Aznar - Luis E. Guardiola - Mariana Berruezo - Mariano Mancuso - Martin Sarsale ‚Äì Momi Peralta Ramos - Nicholas Cisco - Oscar Guindzberg - Sebastian Alvarez - Sebastian Melendez - Soledad Gherardi - Tania Wassaf - Valeria Bula and Mariano Blejman.
+For this project, the Buenos Aires Chapter of Hacks/Hackers joined with the blogger and political analyst Andy Tow Hilario and political scientist Moreno-Field - of the PR consulting firm Dicen - to develop  with journalists, social scientists, programmers and graphic designers an innovative information system. Those who worked on the  idea of Sergio Sorin's included: Andy Tow - Andres Snitcofsky - Catalina Marino - Cesar Miquel - Damian Janowski - Ezequiel Clerici - Federico Ricciardi - Fernanda Roux - Florence Coelho - Guido Labonia - Guillermo Movia - Hilario Moreno Campos - Juan Pablo Renzi - Kevin Hanna - Lucas Aznar - Luis E. Guardiola - Mariana Berruezo - Mariano Mancuso - Martin Sarsale - Momi Peralta Ramos - Nicholas Cisco - Oscar Guindzberg - Sebastian Alvarez - Sebastian Melendez - Soledad Gherardi - Tania Wassaf - Valeria Bula and Mariano Blejman.
 
 Twitter @ HacksHackersBA
 Mail ba@hackshackers.com
@@ -1601,17 +1626,17 @@ Jeff Howe from Wired Magazine established that the concept of crowdsourcing depe
 
 It has been used by journalists to turn readers into contributors for a few years now, some more successfully than others.
 
-‚ÄúWhen you have tones of files, statistics, reports to go through, like with the MPs expenses or the wikileaks cables, crowdsourcing is a really good way to get things done,‚Äù argues Simon Rogers, editor of the Guardian's Data Blog in an interview conducted for this handbook.
+'When you have tones of files, statistics, reports to go through, like with the MPs expenses or the wikileaks cables, crowdsourcing is a really good way to get things done,' argues Simon Rogers, editor of the Guardian's Data Blog in an interview conducted for this handbook.
 
 Data crowdsourcing can be helpful both for collecting data and sorting out big datasets you already have but that are too big for you to sort out alone. It's also a very good way to get different perspectives on a subject you work on as the audience will often point out details that you didn't notice on your own. 
-Although this trend to ask the audience to become contributors in the analysis of big data has been a real success in projects such as the MPs expenses in the UK or the Wikileaks cables worldwide, the actual ‚Äúcollection‚Äù of data via crowdsourcing stays a problem as journalists and editors still don't know how to make sure the data people contribute is reliable.
+Although this trend to ask the audience to become contributors in the analysis of big data has been a real success in projects such as the MPs expenses in the UK or the Wikileaks cables worldwide, the actual 'collection' of data via crowdsourcing stays a problem as journalists and editors still don't know how to make sure the data people contribute is reliable.
 To crowdsource data, journalists can use surveys, polls, or comment fields. They can also ask their audience to contribute to a Google Doc or a spreadsheet. 
 
 Online resources like the Open Data Cook Book gives you help on how to collect data using Google forms.
 
-‚ÄúGoogle forms (part of the Google Docs online office suite) allow you to collect and share data, the wesbite says.
+'Google forms (part of the Google Docs online office suite) allow you to collect and share data, the wesbite says.
 
-‚ÄúThis recipe isn't about using an existing source of data, but instead allows you to create your own data. You might want to run a survey, or log events that occur. With Google forms you can easily share the data you collect as a spreadsheet.‚Äù
+'This recipe isn't about using an existing source of data, but instead allows you to create your own data. You might want to run a survey, or log events that occur. With Google forms you can easily share the data you collect as a spreadsheet.'
 
 Go to the Open Data cook book website to follow their tutorial.
 
@@ -1621,57 +1646,57 @@ Other platforms such as Help Me Investigate, Crowdsourcing.com or GetTheData.org
 
 Video interview with Nick Edouard from Buzz Data: Data crowdsourcing meets social media http://vimeo.com/36859634 
 
-Nick: ‚ÄúI am the executive vice president of business development and marketing at Buzz Data. I got into data through Buzz Data CTO Pete Forde who I've known for a while and who I think is a visionary in this space. Pete introduced me to open data and data in general. I have worked with a lot of data in previous jobs but it was a privilege to come on board at Buzz Data. 
+Nick: 'I am the executive vice president of business development and marketing at Buzz Data. I got into data through Buzz Data CTO Pete Forde who I've known for a while and who I think is a visionary in this space. Pete introduced me to open data and data in general. I have worked with a lot of data in previous jobs but it was a privilege to come on board at Buzz Data. 
 
 Q: What's Buzz Data and how was it created?
 
-‚ÄúBuzz Data makes data sharing and collaboration on both private and public datasets very easy. It's important that we are not just about open data. We love open data, but we are really focused on how people interact with data of all type whether they are public or private. So what we've done is create essentially a platform that makes it very easy to add context, visualisations, articles, links around a dataset to create a story rather than just a dateset per say. An other major feature is the degree of user engagement that you can get. Not only have we incorporated some of the best features of social networks into Buzz Data, but at the same time, we've made it very easy for you to find collaborators to work with on a dataset. Whether as I said, it's in a public fashion or indeed privately, just between you and me for example.‚Äù
+'Buzz Data makes data sharing and collaboration on both private and public datasets very easy. It's important that we are not just about open data. We love open data, but we are really focused on how people interact with data of all type whether they are public or private. So what we've done is create essentially a platform that makes it very easy to add context, visualisations, articles, links around a dataset to create a story rather than just a dateset per say. An other major feature is the degree of user engagement that you can get. Not only have we incorporated some of the best features of social networks into Buzz Data, but at the same time, we've made it very easy for you to find collaborators to work with on a dataset. Whether as I said, it's in a public fashion or indeed privately, just between you and me for example.'
 
 Q: So do you consider yourself as the social medium of data?
 
-‚ÄúI guess there are a lot of ways in which Buzz Data can be described: it's a social network for data, it's a gate hump for data, etc. I think what we are doing is unique. I can't see anything in the market that is the same thing. We really think about what data needs to be to become meaningful, to become useful, to add insight. And that is really two things: the context and the engagement.‚Äù
+'I guess there are a lot of ways in which Buzz Data can be described: it's a social network for data, it's a gate hump for data, etc. I think what we are doing is unique. I can't see anything in the market that is the same thing. We really think about what data needs to be to become meaningful, to become useful, to add insight. And that is really two things: the context and the engagement.'
 
 Q: How do you deal with truthfulness and trust on Buzz Data? How can people make sure the data they crowdsource is reliable?
 
-‚ÄúFrom a truthfulness prospective, obviously, we are looking to the community tu curate itself, I guess in that degree, our model is somewhat similar to Wikipedia: we are expecting people to engage, to point out errors and inacuracies in the datasets. I very much believe that we gonna find that communities of interest around topics are very engaged and as a result will self police.‚Äù
+'From a truthfulness prospective, obviously, we are looking to the community tu curate itself, I guess in that degree, our model is somewhat similar to Wikipedia: we are expecting people to engage, to point out errors and inacuracies in the datasets. I very much believe that we gonna find that communities of interest around topics are very engaged and as a result will self police.'
 
 Q: So you don't have a webmaster whose role is to verify the data that is on the site?
 
-‚ÄúWe gonna be doing that in the future, we gonna verify that the people that are publishing say who they are. At the moment we have The Economist Intelligence Unit, the Globe and Mail, a Canadian national newspaper, who are publishing data. We know who they are, but that is certainly something that we are working on and we will be able to verify who the data publisher is so that as a data user, you gonna have confidence in the veracity of the data. The other thing as well is that there's a virtual control on Buzz Data so if somebody post an original dataset, you can download their data, play around with it and if there's something you don't like or might not agree with some of the data points in it, you can push that back, upload that and point out innacuracies in the original datasets. I think this is a place for data to live, it is not overwritten it will very much evolve.‚Äù 
+'We gonna be doing that in the future, we gonna verify that the people that are publishing say who they are. At the moment we have The Economist Intelligence Unit, the Globe and Mail, a Canadian national newspaper, who are publishing data. We know who they are, but that is certainly something that we are working on and we will be able to verify who the data publisher is so that as a data user, you gonna have confidence in the veracity of the data. The other thing as well is that there's a virtual control on Buzz Data so if somebody post an original dataset, you can download their data, play around with it and if there's something you don't like or might not agree with some of the data points in it, you can push that back, upload that and point out innacuracies in the original datasets. I think this is a place for data to live, it is not overwritten it will very much evolve.' 
 
 Q: Are people able to share their activity on Buzz Data with other sociel networks like Twitter or Facebook?
 
-‚ÄúYes, without a doubt. We have already done the overall integration so at the moment you can see who is already on Buzz Data from existing from existing social networks (Linked'in, Twitter and Facebook). But we are working on it so you can see more easily your activity on Buzz Data through your other social networks. Hand in hand with that we are working on some features for data publishers so that they can widgetize a lot of the Buzz Data functionalities. They are going to be able to display what is happening on Buzz Data with their datasets within their own landing pages and normal websites, etc.‚Äù
+'Yes, without a doubt. We have already done the overall integration so at the moment you can see who is already on Buzz Data from existing from existing social networks (Linked'in, Twitter and Facebook). But we are working on it so you can see more easily your activity on Buzz Data through your other social networks. Hand in hand with that we are working on some features for data publishers so that they can widgetize a lot of the Buzz Data functionalities. They are going to be able to display what is happening on Buzz Data with their datasets within their own landing pages and normal websites, etc.'
 
 Q: How useful can Buzz Data be to data journalists?
 
-‚ÄúI think it can be enormously useful for data journalists. We have our own in-house data journalist Momoko Price who is our communication director. There is a number of ways [our site acn be useful to data journalists], 
+'I think it can be enormously useful for data journalists. We have our own in-house data journalist Momoko Price who is our communication director. There is a number of ways [our site acn be useful to data journalists], 
 Buzz Data can be used privately to collaborate on datasets. Let's say a group of two or three investigative journalists could use Buzz Data to essentially work out the story to get it to the point where they are ready to publish. 
-Once you are ready to publish then obviously the story can go to print, you can link potentially to the underlining dataset it is based on, you can publish that on Buzz Data openly and then see what the community does to it. I think it's going to be really interesting to see how people take that story forward. We've already seen this first-hand on Buzz Data in a couple of occasions where the community has become engaged with a dataset, they've taken it in a different direction to the guy that originally written the story an published it and as a result there is a follow up story and not only that but the community is far more engaged with the story than it would have been otherwise.‚Äù
+Once you are ready to publish then obviously the story can go to print, you can link potentially to the underlining dataset it is based on, you can publish that on Buzz Data openly and then see what the community does to it. I think it's going to be really interesting to see how people take that story forward. We've already seen this first-hand on Buzz Data in a couple of occasions where the community has become engaged with a dataset, they've taken it in a different direction to the guy that originally written the story an published it and as a result there is a follow up story and not only that but the community is far more engaged with the story than it would have been otherwise.'
 
 
 Q: What do you think about data journalism in general and the way it is evolving today?
 
-‚ÄúI think it is massively important. I think it is very important for the future of open data and open data full stop actually. As someone described, data journalists are essentially data engineers. You guys are going to be taking data as a raw ingredient and turn it into something that's useful. And I think thats the oil in the machine essentialy. One thing that the open data mouvement need to address full stop is when data is published, something has to happen with it otherwise people will be less inclined to publish it. Great things do happen when data is shared and published so I think data journalists' job is gonna be key to that.‚Äù
+'I think it is massively important. I think it is very important for the future of open data and open data full stop actually. As someone described, data journalists are essentially data engineers. You guys are going to be taking data as a raw ingredient and turn it into something that's useful. And I think thats the oil in the machine essentialy. One thing that the open data mouvement need to address full stop is when data is published, something has to happen with it otherwise people will be less inclined to publish it. Great things do happen when data is shared and published so I think data journalists' job is gonna be key to that.'
 
 Q: The Open Data movement campaigns for more openess from governments and big organisations to publish more data online. How do you see this evolve in the future?
 
-‚ÄúI hope we'll stop talking about it as needing to evolve, I think it's gonna become part of the course sooner rather than later. I am really encouraged by the activity of some governments, the UK for example is very good in this regard. Is there any room to be better? Without a shutter of a doubt. I think part of that too is adding the context around the dataset. So thinking about how things become published, the more information you can wrap around it is obviously the better, the more useful it becomes. I don't think it's just about open data too. I think open data tends to be too much focused on kind of governments', etc. I think a lot of organisations, a lot of private companies are starting to realise the value in sharing data. Obvisouly there are types of data that will never be made public, I don't want my credit card information to ever be public, and at Buzz Data we fully understand that there is information that will always be confidential to companies. I think the open data movement will continue and I think thrive. I am excited about that but I think there's also gonna be more and more private organisations that will be looking in-house and thinking ‚Äòwhat should we be sharing with our consumers? And how do we benefit from that?‚Äù
+'I hope we'll stop talking about it as needing to evolve, I think it's gonna become part of the course sooner rather than later. I am really encouraged by the activity of some governments, the UK for example is very good in this regard. Is there any room to be better? Without a shutter of a doubt. I think part of that too is adding the context around the dataset. So thinking about how things become published, the more information you can wrap around it is obviously the better, the more useful it becomes. I don't think it's just about open data too. I think open data tends to be too much focused on kind of governments', etc. I think a lot of organisations, a lot of private companies are starting to realise the value in sharing data. Obvisouly there are types of data that will never be made public, I don't want my credit card information to ever be public, and at Buzz Data we fully understand that there is information that will always be confidential to companies. I think the open data movement will continue and I think thrive. I am excited about that but I think there's also gonna be more and more private organisations that will be looking in-house and thinking ‚Äòwhat should we be sharing with our consumers? And how do we benefit from that?'
 
 Q: So what's next for Buzz Data?
 
-‚Äú The way I see it is that Buzz Data is good and it's only gonna get better from hereon in. We have some very exciting things on the road map, we are working on things like smarter recommendation algorythms, and better around discoverabilitty, producing widgets for data publishers, how do you embed functionality on your website. 
+' The way I see it is that Buzz Data is good and it's only gonna get better from hereon in. We have some very exciting things on the road map, we are working on things like smarter recommendation algorythms, and better around discoverabilitty, producing widgets for data publishers, how do you embed functionality on your website. 
 
-We are working on improving the collaboration side of it, it is far better that anything I can see out there at the moment but I think we can still make it better. A lot that I have been doing in the past couple of weeks is actually talking to epole that have been using the service, getting their feedback and then we'll build that in the product road map. So we are listening to the people who are using the service at the moment, we gonna make it better based on their feedback. It's already jolly good but I think we can make it better.‚Äù
+We are working on improving the collaboration side of it, it is far better that anything I can see out there at the moment but I think we can still make it better. A lot that I have been doing in the past couple of weeks is actually talking to epole that have been using the service, getting their feedback and then we'll build that in the product road map. So we are listening to the people who are using the service at the moment, we gonna make it better based on their feedback. It's already jolly good but I think we can make it better.'
 
 Q: Three golden rules to data?
 
-‚ÄúThree golden rules to data? 
+'Three golden rules to data? 
 I think firstly data needs context. So if you are thinking about sharing or publishing data, think about what else you can provide like ‚Äòthis heading in this spreadsheet is actually composed of the following three or four factors'. Because that's gonna enable your user community, fondamentally people who want to play with your data to actually know where they should take it. You gonna be able to give them more of a steer. So context is important..
-Secondly is to think about engagement. How best to stimulate it within your community so rather than just publishing and like the Duke of Wellington ‚Äúbeing damned‚Äù, do not just sit back. Imagine stuff that's gonna happen, I think you do need to think ‚Äòwho do we need to tell that we've done this?' That's one marking that needs to be put in place and then stimulate that activity. 
-I guess the third would be ‚ÄòPublish! Publish! Publish!' The more the merrier, I think great things happen when data is shared. You just have to see the NASA dark matter competition last year, the Netflix recommendation algorythm, a contest from a while back‚Ä¶ It's not just advances in science, there are also great things commercially that happened and I hope Buzz Data is going to be a big part of those stories over the next couple of years. 
+Secondly is to think about engagement. How best to stimulate it within your community so rather than just publishing and like the Duke of Wellington 'being damned', do not just sit back. Imagine stuff that's gonna happen, I think you do need to think ‚Äòwho do we need to tell that we've done this?' That's one marking that needs to be put in place and then stimulate that activity. 
+I guess the third would be ‚ÄòPublish! Publish! Publish!' The more the merrier, I think great things happen when data is shared. You just have to see the NASA dark matter competition last year, the Netflix recommendation algorythm, a contest from a while back... It's not just advances in science, there are also great things commercially that happened and I hope Buzz Data is going to be a big part of those stories over the next couple of years. 
 
-Something great is going to happen on Buzz Data sooner rather than later and I am excited for that.‚Äù 
+Something great is going to happen on Buzz Data sooner rather than later and I am excited for that.' 
 How to collect data from content already published in social media 
 
 using Twitter hashtags (examples: emergency hashtags used in the event of an earthquake or huricane in the US)
@@ -1693,7 +1718,7 @@ Data Crowdsourcing at the Guardian - Getting the readers involved
 
 While there is already a huge amount of data available online, some media organisations are going one step further by getting their readers involved in the process of collecting and analysing data. 
 
-‚ÄúCrowdsourcing‚Äù has become a common practice in the world of data journalism and the Guardian is now considered as a reference in the field. 
+'Crowdsourcing' has become a common practice in the world of data journalism and the Guardian is now considered as a reference in the field. 
 
 The Guardian's Data Blog won the 2011 Newspaper Awards prize for Best use of New Media and the Guardian's DataStore was honoured at the Knight Batten awards for innovation in journalism in 2011.
 
@@ -1703,7 +1728,7 @@ Simon Rogers is the editor of the Data Blog. He told us how crowdsourcing can he
 
 SIMON ROGERS, Editor of the Data Blog:
 
-‚Äú I suppose the thing about crowdsourcing is that when you have tones of stuff to go through, like with the MPs expenses where there were 40,000 pages to go through, that's impossible for one person to do. Also, when you have got all this stuff that is inaccessible or in a bad format, that's really where crowdsourcing can help. 
+' I suppose the thing about crowdsourcing is that when you have tones of stuff to go through, like with the MPs expenses where there were 40,000 pages to go through, that's impossible for one person to do. Also, when you have got all this stuff that is inaccessible or in a bad format, that's really where crowdsourcing can help. 
 
 One thing the Guardian has got is lots of readers, lots of pairs of eyes, and if there is something interesting to do then it can really work. That's what we did with the MPs expenses. We had 450,000 documents and very little time to do anything. So what better way than open up to readership? 
 
@@ -1717,20 +1742,20 @@ So in terms of generating stories it worked really well and people really liked 
 
 Then we did it with the Sarah Palin papers, that was again a good way of looking for stories, scouring the raw information for stories. 
 
-But it also seems to me that some of the [crowdsourcing projects] that we've done that worked really well have been more like ‚Äòall fashioned' surveys. When you are asking people about their experience, about their lives, about what they've done, they work very well because people aren't as likely to make that up. They will say what they feel. When we asked people to kind of do our job for us, you have to find a framework for people to produce the data in a way you can trust them.‚Äù
+But it also seems to me that some of the [crowdsourcing projects] that we've done that worked really well have been more like ‚Äòall fashioned' surveys. When you are asking people about their experience, about their lives, about what they've done, they work very well because people aren't as likely to make that up. They will say what they feel. When we asked people to kind of do our job for us, you have to find a framework for people to produce the data in a way you can trust them.'
 
 Q: You were talking about reliability, how do you deal with that on a daily basis? How do you trust people to contribute? 
 
- ‚ÄúI think the approach that Old Weather have got, where they get ten people to do each one, is a really good test on that. It is an old fashioned computer science technique to get a warm up as a train starter. I think that's a very good way to do it. 
+ 'I think the approach that Old Weather have got, where they get ten people to do each one, is a really good test on that. It is an old fashioned computer science technique to get a warm up as a train starter. I think that's a very good way to do it. 
 
-With the MPs expenses, we tried to minimise the risk of MPs going online and editing their own records to make themselves look better. But you can't permanently guard that site, you can only look out for certain urls or if it's coming from the SW1 area of London. So that's a bit trickier. That's where I felt out of it because I felt like the data we were getting out was not reliable. Even though stories were great, it wasn't producing raw numbers that we could confidently use.‚Äù
+With the MPs expenses, we tried to minimise the risk of MPs going online and editing their own records to make themselves look better. But you can't permanently guard that site, you can only look out for certain urls or if it's coming from the SW1 area of London. So that's a bit trickier. That's where I felt out of it because I felt like the data we were getting out was not reliable. Even though stories were great, it wasn't producing raw numbers that we could confidently use.'
 
 Q: Could you give a piece of advice to journalists who want to use crowdsourcing to collect data online?
 
-‚ÄúI would say:
+'I would say:
 making it something personal to people really helps,
 otherwise make it about what the people care about, or are gonna care about after, even when the news dies down, where they will still want to get involved.
-also, what is really worth it is when you make it more like a game. Second time around when we did the expenses story, it was much more like a game, with individual tasks for people to do. It really help to give people specific tasks and things to do. That made a big difference because I think if you just present people with the mountain of information to go through, it's a hard work, that's what we get paid for. So I think making it fun is really important.‚Äù
+also, what is really worth it is when you make it more like a game. Second time around when we did the expenses story, it was much more like a game, with individual tasks for people to do. It really help to give people specific tasks and things to do. That made a big difference because I think if you just present people with the mountain of information to go through, it's a hard work, that's what we get paid for. So I think making it fun is really important.'
 
 
 In October 2011 The Data Blog set up a crowdsourced map of the Occupy movement. 
@@ -1739,11 +1764,11 @@ Asking people to map where protests were taking place around the world, the Guar
 
 The result is a very straight forward map of the Occupy movement worldwide which is still being updated today.
 
-The Guardian's data journalism team has done many of these projects in the past few years, each of them proved to be very successful. So we asked them for tips on how to use crowdsourcing in data journalism and we asked Data journalist James Ball to tell us about the Guardian's most successful crowdsourcing projects‚Ä¶
+The Guardian's data journalism team has done many of these projects in the past few years, each of them proved to be very successful. So we asked them for tips on how to use crowdsourcing in data journalism and we asked Data journalist James Ball to tell us about the Guardian's most successful crowdsourcing projects...
 
 JAMES BALL, data journalist at the Guardian
 
-‚ÄúI think the one that got the biggest response was something that we did on olympic ticketing. Thousands of people in the UK tried to get tickets for this year's Olympics and there was a lot of fury that people hadn't got them. People had ordered hundreds of pounds worth and been told they'll get nothing. But no one really knew if it was just some people complaining quite loudly while actually most people were happy. 
+'I think the one that got the biggest response was something that we did on olympic ticketing. Thousands of people in the UK tried to get tickets for this year's Olympics and there was a lot of fury that people hadn't got them. People had ordered hundreds of pounds worth and been told they'll get nothing. But no one really knew if it was just some people complaining quite loudly while actually most people were happy. 
 
 So we tried to work out a way to find out. We decided the best thing we could really do, in the lack of any good data, was to ask people. And we thought we'd have to treat it as a light thing because it wasn't a balanced sample. 
 
@@ -1763,7 +1788,7 @@ Generally though, I tend to find that crowdsourcing is more useful for the conte
 
 Q: Can you talk me through the process of going through all the data you collected, you had about 7000 responses, how did you deal with this huge amount of data?
 
-‚ÄúWe'd preempted that we wanted to do analysis on it, which helped. If you start something in a comment thread, it is often too late to turn it into a usable way. So you have to set out at the start and think ‚Äòwhat's the best tool for what I want to know?' Is it a comment thread, is it building an app, and if it is building an app, you have to think ‚ÄòIs this worth the wait? And is it worth the resource to do it?' 
+'We'd preempted that we wanted to do analysis on it, which helped. If you start something in a comment thread, it is often too late to turn it into a usable way. So you have to set out at the start and think ‚Äòwhat's the best tool for what I want to know?' Is it a comment thread, is it building an app, and if it is building an app, you have to think ‚ÄòIs this worth the wait? And is it worth the resource to do it?' 
 
 In this case we thought of Google forms and if someone fills that out it turns into a row on a spreadsheet. So it meant that straight away, even if it was still updating, I could open the spreadsheet and see all of the results. 
 
@@ -1773,34 +1798,34 @@ But the whole analysis was done in a few hours, then I knocked out the obviously
 
 And then a few dozens who put obviously fake high amounts to try and destort it. I am talking things like ten million pounds in there, I wasn't jumping to assumptions. So that left me with a set that I could use with the normal data principles we use every day. I did what's called a ‚Äòpivot table', I did some averaging, that kind of thing. 
 
-So because we planned it ahead, it meant it was quite simple, if we had stumble into it just through a comment thread, it would have been harder. It shows the value of thinking about what you might do with the results of crowdsourcing in advance.‚Äù
+So because we planned it ahead, it meant it was quite simple, if we had stumble into it just through a comment thread, it would have been harder. It shows the value of thinking about what you might do with the results of crowdsourcing in advance.'
 
 Q: There was a lot of manual work to sort out the data, how many people did you have on this?
 
-‚ÄúJust me. We hadn't really any idea it would get the momentum it did so I worked with the Sports blog editor, we put our heads together and thought this might be a fun project. We did it, start to finish, in 24 hours. We had the idea, we put something up at lunch time, we put it on the front of the site, we saw it was proving quite popular, we kept it on the front of the site for the rest of the day and we presented the results online the next morning.‚Äù
+'Just me. We hadn't really any idea it would get the momentum it did so I worked with the Sports blog editor, we put our heads together and thought this might be a fun project. We did it, start to finish, in 24 hours. We had the idea, we put something up at lunch time, we put it on the front of the site, we saw it was proving quite popular, we kept it on the front of the site for the rest of the day and we presented the results online the next morning.'
 
 Q: What made you choose Google Doc for this, compared to other poll or survey tools that are available online?
 
-‚ÄúIt's because it gives complete control over the results. I don't have to use anyone else's analytic tools. I can put it easily into a database software or into spreadsheets which was enough for that job. When you start using specialist polling softwares, you are often going through their tools and their restrictions. I think if the information we'd been asking for was particularly sensitive, we might have hesitated before using Google and thought about doing something ‚Äòin house'. But generally, the ease of dropping a Google Form into a Guardian page and it's virtually visible to the user that we are using one, is so convenient. 
+'It's because it gives complete control over the results. I don't have to use anyone else's analytic tools. I can put it easily into a database software or into spreadsheets which was enough for that job. When you start using specialist polling softwares, you are often going through their tools and their restrictions. I think if the information we'd been asking for was particularly sensitive, we might have hesitated before using Google and thought about doing something ‚Äòin house'. But generally, the ease of dropping a Google Form into a Guardian page and it's virtually visible to the user that we are using one, is so convenient. 
 
 Q: What advice would you give to other journalists who want to give a go to data crowdsourcing, in terms of what questions to ask the audience or how to tackle the subject?
 
-‚Äú- You have to have very specific things you want to know, and as much as possible, ask things that get multiple choice responses.
+'- You have to have very specific things you want to know, and as much as possible, ask things that get multiple choice responses.
 Try to get some basic demographics of who you are talking to so you can see if your sample might be biased.
 If you are asking for amounts and things like this, try in the guidance to specify that it's in digits, that they have to use a specific currency and things like that. A lot won't, but the more you hold their hand through, the better.
-and always, always put on a comment box because a lot of people will fill out the other things but what they really want is to give you their opinion on the story, specially on a consumer story or an outrage. You might actually be interested in only a few of the controlled fields but as long as they have got a chance to comment and as long as you use and reflects on some of the interesting ones, you get a much greater degree of response.‚Äù
+and always, always put on a comment box because a lot of people will fill out the other things but what they really want is to give you their opinion on the story, specially on a consumer story or an outrage. You might actually be interested in only a few of the controlled fields but as long as they have got a chance to comment and as long as you use and reflects on some of the interesting ones, you get a much greater degree of response.'
 
 trust/ethical issues around data crowdsourcing/ limitation
 
 
 There is still a lot to be done to make crowdsourcing data more reliable.
-As Nick Davies said in a discussion at the Frontline Club: ‚ÄúThere's some kind of flaw in the theory that crowdsourcing is a realistic way of converting data into information and stories, because it doesn't seem to be happening.‚Äù Nick Davies: Data, crowdsourcing and the ‚Äòimmeasurable confusion' around Julian Assange
+As Nick Davies said in a discussion at the Frontline Club: 'There's some kind of flaw in the theory that crowdsourcing is a realistic way of converting data into information and stories, because it doesn't seem to be happening.' Nick Davies: Data, crowdsourcing and the ‚Äòimmeasurable confusion' around Julian Assange
 
 To engage better with their audience and to try and develop a more reliable approach to crowdsourcing, some organisations create a ranking/reward system to establish trust within the community that contributes to their data (The Guardian, Citizen side, etc.)
 
 Most importantly, webmasters are needed to verify and clean the data along the way.
 
-In the data crowdsourcing process, journalists need to give precise guidelines to their ‚Äúcrowd‚Äù, asking people to give a source link to verify the information they contribute.
+In the data crowdsourcing process, journalists need to give precise guidelines to their 'crowd', asking people to give a source link to verify the information they contribute.
 
  
 
@@ -1822,7 +1847,7 @@ I will be interviewing Jeanne Holm, who is:
 (yes, she is all that ;D)
 I can hurry the interview to this week if you think it would be useful to the handbook. Just let me know.
 
-I also interviewed David Stevenson, open data consultant in the US and author of Data Dynamite about open public data if that could be of any interest, let me know‚Ä¶ I attached the audio file to this email so you can see whether it would be interesting or not to integrate that in the handbook. It is quite long but I was thinking of maybe using just some parts of it like:
+I also interviewed David Stevenson, open data consultant in the US and author of Data Dynamite about open public data if that could be of any interest, let me know... I attached the audio file to this email so you can see whether it would be interesting or not to integrate that in the handbook. It is quite long but I was thinking of maybe using just some parts of it like:
  7m56sec Some people, some journalists even, think that open data is not for them because they are scared of numbers. What would you tell them?
 11m41sec on data visualisation tools
 14min23sec What do you think about data journalism and data visualizations, how important do you think they will be in the future?
