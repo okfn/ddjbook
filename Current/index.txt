@@ -1,7 +1,5 @@
 = The Data Journalism Handbook =
 
-Test
-
 include::00-credits.txt[]
 
 include::00-preface.txt[]

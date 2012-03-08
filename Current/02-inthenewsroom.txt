@@ -275,8 +275,11 @@ Also, we are considering how to continue RegioHack in a hackathon form. We found
 
 But for data journalism to work, we have to integrate it in the newsroom. Journalists have to think in data, in addition to quotes, press releases, council meetings and so on. By doing RegioHack, we proved to our audience that data journalism isn't just hype. We can write better informed and more distinctive articles, while presenting our readers different articles in print and online.
 
-== 8. The bottom line ==
+////
 
+Various notes
+
+////
 
 ### How to pitch a data story to your editor (possibly) ###
 
