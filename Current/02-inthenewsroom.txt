@@ -1,0 +1,276 @@
+== 2. In The Newsroom ==
+
+
+////
+note: overview: what changes there are in the newsroom, division of labour, information landscape means need news skills, who has these skills, in-house or contracted, journo-coder collaborations, or more technically sophisticated journalists?
+
+note: possible material from booki?
+
+todo: add material from abc, el mundo, and others
+
+todo: ask for material on cross-organisational collaboration
+
+note: to add Guardian Data Journalism Process: 
+http://www.opendatacookbook.net/wiki/recipe/guardian_workflow  and http://www.guardian.co.uk/news/datablog/2011/apr/07/data-journalism-workflow
+
+todo - little overview in frame narrative
+
+How is it done: journo-developers vs. coders for hire
+
+Overview
+In-house expertise
+How the news apps team at Chicago Tribune works
+Projects realized with external experts
+In-house resources plus external open data & visualisation expertise: the ZEIT-ONLINE model
+How to hire a hacker: Where to look
+The Hackathon Model: RegioHack, a 30 hour datajournalism hackathon with regional subjects (Netherlands)
+////
+
+////
+To incorporate into short intro:
+
+A http://datadrivenjournalism.net/news_and_analysis/data_journalism_survey_analysis[survey] on training needs for data journalism circulated by the European Journalism Centre between April and August 2011 showed that 39% of the 234 respondents envisioned their organisation to start engaging in data journalism through engaging a combination of external experts and existing staff. 36% envisioned training existing staff.
+
+In the following chapter journalists involved in data journalism projects explain models for doing data journalism in their newsroom.
+
+In-house expertise
+////
+
+////
+### Projects realized with external experts
+
+Some datasets or methods require special skills i.e. programming skills to manage the data and visualize it. Don't stop your passion for your idea because of missing these skills in your newsroom. There are a lot of highly motivated developers and designers out there to come into your project.
+////
+
+=== How the News Apps Team at Chicago Tribune Works (Brian Boyer, Chicago Tribune) ===
+
+////
+
+Comments:
+
+Short and sweet.
+
+No suggested changes, except minor formatting. Ready to send back to him to revise/approve.
+
+Nice how it is, but there could be more detail, if Brian has anything to add. E.g. perhaps give a few examples of data-driven apps that CT has done, how these differed from other forms of reporting, what they brought to the newsroom that was new. Also could cover what other people in the newsroom originally thought about the apps team, how it got started, etc.
+
+Todo:
+
+ask Brian for a nice picture of Chicago Tribune hackers. Perhaps of 5 minute standup meeting - or of developers programming in pairs?
+
+////
+
+The news applications team at the Chicago Tribune is a band of happy hackers embedded in the newsroom. We work closely with editors and reporters to help: (1) research and report stories, (2) illustrate stories online and (3) build evergreen web resources for the fine people of Chicagoland.
+
+It's important that we sit in the newsroom. We usually find work via face-to-face conversations with reporters. They know that we're happy to help write a screen scraper for a crummy government website, tear up a stack of PDFs, or otherwise turn non-data into something you can analyze. It's sort of our team's loss leader -- this way we find out about potential data projects at their outset.
+
+Unlike many teams in this field, our team was founded by technologists for whom journalism was a career change. Some of us acquired a masters degree in journalism after several years coding for business purposes, and others were borrowed from the open government community.
+
+We work in an agile fashion. To make sure we're always in sync, every morning begins with a 5-minute stand up meeting. We frequently program in pairs -- two developers at one keyboard are often more productive than two developers at two keyboards. Most projects don't take more than a week to produce, but on longer projects we work in week-long iterations, and show our work to stakeholders -- reporters and editors usually -- every week. "Fail fast" is the mantra. If you're doing it wrong, you need to know as soon as possible, especially when you're coding on a deadline!
+
+There's a tremendous upside to hacking iteratively, on a deadline: We're always updating our toolkit. Every week we crank out an app or two, then, unlike normal software shops, we can put it to the back of our mind and move on to the next project. It's a joy we share with the reporters, every week we learn something new.
+
+===  The ABC's Data Journalism Play (Wendy Carlisle, Australian Broadcasting Corporation) ===
+
+Now in its 70th year the Australian Broadcasting Corporation is Australia's national public broadcaster. Annual funding is around AUS$1bn which delivers seven radio networks, 60 local radio stations, three digital television services, a new international television service and an online platform to deliver this ever expanding offering of digital and user generated content. At last count there were in excess of 4,500 full time equivalent staff and nearly 70% of them make content.
+
+We are a national broadcaster fiercely proud of our independence - because although funded by government - we are separated at arm's length through law. Our traditions are independent public service journalism. The ABC is regarded the most trusted news organisation in the country.
+
+These are exciting times  and under a managing director - the former newspaper executive Mark Scott - content makers at the ABC have been encouraged to  as the corporate mantra puts it - be `agile'.
+
+Of course that's easier said than done. 
+
+But one initiative in recent times designed to encourage this has been  a competitive staff pitch for money to develop multi-platform projects.
+
+This is how the ABC's first ever data journalism project was conceived.
+
+Sometime early in 2010 I wandered into the pitch session to face with three senior `ideas' people with my proposal.
+
+I'd been chewing it over for some time. Greedily lapping up the data journalism that the now legendary Guardian data journalism blog was offering, and that was just for starters.
+
+It was my argument that no doubt within 5 years the ABC would have its own data journalism unit. It was inevitable, I opined. But the question was how are we going to get there, and whose going to start.
+
+For those readers unfamiliar with the ABC  think of a vast bureaucracy built up over 70 years. Its primary offering was always radio and television. With the advent of online in the last decade this content offering unfurled into text, stills and a degree of interactivity previously unimagined. The web space was forcing the ABC to rethink how it cut the cake (money) and rethink what kind of cake it was baking (content).
+
+It is of course a work in progress. 
+
+But something else was happening with data journalism. Government 2.0 (which as we discovered is largely observed in the breach in Australia) was starting to offer new ways of telling stories that were hitherto buried in the zero's and dots.
+
+All this I said to the folk during my pitch. I also said we needed to identify new skills sets, train journalists in new tools. We needed a project to hit play. 
+
+And they gave me the money.
+
+On the 24th of November 2011 the ABC's multiplatform project and ABC News Online went live with http://www.abc.net.au/news/specials/coal-seam-gas-by-the-numbers/promise/[`Coal Seam Gas by the Numbers'].
+
+image::Figures/02-01.png[width=600]
+
+It was five pages of interactive maps, data visualisations and text. 
+
+It wasn't exclusively data journalism - but a hybrid of journalisms that was born of the mix of people on the team and the story, which to put in context is raging as one of the hottest issues in Australia.  
+
+The jewel was an interactive map showing coal seam gas wells and leases in Australia. Users could search by location and switch between modes to show leases or wells. By zooming in users could see who the explorer was, the status of the well and its drill date. Another map showed the location of coal Seam gas activity compared to the location of groundwater systems in Australia. 
+
+image::Figures/02-02.png[width=600]
+
+We had data visualisations which specifically addressed this issue of waste salt and water production that would be produced depending on the scenario that emerged.   
+
+Another section of the project investigated the release of chemicals into a local river system
+
+*Our team*
+
+  * A web developer and designer. 
+  * A lead journalist  
+  * A part time researcher with expertise in data extraction, excel spread sheets and data cleaning
+  * A part time junior journalist.
+  * A consultant executive producer
+  * A academic consultant with expertise in data mining, graphic visualisation and advanced research skills.
+  * The services of a project manager and the administrative assistance of the ABC's multi-platform unit.
+  * Importantly we also had a reference group of journalists and others whom we consulted on a needs basis.
+
+*Where did we get the data from?*
+
+The data for the interactive maps were scrapped from shapefiles (a common kind of file for geospatial data) downloaded from government websites. 
+
+Other data on salt and water were taken from a variety of reports.
+
+The data on chemical releases was taken from Environmental permits issued by the government. 
+
+*What did we learn?*
+
+`Coal Seam Gas by the Numbers' was an ambitious in content and scale.  Uppermost in my mind was what did we learn and how might we do it differently next time?
+
+The data journalism project brought a lot of people into the room who do not normally meet at the ABC. In lay terms - the hacks and the hackers. Many of us did not speak the same language or even appreciate what the other does.  Data journalism is disruptive!   
+
+The practical things:
+
+  * Co-location of the team is vital. Our developer and designer were off-site and came in for meetings. This is definitely not optimal! Place in the same room as the journalists. 
+  * Our consultant EP was also on another level of the building. We needed to be much closer, just for the drop-by factor
+  * Choose a story that is solely data driven.
+
+**The big picture: some ideas**
+
+  * Big media organisations need to engage in capacity building to meet the challenges of data journalism. My hunch is there are a lot of geeks and hackers hiding in media technical departments desperate to get out. So -we need `hack and hacker meets' workshops where the secret geeks, younger journalists, web developers and designers come out to play with more experienced journalists for skill sharing and mentoring. Task: download this data set and go for it! 
+  * Ipso facto Data journalism is interdisciplinary. Data journalism teams are made of people who would not in the past have worked together. The digital space has blurred the boundaries.
+  * We live in a fractured, distrustful body politic.  The digital space makes everyone a content maker: we can all be journalists now, right?  Wrong. Journalists need to reassert themselves as ethical, trustworthy, honest story tellers. Data journalism offers the opportunity to turn  the signal to noise ratio into something we can all understand. Journalists are going to need to be literate in data journalism tools to
+  * Data journalism is still all about story telling.
+  * Increasingly the journalists of tomorrow will be data journalists.
+  * Australia is behind Europe and the United States in data journalism. Why? That's another discussion.
+
+////
+Wendy Carlisle has been an ABC journalist for 20 years and is primarily an investigative reporter working with radio's investigative program 'Background Briefing' and the Four Corners program on ABC TV.  She was the lead journalist on 'Coal Seam gas: by the Numbers' 
+Background Briefing http://www.abc.net.au/radionational/programs/backgroundbriefing/
+Four Corners http://www.abc.net.au/4corners/
+////
+
+=== Data Journalism at the Zeit Online (Sascha Venohr, Zeit Online) ===
+
+////
+
+Comments:
+
+This is good, but this is currently a bit too focused on one example to fit seamlessly into this section. Need more on how data journalism fits 'in the newsroom' of Zeit Online as a whole.
+
+Could we have a bit more detail on things like:
+
+  * Backround - what made Zeit Online interested in data journalism, who pushed for it, how they got started, where the budget came from, how others at Zeit Online felt about this
+  * Mention of other data journalism projects at Zeit Online
+  * Current status of data journalism within Zeit Online
+  * Other comments/tips that could be useful/relevant to other news organisations getting started with data journalism, e.g. on how to pitch this, what its value is, why/how to pursue it.
+
+////
+
+image::Figures/02-03.png[width=600]
+
+The http://opendata.zeit.de/pisa-wohlstands-vergleich/visualisierung.php#/en/DEU-OECD[PISA based Wealth Comparison] project is an interactive visualisation that enables comparison of standards of living in different countries. The interactive uses data from the OECD's comprehensive world education ranking report, http://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment[PISA 2009], published in December 2010. The report is based on a questionnaire which asks fifteen-year-old pupils about their living situation at home.
+
+The idea was to analyse and visualise this data to provide a unique way of comparing standards of living in different countries.
+
+First of all our in-house editorial team decided which facts seemed to be useful to make living standards comparable and should be visualised, including:
+
+  * Wealth (number of owned TVs, cars and available bathrooms at home)
+  * Family-situation (are there grandparents living with the family together, percentage share of families with only one child, unemployment of parents and mother's job status)
+  * Access to knowledge sources (internet at home, frequency of using e-mail and quantity of owned books)
+  * Three additional indicators on the level of development of each country.
+
+With the help of the internal design team these facts were translated into self-explanatory icons. A front end design was built to make comparison between the different countries like in a card-game possible.
+
+Next we contacted people from the German http://opendata-network.org/[German Open Data Network] to find developers who could help with the project. This community of highly motivated people suggested Gregor Aisch, a very talented information designer, to code the application that would make our dreams come true (without using flash - which was very important to us!). Gregor created a very high quality and interactive visualisation with a beautiful bubble-style, based on the http://raphaeljs.com/[Raphaël-Javascript Library].
+
+The result of our hand in hand work was a very successful interactive which got a lot of traffic. It is easy to compare any two countries, which makes it useful as a reference tool. This means that we can re-use it in our daily editorial work. For example if we are covering something related to the living situation in Indonesia, we can quickly and easily embed a graphic http://opendata.zeit.de/pisa-wohlstands-vergleich/visualisierung.php#/en/DEU-IDN[comparing the living situation in Indonesia and Germany]. The know-how transferred to our in house-team was a great investment for future projects.
+
+=== How to Hire a Hacker (Lucy Chambers, Open Knowledge Foundation) ===
+
+One of the things that I am regularly asked by journalists is 'how do I get a coder to help me with my project?'. Don't be deceived into thinking this is a one-way process; civic-minded hackers and data-wranglers are often just as keen to get in touch with journalists. 
+
+Journalists are power-users of data driven tools and services. From the perspective of developers: journalists think outside the box to use data tools in contexts developers haven't always considered before (feedback is invaluable!) they also help to build context and buzz around projects and help to make them relevant. It is a symbiotic relationship.
+
+Fortunately, this means that whether you are looking to hire a hacker or looking for possible collaborations on a shoestring budget, there will more than likely be someone out there who is interested in helping you.
+
+So how do you find them? Says Aron Pilhofer from the New York Times:
+
+
+[quote]
+____
+You may find that your organisation already has people with all the skills you need, but they are not necessarily already in your newsroom. Wander around, visit the technology and IT departments and you are likely to strike gold. It is also important to appreciate coder culture, come across someone who has a computer that looks like this...
+
+image::Figures/02-04.jpg[width=600]
+
+...then you are probably onto a winner.
+
+____
+
+Here are a few more ideas:
+
+  * *Post on job websites*. Identify and post to websites aimed at developers who work in different programming languages. For example, the http://www.python.org/community/jobs/[Python Job Board].
+  * *Contact relevant mailing lists*. For example, the http://www.ire.org/resource-center/listservs/subscribe-nicar-l/[NICAR-L] and http://lists.okfn.org/mailman/listinfo/data-driven-journalism[Data Driven Journalism] mailing lists.
+  * *Contact relevant organisations*. For example, if you want to clean up or scrape data from the web, you could contact an organisation such as https://scraperwiki.com/[Scraperwiki], who have a great address book of trusted and willing coders.
+  * *Join relevant groups/networks*. Look out for initiatives such as http://hackshackers.com/[Hacks/Hackers] which bring journalists and techies together. Hacks/Hackers groups are now springing up all around the world. You could also try posting something to their http://hackshackers.com/blog/2012/02/25/subscribe-to-hackshackers-jobs-newsletter/[jobs newsletter].
+  * *Local interest communities*. You could try doing a quick search for an area of expertise in your area (e.g. `javascript' + `london'). Sites such as Meetup.com can also be a great place to start.
+  * *Hackathons and competitions*. Whether or not there is prize money available: app and visualisation competitions and development days are often fruitful ground for collaboration and making connections.
+  * *Ask a nerd!* Nerds hang around with more nerds. Word of mouth is always a good way to find good people to work with.
+
+=== Harnessing External Expertise Through Hackthons (Jerry Vermanen, De Stentor) ===
+
+image::Figures/02-XY.jpg[width=600]
+
+In March 2010, Utrecht based digital culture organisation SETUP put on an event called http://setup.nl/content/hacking-journalism[`Hacking Journalism']. The event was organised to encourage greater collaboration between developers and journalists.
+
+`We organize hackathons to make cool applications, but we can't recognise interesting stories in data. What we build has no social relevance', said the programmers. `We recognize the importance of data journalism, but we don't have all the technical skills to build the things we want', said the journalists.
+
+Working for a regional newspaper, there was no money or incentive to hire a programmer for the newsroom. Data journalism was still an unknown quantity for Dutch newspapers at that time.
+
+The hackathon model was perfect. A relaxed environment for collaboration, with plenty of pizza and energy drinks. http://www.regiohack.nl/[RegioHack] was a hackathon organised by my employer, the regional newspaper http://www.destentor.nl/[De Stentor], our sister publication http://www.tctubantia.nl/[TC Tubantia] and http://saxion.nl/[Saxion Hogescholen Enschede], who provided the location for the event.
+
+The setup was as following: everyone could enlist for a 30-hour hackathon. We provided the food and drink. We aimed for 30 participants, which we divided into 6 groups. These groups would focus on different topics, such as crime, health, transport, safety, ageing and power. For us, the three main objectives for this event were as follows:
+
+*1. Find stories.* For us, data journalism is something new and unknown. The only way we can prove its use, is through well crafted stories. We planned to produce at least three data stories.
+
+*2. Connect people.* We, the journalists, don't know how data journalism is done and we don't pretend to. By putting journalists, students and programmers in one room for 30 hours, we want them to share knowledge and insights.
+
+*3. Host a social event.* Newspapers don't organise a lot of social events, let alone hackathons. We wanted to experience how such an event can yield results. In fact, the event could have been tense: 30 hours with strangers, lots of jargon, bashing your head against basic questions, working out of your comfort zone. By making it a social event - remember the pizza and energy drink? - we wanted to create an environment in which journalists and programmers could feel comfortable and collaborate effectively.
+
+Before the event, TC Tubantia had an interview with the widow of a policeman who had written a book on her husband's working years. She also had a document with all registered murders in the eastern part of the Netherlands, maintained by her husband since 1945. Normally, we would publish this document on our website. This time, we made a http://www.tctubantia.nl/regio/9810350/Moord-en-doodslag-in-Twente.ece[dashboard using the Tableau software]. We also http://www.regiohack.nl/regiohack-blog/een-moord-voor-goede-gegevens/[blogged] about how this came together on our RegioHack site.
+
+During the hackathon, one project group came up with the subject of development of schools and the ageing of our region. http://public.tableausoftware.com/views/Krimpleerlingaantalshrinkingnumberofstudents/Dashboard1?:embed=yes&:toolbar=yes&:tabs=yes[By making a visualisation of future projections], we understood which cities would get in trouble after a few years of decline in enrolments. With this insight, we made an article on how this would affect schools in our region.
+
+We also started a very ambitious project, called De Tweehonderd van Twente (in English, The Two Hundred of Twente) to determine who had the most power in our region and build a database of the most influential people. Through a Google-ish calculation - who has the most ties with powerful organisations - a list of influential people will be composed. This could lead to a series of articles, but it's also a powerful tool for journalists. Who has connections with who? You can ask questions to this database and use it in our daily routine. Also, this database has cultural value. Artists already asked if they could use this database when finished to make interactive art installations.
+
+image::Figures/02-YY.jpg[width=600]
+
+After RegioHack, we noticed that journalists considered data journalism as a viable addition to traditional journalism. My colleagues continued to use and build on the techniques learned on the day to create more ambitious and technical projects such as a database of the administrative costs of housing. With this data, I made http://www.destentor.nl/regio/10168441/.ece[an interactive map in Fusion Tables]. We asked our readers to play around with the data and crowdsourced results (http://tjoadesign.nl/blog/?p=439[here], for example). After a lot of questions on how we made a map in Fusion Tables, I also recorded a http://www.jerryvermanen.nl/2012/01/tutorial-fusion-tables/[video tutorial].
+
+What did we learn? We learned a lot, but we also came along a lot of obstacles. We recognized these four:
+
+*1. Where to begin: question or data?* Almost all projects stalled when searching for information. What datasets are interesting? Where do we find those? And does this answer our research question? When when we found an interesting dataset, it mostly didn't answer the question asked.
+
+*2. Uneven distribution of technical skills.* Technical knowledge was not distributed evenly among the participants. A small group of programmers carried the weight of doing the scraping and visualizing. We expected this in advance, so we assigned a central desk with technical skills (Tableau, custom visualisations, Excel, etc.). In addition to what knowledge every project group had, this central desk could help the groups out with problems.
+
+*3. Datasets not being combined.* Participants didn't combine many datasets. Instead, they took one dataset, tried to visualize it and draw conclusions based on the results. This isn't wrong, but data journalism gets more interesting in the interconnections of datasets.
+
+*4. Not always clear how to proceed.* What above all comes down to, is that there's no routine. The participants have some skills under their belt, but don't know how and when to use them. One journalist compared it with baking a cake. `We have all the ingredients: flour, eggs, milk, etcetera. Now we throw it all in a bag, shake it and hope a cake comes out of it.' Indeed, we have all the ingredients, but don't know what the recipe is.
+
+What now? Our first experiences with data journalism could help other journalists or programmers aspiring the same field of work and we are working to produce a report.
+
+Also, we are considering how to continue RegioHack in a hackathon form. We found it fun, educational and productive and a great introduction to data journalism.
+
+But for data journalism to work, we have to integrate it in the newsroom. Journalists have to think in data, in addition to quotes, press releases, council meetings and so on. By doing RegioHack, we proved to our audience that data journalism isn't just hype. We can write better informed and more distinctive articles, while presenting our readers different articles in print and online.

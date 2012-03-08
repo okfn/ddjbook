@@ -1,0 +1,230 @@
+== 1. Introduction ==
+
+////
+
+Section graphic from Kate
+
+////
+
+=== What Is Data Journalism? (Paul Bradshaw, City University) ===
+
+////
+
+Comments:
+
+Made minor revisions to the text.
+
+This is opening section, hence very important to set the scene and explain what data journalism is.
+
+Could we expand this section so that each of the examples mentioned below has a sentence or two explaining what it is about, and how it augments and is distinctive from traditional journalism?
+
+////
+
+What is data journalism? I could answer, simply, that it is journalism done with data. But that doesn't help much.
+
+Both `data' and `journalism' are troublesome terms. Some people think of `data' as any collection of numbers, most likely gathered on a spreadsheet. 20 years ago, that was pretty much the only sort of data that journalists dealt with. But we live in a digital world now, a world in which almost anything can be - and almost everything is - described with numbers.
+
+Your career history, 300,000 confidential documents, who knows who in your circle of friends can all be - and are - described with just two numbers: zeroes, and ones. Photos, video and audio are all described with the same two numbers: zeroes and ones. Murders, disease, political votes, corruption and lies: zeroes and ones.
+
+What makes data journalism different to the rest of journalism? Perhaps it is the new possibilities that open up when you combine the traditional `nose for news' and ability to tell a compelling story, with the sheer scale and range of digital information now available.
+
+And those possibilities can come at any stage of the journalist's process: using programming to automate the process of gathering and combining information from across the web, as Adrian Holovaty did with http://chicago.everyblock.com/crime/[ChicagoCrime] and then http://www.everyblock.com/[EveryBlock].
+
+Or using software to find connections between hundreds of thousands of documents, as The Telegraph did with http://www.telegraph.co.uk/news/newstopics/mps-expenses/[MPs' expenses].
+
+Data journalism can help a journalist tell a complex story through engaging infographics - such as Hans Rosling's talks on world poverty with http://www.gapminder.org/[Gapminder] or David McCandless's visualisation work with http://www.informationisbeautiful.net/[Information is Beautiful]. Or it can help explain how a story relates to an individual, as the BBC and FT now routinely do with their budget interactives. And it can open up the newsgathering process itself, as The Guardian do so successfully with their http://www.guardian.co.uk/news/datablog[Datablog].
+
+Data can be the source of data journalism, or it can be the tool with which the story is told - or it can be both. Like any source, it should be treated with scepticism; and like any tool, we should be conscious of how it can shape and restrict the stories that are created with it.
+
+=== Why Journalists Should Use Data (Mirko Lorenz, Deutsche Welle) ===
+
+////
+
+Have made some substantial edits.
+
+This section could benefit from a greater focus on incentives for journalists to use data, preferably with more examples.
+
+If data journalism is an investment of time or money (which it almost always will be) - what kinds of benefits could freelance journalists or ordinary newsrooms hope to see?
+
+If this is the main writeup of the survey (which I believe that it is), then I think this could merit a bit more detail from the write-up. E.g. what makes newsrooms excited about data journalism?
+
+////
+
+Journalism is under siege. In the past we relied on being the only ones operating a technology to multiply and distribute what had happened over night. The printing press served as a gateway, if anybody wanted reach the people of a city or region the next morning, they would turn to newspapers. This is over.
+
+Today news stories are flowing in as they happen, from multiple sources, eye-witnesses, blogs and what has happened is filtered through a vast network of social connections, being ranked, commented and more often than not: ignored.
+
+This is why data journalism is so important. Gathering, filtering and visualizing what is happening beyond what the eye can see has a growing value. The orange juice you drink in the morning, the coffee you brew - in today's global economy there are invisible connections between things, networks and people. The language of this network is data: little points of information that are often not relevant in a single instance, but massively important when viewed from the right angle.
+
+////
+"things, networks and people" - perhaps reword this to clarify?
+"the language of this network" - which network?
+////
+
+Right now, a few pioneering journalists already demonstrate how data can be used to create deeper insights into what is happening around us and how it might affect us.
+
+Data analysis can reveal "a story's shape" (Sarah Cohen). It provides a "new camera" (David McCandless). To get to that point the data investigation must be done in a step by step process that is in some ways similar to uncovering a lost city from the dirt by slowly brushing away all the stuff that keeps us from seeing its structure.
+
+But why should journalists be interested in learning how to work with data when doing research for stories? There are several reasons: First, journalists are help to identify and disseminate what is important and relevant. At least if they are good. How this is done might sometimes be incisive and inspiring, at other times sloppy, over-hasty or misleading. But, quite simply, in doing this job journalists strive to help us understand the world around us.
+
+Using data the job of journalists shifts its main focus from being the first ones to report to being the ones telling us what a certain development might actually mean. The range of topics can be far and wide. The next financial crisis that is in the making. The economics behind the products we use. The misuse of funds or political blundery.
+
+There is one barrier keeping journalists from using this potential: training in order to learn how to work with data through all the steps from a first question to a big data-driven scoop.
+
+Working with data is like stepping into vast, unknown territory. At first look, raw data is puzzling the eyes and the mind. Data as such is unwieldy, it is quite hard to shape it correctly for visualization. It needs experienced journalists, who have the stamina to look at often confusing, often boring raw data and "see" the hidden stories in there. 
+
+On the other side: What choice do we as journalists have? Working with data can provide us with deep, original ways to report about what is going on. Once the data is "speaking" to us, all of sudden a very rich source to tell stories has opened up.
+
+And, increasingly, journalists see that particular opportunity. The European Journalism Centre http://datadrivenjournalism.net/news_and_analysis/training_data_driven_journalism_mind_the_gaps[conducted a survey] to find out more about training needs of journalists. We found there is a big willingness to get out of the comfort zone of traditional journalism and invest time to master the new skills. The results from the survey showed us that journalists are "seeing" the opportunity, but need a bit of support to cut through the initial problems keeping them from working with data. There is a confidence, that should data journalism get more adopted, the work flows, the tools and the results will improve quite quickly. Pioneers such as the Guardian, the New York Times, the Texas Tribune and Die Zeit continue to raise the bar with their data-driven stories. 
+
+Will data journalism remain the preserve of a small handful of pioneers - or will every news organisation soon have its own dedicated data journalism team? We hope this handbook will help more journalists and newsrooms to take advantage of this emerging field.
+
+=== Why Is Data Journalism Important? (Various Contributors) ===
+
+////
+
+Todo: add quotes from Simon Rogers on how data journalism is just journalism done well
+
+Todo: review secondary literature and see if there are other quotes we could use or adapt, or if there is anyone else that we should ask.
+
+Todo: ask Chris Taggart for something on this - along lines of his talk in Utrecht.
+
+Todo: ask nearly everyone who can write well who has contributed to the handbook for quotes on this. We can pick the best ones.
+
+////
+
+We asked some of data journalism's leading practitioners and proponents why they think data journalism is an important development. Here is what they said.
+
+*Filtering the flow of data*
+[quote, Philip Meyer (University of North Carolina at Chapel Hill)]
+____
+When information was scarce, most of our efforts were devoted to hunting and gathering. Now that information is abundant, processing is more important. We process at two levels: (1) analysis to bring sense and structure out of the never-ending flow of data and (2) presentation to get what's important and relevant into the consumer's head. Like science, data journalism discloses its methods and presents its findings in a way that can be verified by replication.
+____
+
+*New approaches to storytelling*
+[quote, Aron Pilhofer (New York Times)]
+____
+Data journalism is an umbrella term that, to my mind, encompasses an ever-growing set of tools, techniques and approaches to storytelling. It can include everything from traditional computer-assisted reporting (using data as a 'source') to the most cutting edge data visualization and news applications. The unifying goal is a journalistic one: providing information and analysis to help inform us all about important issues of the day.
+____
+
+*Like photo journalism with a laptop*
+
+[quote, Brian Boyer (Chicago Tribune)]
+____
+`Data journalism' only differs from `words journalism' in that we use a different kit. We all sniff out, report, and relate stories for a living. It's like 'photo journalism' - just swap the camera for a laptop.
+____
+
+*Enhancing traditional journalistic practices*
+
+[quote, Jonathan Gray (Open Knowledge Foundation)]
+____
+Broadly speaking, data journalism involves using data sources to augment or enhance traditional journalistic practices. This might include things like: finding new ways of telling stories, giving readers new angles or insights into the news, putting issues into context, and giving readers access to underlying information sources via new digital applications and services.
+____
+
+*Number-crunching meets word-smithing*
+
+[quote, David Anderton (Freelance Journalist)]
+____
+Data journalism is bridging the gap between stat technicians and wordsmiths. Locating outliers and identifying trends that are not just statistically significant, but relevant to de-compiling the inherently complex world of today.
+____
+
+
+*Updating a journalist's skills set*
+
+[quote, Jerry Vermanen (NU.nl)]
+____
+A new set of skills for searching, understanding and visualising digital sources in a time that basic skills from traditional journalism just aren't enough. It's not a replacement of traditional journalism, but an addition to it.
+____
+
+*As a remedy for information asymmetry*
+
+[quote, Tom Fries (Bertelsmann Foundation)]
+____
+Information asymmetry - not the lack of information, but the inability to take in and process it with the speed and volume that it comes to us - is one of the most significant problems that citizens face in making choices about how to live their lives. Information taken in from print, visual and audio media influence citizens' choices and actions. Good data journalism helps to combat information asymmetry.
+____
+
+*As an answer to data-driven PR*
+
+[quote, Nicolas Kayser-Bril (Independent Data Journalist)]
+____
+The availability of measurement tools and their decreasing prices, in a self-sustaining combination with a focus on performance and efficiency in all aspects of society, have led decision-makers to quantify the progresses of their policies, monitor trends and identify opportunities.
+
+Companies keep coming up with new metrics showing how well they perform. Politicians love to brag about reductions in unemployment numbers and increases in GDP. The lack of journalistic insight in the Enron, Worldcom, Madoff or Solyndra affairs is proof of many a journalist's inability to clearly see through numbers. Figures are more likely to be taken at face value than other facts as they carry an aura of seriousness, even when they are entirely fabricated.
+
+Fluency with data will help journalists sharpen their critical sense when faced with numbers and will hopefully help them gain back some terrain in their exchanges with PR departments.
+____
+
+*As a new "flavor" of information that reaches a new group of consumers*
+
+[quote, Tom Fries (Bertelsmann Foundation)]
+____
+In the same way that consumers of the arts might prefer painting to poetry, fashion to film, consumers of information find it easier, or more fun, to consumer information of one type vs. another. A long essay on the Arab Spring reaches a different audience than a 90-second news segment on the same topic. The addition of meaningful and substantial data as a "format" for information that could also be delivered in other ways reaches a new segment of information consumers.
+____
+
+*As a source of new perspectives*
+
+[quote, Tom Fries (Bertelsmann Foundation)]
+____
+Good data journalism allows information consumers to see relationships, proportions and other qualities in ways that other formats do not, and different portrayals of information tell different stories, even with the same data.
+____
+
+*As a teaching tool for journalists*
+
+[quote, Tom Fries (Bertelsmann Foundation)]
+____
+In the same way that learning a new language allows a person to begin to make a different set of concepts concrete, learning the skills and tools associated with data journalism improves the thinking of journalists who take the time to do it. The process of adding data journalism to the "toolbox" of the average journalist also forces collaboration with categories of professionals with which journalists are usually not accustomed to working such as developers or designers.
+____
+
+*As a forensic tool for readers*
+
+[quote, Tom Fries (Bertelsmann Foundation)]
+____
+Journalists, and news outlets generally, betray their perspective in the data that they choose to present, and how they choose to present it. A discerning reader can see the output as a "tell" of a journalist's or organization's political or intellectual disposition.
+____
+
+*Redressing the balance of power*
+
+[quote, Andrew Mackenzie (Independent Researcher)]
+____
+"The task of journalism is to hold power to account. The corporate sector and governments have Big Data, and they know more about you than you know about them. Data journalism can help redress the balance of power."
+____
+
+*As response to the digitization of sources*
+
+[quote, Jerry Vermanen (De Stentor)]
+____
+In a time where sources go digital, journalists can and have to be closer to those sources. The Internet opened up possibilities beyond our current understanding. Data journalism is just the beginning of evolving our past practices to adapt to the online.
+
+Data journalism serves two important purposes for news organisations: finding unique stories (not from news wires) and execute your watchdog function. Especially in times of financial peril, these are important goals for newspapers to achieve.
+
+From the standpoint of a regional newspaper, data journalism is crucial. We have the saying `a loose tile in front of your door is considered more important than a riot in a far-away country'. It's hits you in the face and impacts your life more directly. At the same time, digitization is everywhere. Because local newspapers have this direct impact in their neighbourhood and sources become digitalized, a journalist must know how to find, analyze and visualize a story from data.
+____
+
+=== Favourite Examples (Various Contributors) ===
+
+We asked some of our contributors for their favourite examples of data journalism and what they liked about them. Here they are.
+
+*Murder Mysteries*
+
+URL: http://projects.scrippsnews.com/magazine/murder-mysteries/
+
+[quote, Steve Doig (Walter Cronkite School of Journalism and Mass Communication)]
+____
+
+One of my favorite pieces of data journalism is the ``Murder Mysteries'' project by Tom Hargrove of the Scripps Howard News Service. He built from government data and public records requests a demographically-detailed database of more than 185,000 unsolved murders, and then designed an algorithm to search it for patterns suggesting the possible presence of serial killers.  This project has it all: hard work gathering a database better than the government’s own, clever analysis using social science techniques, and interactive presentation of the data online so readers can explore it themselves.
+____
+
+=== Data Journalism in Perspective (Liliana Bounegru, European Journalism Centre) ===
+
+This section will look at:
+
+  * Background, history, relationship with CAR
+  * What is distinctive/new about data journalism
+  * What is its potential - what will it / won't it do
+  * ...
+
+////
+
+Todo: short section on history of data journalism, what it is, what it isn't and how it is distinctive as a form of journalism, gesture towards the future
+
+////

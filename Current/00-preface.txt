@@ -1,0 +1,20 @@
+== Preface ==
+
+////
+
+Insert nice picture related to development of the book
+
+////
+
+This book is intended to be a useful resource for anyone who thinks that they might be interested in becoming a data journalist, or dabbling in data journalism.
+
+Lots of people have contributed to writing it, and through our editorial we have tried to let their different voices and views shine through. We hope that it reads like a rich and informative conversation about what data journalism is, why it is important, and how to do it.
+
+Lamentably the act of reading this book will not supply you with a comprehensive repertoire of all if the knowledge and skills you need to become a data journalist. This would require a vast library manned by hundreds of experts able to help answer questions on hundreds of topics. Luckily this library exists and it is called the internet. Instead we hope this book will give you a sense of how to get started and where to look if you want to go further. Examples and tutorials serve to be illustrative rather than exhaustive.
+
+The Data Journalism Handbook is a work in progress. If you think there is anything which needs to be amended or is conspicuously absent, then please flag it for inclusion in the next version. It is also freely available under a http://creativecommons.org/licenses/by-sa/2.5/[Creative Commons Attribution Sharealike] license, and we strongly encourage you to share it with anyone that you think might be interested in reading it.
+
+_Liliana Bounegru (https://twitter.com/bb_liliana[@bb_liliana])_ +
+_Lucy Chambers (https://twitter.com/lucyfedia[@lucyfedia])_ +
+_Jonathan Gray (https://twitter.com/jwyg[@jwyg])_ +
+_March 2012_
