@@ -1,0 +1,68 @@
+////
+
+From section 2 - in the newsroom
+
+////
+
+////
+note: overview: what changes there are in the newsroom, division of labour, information landscape means need news skills, who has these skills, in-house or contracted, journo-coder collaborations, or more technically sophisticated journalists?
+
+note: possible material from booki?
+
+todo: add material from abc, el mundo, and others
+
+todo: ask for material on cross-organisational collaboration
+
+note: to add Guardian Data Journalism Process: 
+http://www.opendatacookbook.net/wiki/recipe/guardian_workflow  and http://www.guardian.co.uk/news/datablog/2011/apr/07/data-journalism-workflow
+
+todo - little overview in frame narrative
+
+How is it done: journo-developers vs. coders for hire
+
+Overview
+In-house expertise
+How the news apps team at Chicago Tribune works
+Projects realized with external experts
+In-house resources plus external open data & visualisation expertise: the ZEIT-ONLINE model
+How to hire a hacker: Where to look
+The Hackathon Model: RegioHack, a 30 hour datajournalism hackathon with regional subjects (Netherlands)
+////
+
+////
+To incorporate into short intro:
+
+A http://datadrivenjournalism.net/news_and_analysis/data_journalism_survey_analysis[survey] on training needs for data journalism circulated by the European Journalism Centre between April and August 2011 showed that 39% of the 234 respondents envisioned their organisation to start engaging in data journalism through engaging a combination of external experts and existing staff. 36% envisioned training existing staff.
+
+In the following chapter journalists involved in data journalism projects explain models for doing data journalism in their newsroom.
+
+In-house expertise
+////
+
+////
+### Projects realized with external experts
+
+Some datasets or methods require special skills i.e. programming skills to manage the data and visualize it. Don't stop your passion for your idea because of missing these skills in your newsroom. There are a lot of highly motivated developers and designers out there to come into your project.
+////
+
+
+### Measuring impact ###
+
+Overview: Give overview of the potential of data journalism (e.g. engaging with new audiences, the future of journalism on the web) and how it could be measured.
+Authors: Mirko Lorenz (Deutsche Welle), Lorenz Matzat (Open Data City)
+Length: 1 page
+Editor: Liliana Bounegru
+
+Measuring the success of a data story is in no way different than the generally used indicators: page views, how long people stay on a page, etc.
+
+Data journalists report though that people appear to engage longer with data stories than with other types of posts.
+
+The Texas Tribune databases drive majority of site's traffic, according to a Poynter article.
+
+
+
+=== Using Data Journalism to Build Reputation and Trust (Sascha Venohr, Zeit Online) ===
+
+Data journalism projects can bring newsrooms into the exciting position to bring a Wow-Effect to the audience and give a new way of bringing stories and facts on their side. For example, there was a wide coverage about the situation at the nuclear plant in japanese Fukushima after the Tsunami. After radioactive material escaped from the power plant, everyone within 30 kilometres of the plant was evacuated. People could read and see a lot about the evacuations. ZEIT ONLINE found a innovative way to explain it's German audience the impact using data journalism. We asked: How many people live near a nuclear power plant in Germany? How many people lives within a radius of 30 kilometres? A map showes http://opendata.zeit.de/atomreaktoren/#/en/[how many people would have to be evacuated in a similar situation in Germany]. The result: A big traffic success and one of these Wow-Effects waving over the social media sphere. In addition, projects based on structured data can easily adopted to other perspectives and languages. So we did. We transponded the Map to http://opendata.zeit.de/nuclear-reactors-usa/#/en/[nuclear power plants in the US] in an english version. A great traffic-motor again.
+
+Another point is, that news labels want to be respected as a trusted source. Using data journalism projects combined with enabling the readers to look and reuse the raw data brings a high value of credibility to these newsrooms. As the Guardian says: facts are sacred.

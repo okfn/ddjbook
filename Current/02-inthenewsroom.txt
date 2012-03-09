@@ -1,50 +1,10 @@
 == 2. In The Newsroom ==
 
-
-////
-note: overview: what changes there are in the newsroom, division of labour, information landscape means need news skills, who has these skills, in-house or contracted, journo-coder collaborations, or more technically sophisticated journalists?
-
-note: possible material from booki?
-
-todo: add material from abc, el mundo, and others
-
-todo: ask for material on cross-organisational collaboration
-
-note: to add Guardian Data Journalism Process: 
-http://www.opendatacookbook.net/wiki/recipe/guardian_workflow  and http://www.guardian.co.uk/news/datablog/2011/apr/07/data-journalism-workflow
-
-todo - little overview in frame narrative
-
-How is it done: journo-developers vs. coders for hire
-
-Overview
-In-house expertise
-How the news apps team at Chicago Tribune works
-Projects realized with external experts
-In-house resources plus external open data & visualisation expertise: the ZEIT-ONLINE model
-How to hire a hacker: Where to look
-The Hackathon Model: RegioHack, a 30 hour datajournalism hackathon with regional subjects (Netherlands)
-////
-
-////
-To incorporate into short intro:
-
-A http://datadrivenjournalism.net/news_and_analysis/data_journalism_survey_analysis[survey] on training needs for data journalism circulated by the European Journalism Centre between April and August 2011 showed that 39% of the 234 respondents envisioned their organisation to start engaging in data journalism through engaging a combination of external experts and existing staff. 36% envisioned training existing staff.
-
-In the following chapter journalists involved in data journalism projects explain models for doing data journalism in their newsroom.
-
-In-house expertise
-////
-
-////
-### Projects realized with external experts
-
-Some datasets or methods require special skills i.e. programming skills to manage the data and visualize it. Don't stop your passion for your idea because of missing these skills in your newsroom. There are a lot of highly motivated developers and designers out there to come into your project.
-////
-
 === How the News Apps Team at Chicago Tribune Works (Brian Boyer, Chicago Tribune) ===
 
 ////
+
+321 words
 
 Comments:
 
@@ -71,6 +31,13 @@ We work in an agile fashion. To make sure we're always in sync, every morning be
 There's a tremendous upside to hacking iteratively, on a deadline: We're always updating our toolkit. Every week we crank out an app or two, then, unlike normal software shops, we can put it to the back of our mind and move on to the next project. It's a joy we share with the reporters, every week we learn something new.
 
 ===  The ABC's Data Journalism Play (Wendy Carlisle, Australian Broadcasting Corporation) ===
+
+////
+
+1134 words
+
+////
+
 
 Now in its 70th year the Australian Broadcasting Corporation is Australia's national public broadcaster. Annual funding is around AUS$1bn which delivers seven radio networks, 60 local radio stations, three digital television services, a new international television service and an online platform to deliver this ever expanding offering of digital and user generated content. At last count there were in excess of 4,500 full time equivalent staff and nearly 70% of them make content.
 
@@ -166,6 +133,8 @@ Four Corners http://www.abc.net.au/4corners/
 
 ////
 
+364 words
+
 Comments:
 
 This is good, but this is currently a bit too focused on one example to fit seamlessly into this section. Need more on how data journalism fits 'in the newsroom' of Zeit Online as a whole.
@@ -198,7 +167,18 @@ Next we contacted people from the German http://opendata-network.org/[German Ope
 
 The result of our hand in hand work was a very successful interactive which got a lot of traffic. It is easy to compare any two countries, which makes it useful as a reference tool. This means that we can re-use it in our daily editorial work. For example if we are covering something related to the living situation in Indonesia, we can quickly and easily embed a graphic http://opendata.zeit.de/pisa-wohlstands-vergleich/visualisierung.php#/en/DEU-IDN[comparing the living situation in Indonesia and Germany]. The know-how transferred to our in house-team was a great investment for future projects.
 
+=== Data Journalism at the Texas Tribune (TBC) ===
+
+Waiting for a reply.
+
 === How to Hire a Hacker (Lucy Chambers, Open Knowledge Foundation) ===
+
+////
+
+430 words
+
+////
+
 
 One of the things that I am regularly asked by journalists is 'how do I get a coder to help me with my project?'. Don't be deceived into thinking this is a one-way process; civic-minded hackers and data-wranglers are often just as keen to get in touch with journalists. 
 
@@ -275,96 +255,45 @@ Also, we are considering how to continue RegioHack in a hackathon form. We found
 
 But for data journalism to work, we have to integrate it in the newsroom. Journalists have to think in data, in addition to quotes, press releases, council meetings and so on. By doing RegioHack, we proved to our audience that data journalism isn't just hype. We can write better informed and more distinctive articles, while presenting our readers different articles in print and online.
 
-////
+=== Business Models for Data Journalism (Mirko Lorenz, Deutsche Welle) ===
 
-Various notes
+Go into any newsroom that predominantly relies on traditional models and there is a sense of despair. ``Five years ago we had eight people on the local desk, now we are three and expected to do print plus parts of the online reporting''. There is no question that journalists have gone through ten years of web innovation, often even being early adopters, and still see revenue from digital media go down, down, down.
 
-////
-
-### How to pitch a data story to your editor (possibly) ###
-
-### Measuring impact ###
-
-Overview: Give overview of the potential of data journalism (e.g. engaging with new audiences, the future of journalism on the web) and how it could be measured.
-Authors: Mirko Lorenz (Deutsche Welle), Lorenz Matzat (Open Data City)
-Length: 1 page
-Editor: Liliana Bounegru
-
-
-
-Measuring the success of a data story is in no way different than the generally used indicators: page views, how long people stay on a page, etc.
-
-Data journalists report though that people appear to engage longer with data stories than with other types of posts.
-
-The Texas Tribune databases drive majority of site's traffic, according to a Poynter article.
-
-
-### Case study 1: How audiences engage with data stories at Zeit Online ###
-
-////
-
-Insert: picture(s) from Zeit project(s)
-
-////
-
-By Sascha Venohr
-
-Data journalism projects can bring newsrooms into the exciting position to bring a Wow-Effect to the audience and give a new way of bringing stories and facts on their side. For example, there was a wide coverage about the situation at the nuclear plant in japanese Fukushima after the Tsunami. After radioactive material escaped from the power plant, everyone within 30 kilometres of the plant was evacuated. People could read and see a lot about the evacuations. ZEIT ONLINE found a innovative way to explain it's German audience the impact using data journalism. We asked: How many people live near a nuclear power plant in Germany? How many people lives within a radius of 30 kilometres? A map showes http://opendata.zeit.de/atomreaktoren/#/en/[how many people would have to be evacuated in a similar situation in Germany]. The result: A big traffic success and one of these Wow-Effects waving over the social media sphere. In addition, projects based on structured data can easily adopted to other perspectives and languages. So we did. We transponded the Map to http://opendata.zeit.de/nuclear-reactors-usa/#/en/[nuclear power plants in the US] in an english version. A great traffic-motor again.
-
-Another point is, that news labels want to be respected as a trusted source. Using data journalism projects combined with enabling the readers to look and reuse the raw data brings a high value of credibility to these newsrooms. Facts are sacred and they RULEZ!
-
-### Case study 2: Texas Tribune ###
-
-### Sustainability and business models ###
-
-Overview: Discuss costs, sustainability and business models for data journalism. Provide successful and less successful examples and explain what lessons can be learned from them.
-Authors: Mirko Lorenz (Deutsche Welle), Sascha Venohr (Zeit Online), Lorenz Matzat
-Length: 1-2 pages
-Editor: Liliana Bounegru
-
-
-=== Needs A Title by Mirko Lorenz (Deutsche Welle) ===
-
-Go into any newsroom these days that relies primarily on traditional models and there is a sense of dispair. "Five years ago we had eight people on the local desk, now we are three and expected to do print plus parts of online reporting". There is no question that journalists have gone through ten years of web innovation, often even being early adopters and still seeing there own share of money from digital media go down, down, down.
-
-Can data journalism actually change that? Is it that big? While one must be very careful predicting the future, there are a few facts that should be considered when thinking about business models for data journalism and journalism as a whole.
+Can data journalism change that? Is it that big? While one must be very careful predicting the future, there are a few facts that should be considered when thinking about business models for data journalism and journalism as a whole.
 
 **1. Attention is no longer a scarce resource**
 
-This might be obvious, but still puzzles many, even very large and venerable media organizations. The "value" of attention has moved. The new electronic models, where the money goes, are based on providing highly targeted services. But that is not the business of newspapers or media companies, it's the kingdom of the big search and social tech companies.
+This might be obvious, but still puzzles many, even very large and venerable media organizations. The ``value'' of attention has moved. The new electronic models, where the money goes, are based on providing highly targeted services. But that is not the business of newspapers or media companies, it's the kingdom of the big search and social tech companies.
 
 So, what is left for media companies? In any economic process value is usually created by scarcity. Stuff that is available in abundance has a low price, stuff that is scarce will usually sell for higher prices.
 
-Today, in this multi-channel world, attention can be generated in abundance - but trust, another, highly important quality of any information is the scarce resource. Don't take this lightly. While "trust" might seem something that is hard to measure and hard to monetize, it actually is relatively simple if the value of trust is understood. First of all: If you are not sure whether you can trust someone, you go to great length being careful and at the same time checking the information you get. If you trust someone, because of your long time contact or simply multiple proofs that a person or an organization values trust very highly, your costs of checking the information are going down. For example, if someone you trust tells you that a certain price vs. quality is the best you can get, then you will often make a decision about the purchase very quickly. If an organization you trust tells you that this financing plan is cool, you will be relieved and probably just sign the dotted line.
+Today, in this multi-channel world, attention can be generated in abundance, but _trust_ is an increasingly scarce resource. Don't take this lightly. While ``trust'' might seem something that is hard to measure and hard to monetize, it actually is relatively simple if the value of trust is understood. If you are not sure whether you can trust someone, you may feel cautious and wish to check the veracity of the information you receive from them. If you trust someone - perhaps because you've known them for a long time or you have evidence that they greatly value your trust and confidence - you may no longer feel the need to spend time verifying the information they give you. For example, if someone you trust tells you that a certain price vs. quality is the best deal, then you will often make a decision about the purchase very quickly. If an organisation you trust tells you that this financing plan is cool, you may be quicker to sign the dotted line.
 
-Of course this is all oversimplified. But you get the idea, don't you? Data-journalism combined with concepts based on building and maintaining trust could propel media organizations, small and big, old and new into a segment in society and the economy that is currently too small, while the attention-getters segment is simply too big.
+Of course this is all oversimplified. But you get the idea, don't you? Data journalism plus an emphasis on building trust could propel media organizations - small and big, old and new - into a segment in society and the economy that is currently too small, while the attention-getters' segment is simply too big.
 
-This, we would argue is the basis for future business models based on data-journalism. And actually, in a world where many organizations go to great length distorting clarity, hiding facts and trying to maintain there market share by little tricks, fine print in contracts or confusing names, etc. building media structures based on the core concept of trust might open up a really big market for journalism (in a good way) going into the future.
+One could argue that trust is the basis for future data journalism related business models. In a world where many organisations go to great lengths to distort clarity, hide facts and maintain their market share by little tricks or fine print - going forward building media structures based on the core concept of trust could open up a really big market for journalism.
 
-One very funny thing here is that to make that happen the market as a whole must not even grow. Today, a lot of money is made based on mis-information. Are billions and billions of Euros drained away from you, me and our institutions, because it is possible and there is no better way.
-
-So, news publishers, media organizations and - more specifically - single journalists should think long and hard where there readers/users are currently underserved in terms of trustable information. From that starting point they should get creative and think about what kind of data would form a highly needed, trustable information offering. Our best guess at this moment is: If you solve this riddle for particular group or a segment of the market, making money won't be your main concern in relatively short time.
+So, news organisations and individual journalists should think about where there will be demand for trusted information. If you can solve this riddle for a particular group or segment of the market, making money won't be your main concern in a relatively short time.
 
 **2. Being first is not the goal**
 
-Many media companies believe in having "exclusive" content. They hope that by doing investigations they might get a share of attention from the audience which translates into more willingness from advertisers and so on. That chain, too, is kind of broken. Sometimes, adversly the revelation that one organization or a group of people are operating against the law, where the investigation of connections took six month or even a year might receive lukewarm surprise in the public. People in the streets will tell you that they "knew" in advance that there was something. Depressing, isn't it.
+Many media companies believe in having ``exclusive'' content. They hope that by being first they will get a greater share of attention from the audience which translates into more custom from advertisers and so on. 
 
-What would be an alternative? To say it in a memorable way: Don't do it quick, do it right. Want an illustrative example: For the last months many articles and newscasts reported about the Euro crisis. Did you understand what was said? Or more precisely: Where you able to understand what this development might mean to you? This is where reporting is failing today: Often journalists are simply re-telling what they heard elsewhere - so, it's the Euro crisis in much detail, but not in depth. What people would want and need (this even includes the high ranking politicians who must make decisions with not enough information) is a clear, understandble, deep and ideally individual/interactive view of how this crisis developed, how it maps out now and which concepts and investment policies could potentially really work. Yes, very difficult. But, again: Clarity is the scarce resource here, not being fast.
-
+But ultimately what matters is that the reporting is done well. Don't do it quick, do it right. To take an example, there was a huge amount of coverage of the Euro crisis, but it was often very difficult for members of the public to understand developments in context. This is where reporting is failing: journalists are often simply re-telling what they heard elsewhere. So, it's the Euro crisis in detail, but not in much depth. Imagine people could have a clear, comprehensible, and ideally customisable/interactive view of how this crisis developed, where it is now and which kinds of policy options could potentially really work. Very difficult indeed. But the lesson is that speed is not the only game in town.
 
 **3. Data is the new black box and journalists can help unpack it**
 
-The main point of this section is a claim, and it goes like this: While we can not proof how much money could be made to finance journalism, the whole development currently gets a fresh new twist once a newsroom manages to untangle the web of data connections.
+Which brings us on to the main point of this section, which is this: while we cannot prove how much money could be made to finance journalism, it is clear that there is a great deal of potential in newsrooms being able to more effectively work with data.
 
-To do that, they do not need multi-million databases or expensive IT. Instead they should invest into the knowledge of journalists, extending their options and ways to find the information that is really important.
+To do that, they do not need multi-million databases or expensive IT. Instead they should invest in the knowledge and skills of journalists, giving them more ways to find the information that is really important.
 
-What if we would have thousands of really experienced data-journalists, providing information on all levels of society: Locally, in regions, for countries or the world as a whole. There surely would be problems and wrong interpretations of data, too. But by and large we could hope that many investigations into data could help all of us get along better.
+Imagine we had thousands of highly experienced data journalists, providing information at different levels: locally, regionally, nationally and globally. There would of course be problems and mis-interpretations of data. But by and large we could hope that many investigations into data could help all of us get along better.
 
-Sometimes visualizing the results of data interrogations becomes an art, but equally often being able to show a specific development in relatively simple charts can still come as a surprise. A prime example of that is the cool http://www.nytimes.com/2011/07/24/opinion/sunday/24sun4.html["How the deficit got this big"] story from the New York Times, in which they compare the estimated and actual budgets of the US. Having a longer memory, being able to boil down something into one picture that puzzles everybody is the new scoop. Data journalism is a tool to do that. It's like switching on a light in a black room.
+Sometimes displaying the results of data analysis becomes an art, but equally often being able to show a specific development in relatively simple charts can still come as a surprise. A prime example of that is the excellent http://www.nytimes.com/2011/07/24/opinion/sunday/24sun4.html["How the deficit got this big"] story from the New York Times, in which they compare the estimated and actual budgets of the US. Having a longer memory, being able to boil down something into one picture that puzzles everybody is the new scoop. Data journalism is a tool to do that. It's like switching on a light in a dark room.
 
 **4. Money is no scarce resource**
 
-In the world of journalism money is scarce. The hard work of writing and photographing is and has been paid low. One reason is that the while writing is pretty complex to master, it is very difficult if not impossible to attach a certain value tag to one well-written text. It's just hard. The text might move you to tears or laugh out loud - but now one knows that prior to publication.
+In the world of journalism money is scarce. The hard work of writing and photographing is and has been paid low. One reason is that the while writing is pretty complex to master, it is very difficult if not impossible to attach a certain value tag to one well-written text. It's just hard. The text might move you to tears or laugh out loud - but no-one knows that prior to publication.
 
 Using data as a basis for reporting, this might change. Data in today's interconnected world can help to get the big picture as well as the very detailed view how a certain development affects me and you - even telling us separately how much money out of our own pockets will go into the bail-out of a failed bank or country.
 
@@ -385,26 +314,27 @@ It is said that changing media is incredible hard. Which is true as long as ther
 It's not so much a sales problem, it's a product value problem. People - you, me, everybody - buy something all the time. And there is a huge unmet demand for reliable, trustable and understandable information. Examples of such information could be described for almost any area of life: Politics, economics, sports. Or even more concrete: An interactive guide with reliable calculators how to buy a house in a specific region. A guide to green energy, broken down to your particular needs. A guide how to get a car, where all the costs factors can be used to make a decision beyond the advertisers claims, such as cost of ownership, resale prices, etc. These are just examples, painted with a few brushes and far from complete. But in effect, producing reliable, individual packages of information is a potential market - with many ways how to combine it with journalism or using such end-products to finance journalism.
 
 Building this market is challenge. To be successful, three fundamental aspects must be covered:
-First, there must be a real value. The "services" must be so good, that they provide a real new option to make better descisions.
+First, there must be a real value. The "services" must be so good, that they provide a real new option to make better decisions.
 Secondly, the value should be higher than the price. This sounds abstract but isn't. Just imagine a data-driven media company offers a guide for house buying that goes far beyond what a bank would be willing to tell you, even comparing one bank versus the other. If the cost of such a service would 20 Euro, but the potential savings using it go into thousands of euros - this is when such services are actually marketable. 
 Thirdly, and this is often overlooked, there must be a whole, working and accepted system for such payments. Right now, both journalists and potential customers do not even expect such services from most media companies. To get this to a high level we first need pioneers who proof that this is a market and then apply the models to newsrooms, old and new.
 
 To give one example how such shifts and markets can be created, just take Google. The search company has masterfully automated a steady stream of income through it's AdWords concept. Around the world single people and large companies are booking AdWords, ranging from investments of 10, 20 Euros to millions of Euros. This is how Google makes money.
 
-So, the best guess we can make at this moment goes like this: The future of media and journalism might still rely on subscriptions and sales of advertising space, but to a (hopefully big) extend datajournalism can help to create novel services.
-Datajournalism offers an opportunity to provide insightful stories, which - once the data is understood - can be transformed into services, tools, apps and personalized information.
+So, the best guess we can make at this moment goes like this: The future of media and journalism might still rely on subscriptions and sales of advertising space, but to a (hopefully big) extend data journalism can help to create novel services.
+Data journalism offers an opportunity to provide insightful stories, which - once the data is understood - can be transformed into services, tools, apps and personalized information.
 
 Right now, many if not most media companies are from having something like that. There was no incentive to cover topics in depth, instead the main incentive was to drum up attention.
 
-But, it is not impossible to master that shift. If you look more deeply there are quite a number of working models in this space. The list would range from larger media companies like Thompson Reuters to The Economist to many information providers who fill a niche and employ thousands of people based on looking into data. This would to some extend include companies like eMarketer, Marketing Sherpa - often with blurring lines to make the distinction whether these are primarily journalism companies or research companies. Effectively, we will have to watch this space and make descions whether to lean more towards one side or the other.
+But it is not impossible to master that shift. If you look more deeply there are quite a number of working models in this space. The list would range from larger media companies like Thompson Reuters to The Economist to many information providers who fill a niche and employ thousands of people based on looking into data. This would to some extend include companies like eMarketer, Marketing Sherpa - often with blurring lines to make the distinction whether these are primarily journalism companies or research companies. Effectively, we will have to watch this space and make descions whether to lean more towards one side or the other.
 
 Two very good examples are Thompson Reuters and The Economist. In the case of Thompson, just look at the history of this company that has grown out of one regional newspaper in Canada into one of the big data providers for financial markets. Preparing for this Thompson relied on in-depth, professional information streams. Simplified they built a database, maintained by a number of editors to cover one market niche in depth and then selling this information once it was good enough. These models are often successful after a longer period of building expertise, one benefit being that they are pretty stable over long periods.
 
 The Economist is another example. The magazine has built an excellent, influential brand on it's media side. At the same time the "Economist Intelligence Unit" is now more like a consultancy, reporting about relevant trends and forecasts for almost any country in the world. They are employing hundreds of journalists and claim to serve about 1,5 million customers worldwide.
 
-Finally, we should be aware of the many examples for new offerings in all stages of data usage. An uncomplete here could include quite a number of new offerings which are all buidling blocks for a better use of data for the public. Technology today enables many new ways to extract value. Examples of companies and offerings making use of this would include: DataSift, Timetric, Junar, Needlebase, Flowing Data, The Guardian Data Blog and Data Store - just to provide some examples. And there is room to try out new approaches for many levels of data use. Take BuzzData, a site where datasets can be published and discussed in public.
+Finally, we should be aware of the many examples for new offerings in all stages of data usage. An uncomplete here could include quite a number of new offerings which are all building blocks for a better use of data for the public. Technology today enables many new ways to extract value. Examples of companies and offerings making use of this would include: DataSift, Timetric, Junar, Needlebase, Flowing Data, The Guardian Data Blog and Data Store - just to provide some examples. And there is room to try out new approaches for many levels of data use. Take BuzzData, a site where datasets can be published and discussed in public.
 
-"This is not journalism"
+*"This is not journalism"*
+
 Yes, yes - at this point in discussions, journalists often exclaim that "this is not journalism". This is true sometimes, sometimes not. Good journalism goes beyond just being a commercial product or service, good journalism plays a role as a public service, too.
 
 When inventing new ways to get both sides in line - the financing and the special role of journalism, we must think of all components, not just the newsroom. Selling advertising, which is a department in every commercial media organization is not journalism, too. But it is surely needed to make the work of the newsroom possible. A lot of the work done in media companies effectively has the role of a supporting role for the core business of journalism. 
@@ -418,10 +348,7 @@ Understanding/refining/inventing models is one of the big challenges in this spa
 
 Right now we as the journalists experiencing this shift from old to new models do not have information ourselves. But this is the big challenge we have to master: Finding new, sustainable models to run journalism projects and reliable media companies using data more and better. If we succeed a new perspective for journalism could open up: New offerings, new sources to finance good reporting and in the long run even more jobs in this space than before.
 
-
-
-
-=== Our Stories Come As Code by Lorenz Matzat (OpenDataCity.de) ===
+=== Our Stories Come In Code (Lorenz Matzat, OpenDataCity.de) ===
 
 ////
 
@@ -429,43 +356,35 @@ Insert: pictures from projects
 
 ////
 
-How we started our data journalism company and interface design became part of our journalistic work
+http://www.opendatacity.de/[OpenDataCity] was founded towards the end of 2010. There was pretty much nothing that you could call data journalism happening in Germany at this time.
 
-Building a business
+Why did we do this? Many times we heard people working for newspapers and broadcasters say: ``No, we are not ready to start a dedicated data journalism unit in our newsroom. But we would be happy to outsource this to someone else.''
 
-End of 2010 we, then two partners, founded our company named http://www.opendatacity.de/[OpenDataCity]. There was more or less no modern data journalism happening in German media before this year.
+As far as we know, we are the only company specialising exclusively in data journalism in Germany. There are currently three of us: two of us with a journalism background and one with a deep understanding of code and visualisation. We work with a handful of freelance hackers, designers and journalists.
 
-Why did we do this? Now so often we heard from people working for newspapers and broadcasters: "No, we are not ready to put up a data journalism unit in our newsroom. But we would be happy to outsource this to someone." So we got ready.
+In the last twelve month we have undertaken four data journalism projects with newspapers, and have offered training and consultancy to media workers, scientists and journalism schools. The first app we did was an http://www.taz.de/1/berlin/fluglaerm-bbi/[interactive tool on airport noise] around the the newly built airport in Berlin with TAZ. Our next notable project was an http://www.zeit.de/datenschutz/malte-spitz-data-retention[application about data retention] of the mobile phone usage of a German politician with ZEIT Online. For this we won a http://www.grimme-institut.de/html/index.php?id=1345[Grimme Online Award] and a Lead Award in Germany, and an Online Journalism Award by the http://journalists.org/2011/09/25/2011-online-journalism-award-winners-announced/[Online Journalism Association] in the US. At the time of writing, we are have several projects in the pipeline - ranging from simpler interactive infographics to full blown realtime data applications.
 
-Until today we are the only company in Germany, specialized in data journalism as far as we know. Nowadays we are three partners, two of us with a journalism background and one with a deep understanding of code and visualisation. We are working within a network of a handful freelancing hackers, designers and journalists. In the last twelve month we did four data projects with newspapers, gave several trainings and consultations to media workers, scientists and journalism schools. The first app we did was an http://www.taz.de/1/berlin/fluglaerm-bbi/[interactive tool on airport noise] around the the newly built airport in Berlin. Second worth mentioning was an http://www.zeit.de/datenschutz/malte-spitz-data-retention[application about data retention] of the mobilephone usage of a German politician (.For this we won together with ZEIT Online a http://www.grimme-institut.de/html/index.php?id=1345[Grimme Online Award] and Lead Award in Germany. And in the US an Online Journalism Award by the http://journalists.org/2011/09/25/2011-online-journalism-award-winners-announced/[Online Journalism Association].
+Of course, winning prizes helps to built a reputation. But when we talk to the publishers, who have to approve the projects, our argument for investing into data journalism is not about winning prizes. Rather it is about getting attention over a longer period in a sustainable way. Building things for their long term impact, not for the scoop, which often is forgotten after some days.
 
-Today, end of 2011, we are having several projects in our pipeline - ranging from more simple interactive infographics up to full blown realtime data applications.
-Of course, winning prizes helps to built a reputation. But when we talk to the publishers, who have to ok the often expensive projects our argument for investing into data journalism is not about winning prizes. It's about getting attention on a long run in a sustainable way. Building things for the long term effect, not for the scoop, which often is forgotten after some days.
+Here are three arguments which we have used to encourage publishers to undertake longer term projects:
 
-There a three arguments for convincing publishers to build things for the long term effect:
+1. *Data projects don't date*. Depending on their design, new material can be added to data journalism apps. And they are not just for the users, but can be used internally for reporting and analysis. If you're worried that this means that your competitors will also benefit from your investment, you could keep some features or some data for internal use only.
 
-1. Depending on their design, new content can be added to data journalism apps. And they are not for the users alone, but can be used internally for reporting - the problem after the app is published: the competition can too. That can be countered by keeping some features or data for internal use only.
+2. *You can build on your past work*. When undertaking a data project, you will often create bits of code which can be reused or updated. The next project might take half the time, because you know much better what to do (and what not to) and you have bits and pieces you can build on.
 
-2. Besides the sustainable effect concerning the content side of a data project, you often build code, which is reusable, updateable or at least you gain experience doing it. The next development probably cost half the time, because you know much better what to do (and what not to).
+3. *Data journalism pays for itself*. Data driven projects are cheaper than traditional marketing campaigns. Online news outlets will often invest in things like Search Engine Optimisation (SEO) and Search Engine Marketing (SEM). A executed data project will normally generate a lot of clicks and buzz, and may go viral. Publishers will typically pay less for this then trying to generate the same attention by clicks and links through SEM.
 
-3. In the end, its often about the money first and second about journalism. But there is a strong argument why data journalism in the end pays for itself. Because it's much cheaper then traditional marketing campaigns. In online journalism much money is spent by bigger media outlets in the realm of search-engine-optimisations (SEO) and search-engine-marketing (SEM). A well done data project draws a lot of clicks and people link to it. Often there is a viral effect in the social media sphere. One reason for this is, that a data project is real, a authentic work of journalism. It can't be copied and pasted. As a publisher you're likely to pay much less for it then trying to generate the same attention by the somehow artificially clicks and links achieved through SEM.
+Our work is not very different from other new media agencies: providing applications or services for news outlets. But maybe we differ in that we think of ourselves first and foremost as journalists. In our eyes the products we deliver are articles or stories - albeit ones which are provided not in words and pictures, audio or video, but in code. When we are talking about data journalism we have to talk about technology, software, devices and how to tell a story with them.
 
+To give an example: we are currently working on an application, which pulls in real-time data via a scraper. The data is updated every minute or so. We started doing this some months ago, and have so far collected a huge dataset which grows every hour. By now it amounts to some hundreds of thousands of rows of data. We are creating a data-article which enables the user to explore this realtime data, and to do research in the archive of the foregone months. In the end the story we are telling will be significantly defined by the individual action of the users.
 
-Software design as a journalistic skill
+In traditional journalism, due to the linear character of written or broadcasted media, we have to think about a beginning, the end, the story arc and the length and angle of our piece. With data journalism things are different. There is a beginning, yes. People come to the website and get a first impression of the interface. But then they are on their own. Maybe they stay for a minute - or half an hour.
 
-Our work is not very different from other agencies, providing applications or services for news outlets. But maybe we differ in our self-conception: We think of ourselves first of all as journalists. In our eyes the products we deliver are articles or stories. Though not provided in letters, pictures or audio but in code.
+Our job as data journalists is to provide the framework or environment for this. As well as the coding and data management bits, we have to thing of clever ways to design experiences. The User Experience (UX) derives mostly from the (Graphical) User Interface (GUI). In the end this is the part which will make or break a project. You could have the best code working in the background handling an exiting dataset. But if the front-end sucks, nobody will care about it.
 
-When we are talking about data-driven journalisms we have to talk about technology, software, devices and how to tell a story using them for our means.
+There is still a lot to learn about and to experiment with. But luckily there is the games industry, which has been innovating with respect to digital narratives, ecosystems and interfaces for several decades now. So when developing data journalism applications we should watch closely how game design works and how stories are told in games. Why are casual games like Tetris such fun? And what makes the open worlds of sandbox games like Grand Theft Auto or Skyrim rock?
 
-To give an example: We right now working on an application, which pulls in realtime data via a scraper. Data which is update every minute or so. We started doing this some month ago, thus having collected a huge dataset which grows every hour - by now it amounts to some hundred thousand rows of data. We hope to create a data-articles which provides the user with the opportunity to dive in to this realtime data. And to do research in the archive of the foregone months. In the end the story we are telling will be significantly defined by the individual action of the users.
-
-In traditional journalism, due to the linear character of written or broadcasted media, we have to think about a beginning, the end, the story arc and often the length of our piece. With datajournalism apps is mostly different. There is a beginning, yes. People come to the website, get a first impression of the interface. But then they are on their own. Maybe they stay for a minute - or half an hour.
-
-Our job as data journalists is to provide the framework or environment for this. Letting the reporting, the programming part and how to push lots of data to the frontend aside, we have to find working solutions for the design. The User Experience (UX) derives mostly from the (graphical) User Interface (GUI). In the end it comes to this crucial part. You could have the best code working in the background handling an exiting dataset. But if the frontend sucks nobody will care about it. So right decisions have to be made, e.g. which liberties and options user have to change from and where we hinder them to explore further.
-
-There is still a lot to learn and experiment. But luckily there is the games industry, which designs digital narratives, ecosystems and interfaces for several decades now. So when developing for datajournalism we should closely watch how gamedesign works and stories are told in games. Why are casual games like Tetris such fun? And what makes the open worlds of sandbox games like Grand Theft Auto or Skyrim rock?
-
-=== Kaas og Mulvad: Semi-finished content for stakeholder groups by Mark Lee Hunter and Luk N. Van Wassenhove (Affiliations?) ===
+=== Kaas og Mulvad: Semi-finished Content for Stakeholder Groups (Mark Lee Hunter and Luk N. Van Wassenhove) ===
 
 ////
 
@@ -473,28 +392,28 @@ Insert: pictures from projects
 
 ////
 
-Stakeholder media often lack capacity even more cruelly than do the news media, and the function of Kaas og Mulvad, a for-profit Danish corporation, is to provide it. The firm originated in 2007 as a spinoff of the non-profit Danish Institute for Computer-Assisted Reporting (Dicar), which sold investigative reports to media and trained journalists in data analysis. Its founders, Tommy Kaas and Nils Mulvad, were previously reporters in the news industry. Their new firm offers what they call "data plus journalistic insight" to stakeholder media, which finalise the content and distribute it to news media, as well as through their own media.  Direct clients include government institutions, PR firms, labour unions and NGOs such as EU Transparency and the World Wildlife Fund. The NGO work includes monitoring farm and fishery subsidies, and regular updates on EU lobbyist activities generated through "scraping" of pertinent websites. Indirect clients include foundations that fund NGO projects. The firm also works with the news industry: A tabloid newspaper purchased a celebrity monitoring service.
+Stakeholder media often lack capacity even more cruelly than do the news media, and the function of Kaas og Mulvad, a for-profit Danish corporation, is to provide it. The firm originated in 2007 as a spinoff of the non-profit Danish Institute for Computer-Assisted Reporting (Dicar), which sold investigative reports to media and trained journalists in data analysis. Its founders, Tommy Kaas and Nils Mulvad, were previously reporters in the news industry. Their new firm offers what they call "data plus journalistic insight" to stakeholder media, which finalise the content and distribute it to news media, as well as through their own media.  Direct clients include government institutions, PR firms, labour unions and NGOs such as EU Transparency and the World Wildlife Fund. The NGO work includes monitoring farm and fishery subsidies, and regular updates on EU lobbyist activities generated through "scraping" of pertinent websites. Indirect clients include foundations that fund NGO projects. The firm also works with the news industry: a tabloid newspaper purchased a celebrity monitoring service.
 
 **1. Processes: Innovative IT plus analysis**
 
 The firm undertakes about 100 projects per year, ranging in duration from a few hours to a few months. It also continuously invests in projects that expand its capacity and offerings. The celebrity monitoring service was one such experiment. Another involved scraping the Internet for news of home foreclosures and creating maps of the events. The partners say that their first criteria for projects is whether they enjoy the work and learn from it; markets are sought after a new service is defined. They make it clear that in the news industry, they found it difficult to develop new methods and new business. Comments Mulvad:
 
-"We have no editors or bosses to decide which projects we can do, which software or hardware we can buy. We can buy the tools according to project needs - like the best solutions for text scraping and mining. Our goal is to be cutting edge in these areas. We try to get customers who are willing to pay, or if the project is fun we do it for a lower charge."
+----
+
+We have no editors or bosses to decide which projects we can do, which software or hardware we can buy. We can buy the tools according to project needs - like the best solutions for text scraping and mining. Our goal is to be cutting edge in these areas. We try to get customers who are willing to pay, or if the project is fun we do it for a lower charge.
+
+----
 
 **2. Value created: Personal and firm brands and revenue**
 
-Turnover in 2009 was approximately 2.5 million Danish kroner, or ‚Äö√á¬® 336,000. The firm also sustains the partners' reputations as cutting edge journalists, which maintains demand for their teaching and speaking services. Their public appearances, in turn, support the firm's brand.
+Turnover in 2009 was approximately 2.5 million Danish kroner, or €336,000. The firm also sustains the partners' reputations as cutting edge journalists, which maintains demand for their teaching and speaking services. Their public appearances, in turn, support the firm's brand.
 
 **3. Key insights of this example**
 
-  * 	The news industry's crisis of declining capacity is also a crisis of under-utilisation of capacity. Kaas and Mulvad had to leave the news industry to do work they valued, and that pays. Nothing prevented a news organisation from capturing that value.
-
-  *  	In at least some markets, there exists a profitable market for semi-finished content that serves the interests of stakeholder groups.
-
-  * 	However, this opportunity raises the issue of how much control journalists can exercise over the presentation and use of their work by third parties. We recall that this issue already exists within the news industry (where editors can impose changes on a journalist's product), and it has existed within other media industries (such as the film industry, where conflicts between directors and studios over "final cuts" are hardly rare). It is not a particular moral hazard of stakeholder media.
-
-  * 	From a revenue standpoint, a single product or service is not enough. Successful watchdog enterprises would do better to take a portfolio approach, in which consulting, teaching, speaking and other services bring in extra revenue, support the watchdog brand, and enrich the lifestyle of the operators.
-
+  * The news industry's crisis of declining capacity is also a crisis of under-utilisation of capacity. Kaas and Mulvad had to leave the news industry to do work they valued, and that pays. Nothing prevented a news organisation from capturing that value.
+  * In at least some markets, there exists a profitable market for semi-finished content that serves the interests of stakeholder groups.
+  * However, this opportunity raises the issue of how much control journalists can exercise over the presentation and use of their work by third parties. We recall that this issue already exists within the news industry (where editors can impose changes on a journalist's product), and it has existed within other media industries (such as the film industry, where conflicts between directors and studios over "final cuts" are hardly rare). It is not a particular moral hazard of stakeholder media.
+  * From a revenue standpoint, a single product or service is not enough. Successful watchdog enterprises would do better to take a portfolio approach, in which consulting, teaching, speaking and other services bring in extra revenue, support the watchdog brand, and enrich the lifestyle of the operators.
 
 === When code pays for words by Clément Renaud (Sharism Lab?) ===
 
