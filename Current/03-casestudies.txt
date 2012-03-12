@@ -1,21 +1,5 @@
 == 3. Case studies ==
 
-////
-
-So you have the data... what next? Where do you start and where could you end?
-
-In this section, top data-journalists take us through useful tips and tricks for how they have produced their data-powered stories before diving deeper into what made them determined to work on a particular project, why they chose the methods they did, the barriers they encountered, lessons learned and the eventual impact the stories made....
-
-More case studies
-
-http://www.guardian.co.uk/politics/2009/may/15/mps-expenses-heather-brooke-foi[MPs expenses scandal] in the UK is an example of how a simple Freedom of Information (FOI) request can trigger a large scale investigation. An FOI request uncovered some interesting stories about how elected officials spend taxpayers' money.
-http://blogs.lanacion.com.ar/projects/data/subsidies-for-the-bus-transportation-system-datajournalism-project-in-argentina-la-nacion/[Subsidies for the Bus Transportation System]: Angelica Peralta Ramos , LA NACION (Argentina)
-
-case study 1
-
-You've poured hours into tidying up and working with your data and got your story. What do you do with the data now? In this chapter, we take a look at cases where journalists have decided to open up their datasets and publish them along with their stories: What role did the datasets play in the original story? What was the motivation for opening them up? What did others choose to do with the data?
-////
-
 === Hospital Billing (Steve Doig, Walter Cronkite School of Journalism and Mass Communication) ===
 
 image::Figures/03-AA.png[width=600]
@@ -42,7 +26,7 @@ Insert: picture from project
 
 ////
 
-A [Financial Times investigation](http://www.ft.com/cms/s/0/920fcd2c-8aca-11e0-b2f1-00144feab49a.html) into the quality of care provided in care homes began with a simple question: is care provided by private providers better than that offered by the non-profit sector or the government?
+A http://www.ft.com/cms/s/0/920fcd2c-8aca-11e0-b2f1-00144feab49a.html[Financial Times investigation] into the quality of care provided in care homes began with a simple question: is care provided by private providers better than that offered by the non-profit sector or the government?
 
 The analysis was timely, because the financial problems of Southern Cross, then the country's largest care home operator, were coming to a head. The government had for decades promoted a privatisation drive in the care sector and continued to tout the private sector for its astute business practices.
 
@@ -132,9 +116,8 @@ Matching this with the positions of the poles-map of the http://emf2.bundesnetza
 
 After a very successful launch of the Project in Germany, we noticed that we were having very high traffic from outside Germany and decided to create an English version of the app. After earning the German Grimme Online Award, the project was honoured with an ONA Award in September 2011, the first time for a German news website.
 
-[See the data](https://docs.google.com/spreadsheet/ccc?authkey=COCjw-kG&key=0An0YnoiCbFHGdGp3WnJkbE4xWTdDTVV0ZDlQeWZmSXc&hl=en_GB&authkey=COCjw-kG#gid=0)
-
-[Read the story](http://www.zeit.de/datenschutz/malte-spitz-data-retention)
+https://docs.google.com/spreadsheet/ccc?authkey=COCjw-kG&key=0An0YnoiCbFHGdGp3WnJkbE4xWTdDTVV0ZDlQeWZmSXc&hl=en_GB&authkey=COCjw-kG#gid=0[See the data]
+http://www.zeit.de/datenschutz/malte-spitz-data-retention[Read the story]
 
 === Citizen Data Reporters (Amanda Rossi, Friends of Januária) ===
 
@@ -162,27 +145,17 @@ These initial findings raise many questions about reasons for this difference be
 
 Another citizen journalist from the project is Alysson Montiériton, 20 years-old, who also used data for his final article. It was during the project's first class, when the citizen reporters walked around the city to look for subjects that could become stories, that Alysson decided to write about a broken traffic light located in a very important intersection, which had remained broken since the beginning of the year. After learning how to look for data on the Internet, Alysson searched for the number of vehicles that exists in town and the amount of taxes paid by those who own vehicles. He wrote:
 
-----
+____
 The situation in Januária gets worse because of the high number of vehicles in town. According to IBGE (the most important statistics research institute in Brazil), Januária had 13,771 vehicles (among which 7,979 were motorcycles) in 2010. ... The town's residents believe that the delay in fixing the traffic light is not a result of lack of resources. According to the Treasury Secretary of Minas Gerais state, the town received 470 thousand reais in vehicle taxes in 2010.
-----
+____
 
-By having access to data, Alysson was able to show that Januária has many vehicles (almost one for every five residents) and that a broken traffic light could put a lot of people in danger. Furthermore, he was able to tell his audience the amount of funds received by the town from taxes paid by vehicle owners and, based on that, to question whether this money would not be enough to repair the traffic light to provide safe conditions to drivers and pedestrians:
+By having access to data, Alysson was able to show that Januária has many vehicles (almost one for every five residents) and that a broken traffic light could put a lot of people in danger. Furthermore, he was able to tell his audience the amount of funds received by the town from taxes paid by vehicle owners and, based on that, to question whether this money would not be enough to repair the traffic light to provide safe conditions to drivers and pedestrians.
 
-----
-At the http://www.ibge.gov.br/home/[IBGE site] site , I clicked on 'Cities', looked for Januária, and saw all the information that is available about the town. Then, I selected the data on the number of vehicles that exists in Januária. Besides, I looked for the amount of money that Januária receives from IPVA (vehicle tax). The town receives a good amount of funds and should provide a better maintenance for equipment, like traffic lights and so many others public equipment that citizens demand on a daily basis", explains Alysson.
-----
+Although these two reports, written by Soraia and Alysson, are very simple, they show that data can be used by citizen reporters. You don't need to be in a large newsroom with lots of specialists to use data in your reports. After twelve workshops Soraia and Alysson, neither of whom have a background in journalism, were able to work on data powered stories and write interesting pieces about their local situation. In addition, their articles show that data itself can be useful even on a small scale. In other words, that there is also valuable information in small datasets and tables - not only in huge databases
 
-Although these two reports, written by Soraia and Alysson, are very simple, they show that data can be used by citizen reporters. You don't need to be in a large newsroom, with the need for specialists, to use data in your reports. After twelve workshops, Soraia and Alysson, with no journalism background, were able to work on data powered stories and write interesting pieces about their local reality. In addition, their articles show that data itself can be useful even on a small scale. In other words, that there is also valuable information in small datasets and tables - not only in huge spreadsheets.
+=== Which Car Model? MOT Failure Rates (Martin Rosenbaum, BBC) ===
 
-"I was able to learn how to look for data about my town on the Internet. I invite my readers to look for data about your own town on the Internet. I searched about my town and wrote a piece about it", says Alysson. If you like his example, accept his challenging invitation.
-
-=== Which car model? MOT failure rates by Martin Rosenbaum (BBC) ===
-
-////
-
-Insert: picture from project
-
-////
+image::Figures/03-CC.png[width=600]
 
 In January 2010 the BBC obtained data about the MOT pass and fail rates for different makes and models of cars. This is the test which assesses whether a car is safe and roadworthy - any car over three years old has to have an MOT test annually.
 
@@ -190,9 +163,9 @@ We obtained the data under freedom of information following an 18-month battle w
 
 We analysed the figures, focusing on the most popular models and comparing cars of the same age. This showed wide discrepancies. For example, among three year old cars, 28% of Renault Méganes failed their MOT in contrast to only 11% of Toyota Corollas. The figures were reported on television, radio and online.
 
-The data was given to us in the form of a 1,200 page PDF document, which we then had to convert into a spreadsheet to do the analysis. As well as reporting our conclusions, we published this Excel spreadsheet (with over 14,000 lines of data) on the BBC News website along with our story. This gave everyone else access to the data in a usable form.
+The data was given to us in the form of a 1,200 page PDF document, which we then had to convert into a spreadsheet to do the analysis. As well as reporting our conclusions, we published this Excel spreadsheet (with over 14,000 lines of data) on the BBC News website http://www.bbc.co.uk/blogs/opensecrets/2010/01/mot_failure_rates_released.html[along with our story]. This gave everyone else access to the data in a usable form.
 
-The result was that others then used this data for their own analyses which we did not have time to do in the rush to get the story out quickly or in some cases would have stretched our technical capabilities at the time. This included examining the failure rates for cars of other ages, comparing the records of manufacturers rather than individual models, and creating searchable databases for looking up the results of individuals models. We added links to these sites to our online news story, so our readers could get the benefit of this work.
+The result was that others then used this data for their own analyses which we did not have time to do in the rush to get the story out quickly or which in some cases would have stretched our technical capabilities at the time. This included examining the failure rates for cars of other ages, comparing the records of manufacturers rather than individual models, and creating searchable databases for looking up the results of individuals models. We added links to these sites to our online news story, so our readers could get the benefit of this work.
 
 This illustrated some advantages of releasing the raw data to accompany a data-driven story. There may be exceptions (for example, if you are planning to use the data for other follow-up stories later and want to keep it to yourself meanwhile), but on the whole publishing the data has several important benefits.
 
@@ -204,57 +177,49 @@ This illustrated some advantages of releasing the raw data to accompany a data-d
 
 4. It's part of incorporating accountability and transparency into the journalistic process. Others can understand your methods and check your working if they want to.
 
-=== Finnish Parliamentary elections and campaign funding by Esa M‚àö¬ßkinen (Helsingin Sanomat) ===
+=== Finnish Parliamentary Elections and Campaign Funding (Esa Mäkinen, Helsingin Sanomat) ===
 
-////
-
-Insert: picture from project
-
-////
+image::Figures/03-DD.png[width=600]
 
 In the spring of 2012, there are many ongoing trials about the campaign election funding of Finnish general elections of 2007.
 
-After the elections in 2007, the press found out that the laws on publicising campaign funding had no effect on politicians. Basically, campaign funding has been used to buy favours from politicians and they had not declared their funding as mandated by Finnish law.
+After the elections in 2007, the press found out that the laws on publicising campaign funding had no effect on politicians. Basically, campaign funding has been used to buy favours from politicians, who have then failed to declare their funding as mandated by Finnish law.
 
-After these incidents, the laws became stricter. After the general election in March 2011, Helsingin Sanomat decided that we should dig very carefully all the available data on campaign funding. The new law stipulates, that election funding must be declared and only donations below 1500 euros may be anonymous.
+After these incidents, the laws became stricter. After the general election in March 2011, Helsingin Sanomat decided to carefully explore all the available data on campaign funding. The new law stipulates, that election funding must be declared and only donations below 1500 euros may be anonymous.
 
-First step was to get the data and find interested developers.
+*STEP ONE: Find Data and Developers.*
 
-Helsingin Sanomat has organized HS Open hackathons since march 2011. We invite Finnish coders, journalists and graphic designers to the basement of Sanoma building. Participants are divided into groups of three, and they are encouraged to develop applications and visualizations. We have had about 60 participants in each of our three events so far.
-
-We decided that campaign funding data should be the focus of HS Open #2, May 2011.
+Helsingin Sanomat has organized HS Open hackathons since March 2011. We invite Finnish coders, journalists and graphic designers to the basement of our building. Participants are divided into groups of three, and they are encouraged to develop applications and visualizations. We have had about 60 participants in each of our three events so far. We decided that campaign funding data should be the focus of HS Open #2, May 2011.
 
 The National Audit Office of Finland is the authority that keeps records of campaign funding. That was the easy part. Chief information Officer, Jaakko Hamunen, built a website that provides real time access to their campaign funding database. The Audit Office made this in just two months after our request.
 
-http://www.vaalirahoitus.fi/[Vaalirahoitus.fi] site will provide the press and public information on campaign funding on every elections from now on.
+The http://www.vaalirahoitus.fi/[Vaalirahoitus.fi] website will provide the press and public information on campaign funding on every elections from now on.
 
-Second step was to get ideas: what should we do with the data?
+*STEP TWO: Brainstorm for Ideas.*
 
-The participants of HS Open 2 came up with twenty different prototypes about what to do with the data. You can find all the prototypes http://blogit.hs.fi/hsnext/hs-open-2-tuotti-parikymmenta-prototyyppia[here] (text in Finnish).
+The participants of HS Open 2 came up with twenty different prototypes about what to do with the data. You can find all the prototypes http://blogit.hs.fi/hsnext/hs-open-2-tuotti-parikymmenta-prototyyppia[on our website] (text in Finnish).
 
-Researcher of bioinformatics, Janne Peltola, noted that campaign funding data looked like gene data they research in terms of containing many interdependencies. Moreover, they have an open source tool to map out these interdependencies. It's called http://www.cytoscape.org/[Cytoscape]. So we ran the data through Cytoscape, and had a very interesting prototype.
+A bioinformatics researcher called Janne Peltola noted that campaign funding data looked like gene data they research in terms of containing many interdependencies. In bioinformatics there is an open source tool called http://www.cytoscape.org/[Cytoscape] which is used to map these interdependencies. So we ran the data through Cytoscape, and had a very interesting prototype.
 
-Third step was to implement the idea on paper and on our site, HS.fi.
+*STEP THREE: Implement the Idea on Paper and on the Web.*
 
-The law on campaign funding states, that elected members of parliament must declare their funding two months after the elections. In practise, this meant that we got the real data in mid-June. In HS Open, we had data only from the MPs who had filed their report before the deadline.
+The law on campaign funding states that elected members of parliament must declare their funding two months after the elections. In practise this meant that we got the real data in mid-June. In HS Open, we had data only from MPs who had filed before the deadline.
 
-There was also a problem with the data format. National Audit Office provided the data as two CSV files. First contained the total budget of campaigns, the other listed all the donors. We had to combine these two; we made a file that contained three columns: donor, receiver and amount. If the politicians had used their own money, in our data format looked like Politician A donated x euros to Politician A. Counter-intuitive, but it worked for Cytoscape.
+There was also a problem with the data format. The National Audit Office provided the data as two CSV files. One contained the total budget of campaigns, the other listed all the donors. We had to combine these two, creating a file that contained three columns: donor, receiver and amount. If the politicians had used their own money, in our data format it looked like Politician A donated x euros to Politician A. Counter-intuitive perhaps, but it worked for Cytoscape.
 
-When the data was cleaned and reformatted, we just ran it through Cytoscape. Then our graphics department made a page of it.
+When the data was cleaned and reformatted, we just ran it through Cytoscape. Then our graphics department made a full page page graphic out of it.
 
-Second part was to make a visualization for our web page. You can find the result http://www.vaaliraha.com/[here].
-
-The idea of this was not network analysis. We wanted to show people in easy format how much campaign funding there is and who gives it. The first view shows the distribution of funding between MPs. When you click on one MP, you get the breakdown on his or her funding. You can also vote on whether this particular donor is good or not. The visualization was made by Juha Rouvinen and Jukka Kokko, from ad agency Satumaa.
+Finally we created a beautiful visualization on our http://www.vaaliraha.com/[website]. This was not a network analysis graphic. We wanted to give people an easy way to explore how much campaign funding there is and who gives it. The first view shows the distribution of funding between MPs. When you click on one MP, you get the breakdown of his or her funding. You can also vote on whether this particular donor is good or not. The visualization was made by Juha Rouvinen and Jukka Kokko, from an ad agency called Satumaa.
 
 The web version of campaign funding visualization uses the same data as the network analysis.
 
-Fourth step was to publish the data.
+*STEP FOUR: Publish the Data*
 
-Of course, the National Audit Office already publishes the data, so there was no need to republish. But, as we had a better data structure, we decided to publish it. We give out our data with http://creativecommons.org/choose/[Creative Commons licence]. And there have been several visualizations made by independent developers that have used our data subsequently. We have also published some of these.
+Of course, the National Audit Office already publishes the data, so there was no need to republish. But, as we had cleaned up the data and given it a better structure, we decided to publish it. We give out our data with a http://creativecommons.org/licenses/by/3.0/[Creative Commons Attribution licence]. Subsequently several independent developers have made visualisations of the data, some of which we have published.
 
-The tools we used for the project were: Excel and Google Refine for data cleaning and analysis. Cytoscape for network analysis. Illustrator and Flash for the visualizations. The Flash should have been HTML5, but we ran out of time.
+The tools we used for the project were: Excel and Google Refine for data cleaning and analysis, Cytoscape for network analysis, and Illustrator and Flash for the visualisations. The Flash should have been HTML5, but we ran out of time.
 
-What did we learn? Perhaps the most important thing was, that data structures can be very hard. If the original data is not in suitable format, recalculating and converting it will take a lot of time. 
+What did we learn? Perhaps the most important lesson was that data structures can be very hard. If the original data is not in suitable format, recalculating and converting it will take a lot of time. 
 
 === Illinois school report cards by Brian Boyer (Chicago Tribune) ===
 

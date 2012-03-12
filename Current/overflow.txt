@@ -66,3 +66,24 @@ The Texas Tribune databases drive majority of site's traffic, according to a Poy
 Data journalism projects can bring newsrooms into the exciting position to bring a Wow-Effect to the audience and give a new way of bringing stories and facts on their side. For example, there was a wide coverage about the situation at the nuclear plant in japanese Fukushima after the Tsunami. After radioactive material escaped from the power plant, everyone within 30 kilometres of the plant was evacuated. People could read and see a lot about the evacuations. ZEIT ONLINE found a innovative way to explain it's German audience the impact using data journalism. We asked: How many people live near a nuclear power plant in Germany? How many people lives within a radius of 30 kilometres? A map showes http://opendata.zeit.de/atomreaktoren/#/en/[how many people would have to be evacuated in a similar situation in Germany]. The result: A big traffic success and one of these Wow-Effects waving over the social media sphere. In addition, projects based on structured data can easily adopted to other perspectives and languages. So we did. We transponded the Map to http://opendata.zeit.de/nuclear-reactors-usa/#/en/[nuclear power plants in the US] in an english version. A great traffic-motor again.
 
 Another point is, that news labels want to be respected as a trusted source. Using data journalism projects combined with enabling the readers to look and reuse the raw data brings a high value of credibility to these newsrooms. As the Guardian says: facts are sacred.
+
+---------
+
+
+FROM SECTION 3:
+
+////
+
+So you have the data... what next? Where do you start and where could you end?
+
+In this section, top data-journalists take us through useful tips and tricks for how they have produced their data-powered stories before diving deeper into what made them determined to work on a particular project, why they chose the methods they did, the barriers they encountered, lessons learned and the eventual impact the stories made....
+
+More case studies
+
+http://www.guardian.co.uk/politics/2009/may/15/mps-expenses-heather-brooke-foi[MPs expenses scandal] in the UK is an example of how a simple Freedom of Information (FOI) request can trigger a large scale investigation. An FOI request uncovered some interesting stories about how elected officials spend taxpayers' money.
+http://blogs.lanacion.com.ar/projects/data/subsidies-for-the-bus-transportation-system-datajournalism-project-in-argentina-la-nacion/[Subsidies for the Bus Transportation System]: Angelica Peralta Ramos , LA NACION (Argentina)
+
+case study 1
+
+You've poured hours into tidying up and working with your data and got your story. What do you do with the data now? In this chapter, we take a look at cases where journalists have decided to open up their datasets and publish them along with their stories: What role did the datasets play in the original story? What was the motivation for opening them up? What did others choose to do with the data?
+////

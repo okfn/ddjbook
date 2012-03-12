@@ -398,11 +398,9 @@ Stakeholder media often lack capacity even more cruelly than do the news media, 
 
 The firm undertakes about 100 projects per year, ranging in duration from a few hours to a few months. It also continuously invests in projects that expand its capacity and offerings. The celebrity monitoring service was one such experiment. Another involved scraping the Internet for news of home foreclosures and creating maps of the events. The partners say that their first criteria for projects is whether they enjoy the work and learn from it; markets are sought after a new service is defined. They make it clear that in the news industry, they found it difficult to develop new methods and new business. Comments Mulvad:
 
-----
-
+____
 We have no editors or bosses to decide which projects we can do, which software or hardware we can buy. We can buy the tools according to project needs - like the best solutions for text scraping and mining. Our goal is to be cutting edge in these areas. We try to get customers who are willing to pay, or if the project is fun we do it for a lower charge.
-
-----
+____
 
 **2. Value created: Personal and firm brands and revenue**
 
@@ -415,6 +413,6 @@ Turnover in 2009 was approximately 2.5 million Danish kroner, or €336,000. The
   * However, this opportunity raises the issue of how much control journalists can exercise over the presentation and use of their work by third parties. We recall that this issue already exists within the news industry (where editors can impose changes on a journalist's product), and it has existed within other media industries (such as the film industry, where conflicts between directors and studios over "final cuts" are hardly rare). It is not a particular moral hazard of stakeholder media.
   * From a revenue standpoint, a single product or service is not enough. Successful watchdog enterprises would do better to take a portfolio approach, in which consulting, teaching, speaking and other services bring in extra revenue, support the watchdog brand, and enrich the lifestyle of the operators.
 
-=== When code pays for words by Clément Renaud (Sharism Lab?) ===
+=== When Code Pays for Words (Clément Renaud, Sharism Lab?) ===
 
 Example from OWNI
