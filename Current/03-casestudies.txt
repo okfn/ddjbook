@@ -219,26 +219,25 @@ Of course, the National Audit Office already publishes the data, so there was no
 
 The tools we used for the project were: Excel and Google Refine for data cleaning and analysis, Cytoscape for network analysis, and Illustrator and Flash for the visualisations. The Flash should have been HTML5, but we ran out of time.
 
-What did we learn? Perhaps the most important lesson was that data structures can be very hard. If the original data is not in suitable format, recalculating and converting it will take a lot of time. 
+What did we learn? Perhaps the most important lesson was that data structures can be very hard. If the original data is not in suitable format, recalculating and converting it will take a lot of time.
 
-=== Illinois school report cards by Brian Boyer (Chicago Tribune) ===
+=== Illinois School Report Cards (Brian Boyer, Chicago Tribune) ===
 
-http://schools.chicagotribune.com/
-2011 Illinois school report cards
+image::Figures/03-EE.png[width=600]
 
-Each year, the Illinois State Board of Education releases school "report cards" -- data on the demographics and performance of all the public schools Illinois. It's a massive dataset, this year's drop was ~9,500 *columns* wide.
+Each year, the Illinois State Board of Education releases school "report cards" -- data on the demographics and performance of all the public schools Illinois. It's a massive dataset, this year's drop was ~9,500 _columns_ wide.
 
-The problem with that much data is choosing what to present. (As with any software project, the hard part is not *building* the software, but building the *right* software.)
+The problem with that much data is choosing what to present. (As with any software project, the hard part is not _building_ the software, but building the _right_ software.)
 
 We worked with the reporters and editor from the education team to choose the interesting data. (There's a lot of data out there that seems interesting but which a reporter will tell you is actually flawed or misleading.)
 
 We also surveyed and interviewed folks with school-age kids in our newsroom. We did this because of an empathy gap -- nobody on the news apps team has school-age kids. Along the way, we learned much about our users and much about the usability (or lack thereof!) of the previous version of our schools site.
 
-We aimed to design for a couple specific users and use cases: 1) parents with a child in school who want to know how their school measures up, and 2) parents who're trying to sort out where to live, since school quality often has a major impact on that decision.
+We aimed to design for a couple specific users and use cases: (1) parents with a child in school who want to know how their school measures up, and (2) parents who're trying to sort out where to live, since school quality often has a major impact on that decision.
 
-The first time around, the schools site was about a six week, two developer project. Our 2011 update was a four-week, two developer project. (There were actually three people actively working on the recent project, but none were full-time, so it adds up to about two.)
+The first time around, the schools site was about a six week, two developer project. Our 2011 update was a four week, two developer project. (There were actually three people actively working on the recent project, but none were full-time, so it adds up to about two.)
 
-A key piece of this project was information design. Although we present far less data than is available, it's still a *lot* of data, and making it digestible was a challenge. Luckily, we got to borrow someone from our graphics desk -- a designer who specializes in presenting complicated information. He taught us much about chart design and, in general, guided us to a presentation that is readable, but does not underestimate the reader's ability or desire to understand the numbers.
+A key piece of this project was information design. Although we present far less data than is available, it's still a _lot_ of data, and making it digestible was a challenge. Luckily, we got to borrow someone from our graphics desk -- a designer who specialises in presenting complicated information. He taught us much about chart design and, in general, guided us to a presentation that is readable, but does not underestimate the reader's ability or desire to understand the numbers.
 
 The site was built in Python and Django. The data is housed in MongoDB -- the schools data is heterogeneous and hierarchical, making it a poor fit for a relational database. (Otherwise we probably would have used PostgreSQL.)
 
@@ -251,7 +250,7 @@ Early reports are that readers love the schools app. The feedback we've received
 A few key ideas we took away from this project are:
 
 1. The graphics desk is your friend. They're good at making complex information digestible.
-2. Ask the newsroom for help. This is the second project for which we've conducted a newsroom-wide survey and interviews, and it's a great way to get the opinion of thoughtful people who, like our audience, are diverse in background and generally uncomfortable with computers. :)
+2. Ask the newsroom for help. This is the second project for which we've conducted a newsroom-wide survey and interviews, and it's a great way to get the opinion of thoughtful people who, like our audience, are diverse in background and generally uncomfortable with computers.
 3. Show your work! Much of our feedback has been requests for the data that the application. We've made a lot of the data publicly available via an API, and we will shortly release the stuff that we didn't think to include initially.
 
 ===  Mapa76 Hackathon (Mariano Blejman, Hacks/Hackers) ===
@@ -262,138 +261,27 @@ Insert picture from Mapa76 hackathon
 
 ////
 
-We opened the chapter of Hacks/Hackers Buenos Aires in April 2011. We hosted two initial meetups to publicize the idea of greater collaboration between journalists and software developers, with between 120 and 150 people at each event. For a third meeting we had a 30-hour hackathon with eight people at a digital journalism conference in the city of Rosario, 300 kilometers from Buenos Aires.
+We opened the http://www.meetup.com/HacksHackersBA/[Buenos Aires chapter of Hacks/Hackers] in April 2011. We hosted two initial meetups to publicize the idea of greater collaboration between journalists and software developers, with between 120 and 150 people at each event. For a third meeting we had a 30-hour hackathon with eight people at a digital journalism conference in the city of Rosario, 300 kilometers from Buenos Aires.
 
 A recurring theme in these meetings was the desire to scrape large volumes of data from the web, and then to represent it visually. To help with this a project called Mapa76.info was born, which helps users to extract data, and then to display it using maps and timelines. Not an easy task.
 
-Why Mapa76? On March 24, 1976 there was a coup in Argentina, which lasted until 1983. In that period there were an estimated 30,000 disappeared people, thousands of deaths, and 500 children born in captivity appropriated for the military dictatorship. Over 30 years later, in Argentina the number of persons convicted of crimes against humanity committed during the dictatorship, amounts to 262 people (September 2011). Currently there are 14 ongoing trials and 7 with definite date for its inception. As is known publicly that there are 802 peoples processed in various court cases that are open. Of these, 412 have one or more causes elevated to trial, while another 102 have the upliftment order to trial by the prosecution.
+Why Mapa76? On March 24, 1976 there was a coup in Argentina, which lasted until 1983. In that period there were an estimated 30,000 disappeared people, thousands of deaths, and 500 children born in captivity appropriated for the military dictatorship. Over 30 years later, the number of people in Argentina convicted of crimes against humanity committed during the dictatorship amounts to 262 people (September 2011). Currently there are 14 ongoing trials and 7 with definite starting dates. There are 802 people in various open court cases.
 
-Such prosecutions generate large volumes of information that make hard the work of researchers, journalists, human rights organizations, judges, prosecutors, etc. - Is complex when collecting and analyzing data that can help to clarify facts. Much more information is produced in a dispersed manner, which researchers can process. Basically the problem is that investigators doesn't take advantage of IT tools applied to solving such problems. In most cases, both from the journalistic perspective and from the judiciary, the survey data was done manually on the basis of records already generated (some digital, some not). These practices represent the universe of analysis, to overlook certain facts and ultimately significantly inhibit exploration of the facts, and the construction of conjectures and / or global findings by researchers newspaper. Mapa76 should be considered as a tool of investigative journalism, historical and judicial open access through the Web. But also include private layers.
+These prosecutions generate large volumes of data that are difficult for researchers, journalists, human rights organisations, judges, prosecutors, and others to process. Data is produced in a distributed manner and investigators often don't take advantage of software tools to assist them with interpreting in. Ultimately this means that facts are often overlooked and hypotheses are often limited. Mapa76 is an investigative tool providing open access to this information for journalistic, legal, juridical, and historical purposes.
 
-To reach the hackathon, we worked before in conducting a platform for programmers and journalists could work the day of the meeting. Martin Sarsale developed the basics algorithms to extract information from simple text documents. Some libraries were also used from DocumentCloud.org project, but not many. We came with a basic platform, where the user could work with a document on the site, this document was automatically analyzed and mined there names, dates and places automatically. Once extracted this information, "operator" take the case to tell his life story dates manually linking with "actions" (birth, place of arrest, the alleged place of disappearance, etc.)
+To prepare for the hackathon we created a platform which developers and journalists could use to collaborate on the day of the event. Martin Sarsale developed some basics algorithms to extract structured data from simple text documents. Some libraries were also used from DocumentCloud.org project, but not many. The platform would automatically analyse and extract names, dates and places from the texts - and would enable users to explore key facts about different cases (e.g. date of birth, place of arrest, alleged place of disappearance and so on).
 
-The goal is to provide a platform for automatic extraction of data on the judgments of the military dictatorship in Argentina. The aim is to achieve automatic (or semiautomatic) display of life histories of the period 1976-1983 based on written evidence, arguments and judgments about dictatorship age. This platform aims to provide tools to analyze a document database (a set of documents) and help identify finding relationships difficult in manual way. The extracted data (names, places and dates) are collected, stored and can be refined by the researcher, in addition to viewing on a geolocated, timelines and maps of relationships between people. We found existing projects related to the investigation and we had several meetings with investigators, some of them post-hackathon.
+Our goal was to provide a platform for the automatic extraction of data on the judgments of the military dictatorship in Argentina. We wanted to a way of automatically (or at least semi-automatically) displaying key data related to cases from 1976-1983 based on written evidence, arguments and judgments. The extracted data (names, places and dates) are collected, stored and can be analysed and refined by the researcher, as well as being explored using maps, timelines and network analysis tools. 
 
-* Federal Network Places of Memory
+The project will allow journalists and investigators, prosecutors and witnesses to follow the story of a person's life, including the course of their captivity and subsequent disappearance or release. Where information is absent, users can comb through a vast number of documents for information which could be of possible relevance to the case.
 
-This systematization meets the highest amount of information about State terrorism nationally and can be easily accessed through a search engine navigable online, allowing multiple combinations of data and have photographs and mapping applications to performfixed and interactive maps based on Geographical Information Systems (GIS). The project also contemplates the use of the tool, constant updating and cooperative construction of information among all users of the system, after collation and validation by the National Archives of Memory. The aim is to establish itself as a substantial contribution to the investigations of crimes against humanity, especially those related to judicial proceedings.
+For the hackathon, we made a public announcement through http://www.meetup.com/HacksHackersBA/[Hacks/Hackers Buenos Aires], which then had around 200 members (at the time of writing there are around 540). We also contacted many Human Rights associations. The meeting was attended by about forty people including journalists, advocacy organisations, developers and designers.
 
-* Provincial Archives of Memory in Cordoba
-It is primarily a task for *file*, digitize and preserve documents. They currently have over 100,000 pages scanned from testimony given in the different cases of crimes against humanity that took place at the Juzgado Federal No. 2, police memos, rulings, judgments and so on. Systematized in collections using library software Greenstone Digital Library (http://www.greenstone.org/).
+During the hackathon, we identified tasks that different types of participants could pursue independently to help things run smoothly. For example, we asked designers to work on an interface that combining maps and timelines, we asked developers to look into ways of extracting structured data and algorithms to disambiguate names, and we asked journalists to look into what happened with specific people, to compare different versions of stories, and to comb through documents to tell stories about particular cases.
 
-* National Prosecuting Authority - Pablo Parenti
-Coordination and Monitoring Unit of the Causes of Human Rights of the Attorney General's Office, Research Tools (Excalibur)
+Probably the main problem we had after the hackathon was that our project was very ambitious, our short-term objectives were demanding, and it is hard to coordinate a loose-knit network of volunteers. Nearly everyone involved with the project had a busy day job and many also participated in other events and projects. Hacks/Hackers Buenos Aires had 9 meetings in 2011.
 
-* Asociación Nunca Más + Gabriel Acquistapace (Drupal)
-
-* No time contacted the Forensic Anthropology Team and Memoria Abierta, or the work of Inés Caridi, Faculty of Sciences of the UBA, who made a mathematical model for Forensic Anthropology. Each of these projects have different types of quality, quantity and availability of public or private documents, but more or less similar purposes.
-
-What could serve mapa76?
-Both journalists and investigators, prosecutors, witnesses, can use it to establish relationships between disappeared, places, dates and conditions of detention.
-It will allow to follow the story of a person's life and how was his course during his captivity and subsequent disappearance or release. In the case of not having information about a person, journalist, lawyer or prosecutor, can access the platform Mapa76 and "comb" a vast amount of documents for new information. This could allow identification of new witnesses, inquiring about test criteria, reaffirming that there was a systematic plan for the appropriation of children by armed forces, etc.
-
-How does Mapa76 work?
-Mapa76 is now a developing prototype.
-It has three basic modules:
-(A) the automatic extraction of data-names, dates and places;
-(B) consultation and treatment data in context, and
-(C) the display of the selected data on maps and timelines.
-Using defined search patterns (which may be: personal names, organizations, places and dates), this software1- programmed in Ruby recognizes the words in the document that match the preset and stored in a database.
-
-This base can be refined by the researcher and each finding can be viewed in context. Then in a second step, the data extracted / purified / selected can be viewed on a map or geo referenced in a timeline, and they in turn provide contextual information regarding the consultation.
-
-To develop this platform we will work with layers in order to filter specific information regarding allegations, convictions, political-military group, a clandestine detention center, names, etc.
-
-One way to understand the behavior patterns of Mapa76.info would be: the user uploads a document. This is analyzed by the software of automatic data extraction. Then the user chooses a person and paragraphs in which choose the name mentioned, the relevant dates and places related to the time.
-
-Call for hackathon
-We make a public announcement through the page Hacks/Hackers Buenos Aires http://meetupba.hackshackers.com At that time we had about 200 enrolled, there are currently about 540. We also called Human Rights associations and made a formal request for the hackathon in Tecnopolis, a vast exhibition organized by the national government dedicated to science in Argentina, which occurred place within the former Batallon 601, the base of military operations in the dictatorship government. The meeting was attended by about forty people including journalists, militant organizations, developers and designers. Other participants of hackathon were Junar makers of a platform for "streaming" data to organize the information automatically and export it to other websites. We received sponsorship from Mozilla Argentina and Tecnópolis.
-
-During the hackathon
-We searched for isolated tasks, so that participants could move independently
-
-Programmers, Designers: Make an interface that combines timeline + map /
-Designers
-Incorporate the platform components: filter by organizations, agencies, for testimonials, etc..
-
-Developers:
-Try other ways to extract data
-  *  names, addresses, dates
-  *  Organizations (currently done with regexes + a Bayesian filter for names).
-  *  misspelled names, etc.
-  *  alias
-  *  disambiguations
-  *  different ways of referring to the same person
-  *  "Jorge Julio Lopez"
-  *  "Julio Lopez"
-  *  "Lopez"
-  *  Work on the API data mapa76 exposing
-
-Journalists:
-Find use cases:
-  *  Who was who?
-  *  Follow the story of a person. What happened?
-  *  Compare two life stories
-  *  Compare the story depending on version
-  *  Combing documents to try to tell a story based on documents
-  *  Incorporate other sources such as newspapers, databases, etc..
-
-Identify key words:
-  *  Kidnapping
-  *  Transfer
-  *  Survivor
-  *  Captivity
-  *  Identity Theft
-
-Sort documents and relationships between documents:
-  *  Testimony
-  *  Expertise
-  *  Case
-  *  Judgment
-  *  Fundamentals
-
-Future
-Improve the charging interface
-  *  Smarter, faster
-  *  Make a prototype query interface
-  *  timelines (visualizations)
-- Per person
-- For detention center
-- Per organization
-  *  Consultation
-- Who was with who, where, etc..
-  *  Layers own info / private
-Newly transcribed testimony
-
-Later hackathon problems
-
-Probably the main problem we had after the hackathon was that short-term objectives set were very demanding, very ambitious expectations, and the spread of ideas and the model of volunteer work hard to manage. All people involved and participating in the project are qualified with day jobs of high complexity, and could not move forward with the necessary regularity and systemization. In part, because the more involved people also participated in other activities planned by Hacks/Hackers Buenos Aires in 2011, the year we made nine events: four hackatones, four meetups, a web seminar and a lecture on a Free Software conference.
-
-What are we doing?
-
-  *  Generate technical documentation of the prototype.
-  *  Define the functional scope of version 1.0, modular development plan, quantify the cost and size the equipment.
-  *  Develop a Project Plan for version 1.0 and do a benchmarking for development funds.
-  *  To survey the existence of functional modules to integrate into the platform Mapa76. For example, visualization of relationships between entities (people) to managing versions of a work product of the consultation on the system, etc.
-  *  Improve data loading interface to make it more efficient and faster in the searches.
-  *  Polish the query interface to improve the timelines per person per centerdetention.
-  *  Set up a database query to establish relationships between people. By example, who was with who, where the disappearance occurred, how was your hostage situation, when it happened, and so on.
-  *  Generate data layers of information for public and private consultation, to allow
-store them "stories" at the user level, etc.
-
-Current Status
-
-At present, there is a group of four people directly involved in the project trying to get to prototype mapa76.info: Martin Sarsale (developer), Mark Vanetta (programmer), Andrew Snitcovsky (graphic designer), Mariana Berruezo (product concept) and Mariano Blejman (journalist). And may be 15 "satelite" collaborators.
-
-* Mapa76.info is under development through mapa76-dev@googlegroups.com (Ruby, JQuery, MySQL) For developers who want to join the group, contact "Martin Sarsale" <martin.sarsale@gmail.com>
-* Code https://github.com/mapa76/
-* Project manager https://www.pivotaltracker.com/projects/344053
-* In early March 2012 we will have a hackathon for visualizations timelines.
-
-Who we are
-Mapa76.info is an initiative of the Buenos Aires chapter of Hacks / Hackers, an area of
-meeting comprised of journalists, software programmers and designers who come together to help build the future of media. The organizers of Hacks / Hackers Buenos Aires is made up Mariano Blejman (Página/12), Martin Sarsale (Sumavisos), Guillermo Movia (Mozilla Argentina), Cesar Miquel (EasyTech), Mariana Berruezo, Sorin Sergio and Ezequiel Clerici.
-
+The project is currently under active development. There is a core team of four people working with over a dozen collaborators. We have a http://groups.google.com/group/mapa76-dev/[public mailing list] and https://github.com/mapa76/[code repository] through which anyone can get involved with the project.
 
 === Electoral Hack in real-time by Hacks/Hackers Buenos Aires ===
 
