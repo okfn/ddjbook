@@ -141,3 +141,28 @@ Topic Specific Lists:
   *    Mapping: http://www.nacis.org/index.cfm?x=1[North American Cartographic Information Society]
   *    Mapping: Society of Cartographers http://soc.org.uk/cartosoc.htm[CARTO-SoC]
   *    Mapping: MAPS-L: LISTSERV@LISTSERV.UGA.EDU - MAPS-L is an international discussion forum for anyone dealing with cartographic information, cartographers, remote sensors, geographers, and cartomaniacs of all types.
+
+
+### Reference data ###
+
+by Friedrich Lindenberg
+
+It's often helpful to pull in data from code sheets, such as lists of countries, states, organizations etc. This kind of data - which is used to augment another collection - is called reference data. Other examples of reference data include code sheets to decipher classifications and taxonomies, such as the EU's procurement vocabulary: on most portals, only short identifiers are provided, while the actual term descriptions are quite helpful.
+
+Some sources for reference data include:
+  *    http://www.geonames.org/[GeoNames] and http://open.mapquestapi.com/nominatim/[Nominatim] for geographic names and coordinates.
+  *    National statistics agencies
+  *    Web sites of standards bodies, such as the ISO (e.g. country codes) or the http://iatistandard.org/[IATI Standard] site.
+  *    International organisations such as the United Nations (e.g. classification of functions of government).
+
+
+
+-------
+
+Information held by public bodies is one of the principle sources of data for the work of any journalist. The right of access to information (aka "freedom of information") is the right of anyone to access information held by public authorities. Many countries now have freedom of information laws to make this information available to the public. This chapter deals with:
+FOIA for data - what to ask for, what format to request it in and how to ask for it
+Case studies about stories based on successful data FOI requests.
+
+
+
+For more detailed information on the process of submitting an FOI request, the difference in FOI legislation in different countries and appeal procedures see the FOI tipsheet.

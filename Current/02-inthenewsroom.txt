@@ -348,7 +348,7 @@ Understanding/refining/inventing models is one of the big challenges in this spa
 
 Right now we as the journalists experiencing this shift from old to new models do not have information ourselves. But this is the big challenge we have to master: Finding new, sustainable models to run journalism projects and reliable media companies using data more and better. If we succeed a new perspective for journalism could open up: New offerings, new sources to finance good reporting and in the long run even more jobs in this space than before.
 
-=== Our Stories Come In Code (Lorenz Matzat, OpenDataCity.de) ===
+=== Our Stories Come As Code (Lorenz Matzat, OpenDataCity.de) ===
 
 ////
 

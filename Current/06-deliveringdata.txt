@@ -66,7 +66,7 @@ So if you're investigating paper clip spending, are you also getting the followi
 - other data which might provide interesting analysis to compare or relate the spending to?
 
 
-=== How to build a news app by Chase Davis (Center for Investigative Reporting) ===
+=== How to Build a News App (Chase Davis, Center for Investigative Reporting) ===
 
 News applications are windows into the data behind a story. They might be searchable databases, sleek visualizations or something else altogether. But no matter what form they take, news apps encourage readers to interact with data in a context that is meaningful to them: looking up crime trends in their area, checking the safety records of their local doctor, or searching political contributions to their candidate of choice. 
 
@@ -112,7 +112,7 @@ News application development has come a long way in a very short time. News Apps
 
 News Apps 2.0, where the industry is headed, is about combining the storytelling and public service strengths of journalism with the product development discipline and expertise of the technology world. The result, no doubt, will be an explosion of innovation around ways to make data relevant, interesting and especially useful to our audience – and at the same time hopefully helping journalism do the same.
 
-=== Cunning Title for data visualisation chapter by Sarah Cohen (Washington Post) ===
+=== Data Visualisation (Sarah Cohen, Washington Post) ===
 
 ////
 
@@ -161,18 +161,18 @@ Toolkits and tutorials
 
 
 
-=== Roles of visualisation in journalism by Lulu Pinney ===
+////
+
+Roles of visualisation in journalism by Lulu Pinney
 
 The function of data visualisations in reportage is twofold. Firstly they are a tool for exploring the data to find where any stories are. Their second use is for telling a story. And it is worth noting that - for the same set of data - it is more than likely that the visuals best suited to finding a story will not be best suited to the telling of it.
 
 Using visualisations to explore data is a more objective exercise, and sometimes it is appropriate to create an interface so your audience can have a go themselves. Alternatively having explored and interpreted the data yourself, you can choose just to present the stories you have found in a more subjective - or editorial - manner to your audience, with or without supporting visualisations.
 
-
-////
 more on this from Sarah Cohen at the end of Feb.; more specifically Mainly on the use of it inside the newsroom to hone the story -- expanding on that handout you found. The real weakness there is that there are not good, free tools to use when you're not willing to make your data public.
 ////
 
-=== 4.3.2 Tools, tutorials and good examples of using visualisations to find stories - Gregor Aisch===
+=== Using Data Visualisation to Find Stories (Gregor Aisch, Open Knowledge Foundation) ===
 
 When do you need to visualise a dataset to explore it and find a story? When don't you need to?
 How do you go about discovering a story? What tools do you use? What "protocol" do you follow? What clues do you follow, what do you pay attention to? (lessons, tips, advice).
@@ -347,7 +347,7 @@ The author of this chapter has been influenced by the book Visualizing Data by W
 
 
 
-=== When to use and when not to use visualisations to tell a story by Aron Pilhofer (New York Times) ===
+=== When to Use and When Not to Use Visualisations to Tell a Story (Aron Pilhofer, New York Times) ===
 
 ////
 
@@ -520,7 +520,7 @@ More information below deepening information
 
 
 
-=== Guardian Riot map (Farida) ===
+=== Guardian Riot Map (Farida Vis, University of Leicester) ===
 
 During the summer of 2011 the UK was hit by a wave of riots (full government report here todo: find link). Politicians suggested that these actions were categorically not linked to poverty and those that did the looting were simply criminals. The Guardian newspaper played a crucial role in using data driven journalism and a range of data visualizations in telling this story, allowing for better understanding who was doing the looting and why. By using simple maps (Google Fusion Tables) they showed the location of http://www.guardian.co.uk/news/datablog/interactive/2011/aug/09/uk-riots-incident-map[confirmed riots spots] and through mashing up deprivation data with where the riots took place started debunking the main political narrative that there was no link to http://www.guardian.co.uk/news/datablog/2011/aug/16/riots-poverty-map-suspects[poverty]. Both these examples use off the shelf visualization tools and in the second example combine location data with another data set, to start making other links. A final example worth mentioning here is the visualization the paper built around the use of social media. Again politicians had started to suggest that social media use might have to be curtailed during such troubles in future, but offering little concrete evidence that social media, Twitter in this case, played a role in encouraging people to riot. A visualization of riot related http://www.guardian.co.uk/uk/2011/aug/24/twitter-study-post-riot-plans#_[hashtags] used during this period, highlighted that Twitter was mainly used to respond to the riots rather than to organize people to go looting, with #riotcleanup showing the most significant spike during the riot period.
 
@@ -819,7 +819,7 @@ Authors: Aron Pilhofer, Matt Stiles
 Length: 2-3 pages (including examples)
 
 
-=== Data-driven apps case studies - Internews in Kenya by Mark Irungu (Internews Network) ===
+=== Data-driven apps case studies - Internews in Kenya (Mark Irungu, Internews Network) ===
 
 ////
 
@@ -992,7 +992,7 @@ After making the public expenditure data  available in an easy-to-read format as
 
 
 
-=== Citizen engagement with data journalism by César Viana (Estacio de Sa University) ===
+=== Citizen Engagement with Data Journalism (César Viana, Estacio de Sa University) ===
 
 ////
 

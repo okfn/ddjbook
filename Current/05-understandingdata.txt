@@ -7,7 +7,7 @@ Other ideas for this section:
   * Combining Datasets (cf: http://www.opendatacookbook.net/wiki/recipe/a_dataset_mixture_with_yahoo_pipes)
   * Text Mining
 
-=== Become data literate in 3 simple steps by Nicolas Kayser-Bril (J++) ===
+=== Become Data Literate in 3 Simple Steps (Nicolas Kayser-Bril, J++) ===
 
 Just as literacy refers to "the ability to read for knowledge, write coherently and think critically about printed material" data-literacy is the ability to consume for knowledge, produce coherently and think critically about data. Data literacy includes statistical literacy but also understanding how to work with large data sets, how they were produced, how to connect various data sets and how to interpret them. This chapter will focus on the former. The latter is covered in chapter 3.2 Working with data.
 
@@ -104,7 +104,7 @@ http://www.amazon.com/Tiger-That-Isnt-Andrew-Dilnot/dp/1846681111/ref=sr_1_1?ie=
 http://www.amazon.com/Numbers-Rule-Your-World-Probabilities/dp/0071626530/ref=sr_1_1?ie=UTF8&qid=1314092432&sr=8-1[Numbers Rule Your World], by Kaiser Fung. The easier-to-read version of Gigerenzer's book. Through 6 in-depth examples, it introduces you to similar concepts but remains shallow.
 http://www.amazon.com/Proofiness-Dark-Arts-Mathematical-Deception/dp/0670022160/ref=sr_1_1?ie=UTF8&qid=1314092460&sr=8-1[Proofiness], by Charles Seife. Explains in an enjoyable way how numbers can be fabricated ‚Äì and how you can deconstruct them.
 
-=== Tips for working with numbers in the news from Michael Blastland (BBC) ===
+=== Tips for Working with Numbers in the News (Michael Blastland, BBC) ===
 
 ////
 
@@ -128,7 +128,7 @@ To add:
 http://blogs.channel4.com/factcheck/welcome-to-the-new-factcheck-blog/18
 
 
-=== Basic steps in working with data by Steve Doig (Walter Cronkite School of Journalism) ===
+=== Basic Steps in Working with Data (Steve Doig, Walter Cronkite School of Journalism) ===
 
 Working with data implies identifying, collecting, cleaning, analyzing, using and sharing the data you are using for your story. When working with data, you will find this iterative and potentially messy. Sometimes you will know exactly what you are looking for, and sometimes you will go fishing. Occasionally a story will emerge from the data. Often, you will be able to complement a story with more hard evidence or helpful information so readers can understand better.
 
@@ -222,7 +222,7 @@ To test whether your data is dodgy, all you have to do it take the leading digit
 
 - Link to 3.3 tools for analysing data (more specific on the types of things you can do to mend data with
 
-=== The £32 loaf of bread by Claire Miller (WalesOnline) ===
+=== The £32 Loaf of Bread (Claire Miller, WalesOnline) ===
 
 ////
 
@@ -246,7 +246,7 @@ Generally newspapers want things that make good headlines, so unless something o
 
 But the responsibility is to check the ridiculous claims even if it drops the story down the newslist.
 
-=== Fresh out of the packet. Data journalists discuss their tools of choice. ===
+=== Data Journalists Discuss Their Tools of Choice (Various Contributors) ===
 
 ////
 
@@ -382,7 +382,7 @@ add propublica tutorials to this chapter
 Add: Edward Borasky DDJ Develper Studio - open sources - ask Liliana
 
 
-=== Start with the data, finish with a story by Caelainn Barr (EU Data Journalist) ===
+=== Start With the Data, Finish With a Story (Caelainn Barr, EU Data Journalist) ===
 
 
 Approach 1: Think Headline
