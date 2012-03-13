@@ -1,4 +1,4 @@
-== 4. Acquiring Data ==
+== 4. Getting Data ==
 
 === Where to look? ===
 
@@ -84,9 +84,7 @@ Look out for dynamic infographics on government sites. These are often powered b
 
 If you believe that a government body has the data you need, a freedom of information request may be your best tool. See chapter 4.1.2 Asking for data, for more information.
 
-2.1.2 Data catalogues and social data
-
-by Friedrich Lindenberg
+=== Data Catalogues and Social Data (Friedrich Lindenberg, The Open Knowledge Foundation) ===
 
 Over the last couple of years, a number of data portals have sprung up all over the web, that aim to help you get access to all kinds of information:
 
