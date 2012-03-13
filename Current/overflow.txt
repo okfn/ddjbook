@@ -1,7 +1,10 @@
-////
-
-From section 2 - in the newsroom
-
+##############################################################
+##############################################################
+##############################################################
+FROM SECTION 2
+##############################################################
+##############################################################
+##############################################################
 ////
 
 ////
@@ -69,8 +72,13 @@ Another point is, that news labels want to be respected as a trusted source. Usi
 
 ---------
 
-
+##############################################################
+##############################################################
+##############################################################
 FROM SECTION 3:
+##############################################################
+##############################################################
+##############################################################
 
 ////
 
@@ -87,3 +95,49 @@ case study 1
 
 You've poured hours into tidying up and working with your data and got your story. What do you do with the data now? In this chapter, we take a look at cases where journalists have decided to open up their datasets and publish them along with their stories: What role did the datasets play in the original story? What was the motivation for opening them up? What did others choose to do with the data?
 ////
+
+
+##############################################################
+##############################################################
+##############################################################
+FROM SECTION 4:
+##############################################################
+##############################################################
+##############################################################
+
+////
+
+Insert: picture from data catalogue
+Refernce: data book on O'Reilly
+
+////
+
+  *    Overview: An overview of open data sources, what they contain, how to find them, how to search them, examples of open data being used by journalists
+‚Äö√≥√£   Is data copyrightable? "In the United States, data will be protected by copyright only if they express creativity. Some databases will satisfy this condition, such as a database containing poetry or a wiki containing prose. Many databases, however, contain factual information that may have taken a great deal of effort to gather, such as the results of a series of complicated and creative experiments." http://sciencecommons.org/old/databases/
+‚Äö√≥√£ 	What is Open Data?
+                     ‚Äö√±‚Ä†http://en.wikipedia.org/wiki/Open_data, http://opendefinition.org/
+                     ‚Äö√±‚Ä†Data published using Creative Commons tools and licenses: http://wiki.creativecommons.org/Data
+                     ‚Äö√±‚Ä†Other open licenses for data: http://opendefinition.org/licenses/
+                     ‚Äö√±‚Ä†National and local governments have begun publishing data on portals like http://www.data.gov/ and http://data.cityofchicago.org/
+                     ‚Äö√±‚Ä†Commercial re-use clauses
+  *    Authors: Jonathan Gray (Open Knowledge Foundation), Brian Boyer (Chicago Tribune), Jane Park (Creative Commons), John Keefe (WNYC), Chrys Wu (Hacks/Hackers),
+  *    Editor: Lucy Chambers, Friedrich Lindenberg
+  *  	Length: 1-3 pages (with links and examples)
+
+Introduction
+
+by Lucy Chambers
+In this chapter, we aim to show you how to get your hands on the best data available to further your investigation. Sometimes you don't have to look far, the data may already be out there: it is a matter of knowing where to look. Other times, you may need to find the right people to ask. In particular, this chapter deals with:
+  *  	Tips and tricks for where to look for data: before launching into FOI requests or embarking down a technical route such as scraping.
+  *  	Search tips: How to make Google give you want you want, in the format you want it.
+  *    Communities for data: useful forums and mailing lists to ask experts directly
+  *  	Data houses: data catalogues, government portals, accessing research data and social data sites
+Finally, we'll have a quick look at the legal implications of re-using data from web databases - while you may decide to break copyright to get your story out, it is still useful to know the boundaries in current law.
+
+
+
+Topic Specific Lists:
+  *    Transparency: http://groups.google.com/group/sunlightlabs?pli=1[Sunlight Labs Mailing List] - The Sunlight Foundation focuses their activities into promoting and facilitating government transparency.
+  *    Mapping: http://www.nacis.org/index.cfm?x=1[North American Cartographic Information Society]
+  *    Mapping: Society of Cartographers http://soc.org.uk/cartosoc.htm[CARTO-SoC]
+  *    Mapping: MAPS-L: LISTSERV@LISTSERV.UGA.EDU - MAPS-L is an international discussion forum for anyone dealing with cartographic information, cartographers, remote sensors, geographers, and cartomaniacs of all types.
