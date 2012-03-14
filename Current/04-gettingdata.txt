@@ -298,313 +298,87 @@ The other new concept, element selection, is making use of a special language to
 
 As can be seen on the next line (Line. 7), where we're applying another selector to find any +<a>+ (which is a hyperlink) within a +<h4>+ (a title). Here we only want to look at a single element (there's just one title per row), so we have to +pop+ it off the top of the list returned by our selector with the +.pop()+ function.
 
-Note that some elements in the DOM contain actual text, i.e. text that is not part of any markup language, which we can access using the +[element].text+ syntax seen on line 8. Finally, in line 9, we're printing that text to the ScraperWiki console. If you hit run in your scraper, the smaller window should now start listing the event's names from the IAEA web site. If everything works then congratulations: you have successfully scraped structured data from an unstructured web page!
+Note that some elements in the DOM contain actual text, i.e. text that is not part of any markup language, which we can access using the +[element].text+ syntax seen on line 8. Finally, in line 9, we're printing that text to the ScraperWiki console. If you hit run in your scraper, the smaller window should now start listing the event's names from the IAEA web site.
 
 image::Figures/04-DD.png[width=600]
 
-=== Crowdsourcing Data (Various Contributors) ===
+You can now see a basic scraper operating: it downloads the web page, transforms it into the DOM form and then allows you to pick and extract certain content. Given this skeleton, you can try and solve some of the remaining problems using the ScraperWiki and Python documentation:
 
-////
+  * Can you find the address for the link in each event's title?
+  * Can you select the small box that contains the date and place by using its CSS class name and extract the element's text?
+  * ScraperWiki offers a small database to each scraper so you can store the results - copy the relevant example from their docs and adapt it so it will save the event titles, links and dates.
+  * The event list has many pages - can you scrape multiple pages to get historic events as well?
 
-Insert: picture relevant to this section
+As you're trying to solve these challenges, have a look around ScraperWiki: there are many useful examples in the existing scrapers - and quite often, the data is pretty exciting, too. This way, you don't need to start off your scraper from scratch: just choose one that is similar, fork it and adapt to your problem.
 
-////
+=== Crowdsourcing Data at the Guardian Datablog (Marianne Bouchart, Data Journalism Blog) ===
 
-This sub-chapter will show what is data crowdsourcing an dhow it can be used both as a collection tool and a helping hand to sort out existing datasets. We will be examining the examples of  two organisations, Buzz Data and the Guardian, and how they use data crowdsourcing in their work and make it easier for the audience and other journalists to get involved and have a go at it.
-definition of crowdsourcing data for journalism
+Crowdsourcing, http://en.wikipedia.org/wiki/Crowdsourcing[according to Wikipedia], is "a distributed problem-solving and production process that involves outsourcing tasks to a network of people, also known as the crowd". For this chapter Marianne Bouchart (Data Journalism Blog) interviewed Simon Rogers and James Ball from the Guardian Datablog about how they use crowdsourcing tools and methods to generate or add value to datasets.
 
-- Crowdsourcing is the act of sourcing tasks traditionally performed by specific individuals to a group of people or community (crowd) through an open call.
+*How the Datablog used crowdsourcing to cover the MPs expenses scandal, drug use, and the Sarah Palin papers - Simon Rogers*
 
-Jeff Howe from Wired Magazine established that the concept of crowdsourcing depends essentially on the fact that because it is an open call to a group of people, it gathers those who are most fit to perform tasks, solve complex problems and contribute with the most relevant and fresh ideas.
+____
+Sometimes you will get a ton of files, statistics, or reports which it is impossible for one person to go through. Also you may get hold of material that is inaccessible or in a bad format and you aren't able to do much with it. This is where crowdsourcing can help.
 
-It has been used by journalists to turn readers into contributors for a few years now, some more successfully than others.
+One thing the Guardian has got is lots of readers, lots of pairs of eyes. If there is an interesting project where we need input, then we can ask them to help us. That is what we did with the http://mps-expenses.guardian.co.uk/[MPs Expenses]. We had 450,000 documents and very little time to do anything. So what better way than open up the task to our readership?
 
-'When you have tones of files, statistics, reports to go through, like with the MPs expenses or the wikileaks cables, crowdsourcing is a really good way to get things done,' argues Simon Rogers, editor of the Guardian's Data Blog in an interview conducted for this handbook.
+The MPs Expenses project generated lots of tip-offs. We got more stories than data. The project was remarkably successful in terms of traffic. People really liked it.
 
-Data crowdsourcing can be helpful both for collecting data and sorting out big datasets you already have but that are too big for you to sort out alone. It's also a very good way to get different perspectives on a subject you work on as the audience will often point out details that you didn't notice on your own. 
-Although this trend to ask the audience to become contributors in the analysis of big data has been a real success in projects such as the MPs expenses in the UK or the Wikileaks cables worldwide, the actual 'collection' of data via crowdsourcing stays a problem as journalists and editors still don't know how to make sure the data people contribute is reliable.
-To crowdsource data, journalists can use surveys, polls, or comment fields. They can also ask their audience to contribute to a Google Doc or a spreadsheet. 
+We are currently doing something with MixMag on drug use, which has been phenomenal as well. It looks like it is going to be bigger than the British crime survey in terms of how many people come back to it, which is brilliant. 
 
-Online resources like the Open Data Cook Book gives you help on how to collect data using Google forms.
+What both of these projects have in common is that they are about issues that people really care about, so they are willing to spend time on them. A lot of the crowdsourcing we have done relies on help from obsessives. With the MPs expenses we had a massive amount of traffic at the beginning and it really died down. But what we still have people that are obsessively going through every page looking for anomalies and stories. One person has done 30,000 pages. They know a lot of stuff.
 
-'Google forms (part of the Google Docs online office suite) allow you to collect and share data, the wesbite says.
+We also used crowdsourcing with the Sarah Palin papers. Again this was a great help in scouring the raw information for stories. 
 
-'This recipe isn't about using an existing source of data, but instead allows you to create your own data. You might want to run a survey, or log events that occur. With Google forms you can easily share the data you collect as a spreadsheet.'
+In terms of generating stories crowdsourcing has worked really well for us. People really liked it and it made the Guardian `look good'. But in terms of generating data, we haven't used crowdsourcing so much.
 
-Go to the Open Data cook book website to follow their tutorial.
+Some of the crowdsourcing projects that we've done that have worked really well have been more like old fashioned surveys. When you are asking people about their experience, about their lives, about what they've done, they work very well because people aren't as likely to make that up. They will say what they feel. When we asked people to kind of do our job for us, you have to find a framework for people to produce the data in a way you can trust them.
 
-Other platforms such as Help Me Investigate, Crowdsourcing.com or GetTheData.org offer good guidance on how to get the crowd involved in your data gathering. 
+Regarding the reliability of data, I think the approach that http://www.oldweather.org/[Old Weather] have got is really good. They get ten people to do each entry, which is a good way to ensure accuracy. With the MPs expenses, we tried to minimise the risk of MPs going online and editing their own records to make themselves look better. But you can't permanently guard against this. You can only really look out for certain URLs or if it's coming from the SW1 area of London. So that's a bit trickier. The data we were getting out was not always reliable. Even though stories were great, it wasn't producing raw numbers that we could confidently use.
 
-(intro to buzz data)
+If I were to give advice to aspiring data journalists who want to use crowdsourcing to collecting data, I would encourage them do this on something that people really care about, and will continue to care about when it stops making front page headlines. Also if you make something more like a game this can really help to engage people. When we did the expenses story a second time it was much more like a game with individual tasks for people to do. It really helped to give people specific tasks. That made a big difference because I think if you just present people with the mountain of information to go through and say `go through this' it can make for hard and rather unrewarding work. So I think making it fun is really important.
+____
 
-Video interview with Nick Edouard from Buzz Data: Data crowdsourcing meets social media http://vimeo.com/36859634 
+*How the Datablog used crowdsourcing to cover Olympic ticketing - James Ball*
 
-Nick: 'I am the executive vice president of business development and marketing at Buzz Data. I got into data through Buzz Data CTO Pete Forde who I've known for a while and who I think is a visionary in this space. Pete introduced me to open data and data in general. I have worked with a lot of data in previous jobs but it was a privilege to come on board at Buzz Data. 
+____
 
-Q: What's Buzz Data and how was it created?
+I think the crowdsourcing project that got the biggest response was the one that we did on Olympic ticketing. Thousands of people in the UK tried to get tickets for the 2012 Olympics and there was a lot of fury that people hadn't got them. People had ordered hundreds of pounds worth and were told that they'd get nothing. But no one really knew if it was just some people complaining quite loudly while actually most people were happy. So we tried to work out a way to find out.
 
-'Buzz Data makes data sharing and collaboration on both private and public datasets very easy. It's important that we are not just about open data. We love open data, but we are really focused on how people interact with data of all type whether they are public or private. So what we've done is create essentially a platform that makes it very easy to add context, visualisations, articles, links around a dataset to create a story rather than just a dateset per say. An other major feature is the degree of user engagement that you can get. Not only have we incorporated some of the best features of social networks into Buzz Data, but at the same time, we've made it very easy for you to find collaborators to work with on a dataset. Whether as I said, it's in a public fashion or indeed privately, just between you and me for example.'
-
-Q: So do you consider yourself as the social medium of data?
-
-'I guess there are a lot of ways in which Buzz Data can be described: it's a social network for data, it's a gate hump for data, etc. I think what we are doing is unique. I can't see anything in the market that is the same thing. We really think about what data needs to be to become meaningful, to become useful, to add insight. And that is really two things: the context and the engagement.'
-
-Q: How do you deal with truthfulness and trust on Buzz Data? How can people make sure the data they crowdsource is reliable?
-
-'From a truthfulness prospective, obviously, we are looking to the community tu curate itself, I guess in that degree, our model is somewhat similar to Wikipedia: we are expecting people to engage, to point out errors and inacuracies in the datasets. I very much believe that we gonna find that communities of interest around topics are very engaged and as a result will self police.'
-
-Q: So you don't have a webmaster whose role is to verify the data that is on the site?
-
-'We gonna be doing that in the future, we gonna verify that the people that are publishing say who they are. At the moment we have The Economist Intelligence Unit, the Globe and Mail, a Canadian national newspaper, who are publishing data. We know who they are, but that is certainly something that we are working on and we will be able to verify who the data publisher is so that as a data user, you gonna have confidence in the veracity of the data. The other thing as well is that there's a virtual control on Buzz Data so if somebody post an original dataset, you can download their data, play around with it and if there's something you don't like or might not agree with some of the data points in it, you can push that back, upload that and point out innacuracies in the original datasets. I think this is a place for data to live, it is not overwritten it will very much evolve.' 
-
-Q: Are people able to share their activity on Buzz Data with other sociel networks like Twitter or Facebook?
-
-'Yes, without a doubt. We have already done the overall integration so at the moment you can see who is already on Buzz Data from existing from existing social networks (Linked'in, Twitter and Facebook). But we are working on it so you can see more easily your activity on Buzz Data through your other social networks. Hand in hand with that we are working on some features for data publishers so that they can widgetize a lot of the Buzz Data functionalities. They are going to be able to display what is happening on Buzz Data with their datasets within their own landing pages and normal websites, etc.'
-
-Q: How useful can Buzz Data be to data journalists?
-
-'I think it can be enormously useful for data journalists. We have our own in-house data journalist Momoko Price who is our communication director. There is a number of ways [our site acn be useful to data journalists], 
-Buzz Data can be used privately to collaborate on datasets. Let's say a group of two or three investigative journalists could use Buzz Data to essentially work out the story to get it to the point where they are ready to publish. 
-Once you are ready to publish then obviously the story can go to print, you can link potentially to the underlining dataset it is based on, you can publish that on Buzz Data openly and then see what the community does to it. I think it's going to be really interesting to see how people take that story forward. We've already seen this first-hand on Buzz Data in a couple of occasions where the community has become engaged with a dataset, they've taken it in a different direction to the guy that originally written the story an published it and as a result there is a follow up story and not only that but the community is far more engaged with the story than it would have been otherwise.'
-
-
-Q: What do you think about data journalism in general and the way it is evolving today?
-
-'I think it is massively important. I think it is very important for the future of open data and open data full stop actually. As someone described, data journalists are essentially data engineers. You guys are going to be taking data as a raw ingredient and turn it into something that's useful. And I think thats the oil in the machine essentialy. One thing that the open data mouvement need to address full stop is when data is published, something has to happen with it otherwise people will be less inclined to publish it. Great things do happen when data is shared and published so I think data journalists' job is gonna be key to that.'
-
-Q: The Open Data movement campaigns for more openess from governments and big organisations to publish more data online. How do you see this evolve in the future?
-
-'I hope we'll stop talking about it as needing to evolve, I think it's gonna become part of the course sooner rather than later. I am really encouraged by the activity of some governments, the UK for example is very good in this regard. Is there any room to be better? Without a shutter of a doubt. I think part of that too is adding the context around the dataset. So thinking about how things become published, the more information you can wrap around it is obviously the better, the more useful it becomes. I don't think it's just about open data too. I think open data tends to be too much focused on kind of governments', etc. I think a lot of organisations, a lot of private companies are starting to realise the value in sharing data. Obvisouly there are types of data that will never be made public, I don't want my credit card information to ever be public, and at Buzz Data we fully understand that there is information that will always be confidential to companies. I think the open data movement will continue and I think thrive. I am excited about that but I think there's also gonna be more and more private organisations that will be looking in-house and thinking ‚Äòwhat should we be sharing with our consumers? And how do we benefit from that?'
-
-Q: So what's next for Buzz Data?
-
-' The way I see it is that Buzz Data is good and it's only gonna get better from hereon in. We have some very exciting things on the road map, we are working on things like smarter recommendation algorythms, and better around discoverabilitty, producing widgets for data publishers, how do you embed functionality on your website. 
-
-We are working on improving the collaboration side of it, it is far better that anything I can see out there at the moment but I think we can still make it better. A lot that I have been doing in the past couple of weeks is actually talking to epole that have been using the service, getting their feedback and then we'll build that in the product road map. So we are listening to the people who are using the service at the moment, we gonna make it better based on their feedback. It's already jolly good but I think we can make it better.'
-
-Q: Three golden rules to data?
-
-'Three golden rules to data? 
-I think firstly data needs context. So if you are thinking about sharing or publishing data, think about what else you can provide like ‚Äòthis heading in this spreadsheet is actually composed of the following three or four factors'. Because that's gonna enable your user community, fondamentally people who want to play with your data to actually know where they should take it. You gonna be able to give them more of a steer. So context is important..
-Secondly is to think about engagement. How best to stimulate it within your community so rather than just publishing and like the Duke of Wellington 'being damned', do not just sit back. Imagine stuff that's gonna happen, I think you do need to think ‚Äòwho do we need to tell that we've done this?' That's one marking that needs to be put in place and then stimulate that activity. 
-I guess the third would be ‚ÄòPublish! Publish! Publish!' The more the merrier, I think great things happen when data is shared. You just have to see the NASA dark matter competition last year, the Netflix recommendation algorythm, a contest from a while back... It's not just advances in science, there are also great things commercially that happened and I hope Buzz Data is going to be a big part of those stories over the next couple of years. 
-
-Something great is going to happen on Buzz Data sooner rather than later and I am excited for that.' 
-How to collect data from content already published in social media 
-
-using Twitter hashtags (examples: emergency hashtags used in the event of an earthquake or huricane in the US)
-using Tools such as:
-
-People Browser
-Social mention (media monitoring tools)
-Disqus
-
-Keyword search, what is discussed about specific topics on the web? 
-Look for the right keywords. Certain topics have different words in different countries (football, soccer, etc.). 
-Make your search as specified or as wide as possible, as adapted as possible to your search. 
-consider language, country, target groups 
-gather information from different platforms to get a common opinion
-cross check to make sure the information is reliable and consistent 
-
-Data Crowdsourcing at the Guardian - Getting the readers involved
-
-
-While there is already a huge amount of data available online, some media organisations are going one step further by getting their readers involved in the process of collecting and analysing data. 
-
-'Crowdsourcing' has become a common practice in the world of data journalism and the Guardian is now considered as a reference in the field. 
-
-The Guardian's Data Blog won the 2011 Newspaper Awards prize for Best use of New Media and the Guardian's DataStore was honoured at the Knight Batten awards for innovation in journalism in 2011.
-
-We went to the Guardian's offices in London to talk to their data journalism team about data crowdsourcing and the different projects they have recently set up.
-
-Simon Rogers is the editor of the Data Blog. He told us how crowdsourcing can help when other ways of collecting and analysing data are not enough... 
-
-SIMON ROGERS, Editor of the Data Blog:
-
-' I suppose the thing about crowdsourcing is that when you have tones of stuff to go through, like with the MPs expenses where there were 40,000 pages to go through, that's impossible for one person to do. Also, when you have got all this stuff that is inaccessible or in a bad format, that's really where crowdsourcing can help. 
-
-One thing the Guardian has got is lots of readers, lots of pairs of eyes, and if there is something interesting to do then it can really work. That's what we did with the MPs expenses. We had 450,000 documents and very little time to do anything. So what better way than open up to readership? 
-
-But what we found with the MPs expenses is that what we generated was tip-offs, stories more than data. So although it was remarquably successful in terms of traffic, people really liked it, it wasn't in terms of actual raw data. It was hard to know who we could trust.
-
-We are doing something at the moment with MixMag on drug use and that has been phenomenal as well, it looks like it is going to be bigger than the British crime survey in terms of how many people come back to it. It's brilliant. 
-
-I think what those things have in common is that they are things people care about so they are willing to spend the time. A lot of the crowdsource we have done mostly relies on the obsessives. So with the MPs expenses we had a massive amount of traffic at the beginning and it really died down. But what we still got are people that are obsessively going through every page looking for that story. One person has done 30,000 pages. They know a lot of stuff.
-
-So in terms of generating stories it worked really well and people really liked it, it made the Guardian ‚Äòlook good', but I think in terms of generating raw data, not so much. 
-
-Then we did it with the Sarah Palin papers, that was again a good way of looking for stories, scouring the raw information for stories. 
-
-But it also seems to me that some of the [crowdsourcing projects] that we've done that worked really well have been more like ‚Äòall fashioned' surveys. When you are asking people about their experience, about their lives, about what they've done, they work very well because people aren't as likely to make that up. They will say what they feel. When we asked people to kind of do our job for us, you have to find a framework for people to produce the data in a way you can trust them.'
-
-Q: You were talking about reliability, how do you deal with that on a daily basis? How do you trust people to contribute? 
-
- 'I think the approach that Old Weather have got, where they get ten people to do each one, is a really good test on that. It is an old fashioned computer science technique to get a warm up as a train starter. I think that's a very good way to do it. 
-
-With the MPs expenses, we tried to minimise the risk of MPs going online and editing their own records to make themselves look better. But you can't permanently guard that site, you can only look out for certain urls or if it's coming from the SW1 area of London. So that's a bit trickier. That's where I felt out of it because I felt like the data we were getting out was not reliable. Even though stories were great, it wasn't producing raw numbers that we could confidently use.'
-
-Q: Could you give a piece of advice to journalists who want to use crowdsourcing to collect data online?
-
-'I would say:
-making it something personal to people really helps,
-otherwise make it about what the people care about, or are gonna care about after, even when the news dies down, where they will still want to get involved.
-also, what is really worth it is when you make it more like a game. Second time around when we did the expenses story, it was much more like a game, with individual tasks for people to do. It really help to give people specific tasks and things to do. That made a big difference because I think if you just present people with the mountain of information to go through, it's a hard work, that's what we get paid for. So I think making it fun is really important.'
-
-
-In October 2011 The Data Blog set up a crowdsourced map of the Occupy movement. 
-
-Asking people to map where protests were taking place around the world, the Guardian data team managed to get hundreds of contributors and over 6000 Facebook shares by simply using a Google form. 
-
-The result is a very straight forward map of the Occupy movement worldwide which is still being updated today.
-
-The Guardian's data journalism team has done many of these projects in the past few years, each of them proved to be very successful. So we asked them for tips on how to use crowdsourcing in data journalism and we asked Data journalist James Ball to tell us about the Guardian's most successful crowdsourcing projects...
-
-JAMES BALL, data journalist at the Guardian
-
-'I think the one that got the biggest response was something that we did on olympic ticketing. Thousands of people in the UK tried to get tickets for this year's Olympics and there was a lot of fury that people hadn't got them. People had ordered hundreds of pounds worth and been told they'll get nothing. But no one really knew if it was just some people complaining quite loudly while actually most people were happy. 
-
-So we tried to work out a way to find out. We decided the best thing we could really do, in the lack of any good data, was to ask people. And we thought we'd have to treat it as a light thing because it wasn't a balanced sample. 
+We decided the best thing we could really do, with the absence of any good data on the topic, was to ask people. And we thought we'd have to treat it as a light thing because it wasn't a balanced sample. 
 
 We created a Google form and asked very specific questions. It was actually a long form, it asked how much in value people had ordered their tickets, how much their card had been debited for, which events they went for, this kind of thing. 
 
-We put it up as a small picture on the front of the site but it was shared around really rapidly. I think this is one of the key things, you can't just think ‚Äòwhat do I want to know' for my story', you have to think ‚Äòwhat are people wanting to tell me right now'. And it's only when you tap into what are people wanting to talk about that crowdsourcing is going to be successful. 
+We put it up as a small picture on the front of the site but it was shared around really rapidly. I think this is one of the key things, you can't just think `what do I want to know for my story', you have to think `what do people want to tell me right now'. And it's only when you tap into what people want to talk about that crowdsourcing is going to be successful.
 
-But the volume of responses on this, which is one of the earliest times we have ever tried to do this approach, was huge. We had a thousand responses in less than an hour and seven thousands by the end of that day. 
+The volume of responses for this project, which is one of our first attempts at crowdsourcing, was huge. We had a thousand responses in less than an hour and seven thousands by the end of that day. 
 
-So obviously we took presenting the results a bit more seriously at this point, we had no idea how well it would do. So we put on some cavy hats you know, Guardian readers may be more wealthy than other people, also people who got less than they expected might be more willing to talk to us. 
+So obviously we took presenting the results a bit more seriously at this point. Initially we had no idea how well it would do. So we added some caveats: Guardian readers may be more wealthy than other people, people who got less than they expected might be more willing to talk to us, and so on.
 
-So we didn't know how much value the results would have. So we did that and cut it down and we had a good seven thousand records to base it on and we found about half the people who'd asked for tickets had got nothing, how many people had ordered and got. We ran all of this stuff, and obviously because so many people had taken part the day before, there was a lot of interest in the results. 
+We didn't know how much value the results would have. We ended up having a good seven thousand records to base our piece on, and we found about half the people who'd asked for tickets had got nothing. We ran all of this stuff and because so many people had taken part the day before, there was a lot of interest in the results. 
 
-A few weeks later, the official summary report came out, and our numbers were shockingly close, they were almost exactly spot on. I think partly through luck but also because we got just so many people.
+A few weeks later, the official summary report came out, and our numbers were shockingly close. They were almost exactly spot on. I think partly through luck but also because we got just so many people.
 
-Generally though, I tend to find that crowdsourcing is more useful for the content around the data story or for getting people to follow one up. So if we publish a story based on data that we do internally and I do quite a lot of work on lobying, I publish the full register or the whole thing that I based it on because sometimes you will get someone who doesn't like a particular MP or Lord who will say ‚ÄòOh, that research doesn't declare anything but I know that they work for here'. Now you love to get that as an email rather than on your open tools that you usually use but that's fine. You know, it's all about learning how to follow up. So while it is less frequent that it helps you compile data, it often lets you do more with the data than you could yourself. You can only know so many people.
+Generally though, I tend to find that crowdsourcing is more useful for the content around the data story or for getting people to follow one up. I do quite a lot of work on lobbying and I try and publish the data that we work with internally because sometimes you will get someone who will turn up and say: `Ah, that research doesn't declare anything but I know that they work for here'. It's all about learning how to follow up these kinds of comments. In our experience crowdsourcing is generally less help in compiling data, and more valuable in helping to provide context around it. There is only so much that you can do with the data yourself, and you can only know so many people.
 
-Q: Can you talk me through the process of going through all the data you collected, you had about 7000 responses, how did you deal with this huge amount of data?
+With the Olympics project we preempted that we wanted to do analysis on it, which was a big help. If you start something like this as a comments thread, you will be limited in what you can do with the results. So you have to start by thinking: `What is the best tool for what I want to know?' Is it a comment thread? Or is it building an app? And if it is building an app, you have to think `Is this worth the wait? And is it worth the resources that are required to do it?' 
 
-'We'd preempted that we wanted to do analysis on it, which helped. If you start something in a comment thread, it is often too late to turn it into a usable way. So you have to set out at the start and think ‚Äòwhat's the best tool for what I want to know?' Is it a comment thread, is it building an app, and if it is building an app, you have to think ‚ÄòIs this worth the wait? And is it worth the resource to do it?' 
+In this case we thought of Google Forms. If someone fills in the form you can see the result as a row on a spreadsheet. This meant that even if it was still updating, even if results were still coming in, I could open up the spreadsheet and see all of the results straight away. 
 
-In this case we thought of Google forms and if someone fills that out it turns into a row on a spreadsheet. So it meant that straight away, even if it was still updating, I could open the spreadsheet and see all of the results. 
+I could have tried to do the work in Google but I downloaded it into Microsoft Excel and then did things like sort it from low to high and found the people who decided to write in instead of putting digits on how much they spent and fixed all of those. I decided not to exclude as little as I could. So rather than taking only valid responses, I tried to fix other ones. People had used foreign currencies so I converted them to sterling, all of which was a bit painstaking.
 
-I could have tried to do the work in Google but I downloaded it into Microsoft Excel and then did things like sort it from low to high and found the people who decided to write in instead of putting digits on how much they spent and fixed all of those. I decided not to exclude as little as I could. So rather than taking only valid responses, I tried to fix other ones. People had used foreign currencies so I converted them to sterling, all of which was a bit painstaking. 
+But the whole analysis was done in a few hours, and I knocked out the obviously silly entries. A lot of people decided to fill it out pointing out they spent nothing on tickets. That's a bit facetious but fine. That was less than a hundred out of over seven thousands entries.
 
-But the whole analysis was done in a few hours, then I knocked out the obviously silly entries. A lot of people decided to fill it out pointing out they spent nothing on tickets, that's a bit facetious but fine, I mean, that was less than a hundred out of seven thousands several hundreds. 
+Then there were a few dozen who put in obviously fake high amounts to try to distort the results. Things like ten million pounds. So that left me with a set that I could use with the normal data principles we use every day. I did what's called a `pivot table'. I did some averaging. That kind of thing. 
 
-And then a few dozens who put obviously fake high amounts to try and destort it. I am talking things like ten million pounds in there, I wasn't jumping to assumptions. So that left me with a set that I could use with the normal data principles we use every day. I did what's called a ‚Äòpivot table', I did some averaging, that kind of thing. 
+So because we planned it ahead, it meant it was quite simple. If we had to stumble into it through a comment thread, it would have been much harder. This shows the value of thinking about what you might do with the results of crowdsourcing in advance.
 
-So because we planned it ahead, it meant it was quite simple, if we had stumble into it just through a comment thread, it would have been harder. It shows the value of thinking about what you might do with the results of crowdsourcing in advance.'
+From the Datablog it was just me working on this project. We hadn't really any idea it would get the momentum it did so I worked with the Sports blog editor. We put our heads together and thought this might be a fun project. We did it, start to finish, in 24 hours. We had the idea, we put something up at lunch time, we put it on the front of the site, we saw it was proving quite popular, we kept it on the front of the site for the rest of the day and we presented the results online the next morning.
 
-Q: There was a lot of manual work to sort out the data, how many people did you have on this?
+We decided to use Google Docs because it gives complete control over the results. I didn't have to use anyone else's analytic tools. I can put it easily into a database software or into spreadsheets. When you start using specialist polling software, you are often restricted to using their tools. If the information we'd been asking for was particularly sensitive, we might have hesitated before using Google and thought about doing something `in house'. But generally, it is very easy to drop a Google Form into a Guardian page and it's virtually invisible to the user that we are using one. So it is very convenient.
 
-'Just me. We hadn't really any idea it would get the momentum it did so I worked with the Sports blog editor, we put our heads together and thought this might be a fun project. We did it, start to finish, in 24 hours. We had the idea, we put something up at lunch time, we put it on the front of the site, we saw it was proving quite popular, we kept it on the front of the site for the rest of the day and we presented the results online the next morning.'
-
-Q: What made you choose Google Doc for this, compared to other poll or survey tools that are available online?
-
-'It's because it gives complete control over the results. I don't have to use anyone else's analytic tools. I can put it easily into a database software or into spreadsheets which was enough for that job. When you start using specialist polling softwares, you are often going through their tools and their restrictions. I think if the information we'd been asking for was particularly sensitive, we might have hesitated before using Google and thought about doing something ‚Äòin house'. But generally, the ease of dropping a Google Form into a Guardian page and it's virtually visible to the user that we are using one, is so convenient. 
-
-Q: What advice would you give to other journalists who want to give a go to data crowdsourcing, in terms of what questions to ask the audience or how to tackle the subject?
-
-'- You have to have very specific things you want to know, and as much as possible, ask things that get multiple choice responses.
-Try to get some basic demographics of who you are talking to so you can see if your sample might be biased.
-If you are asking for amounts and things like this, try in the guidance to specify that it's in digits, that they have to use a specific currency and things like that. A lot won't, but the more you hold their hand through, the better.
-and always, always put on a comment box because a lot of people will fill out the other things but what they really want is to give you their opinion on the story, specially on a consumer story or an outrage. You might actually be interested in only a few of the controlled fields but as long as they have got a chance to comment and as long as you use and reflects on some of the interesting ones, you get a much greater degree of response.'
-
-trust/ethical issues around data crowdsourcing/ limitation
-
-
-There is still a lot to be done to make crowdsourcing data more reliable.
-As Nick Davies said in a discussion at the Frontline Club: 'There's some kind of flaw in the theory that crowdsourcing is a realistic way of converting data into information and stories, because it doesn't seem to be happening.' Nick Davies: Data, crowdsourcing and the ‚Äòimmeasurable confusion' around Julian Assange
-
-To engage better with their audience and to try and develop a more reliable approach to crowdsourcing, some organisations create a ranking/reward system to establish trust within the community that contributes to their data (The Guardian, Citizen side, etc.)
-
-Most importantly, webmasters are needed to verify and clean the data along the way.
-
-In the data crowdsourcing process, journalists need to give precise guidelines to their 'crowd', asking people to give a source link to verify the information they contribute.
-
- 
-
-END
-
-Relevant sources for other chapters? :
-
-For the getting data chapter:
-Are those new resources mentioned? --> Ocean.data.gov, Geo.data.gov (which joins Energy.data.gov, health.data.goc and data.gov/Law)
-
-I will be interviewing Jeanne Holm, who is:
-- Co-Chair, eGovernment Interest Group at W3C
-- Data.gov, Evangelist at GSA
-- Chief Knowledge Architect at Jet Propulsion Laboratory
-- Chair, Knowledge Management at NASA
-- Instructor at UCLA
-- Member at International Academy of Astronautics
-- Chair, IAF Web and KM for Space at International Astronautical Federation
-(yes, she is all that ;D)
-I can hurry the interview to this week if you think it would be useful to the handbook. Just let me know.
-
-I also interviewed David Stevenson, open data consultant in the US and author of Data Dynamite about open public data if that could be of any interest, let me know... I attached the audio file to this email so you can see whether it would be interesting or not to integrate that in the handbook. It is quite long but I was thinking of maybe using just some parts of it like:
- 7m56sec Some people, some journalists even, think that open data is not for them because they are scared of numbers. What would you tell them?
-11m41sec on data visualisation tools
-14min23sec What do you think about data journalism and data visualizations, how important do you think they will be in the future?
-15min 09sec Stephenson's theory about the 2008 collapse and how data sharing could have prevented it.
-22min 05sec The impact that dat.gov has had in the US
-25min 05sec Is the US leading the way in terms of data liberation?
-39min 32sec The risks of real-time open data
-41min51sec 3 golden rules to access data online
-----
-The UNECE Making Data Meaningful guides
-
-http://www.unece.org/stats/documents/writing.html 
-
-Making Data Meaningful - Part 1: A guide to writing stories about numbers, by the United Nations Economic Commission for Europe http://www.unece.org/fileadmin/DAM/stats/documents/writing/MDM_Part1_English.pdf
-
-Making Data Meaningful - Part2: A guide to presenting statistics by the United Nations Economic Commission for Europe http://www.unece.org/fileadmin/DAM/stats/documents/writing/MDM_Part2_English.pdf 
------
-
-
-
-You can now see a basic scraper operating: it downloads the web page, transforms it into the DOM form and then allows you to pick and extract certain content. Given this skeleton, you can try and solve some of the remaining problems using the ScraperWiki and Python documentation:
-Can you find the address for the link in each event's title?
-Can you select the small box that contains the date and place by using its CSS class name and extract the element's text?
-ScraperWiki offers a small database to each scraper so you can store the results - copy the relevant example from their docs and adapt it so it will save the event titles, links and dates.
-The event list has many pages - can you scrape multiple pages to get historic events as well?
-
-
-
-As you're trying to solve these challenges, have a look around ScraperWiki: there are many useful examples in the existing scrapers - and quite often, the data is pretty exciting, too. This way, you don't need to start off your scraper from scratch: just choose one that is similar, fork it and adapt to your problem.
-Further Reading
-
-Other Tutorials:
-Scraperwiki screencast for non-programmers: http://blog.scraperwiki.com/2011/08/15/scraperwiki-tutorial-screencast-for-non-programmers/
-ProPublica tutorial: http://www.propublica.org/nerds/item/scraping-websites
-
-
-
-Handling PDF:
-PDFs generated from Text files (Bad): http://www.propublica.org/nerds/item/turning-pdfs-to-text-doc-dollars-guide
-PDFs generated from Images (Worse): http://www.propublica.org/nerds/item/image-to-text-ocr-and-imagemagick
-
-
-
-Working with APIs:
-http://www.poynter.org/how-tos/digital-strategies/138211/beginners-guide-for-journalists-who-want-to-understand-api-documentation/[Beginner's guide for journalists who want to understand API documentation]
-Working with APIs: http://chronicle.com/blogs/profhacker/working-with-apis-part-1/22674[http://chronicle.com/blogs/profhacker/working-with-apis-part-1/22674]
-http://code.google.com/apis/chart/image/docs/making_charts.html[Getting Started With Google Charts] and Interactive Charts. There are also samples in the http://code.google.com/apis/chart/interactive/docs/gallery.html[Google Visualization API Gallery].
-http://onlinejournalismblog.com/2011/07/22/how-to-grab-useful-political-data-with-the-they-work-for-you-api/[How to grab useful political data with the They Work For You API]
-
-
-
-
-
-**3.4 Crowdsourcing Expert Opinions: Annotating and analysing datasets**
-
-Overview: How to enable people to annotate and comment on datasets (particularly, harnessing expert opinions)
-Thinking about your audience - how do you engage the right type of people?
-Do's and don'ts - lessons learnt
-Tools & Technical considerations
-Write-access - can people damage your data?
-File-sharing
-Getting the data out
-Authors: Ted Han?
-Length: 1 page
+In terms of advice for data journalists who want to use crowdsourcing: you have to have very specific things you want to know. Ask things that get multiple choice responses as much as possible. Try to get some basic demographics of who you are talking to so you can see if your sample might be biased. If you are asking for amounts and things like this, try in the guidance to specify that it's in digits, that they have to use a specific currency and things like that. A lot won't, but the more you hold their hand through, the better. And always, always add a comment box because a lot of people will fill out the other things but what they really want is to give you their opinion on the story. Especially on a consumer story or an outrage.
+____
 
 === Reusing, Republishing, Rights (Various Contributors) ===
 
@@ -639,3 +413,4 @@ When you do publish data, include an explicit IP statement, in particular an ope
 NOTE FOR JWYG: Much of the information in this chapter formerly related to submitting an FOI request, differences in legislation in different countries... It's interesting but not specific to data journalism. The overflow material is in this doc: FOI tipsheet (also linked from overflow materials) Thought perhaps we could turn the other sections into an FOI tipsheet and publish it on DDJnet and link to it
 
 === Anecdotes and War Stories (Various Contributors) ===
+

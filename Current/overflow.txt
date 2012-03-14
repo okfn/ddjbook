@@ -166,3 +166,70 @@ Case studies about stories based on successful data FOI requests.
 
 
 For more detailed information on the process of submitting an FOI request, the difference in FOI legislation in different countries and appeal procedures see the FOI tipsheet.
+
+
+-------
+
+Privacy Concerns and FOI for databases
+
+
+Privacy concerns: For data journalists trying to get access to a full data set, issue might come up because some of the information in the data set is confidential and the public authority uses this as a reason for not providing the entire database. This is not acceptable under the right of access to information: public bodies have to provide at least partial access.
+
+For example, by removing personal data fields from the database so that the data journalist can see all the statistical and factual data the public authority would not be violating confidentiality. All exceptions must be justified by the public body and you have a right to appeal.
+TIP: "Look at the 'disclosure logs' that some public authorities have on their websites, which list some or all of their responses to previous FOI requests. They are a good source of ideas about what kind of information you are actually likely to obtain." (Martin Rosenbaum - BBC)
+
+FOI requests - useful tips
+
+from the http://www.legalleaks.info/[Leaks Toolkit] (Access Info Europe and n-ost)
+Tips by Martin Rosenbaum, BBC
+Fact boxes - Helen & Fabrizio
+Before you submit your request
+
+-------
+
+Other Tutorials:
+Scraperwiki screencast for non-programmers: http://blog.scraperwiki.com/2011/08/15/scraperwiki-tutorial-screencast-for-non-programmers/
+ProPublica tutorial: http://www.propublica.org/nerds/item/scraping-websites
+
+Handling PDF:
+PDFs generated from Text files (Bad): http://www.propublica.org/nerds/item/turning-pdfs-to-text-doc-dollars-guide
+PDFs generated from Images (Worse): http://www.propublica.org/nerds/item/image-to-text-ocr-and-imagemagick
+
+Working with APIs:
+http://www.poynter.org/how-tos/digital-strategies/138211/beginners-guide-for-journalists-who-want-to-understand-api-documentation/[Beginner's guide for journalists who want to understand API documentation]
+Working with APIs: http://chronicle.com/blogs/profhacker/working-with-apis-part-1/22674[http://chronicle.com/blogs/profhacker/working-with-apis-part-1/22674]
+http://code.google.com/apis/chart/image/docs/making_charts.html[Getting Started With Google Charts] and Interactive Charts. There are also samples in the http://code.google.com/apis/chart/interactive/docs/gallery.html[Google Visualization API Gallery].
+http://onlinejournalismblog.com/2011/07/22/how-to-grab-useful-political-data-with-the-they-work-for-you-api/[How to grab useful political data with the They Work For You API]
+
+
+
+------
+
+
+How to collect data from content already published in social media 
+
+using Twitter hashtags (examples: emergency hashtags used in the event of an earthquake or huricane in the US)
+using Tools such as:
+
+People Browser
+Social mention (media monitoring tools)
+Disqus
+
+Keyword search, what is discussed about specific topics on the web? 
+Look for the right keywords. Certain topics have different words in different countries (football, soccer, etc.). 
+Make your search as specified or as wide as possible, as adapted as possible to your search. 
+consider language, country, target groups 
+gather information from different platforms to get a common opinion
+cross check to make sure the information is reliable and consistent 
+
+Data Crowdsourcing at the Guardian - Getting the readers involved
+
+
+The UNECE Making Data Meaningful guides
+
+http://www.unece.org/stats/documents/writing.html 
+
+Making Data Meaningful - Part 1: A guide to writing stories about numbers, by the United Nations Economic Commission for Europe http://www.unece.org/fileadmin/DAM/stats/documents/writing/MDM_Part1_English.pdf
+
+Making Data Meaningful - Part2: A guide to presenting statistics by the United Nations Economic Commission for Europe http://www.unece.org/fileadmin/DAM/stats/documents/writing/MDM_Part2_English.pdf 
+
