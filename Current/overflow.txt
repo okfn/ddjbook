@@ -201,6 +201,9 @@ Working with APIs: http://chronicle.com/blogs/profhacker/working-with-apis-part-
 http://code.google.com/apis/chart/image/docs/making_charts.html[Getting Started With Google Charts] and Interactive Charts. There are also samples in the http://code.google.com/apis/chart/interactive/docs/gallery.html[Google Visualization API Gallery].
 http://onlinejournalismblog.com/2011/07/22/how-to-grab-useful-political-data-with-the-they-work-for-you-api/[How to grab useful political data with the They Work For You API]
 
+---
+
+Crowdsourcing can be helpful both for collecting data - e.g. using forms, polls, social media, or dedicated apps - and cleaning up, exploring or making sense of big datasets you already have but that are too big for you to look through by yourself. It can also be a good way to get different perspectives on a subject as readers can point out details that you might not have noticed.
 
 
 ------
@@ -233,3 +236,210 @@ Making Data Meaningful - Part 1: A guide to writing stories about numbers, by th
 
 Making Data Meaningful - Part2: A guide to presenting statistics by the United Nations Economic Commission for Europe http://www.unece.org/fileadmin/DAM/stats/documents/writing/MDM_Part2_English.pdf 
 
+image::Figures/04-GG.jpg[width=600]
+
+##############################################################
+##############################################################
+##############################################################
+FROM SECTION 5:
+##############################################################
+##############################################################
+##############################################################
+
+Other ideas for this section:
+
+  * Preparing Data
+  * Reconciliation
+  * Combining Datasets (cf: http://www.opendatacookbook.net/wiki/recipe/a_dataset_mixture_with_yahoo_pipes)
+  * Text Mining
+
+Working with data implies identifying, collecting, cleaning, analyzing, using and sharing the data you are using for your story. When working with data, you will find this iterative and potentially messy. Sometimes you will know exactly what you are looking for, and sometimes you will go fishing. Occasionally a story will emerge from the data. Often, you will be able to complement a story with more hard evidence or helpful information so readers can understand better.
+
+* Be aware of the provenance and terms of use of your data
+* Understand the limitations of your data (Is it reliable? Is it accurate?)
+* Be transparent about how you used the data so others can use it.
+
+
+-----
+
+
+Read on
+
+Just as you wouldn't trust a person you've just met on the street (or in government), don't trust data you've just been introduced to. The resources below will give you more tools to assess the credibility of your data:
+
+Tools
+
+Section 3.3 of this book
+http://www.tcij.org/training-material/data-journalism[Excel for data journalists]: How do simple operations (averages, proportions) in Excel.
+
+Blogs
+
+http://xkcd.com/[XKCD]: Nerdy strips that often make use of statistical concepts.
+http://understandinguncertainty.org/blog[Understanding uncertainty]: Analysis of risk-related current events.
+
+Books
+
+
+
+http://www.amazon.com/Calculated-Risks-Know-Numbers-Deceive/dp/0743254236/ref=sr_1_2?ie=UTF8&qid=1314092449&sr=8-2[Calculated Risks], by Gerd Gigerenzer. The most comprehensive piece on how to communicate risks effectively and how to understand what a percentage really means. If you want to be able to debunk PR mystifications, that's the place to start.
+http://www.amazon.com/Tiger-That-Isnt-Andrew-Dilnot/dp/1846681111/ref=sr_1_1?ie=UTF8&qid=1321014673&sr=8-1[The Tiger that isn't], by Andrew Dilnot & Michael Blastland. Lots of examples (from the UK) examining journalistic failures at fending off data-driven PR.
+http://www.amazon.com/Numbers-Rule-Your-World-Probabilities/dp/0071626530/ref=sr_1_1?ie=UTF8&qid=1314092432&sr=8-1[Numbers Rule Your World], by Kaiser Fung. The easier-to-read version of Gigerenzer's book. Through 6 in-depth examples, it introduces you to similar concepts but remains shallow.
+http://www.amazon.com/Proofiness-Dark-Arts-Mathematical-Deception/dp/0670022160/ref=sr_1_1?ie=UTF8&qid=1314092460&sr=8-1[Proofiness], by Charles Seife. Explains in an enjoyable way how numbers can be fabricated ‚Äì and how you can deconstruct them.
+
+
+To add:
+http://blogs.channel4.com/factcheck/welcome-to-the-new-factcheck-blog/18
+
+Todo:
+
+  * Reorganise notes below into a section with concise and compelling anecdotes rather than a list of software packages and web services
+
+To ask:
+
+  * Friedrich Lindenberg
+  * KNB
+  * Simon Rogers
+  * NYT
+  * Tony @ OUseful
+  * Examples for how people used different tools - e.g. ScraperWiki, Google Refine, Google Motion Charts, etc.
+
+### Tools and techniques for analysing data ###
+
+3.3 Tools, tutorials and case studies for all steps of the data journalism process
+
+Overview: Overview of different types of tools for analysing and working with datasets, examples of how they can be used, examples of how they have been used by journalists.
+Authors: Liliana Bounegru, Lucy Chambers, Claire Miller
+Length: 1-2 pages per case study
+
+
+**1. Collection + 2. Filtering**
+
+**1. Tools for data collection, storing, cleaning, structuring, quality checking and annotation**
+
+**2. Tools for data filtering, interrogation, combination and analysis**
+Beginner level
+Spreadsheets
+Manual on Excel and Pivot Tables: http://www.tcij.org/training-material/data-journalism
+Google Spreadsheets
+Tutorial Excel: http://blog.buzzdata.com/post/11607498580/visualizing-torontos-water-usage-a-tutorial
+Google Refine
+http://vis.stanford.edu/wrangler/[Stanford Data Wrangler]
+http://datapatterns.org/[Data Patterns]
+http://www.poynter.org/how-tos/digital-strategies/155975/how-journalists-can-use-google-refine-to-clean-dirty-data-sets/[How journalists can use Google Refine to clean 'dirty' data sets]
+http://overview.ap.org/[The Overview Project]
+http://googlerefine.blogspot.com/
+Cleaning data with Google Refine
+http://www.opendatacookbook.net/wiki/recipe/sliced_and_diced_aid_data_with_google_refine
+http://www.propublica.org/nerds/item/using-google-refine-for-data-cleaning
+Combining data with Google Refine
+Databases
+Microsoft Access / Filemaker (Mac)
+open-source SQL database managers
+http://www.w3schools.com/sql/default.asp[SQL Tutorial]
+https://github.com/tthibo/SQL-Tutorial#readme[A Gentle Introduction to SQL Using SQLite]
+http://notebook.okfn.org/2011/10/08/introducing-sql-for-lightweight-data-manipulation/[Introducing SQL for Lightweight Data Manipulation]
+http://helpmeinvestigate.posterous.com/structured-query-language-sql-an-introduction[Structured Query Language (SQL): an introduction]NoSQL Databases
+Key Value Store
+Document Store
+Google Fusion Tables
+demo in http://www.opendatacookbook.net/wiki/recipe/fusion_cooking_with_foraged_data[Open Data Cookbook]
+http://support.google.com/fusiontables/bin/answer.py?hl=en&answer=185991[What options exist for displaying icons, lines and polygon colors on the map?]
+http://blog.buzzdata.com/post/12201120862/how-to-map-in-fusion-tables-a-basic-tutorial[How to map in Fusion Tables: a basic tutorial]
+http://michelleminkoff.com/2011/08/21/how-to-combine-multiple-fusion-tables-into-one-map/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+michelleminkofffeed+%28Michelle+Minkoff%29&utm_content=Google+Reader[How to combine multiple Fusion Tables into one map]
+http://michelleminkoff.com/2011/10/30/answering-some-faqs-about-fusion-tables/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+michelleminkofffeed+%28Michelle+Minkoff%29&utm_content=Google+Reader[Answering some FAQs about Fusion Tables]
+
+Yahoo Pipes:
+http://www.slideshare.net/onlinejournalist/introduction-to-yahoo-pipes[Introduction to Yahoo Pipes]
+http://www.youtube.com/watch?v=J3tS_DkmbVA[Learn How to Build a Pipe in Just a Few Minutes on Yahoo!]
+http://blog.ouseful.info/2010/10/27/discovering-co-location-communities-tweets-near-wherever/[Discovering Co-location Communities ‚Äì Twitter Maps of Tweets Near Wherever‚Ä¶]
+
+
+XML
+
+http://onlinejournalismblog.com/2011/08/05/sftw-asking-questions-of-a-webpage-and-finding-out-when-those-answers-change/
+
+
+
+Advanced level
+Graph Database
+Graph/Network Analysis
+Comparing data links
+UCINet, Gephi, NodeXL
+Example: Social networks
+R
+http://www.peteraldhous.com/CAR/Aldhous_CAR2011_RforStats.pdf[R for Statistics: First Steps] (PDF) by Peter Aldhous, http://jacobfenton.s3.amazonaws.com/R-handson.pdf[Hands-on R, a step-by-step tutorial] (PDF) by Jacob Fenton, and the project's own An Introduction to R.
+The http://www.r-statistics.com/tag/visualization/[R Statistics blog] has a number of visualization samples.
+http://www.readwriteweb.com/hack/2011/09/unlocking-big-data-with-r.php[Unlocking Big Data with R]
+http://blog.ouseful.info/2011/10/31/power-tools-for-aspiring-data-journalists-r/[Power Tools for Aspiring Data Journalists: Funnel Plots in R]
+Book for journalists: Where are the bodies buried on the web? Big data for journalists: 'This short guide will cover my favorite resources, along with a few examples of how they've been used to create compelling journalism.'
+http://csvkit.readthedocs.org/en/latest/index.html[CSVKit] ("Got a fixed-width file and wish it was easier to work with? Look at FFS It's a list of schemas for converting fixed-width files to CSV using this tool)
+
+
+
+Network Analysis
+Download this detailed http://casci.umd.edu/images/4/46/NodeXL_tutorial_draft.pdf[free NodeXL tutorial] (PDF) or these basic step-by-step instructions on http://faculty.washington.edu/pnhoward/teaching/newmedia/socialnetworkmap.pdf[analyzing your own Facebook social network] (PDF).
+-http://onlinejournalismblog.com/2011/11/15/network-analysis-html5-data-journalism/[Following the money: making networks visible with HTML5]
+
+
+
+Expert level
+Statistical analysis
+Searching for complex relationships, useful when working with a subset of a data
+SAS
+SPSS
+R
+
+
+**3. Tools for publishing data, visualising data and building news apps**
+
+Mapping and visualisation
+http://www.gpsvisualizer.com/geocoder/[GPS Visualiser]
+http://onlinejournalismblog.com/2011/08/12/how-to-convert-eastingnorthing-into-latlong-for-an-interactive-map/[How to: convert easting/northing into lat/long for an interactive map]
+http://www.doogal.co.uk/[Postcode Finder]
+
+**4. Tools for distributing your data projects**
+
+Twitter
+
+**5. Tools for analysing the impact of your data projects**
+
+Google Analytics
+
+add propublica tutorials to this chapter
+
+Add: Edward Borasky DDJ Develper Studio - open sources - ask Liliana
+
+---
+
+
+
+**5. Analyzing your data**
+
+After collecting data (Chapter 2) it is important to understand your dataset.
+What type of analysis do you need to do? What are you comparing?
+Time-based
+Geographic regions
+Cross-sectional: what are the portions of the whole (e.g., by race for census data)
+
+Depending on what kind of data analysis you are doing, there are a range of different types of tools you can use. For this see chapter 3.3 Tools for Analysing data.	
+
+Detecting dodgy data
+
+Not all data comes from measurement of real-life numbers. From individuals to organisations, the pressure to support an argument with stats can unfortunately lead people to fabricate, falsify and omit data.
+
+Even those who understand the importance of good data aren't beyond reproach: for example, http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0005738[2% of scientists have admitted to tampering with data]. This is a conservative estimate based on surveys, so the true number of researchers who have committed fraud through data manipulation may be much higher.
+
+So how do you identify dodgy data? Although it's impossible to spot fraud simply by looking at numbers directly, luckily there are a few statistical tests that can help you detect anomalies. One of the most practical is a strange statistical phenomenon known as Benford's law, or the leading-digit law.
+
+According to Benford's law, in a list of numbers from natural sources of data, the leading digit (e.g. the 1 in 10) is not distributed randomly. While you might expect the digits 0 to 9 to each be found in 11 per cent of cases, the digit 1 actually appears about 30% of the time. The other digits appear in lower and lower frequencies, following an exponential decline, ending with numbers that have a leading 9 only occurring in under 5% of numbers from the list.
+
+////
+
+Insert: Creative Commons image of Benford curve here?
+
+////
+
+
+This phenomenon appears in many lists of data from natural sources, which means that deviations from Benford's law may indicate false data. If you plot each leading digit in a data set against the frequency with which they appear, you should get a graph showing an exponential decline, which is what you would expect from Benford's law.
+
+To test whether your data is dodgy, all you have to do it take the leading digit from a list of numbers in your data, tally the number of times each digit appears, and then superimpose this over a Benford curve. If your data matches the expected curve, then your data is probably free of fabrication.

@@ -315,20 +315,21 @@ As you're trying to solve these challenges, have a look around ScraperWiki: ther
 
 Crowdsourcing, http://en.wikipedia.org/wiki/Crowdsourcing[according to Wikipedia], is "a distributed problem-solving and production process that involves outsourcing tasks to a network of people, also known as the crowd". For this chapter Marianne Bouchart (Data Journalism Blog) interviewed Simon Rogers and James Ball from the Guardian Datablog about how they use crowdsourcing tools and methods to generate or add value to datasets.
 
-*How the Datablog used crowdsourcing to cover the MPs expenses scandal, drug use, and the Sarah Palin papers - Simon Rogers*
+*Simon Rogers on how the Datablog used crowdsourcing to cover the MPs expenses scandal, drug use, and the Sarah Palin papers*
 
-____
+image::Figures/04-EE.png[width=600]
+
 Sometimes you will get a ton of files, statistics, or reports which it is impossible for one person to go through. Also you may get hold of material that is inaccessible or in a bad format and you aren't able to do much with it. This is where crowdsourcing can help.
 
 One thing the Guardian has got is lots of readers, lots of pairs of eyes. If there is an interesting project where we need input, then we can ask them to help us. That is what we did with the http://mps-expenses.guardian.co.uk/[MPs Expenses]. We had 450,000 documents and very little time to do anything. So what better way than open up the task to our readership?
 
 The MPs Expenses project generated lots of tip-offs. We got more stories than data. The project was remarkably successful in terms of traffic. People really liked it.
 
-We are currently doing something with MixMag on drug use, which has been phenomenal as well. It looks like it is going to be bigger than the British crime survey in terms of how many people come back to it, which is brilliant. 
+We are currently http://www.guardian.co.uk/news/datablog/2011/nov/25/drugs-survey-mixmag[doing something with MixMag on drug use], which has been phenomenal as well. It looks like it is going to be bigger than the British crime survey in terms of how many people come back to it, which is brilliant. 
 
 What both of these projects have in common is that they are about issues that people really care about, so they are willing to spend time on them. A lot of the crowdsourcing we have done relies on help from obsessives. With the MPs expenses we had a massive amount of traffic at the beginning and it really died down. But what we still have people that are obsessively going through every page looking for anomalies and stories. One person has done 30,000 pages. They know a lot of stuff.
 
-We also used crowdsourcing with the Sarah Palin papers. Again this was a great help in scouring the raw information for stories. 
+We also used crowdsourcing with the http://www.guardian.co.uk/world/datablog/2011/jul/01/sarah-palin-emails-readers-crowdsourcing-update[Sarah Palin papers]. Again this was a great help in scouring the raw information for stories. 
 
 In terms of generating stories crowdsourcing has worked really well for us. People really liked it and it made the Guardian `look good'. But in terms of generating data, we haven't used crowdsourcing so much.
 
@@ -337,21 +338,18 @@ Some of the crowdsourcing projects that we've done that have worked really well 
 Regarding the reliability of data, I think the approach that http://www.oldweather.org/[Old Weather] have got is really good. They get ten people to do each entry, which is a good way to ensure accuracy. With the MPs expenses, we tried to minimise the risk of MPs going online and editing their own records to make themselves look better. But you can't permanently guard against this. You can only really look out for certain URLs or if it's coming from the SW1 area of London. So that's a bit trickier. The data we were getting out was not always reliable. Even though stories were great, it wasn't producing raw numbers that we could confidently use.
 
 If I were to give advice to aspiring data journalists who want to use crowdsourcing to collecting data, I would encourage them do this on something that people really care about, and will continue to care about when it stops making front page headlines. Also if you make something more like a game this can really help to engage people. When we did the expenses story a second time it was much more like a game with individual tasks for people to do. It really helped to give people specific tasks. That made a big difference because I think if you just present people with the mountain of information to go through and say `go through this' it can make for hard and rather unrewarding work. So I think making it fun is really important.
-____
 
-*How the Datablog used crowdsourcing to cover Olympic ticketing - James Ball*
+*James Ball on how the Datablog used crowdsourcing to cover Olympic ticketing*
 
-____
+image::Figures/04-FF.png[width=600]
 
-I think the crowdsourcing project that got the biggest response was the one that we did on Olympic ticketing. Thousands of people in the UK tried to get tickets for the 2012 Olympics and there was a lot of fury that people hadn't got them. People had ordered hundreds of pounds worth and were told that they'd get nothing. But no one really knew if it was just some people complaining quite loudly while actually most people were happy. So we tried to work out a way to find out.
+I think the crowdsourcing project that got the biggest response was a http://www.guardian.co.uk/sport/london-2012-olympics-blog/2011/jun/03/london-2012-olympic-ticket-crowdsource-result[piece on the Olympic ticket ballot]. Thousands of people in the UK tried to get tickets for the 2012 Olympics and there was a lot of fury that people hadn't got them. People had ordered hundreds of pounds worth and were told that they'd get nothing. But no one really knew if it was just some people complaining quite loudly while actually most people were happy. So we tried to work out a way to find out.
 
 We decided the best thing we could really do, with the absence of any good data on the topic, was to ask people. And we thought we'd have to treat it as a light thing because it wasn't a balanced sample. 
 
-We created a Google form and asked very specific questions. It was actually a long form, it asked how much in value people had ordered their tickets, how much their card had been debited for, which events they went for, this kind of thing. 
+We created a Google form and http://www.guardian.co.uk/sport/london-2012-olympics-blog/2011/jun/01/how-many-olympic-tickets-did-you-get[asked very specific questions]. It was actually a long form, it asked how much in value people had ordered their tickets, how much their card had been debited for, which events they went for, this kind of thing. 
 
-We put it up as a small picture on the front of the site but it was shared around really rapidly. I think this is one of the key things, you can't just think `what do I want to know for my story', you have to think `what do people want to tell me right now'. And it's only when you tap into what people want to talk about that crowdsourcing is going to be successful.
-
-The volume of responses for this project, which is one of our first attempts at crowdsourcing, was huge. We had a thousand responses in less than an hour and seven thousands by the end of that day. 
+We put it up as a small picture on the front of the site and it was shared around really rapidly. I think this is one of the key things, you can't just think `what do I want to know for my story', you have to think `what do people want to tell me right now'. And it's only when you tap into what people want to talk about that crowdsourcing is going to be successful. The volume of responses for this project, which is one of our first attempts at crowdsourcing, was huge. We had a thousand responses in less than an hour and seven thousands by the end of that day. 
 
 So obviously we took presenting the results a bit more seriously at this point. Initially we had no idea how well it would do. So we added some caveats: Guardian readers may be more wealthy than other people, people who got less than they expected might be more willing to talk to us, and so on.
 
@@ -359,9 +357,7 @@ We didn't know how much value the results would have. We ended up having a good 
 
 A few weeks later, the official summary report came out, and our numbers were shockingly close. They were almost exactly spot on. I think partly through luck but also because we got just so many people.
 
-Generally though, I tend to find that crowdsourcing is more useful for the content around the data story or for getting people to follow one up. I do quite a lot of work on lobbying and I try and publish the data that we work with internally because sometimes you will get someone who will turn up and say: `Ah, that research doesn't declare anything but I know that they work for here'. It's all about learning how to follow up these kinds of comments. In our experience crowdsourcing is generally less help in compiling data, and more valuable in helping to provide context around it. There is only so much that you can do with the data yourself, and you can only know so many people.
-
-With the Olympics project we preempted that we wanted to do analysis on it, which was a big help. If you start something like this as a comments thread, you will be limited in what you can do with the results. So you have to start by thinking: `What is the best tool for what I want to know?' Is it a comment thread? Or is it building an app? And if it is building an app, you have to think `Is this worth the wait? And is it worth the resources that are required to do it?' 
+If you start asking your readers about something like this on a comments thread, you will be limited in what you can do with the results. So you have to start by thinking: `What is the best tool for what I want to know?' Is it a comment thread? Or is it building an app? And if it is building an app, you have to think `Is this worth the wait? And is it worth the resources that are required to do it?' 
 
 In this case we thought of Google Forms. If someone fills in the form you can see the result as a row on a spreadsheet. This meant that even if it was still updating, even if results were still coming in, I could open up the spreadsheet and see all of the results straight away. 
 
@@ -369,28 +365,21 @@ I could have tried to do the work in Google but I downloaded it into Microsoft E
 
 But the whole analysis was done in a few hours, and I knocked out the obviously silly entries. A lot of people decided to fill it out pointing out they spent nothing on tickets. That's a bit facetious but fine. That was less than a hundred out of over seven thousands entries.
 
-Then there were a few dozen who put in obviously fake high amounts to try to distort the results. Things like ten million pounds. So that left me with a set that I could use with the normal data principles we use every day. I did what's called a `pivot table'. I did some averaging. That kind of thing. 
+Then there were a few dozen who put in obviously fake high amounts to try to distort the results. Things like ten million pounds. So that left me with a set that I could use with the normal data principles we use every day. I did what's called a `pivot table'. I did some averaging. That kind of thing.
 
-So because we planned it ahead, it meant it was quite simple. If we had to stumble into it through a comment thread, it would have been much harder. This shows the value of thinking about what you might do with the results of crowdsourcing in advance.
-
-From the Datablog it was just me working on this project. We hadn't really any idea it would get the momentum it did so I worked with the Sports blog editor. We put our heads together and thought this might be a fun project. We did it, start to finish, in 24 hours. We had the idea, we put something up at lunch time, we put it on the front of the site, we saw it was proving quite popular, we kept it on the front of the site for the rest of the day and we presented the results online the next morning.
+We didn't have any idea how much momentum the project would have, so it was just me working with the Sports blog editor. We put our heads together and thought this might be a fun project. We did it, start to finish, in 24 hours. We had the idea, we put something up at lunch time, we put it on the front of the site, we saw it was proving quite popular, we kept it on the front of the site for the rest of the day and we presented the results online the next morning.
 
 We decided to use Google Docs because it gives complete control over the results. I didn't have to use anyone else's analytic tools. I can put it easily into a database software or into spreadsheets. When you start using specialist polling software, you are often restricted to using their tools. If the information we'd been asking for was particularly sensitive, we might have hesitated before using Google and thought about doing something `in house'. But generally, it is very easy to drop a Google Form into a Guardian page and it's virtually invisible to the user that we are using one. So it is very convenient.
 
 In terms of advice for data journalists who want to use crowdsourcing: you have to have very specific things you want to know. Ask things that get multiple choice responses as much as possible. Try to get some basic demographics of who you are talking to so you can see if your sample might be biased. If you are asking for amounts and things like this, try in the guidance to specify that it's in digits, that they have to use a specific currency and things like that. A lot won't, but the more you hold their hand through, the better. And always, always add a comment box because a lot of people will fill out the other things but what they really want is to give you their opinion on the story. Especially on a consumer story or an outrage.
-____
 
 === Reusing, Republishing, Rights (Various Contributors) ===
 
-////
+image::Figures/04-GG.jpg[width=600]
 
-Insert traffic lights picture - mixed signals?
+In many jurisdictions around the world datasets and databases can be are covered by rights which mean that you have to ask for permission before you can legally reuse them. In this section we look at how you can get - and give - a green light to reuse datasets.
 
-////
-
-(Source: http://opendatahandbook.org/[The Open Data Manual], with input from Helen Darbishire, Access Info)
-
-Most of the new Open Data portals being set up by governments now make clear that the data that is released can be used free of charge, same goes for information obtained through Freedom of Information Requests. If you have scraped the data from a database such as a public body's website, then you may be particularly liable for limitations on reuse. Sometimes there will be intellectual property limitations, but normally the only requirement is that you cite the source of the information.
+Most of the new Open Data portals being set up by governments now make clear that the data that is released can be used free of charge. The same goes for information obtained through Freedom of Information Requests. If you have scraped the data from the website of a public body,  on reuse. Sometimes there will be intellectual property limitations, but normally the only requirement is that you cite the source of the information.
 
 When talking about databases and intellectual property we need to distinguish between the structure and the content of a database (when we use the term 'data' we shall mean the content of the database itself). Structural elements include things like the field names and a model for the data -- the organization of these fields and their inter-relation.
 
@@ -405,12 +394,10 @@ You can read more about the situation your jurisdiction in the http://opendefini
 If you find you are having problems with your right to reuse information, then please let the campaign group Access Info Europe know (helpdesk@access-info.org). Access Info will help you with legal advice and will try to find lawyers in your country should that be necessary.
 Success? What now...? Share the data...
 
-
 When you publish your project, do the rest of us a favor and include the data you've collected! It would be a damned shame if all that beautiful data you dug up (cleaned up, formatted and augmented) went stale on your hard drive. Let others source-check your story and perhaps even find different stories in the data.
 
 When you do publish data, include an explicit IP statement, in particular an open license like the Creative Commons Zero or Attribution terms or the Open Database License (ODbL). If the data is government information not covered by copyright, publish it using Creative Commons' PD Mark dedication to make it clear that the data will be available in the public domain forever and for others to reuse!
 
-NOTE FOR JWYG: Much of the information in this chapter formerly related to submitting an FOI request, differences in legislation in different countries... It's interesting but not specific to data journalism. The overflow material is in this doc: FOI tipsheet (also linked from overflow materials) Thought perhaps we could turn the other sections into an FOI tipsheet and publish it on DDJnet and link to it
-
 === Anecdotes and War Stories (Various Contributors) ===
 
+We asked leading data journalists about their experiences getting hold of data. Here is what they said.
