@@ -1,74 +1,14 @@
 == 6. Delivering data ==
 
-=== Data Stories (Martin Rosenbaum, BBC) ===
+=== Get Your Data Out: Tips and Tricks (Various Contributors) ===
 
-Data journalism can sometimes give the impression that it is mainly about presentation of data - such as visualisations which quickly and powerfully convey an understanding of an aspect of the figures, or interactive searchable databases which allow individuals to look up say their own local street or hospital. All this can be very valuable, but like other forms of journalism, data journalism should also be about stories. So what are the kinds of stories you can find in data? Based on my experience at the BBC, I have drawn up a list or `typology' of different kinds of data stories.
-
-I think it helps to bear this list below in mind, not only when you are analysing data, but also at the stage before that, when you are collecting it (whether looking for publicly available datasets or compiling freedom of information requests).
-
-*1. Measurement*
-
-The simplest story - counting or totalling something.
-
-`Local councils across the country spent a total of £x billion on paper clips last year'.
-
-- but it's often difficult to know if that's a lot or a little. For that, you need context - which can be
-provided by:
-
-*2. Proportion*
-
-`Last year local councils spent two-thirds of their stationery budget on paper clips'
-
-- or
-
-*3. Internal comparison*
-
-`Local councils spend more on paper clips than on providing meals-on-wheels for the elderly'
-
-- or
-
-*4. External comparison*
-
-`Council spending on paper clips last year was twice the nation's overseas aid budget'
-
-- or there are other ways of exploring the data in a contextual or comparative way:
-
-*5. Change over time*
-
-`Council spending on paper clips has trebled in the past four years'
-
-- or
-
-*6. `League tables'*
-
-(these are often geographical or by institution, and you must make sure the basis for comparison is fair, eg taking into account the size of the local population)
-
-`Borsetshire Council spends more on paper clips for each member of staff than any other local authority,at a rate four times the national average'
-
-- or you can divide the data subjects into groups:
-
-*7. Analysis by categories*
-
-`Councils run by the Purple Party spend 50% more on paper clips than those controlled by the Yellow Party'
-
-- or you can relate factors numerically
-
-*8. Association*
-
-`Councils run by politicians who have received donations from stationery companies spend more on paper clips, with spending increasing on average by £100 for each pound donated'
-
-(but, of course, always remember that correlation and causation are not the same thing).
-
-So if you're investigating paper clip spending, are you also getting the following figures:
-- total spending to provide context?
-- geographical/historical/other breakdowns to provide comparative data?
-- the additional data you need to ensure comparisons are fair, such as population size?
-- other data which might provide interesting analysis to compare or relate the spending to?
 
 
 === How to Build a News App (Chase Davis, Center for Investigative Reporting) ===
 
-News applications are windows into the data behind a story. They might be searchable databases, sleek visualizations or something else altogether. But no matter what form they take, news apps encourage readers to interact with data in a context that is meaningful to them: looking up crime trends in their area, checking the safety records of their local doctor, or searching political contributions to their candidate of choice. 
+image::Figures/06-AA.png[width=600]
+
+News applications are windows into the data behind a story. They might be searchable databases, sleek visualisations or something else altogether. But no matter what form they take, news apps encourage readers to interact with data in a context that is meaningful to them: looking up crime trends in their area, checking the safety records of their local doctor, or searching political contributions to their candidate of choice. 
 
 More than just high-tech infographics, the best news apps are durable products. They live outside the news cycle, often by helping readers solve real-world problems, or answering questions in such a useful or novel way that they become enduring resources. When journalists at ProPublica wanted to explore the safety of American kidney dialysis clinics, they built http://projects.propublica.org/dialysis/[an application] that helped users check whether their hometown facility was safe. Providing such an important and relevant service creates a relationship with users that reaches far beyond what a narrative story can do alone.
 
@@ -82,7 +22,7 @@ A single app might serve many users. For instance, a project called http://curbw
 
 Homeowners, for instance, might need help gathering information on nearby properties so they can argue that their taxes are unfairly high. Pulling together that information is time-consuming and complicated – a problem Curbwise solves for its users by compiling a http://curbwise.com/how-to-protest[user-friendly report] of all the information they need to challenge their property taxes to local authorities. Curbwise sells that report for $20, and people pay for it because it solves a real problem in their lives.
 
-Whether your app solves a real-world problem like Curbwise or supplements the narrative of a story with an interesting visualization, always be aware of the people who will be using it. And then concentrate on designing and building features based on their needs.
+Whether your app solves a real-world problem like Curbwise or supplements the narrative of a story with an interesting visualisation, always be aware of the people who will be using it. And then concentrate on designing and building features based on their needs.
 
 **2. How much time should I spend on this?**
 
@@ -112,86 +52,15 @@ News application development has come a long way in a very short time. News Apps
 
 News Apps 2.0, where the industry is headed, is about combining the storytelling and public service strengths of journalism with the product development discipline and expertise of the technology world. The result, no doubt, will be an explosion of innovation around ways to make data relevant, interesting and especially useful to our audience – and at the same time hopefully helping journalism do the same.
 
-=== Data Visualisation (Sarah Cohen, Washington Post) ===
+=== Data Visualisation in Journalism: An Introduction (Sarah Cohen, Washington Post) ===
 
-////
+Waiting for text.
 
-Insert: picture of data visualisation project
+=== Using Visualisations to Tell Stories (Geoff McGhee, Stanford University) ===
 
-////
-
-Roles of visualisation in journalism
-what function(s) visualisations play in reportage (what do journalists use visualisations for): (1) to find stories, (2) to tell a story
-
-
-Tools, tutorials and good examples of using visualisations to find stories
-When do you need to visualise a dataset to explore it and find a story? When don't you need to?
-How do you go about discovering a story? What tools do you use? What "protocol" do you follow? What clues do you follow, what do you pay attention to? (lessons, tips, advice).
-Examples of how to explore a dataset with a visualisation tool with a step by step description of the "protocol" followed to find the story.
-
-
-Tools, tutorials and good examples of using visualisations to tell stories
-When do you need to visualise a story and when don't you need to?
-What types of visualisations are good for presenting what types of stories?
-How do you go about visualising a story? What tools do you use? What steps do you take? (lessons, tips, advice).
-What makes a good visualisation, what makes a bad visualisation?
-Examples of good and base use of visualisations to tell a story with explanation of what makes them a good/bad case.
-
-
-
-Note: The aim of this chapter is not to show journalists how to do a data visualisation but to explain when a visualisation could be useful in their work, what could visualisations help them with, how they could assess the quality of a visualisation, getting them familiar with the vocabulary so they know what to ask for from designers, getting them familiar, introducing and showing them how to use visualisation tools for non-experts.
-Authors: David Erwin (New York Times), Aron Pilhofer (New York Times), Farida Vis (University of Leicester), Kate Hudson (openjournalism.ca), Lulu Pinney (infographics specialist), Mariano Blejman (Hacks/Hackers), Sarah Cohen (Knight Professor of the Practice of Journalism and Public Policy, Sanford)
-Length: 1-2 pages per case study
-Editor: Liliana Bounegru (European Journalism Centre)
-
-
-
-
-The Data Journalism Handbook
-4.3 Visualising data
-4.3.1 Roles of visualisation in journalism
-4.3.2 Tools, tutorials and good examples of using visualisations to find stories
-4.3.3 Tools, tutorials and good examples of using visualisations to tell stories
-When to use and when not to use visualisations to tell a story
-Types of stories visualisations can tell
-Which is the right visualisation for your story?
-Examples of good use of visualisations to tell stories
-When is a visualisation good and when is it bad?
-Toolkits and tutorials
-
-
-
-////
-
-Roles of visualisation in journalism by Lulu Pinney
-
-The function of data visualisations in reportage is twofold. Firstly they are a tool for exploring the data to find where any stories are. Their second use is for telling a story. And it is worth noting that - for the same set of data - it is more than likely that the visuals best suited to finding a story will not be best suited to the telling of it.
-
-Using visualisations to explore data is a more objective exercise, and sometimes it is appropriate to create an interface so your audience can have a go themselves. Alternatively having explored and interpreted the data yourself, you can choose just to present the stories you have found in a more subjective - or editorial - manner to your audience, with or without supporting visualisations.
-
-more on this from Sarah Cohen at the end of Feb.; more specifically Mainly on the use of it inside the newsroom to hone the story -- expanding on that handout you found. The real weakness there is that there are not good, free tools to use when you're not willing to make your data public.
-////
-
-=== Using Data Visualisation to Find Stories (Gregor Aisch, Open Knowledge Foundation) ===
-
-When do you need to visualise a dataset to explore it and find a story? When don't you need to?
-How do you go about discovering a story? What tools do you use? What "protocol" do you follow? What clues do you follow, what do you pay attention to? (lessons, tips, advice).
-Examples of how to explore a dataset with a visualisation tool with a step by step description of the "protocol" followed to find the story.
-Case study
-
-Sarah Cohen
-
-=== 4.3.3 Tools, tutorials and good examples of using visualisations to tell stories - Geoff McGhee (Stanford University) ===
-
-When do you need to visualise a story and when don't you need to?
-What types of visualisations are good for presenting what types of stories?
-How do you go about visualising a story? What tools do you use? What steps do you take? (lessons, tips, advice).
-One important step: user-testing prototype visualisations.
-When is a visualisation good, when is a visualisation bad?
-Examples of good and base use of visualisations to tell a story with explanation of what makes them a good/bad case.
-
+Waiting for text.
  
-=== Using data visualisation to find insights in data by Gregor Aisch (Open Knowledge Foundation) ===
+=== Using Data Visualisation to Find Stories (Gregor Aisch, Open Knowledge Foundation) ===
 
 Visualization is critical to data analysis. It provides a front line of attack, revealing intricate structure in data that cannot be absorbed in any other way. We discover unimagined effects, and we challenge imagined ones.
 
@@ -347,7 +216,7 @@ The author of this chapter has been influenced by the book Visualizing Data by W
 
 
 
-=== When to Use and When Not to Use Visualisations to Tell a Story (Aron Pilhofer, New York Times) ===
+=== Data Visualisation at the New York Times (Aron Pilhofer, New York Times) ===
 
 ////
 
@@ -431,7 +300,7 @@ http://www.nytimes.com/packages/flash/newsgraphics/2011/0311-japan-earthquake-ma
 http://www.nytimes.com/interactive/2010/02/26/sports/olympics/20100226-olysymphony.html[Fractions of a Second: An Olympic Musical - Interactive Graphic - NYTimes.com]
 
 
-=== 4.3.x Visualization vocabulary (Kate hudson) ===
+=== Which Visualisation is Right For Your Story? (Various Contributors) ===
 
 Types of graphs/visualizations: choosing an appropriate visualization tool
 Comparison
@@ -519,27 +388,7 @@ Lead shown clearly at top (speaks to 'why do I care')
 More information below deepening information
 
 
-
-=== Guardian Riot Map (Farida Vis, University of Leicester) ===
-
-During the summer of 2011 the UK was hit by a wave of riots (full government report here todo: find link). Politicians suggested that these actions were categorically not linked to poverty and those that did the looting were simply criminals. The Guardian newspaper played a crucial role in using data driven journalism and a range of data visualizations in telling this story, allowing for better understanding who was doing the looting and why. By using simple maps (Google Fusion Tables) they showed the location of http://www.guardian.co.uk/news/datablog/interactive/2011/aug/09/uk-riots-incident-map[confirmed riots spots] and through mashing up deprivation data with where the riots took place started debunking the main political narrative that there was no link to http://www.guardian.co.uk/news/datablog/2011/aug/16/riots-poverty-map-suspects[poverty]. Both these examples use off the shelf visualization tools and in the second example combine location data with another data set, to start making other links. A final example worth mentioning here is the visualization the paper built around the use of social media. Again politicians had started to suggest that social media use might have to be curtailed during such troubles in future, but offering little concrete evidence that social media, Twitter in this case, played a role in encouraging people to riot. A visualization of riot related http://www.guardian.co.uk/uk/2011/aug/24/twitter-study-post-riot-plans#_[hashtags] used during this period, highlighted that Twitter was mainly used to respond to the riots rather than to organize people to go looting, with #riotcleanup showing the most significant spike during the riot period.
-
-These three examples show three different types of data visualization used very effectively.
-
-¬¨‚àë 	The first one a simple map highlighting where riots took place using Google Fusion Tables.
-¬¨‚àë 	The second map linked to an additional data set offering a further reading of events and generating more story leads.
-¬¨‚àë 	Finally by looking at twitter data, visualizing the hashtags showed that significant traffic was concerned with cleaning up after the riots rather than inciting people to riot (if you were to do this yourself, you would need to think about where you would get this data).
-¬¨‚àë 	Most of these visualizations used off the shelf tools to great effect for telling important stories (quickly).
-
-Example from Finland (Farida has contacted Petri Kola, with the request to quickly explain the story and send me the link to the vis they used) - where the first time the main Finish paper ran a DDJ story + vis was inspired by the work of the Guardian. The story highlighted election data and who the main sponsors to the main parties were. The vis was simple, but cause a buzz.
-
-Buenos Aires Elections (HacksHackers Buenos Aires - do we need a further elaboration on this example or possibly replace it with something else?)
-http://elecciones2011.hhba.info/ Google Fusion Tables, scrapping data in Real time, created a platform in real time and then we sended code to embed to diferent medias.
-http://www.ted.com/talks/lang/eng/hans_rosling_on_global_population_growth.html
-
-
-
-=== When is a visualisation good and when is it bad? ===
+When is a visualisation good and when is it bad?
 
 A good visualisation clarifies, explains, reveals or adds meaning. It makes the audience say 'ah-ha, I get it'. They take away with them the story you set out to tell.
 
@@ -594,7 +443,7 @@ Layout: Size, position, white space are the variables you have to play with. As 
 Keys (or legends): Avoid using them whenever possible. It's much more effective to label lines, points, bars directly. If you do have to use a key, put it at the top, in a prominent position.
 Platform: Design for the platform that your visualisation is going to live on. If both print and online, re-design it to work on the other one. A print graphic directly uploaded to a website rarely works as well as it could online, and vice versa of course. It's almost always necessary to re-work.
 
-=== How data visualisation is used at the most read daily newspaper in Norway by John Bones (Verdens Gang) ===
+=== How Data Visualisation is Used at the Most Read Daily Newspaper in Norway (John Bones, Verdens Gang) ===
 
 ////
 
@@ -723,103 +572,8 @@ The visualization is bad when the reader does not know where to start or where t
 The question of quality is also a platform question. A perfect and big print visualization can not be automatically adopted to the web or the smart phone platforms. But that is another discussion.
 
 
-Toolkits and tutorials
 
-
-http://www.mirkolorenz.com/
-
-Tools as listed by NYT's Matt Ericson here: http://www.ericson.net/content/2011/04/international-journalism-festival-links/
--http://www.google.com/fusiontables/embedviz?viz=MAP&q=select+col0,+col1,+col2,+col3,+col4,+col5,+col6,+col7,+col8,+col9,+col10,+col11,+col12,+col13,+col14,+col15,+col16,+col17,+col18,+col19,+col20,+col21,+col22+from+628653+&h=false&lat=51.502758957640296&lng=-0.00823974609375&z=12&t=1&l=col0[Google Fusion Tables Example from The Guardian]
--http://www.tableausoftware.com/public/gallery/ken-griffey-viz[Tableau Public: Power Hitters]
--http://projects.nytimes.com/new-york-schools-test-scores/counties/kings/districts/new-york-city-district-15/schools/p-s-24[Google Charts from New York State Test Scores - The New York Times]
--http://www.nytimes.com/interactive/sports/soccer/2010-world-cup-team-rankings.html[HTML, CSS and Javascript: 2010 World Cup Rankings]
--http://jquery.com/[jQuery: The Write Less, Do More, JavaScript Library]
--http://jqueryui.com/[jQuery UI - Home]
--http://mbostock.github.com/protovis/[Protovis]
--http://raphaeljs.com/[Rapha√´l‚ÄîJavaScript Library]
--http://www.r-project.org/[The R Project for Statistical Computing]
--http://processing.org/[Processing.org]
--
--Google's tools http://code.google.com/apis/ajax/playground/[http://code.google.com/apis/ajax/playground/]
--http://support.google.com/mapmaker/bin/static.py?hl=en&guide=30028&page=guide.cs[http://www.google.com/support/mapmaker/bin/static.py?page=guide.cs&guide=30028]
--Image plot (Lev Manovich - Software Studies; explore patterns in large image collections) http://lab.softwarestudies.com/p/software.html[http://lab.softwarestudies.com/p/software.html]
-
-A quick exercise for aspiring data journalists (from Paul Bradshaw):
-http://onlinejournalismblog.com/2011/10/31/a-quick-exercise-for-aspiring-data-journalists/
-Visualizing Toronto's water usage: a tutorial
-http://datadrivenjournalism.net/resources/visualizing_torontos_water_usage_a_tutorial
-Data visualizations for non-programmers (via Knight Digital Media Center):
-http://multimedia.journalism.berkeley.edu/tutorials/intro-dataviz/
-Visualizing Data (Andy Kirk): http://www.visualisingdata.com/index.php/resources/
-How We Visualized 23 Years of Geo Bee Contents (via Datavisualization.ch):
-http://datavisualization.ch/opinions/how-we-visualized-23-years-of-geo-bee-contests/
-
-Scattered Examples
-http://www.guardian.co.uk/news/datablog/2011/oct/17/data-visualisation-visualization
-http://upload.wikimedia.org/wikipedia/commons/2/27/Snow-cholera-map-1.jpg
-http://www.guardian.co.uk/news/datablog/2010/aug/13/florence-nightingale-graphics
-
-Articles and personalities
-http://lilt.ilstu.edu/gmklass/pos138/datadisplay/sections/goodcharts.htm
-http://www.ericson.net/content/2011/10/when-maps-shouldnt-be-maps/
-
-Infographic and Information Design Conferences
-http://www.thedesignofunderstanding.com/[The Design of Understanding: January 2012, London]
-http://www.malofiej20.com/[Malofiej: March 2012, Pamplona, Spain]
-Information Design Conference: April 2012, London
-
-Books:
-Fresh Dialogue 9: In/Visible: Graphic Data Revealed
-Edward Tufte The Visual Display of Quantitative Information
-The Online Journalism Handbook: Skills to survive and thrive in the digital age (Liisa Rohumaa, Bournemouth Media School | Paul Bradshaw, Birmingham City University) - todo: to go in general section?
-
-
-http://catalogue.pearsoned.co.uk/educator/product/The-Online-Journalism-Handbook-Skills-to-survive-and-thrive-in-the-digital-age/9781405873406.page
-
-
-
-More resources:
-
-Exploring survey data with IBM Many Eyes
-
-http://www.opendatacookbook.net/wiki/recipe/exploring_survey_data_with_many_eyes
-
-Mapping:
-
-http://mapalist.com/
-http://geocommons.com/
-Costs money but recommended - ArcGIS http://www.esri.com/software/arcgis/index.html
-
-(Via Claire Miller)
-
-http://stamen.com/opensource[Stamen Design]
--Try this http://wiki.openstreetmap.org/wiki/OpenLayers_Simple_Example[OpenLayers Simple Example]. A good sample is http://haiti.ushahidi.com/[Ushahidi's Haiti map].
--There are other JavaScript libraries for overlaying information on maps, such as http://polymaps.org/[Polymaps]. And there are a number of other mapping platforms, such as Google Maps, which offers numerous http://code.google.com/apis/maps/index.html[mapping APIs]; http://developer.yahoo.com/maps/[Yahoo Maps Web Services], with its own APIs; the http://www.microsoft.com/maps/developers/web.aspx[Bing Maps] platform and APIs; and http://geocommons.com/[GeoCommons].
--http://leaflet.cloudmade.com/[Leaflet]
--http://jebruner.com/2011/11/how-to-build-an-interactive-map-with-open-source-tools/[How To Build an Interactive Map with Open-Source Tools]
--http://blog.apps.chicagotribune.com/2011/03/08/making-maps-1/[Making maps, part 1: Less interactivity]
-
-http://theinformationlab.co.uk/blog/2011/9/23/blue-things-and-green-things.html[Blue things and Green things]
--http://theinformationlab.co.uk/blog/2011/12/7/making-table-calculations-work-in-tableau.html[Making Table Calculations work in Tableau]
--http://theinformationlab.co.uk/blog/2011/12/12/show-me-when-less-is-definitely-more.html[Show Me! ‚Äì When less is definitely more]
--http://vimeo.com/19919944[Preprocess shapefile for Tableau Tutorial Video]
--http://www.datarevelations.com/hey-your-tableau-public-viz-is-ugly-and-confusing.html[Hey! Your Tableau Public Viz is Ugly *and* Confusing]
-
-
-
-### Data driven applications ###
-
-Overview: Step by step guide, tips and tricks for how newsrooms can produce data driven applications
-What are the resources (skills, costs, etc.) needed?
-What are the steps to take when you want to build a data driven application?
-What useful lessons did you learn from your own experience?
-Why should newsrooms be interested in producing data driven applications?
-What is the potential of such projects?
-Authors: Aron Pilhofer, Matt Stiles
-Length: 2-3 pages (including examples)
-
-
-=== Data-driven apps case studies - Internews in Kenya (Mark Irungu, Internews Network) ===
+=== Data Driven Apps at Internews in Kenya (Mark Irungu, Internews Network) ===
 
 ////
 
@@ -920,42 +674,7 @@ Resources
 
 Having powerful computers, big screens, servers and test platforms is a good thing when developing a news app, having good human resources is even better. The skill set required in this case is unique: a combination of UX, backend and security is required. Developers should take advantage and participate in online communities, developer meet ups, hackerthons, workshops and boot camps to sharpen their skills. Technology, just like traditional journalism, is constantly evolving and every developer should work with this realization. Laxity is not an option
 
-
-App Makers (via Claire Miller)
-www.appmakr.com
-Android training
-
-### Delivering a story through social media ###
-
-
-Author: Luca Dello Iacovo
-Editor: Lucy Chambers
-
-Ideas for points to cover:
-Ways to engage readers (encourage interaction)
-Presentation channels and things to bear in mind when using them
-Case studies, good uses, bad uses
-When social media is a good choice, when a bad choice
-
-=== Needs A Title by Duncan Geere (Wired.co.uk) ===
-
-Almost as important as publishing the data in the first place is getting reaction from your audience. You're human - you're going to make mistakes, miss things and get the wrong idea from time to time. Your audience is one of the most useful assets that you've got -- they can fact-check and point out things that you may not have considered.
-
-Engaging that audience is tricky, though. You're dealing with a group of people who've been conditioned over years of internet use to hop from site to site, leaving nothing but a sarcastic comment in their wake. Building a level of trust between you and your users is crucial -- they need to know what they're going to get, know how they can react to it and offer feedback, and know that that feedback is going to be listened to.
-
-But first you need to think about what audience you've got, or want to get. That will both inform and be informed by the kind of data that you're working with -- if it's specific to a particular sector, then you're going to want to explore particular communications with that sector. Are there trade bodies that you can get in touch with, that will be willing to publicise the resources that you've got and the work that you've done to a wider audience? Is there a community website or a messageboard that you can get in touch with?
-
-Social media is an important tool, too, though it again depends on the type of data that you're working with. If you're looking at global shipping statistics, for example, you're unlikely to find a group on Facebook or Twitter that'll be especially interested in your work. On the other hand if you're sifting through corruption indices across the world, or local crime statistics, that's likely to be something that's going to be of interest to a rather wider audience.
-
-Then you need to think about how those people are going to interact with your work. Sure, they might read the story that you've written and look at the infographics or maps, but giving your users an outlet to respond is immensely valuable. More than anything it's likely to give you greater insight into the subject you're writing about, informing future work on the topic.
-
-It goes without saying that you need to publish the raw data alongside your articles, but think about if there's other ways that you can get the audience to interact. Keep an eye on metrics on which parts of your datasets are getting attention -- it's likely that the most trafficked areas could have something to say that you might have missed.
-
-Think beyond the comment box, too. Can you attach comments to particular cells in a spreadsheet? Or a particular region of an infographic? Make sure that other users can see those comments too -- they have almost as much value as the original data, in a lot of cases.
-
-Finally, other people might want to publish their own infographics and stories on the same sources of data -- think about how best to tie that information together. You could use a hashtag specific to the dataset, for example, or if it's highly pictorial then you could share it in a Flickr group. Having a route to share information more confidentially could be useful too -- in some cases it might not be safe for people to publicly share their contributions to a dataset, or they might simply not be comfortable doing so.
-
-=== Public Data goes Social by Full Name Here ===
+=== Public Data Goes Social (Oluseun Onigbinde, BudgIT Nigeria) ===
 
 Data is invaluable. To the uninformed person where information asymmetry thrives, access to data illuminates the path to facts and provokes emotions that trigger results. Nevertheless, poor handling of data puts valuable facts in an opaque structure that communicates nothing. Data could be in a maze of thick document riddled with complex terms or iterations of figures that doesn't connect the user.  Not being able to promote discussion nor give provide contextual understanding, data may could be worthless. 
 
@@ -988,34 +707,23 @@ For us in BudgIT, our engagement model is anchored on the following:
 
 *Localize Outlook of Data*: For a dataset targeted at a particular group, BudgIT is building competency to localize its content and promote a channel of discussion that connects to the users. This involves taking a cultural outlook at the icons, symbols, objects and language to ensure that engagement concerning the budget flows seamlessly. This phase of engagement is with the grassroots who  mostly don't have access to Internet but only possess SMS-based mobile phones. 
 
-After making the public expenditure data  available in an easy-to-read format as shown on our portal yourbudgit.com, we reach out to the citizens through the civil society organizations to ensure that citizens monitor capital projects in the budget. We also plan to develop a participatory framework where citizens and government institutions can meet in town halls to define key items in the budget that needs to be prioritized. Once we get citizens to be aware of capital projects in the budget and connect them with civil societies where BudgIT is not located, citizens can track report projects and report status. Ensuring that citizens of any literacy span are armed with data and possess a clear path to demand action, BudgIT is crossing the rubicon from open data to open action. 
+After making the public expenditure data  available in an easy-to-read format as shown on our portal yourbudgit.com, we reach out to the citizens through the civil society organizations to ensure that citizens monitor capital projects in the budget. We also plan to develop a participatory framework where citizens and government institutions can meet in town halls to define key items in the budget that needs to be prioritized. Once we get citizens to be aware of capital projects in the budget and connect them with civil societies where BudgIT is not located, citizens can track report projects and report status. Ensuring that citizens of any literacy span are armed with data and possess a clear path to demand action, BudgIT is crossing the rubicon from open data to open action.
 
 
+=== Engaging Your Audience (Duncan Geere, Wired.co.uk) ===
 
-=== Citizen Engagement with Data Journalism (César Viana, Estacio de Sa University) ===
+Almost as important as publishing the data in the first place is getting reaction from your audience. You're human - you're going to make mistakes, miss things and get the wrong idea from time to time. Your audience is one of the most useful assets that you've got -- they can fact-check and point out things that you may not have considered.
 
-////
+Engaging that audience is tricky, though. You're dealing with a group of people who've been conditioned over years of internet use to hop from site to site, leaving nothing but a sarcastic comment in their wake. Building a level of trust between you and your users is crucial -- they need to know what they're going to get, know how they can react to it and offer feedback, and know that that feedback is going to be listened to.
 
-Insert: picture from projects
+But first you need to think about what audience you've got, or want to get. That will both inform and be informed by the kind of data that you're working with -- if it's specific to a particular sector, then you're going to want to explore particular communications with that sector. Are there trade bodies that you can get in touch with, that will be willing to publicise the resources that you've got and the work that you've done to a wider audience? Is there a community website or a messageboard that you can get in touch with?
 
-////
+Social media is an important tool, too, though it again depends on the type of data that you're working with. If you're looking at global shipping statistics, for example, you're unlikely to find a group on Facebook or Twitter that'll be especially interested in your work. On the other hand if you're sifting through corruption indices across the world, or local crime statistics, that's likely to be something that's going to be of interest to a rather wider audience.
 
-Journalism demands engagement with the public. This is a feature since the first newspapers that also influenced the creation of nation-states in the 17th century. At that time readers identified themselves with each other because at least they shared similar culture, imaginary, language and community interests. Whether this interaction is now through text, audio, audiovisual, animation or any other new visualization processes, trust and transparency are still crucial among journalists and citizen stakeholders.
-Much before having any kind of communication technology our civilization were founded on storytelling and connection among people. A story is relevant as far as the audiences feel represented on it. But it took us centuries to improve the ways to bring people, and nations, closer to each other in a global - and almost apt to be scrutinized - scene. But the challenge still resides on experimenting emerging principles and practice of citizen engagement on inclusive journalistic perspectives to foster information access and popular participation.
-Preparing and implementing editorial products based on datasets include as well participating on social conversations and considering user-centred design of information to better achieve citizen involvement. There are innovative ways to monitor feedbacks and civic participation on the social web and to encourage the creation of environments for dialog and social innovation.
-A news professional might be prepared to attend the demands of the public and influence their capacity to act alongside their peers. The more people take ownership of these communication resources; greater are the reflections of the journalistic efforts in the everyday of society and vice versa.
-Despite of being able to create data-driven journalism applications and services that are representative and able for accomplishing social improvements, the role of journalists is also enhance the social inclusion and education. A decisive way to do this is collaborate with the approach between the civic society stakeholders and the practitioners or researchers of ICT's into human-centred outlooks.
-The multidisciplinarity common to the variety of editorial sections of journalism has always collaborated with the interrelationship among different domains. When drawing or implementing strategies and plans consider leveraging opportunities and providing the knowledge and the skills to warrant inclusiveness, diversity and innovation in our societies. Make sure your project contributes to empower people through technology and/or media literacy.
-If only by consuming or sharing news, the public is involved in modeling of information systems. Therefore, it is necessary to provide the best resources for collaboration and joint construction of stories. There is a growing emergence of examples that stand out in this foray:
+Then you need to think about how those people are going to interact with your work. Sure, they might read the story that you've written and look at the infographics or maps, but giving your users an outlet to respond is immensely valuable. More than anything it's likely to give you greater insight into the subject you're writing about, informing future work on the topic.
 
-http://www.propublica.org/nerds/item/introducing-docdiver[DocDiver] is an application to stimulate readers on working beside ProPublica investigative reporters' team to identify and share key bits of information in documents.
+It goes without saying that you need to publish the raw data alongside your articles, but think about if there's other ways that you can get the audience to interact. Keep an eye on metrics on which parts of your datasets are getting attention -- it's likely that the most trafficked areas could have something to say that you might have missed.
 
-http://www.documentcloud.org/home[DocumentCloud] is preparing a new feature to engage readers in discussing and crowdsourcing news by allowing them to add their own notes and comments to material collected and displayed.
+Think beyond the comment box, too. Can you attach comments to particular cells in a spreadsheet? Or a particular region of an infographic? Make sure that other users can see those comments too -- they have almost as much value as the original data, in a lot of cases.
 
-http://www.ft.com/intl/eu-funds[EUfunds] is collaboration between the Financial Times and the Bureau of Investigative Journalism to help readers on tracking European Union structural funds.
-
-https://www.drumbeat.org/en-US/journalism/about/[MoJo] is the Knight-Mozilla partnership to bring together technologists and journalists in developing innovative solutions.
-
-http://www.a24media.com/whatsyourstory/[Africa: What's Your Story] is a collaborative platform of the citizen news agency A24Media to implicate people from across the continent on sharing information about media freedom, corruption, health, education and other issues in video, text and audio.
-
-The collaborative ways of treating or recirculating information and the bias for popular mobilizations are already means for important changes in this recent world of new media, big data sources and participatory culture. Even if only around 30 percent of the world population was online by the end 2010 (source: http://www.itu.int/ITU-D/ict/publications/idi/2011/index.html[2011 ITU report]), there are space for commitment to spread the principles of freedom and to share experiences, best practice and opportunities to improve the capability of citizens and other stakeholders to write/interact/play/sense the next chapters of the history of press.
+Finally, other people might want to publish their own infographics and stories on the same sources of data -- think about how best to tie that information together. You could use a hashtag specific to the dataset, for example, or if it's highly pictorial then you could share it in a Flickr group. Having a route to share information more confidentially could be useful too -- in some cases it might not be safe for people to publicly share their contributions to a dataset, or they might simply not be comfortable doing so.

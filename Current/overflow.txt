@@ -443,3 +443,191 @@ Insert: Creative Commons image of Benford curve here?
 This phenomenon appears in many lists of data from natural sources, which means that deviations from Benford's law may indicate false data. If you plot each leading digit in a data set against the frequency with which they appear, you should get a graph showing an exponential decline, which is what you would expect from Benford's law.
 
 To test whether your data is dodgy, all you have to do it take the leading digit from a list of numbers in your data, tally the number of times each digit appears, and then superimpose this over a Benford curve. If your data matches the expected curve, then your data is probably free of fabrication.
+
+##############################################################
+##############################################################
+##############################################################
+FROM SECTION 5:
+##############################################################
+##############################################################
+##############################################################
+
+
+Tools, tutorials and good examples of using visualisations to find stories
+When do you need to visualise a dataset to explore it and find a story? When don't you need to?
+How do you go about discovering a story? What tools do you use? What "protocol" do you follow? What clues do you follow, what do you pay attention to? (lessons, tips, advice).
+Examples of how to explore a dataset with a visualisation tool with a step by step description of the "protocol" followed to find the story.
+
+
+Tools, tutorials and good examples of using visualisations to tell stories
+When do you need to visualise a story and when don't you need to?
+What types of visualisations are good for presenting what types of stories?
+How do you go about visualising a story? What tools do you use? What steps do you take? (lessons, tips, advice).
+What makes a good visualisation, what makes a bad visualisation?
+Examples of good and base use of visualisations to tell a story with explanation of what makes them a good/bad case.
+
+Note: The aim of this chapter is not to show journalists how to do a data visualisation but to explain when a visualisation could be useful in their work, what could visualisations help them with, how they could assess the quality of a visualisation, getting them familiar with the vocabulary so they know what to ask for from designers, getting them familiar, introducing and showing them how to use visualisation tools for non-experts.
+
+Authors: David Erwin (New York Times), Aron Pilhofer (New York Times), Farida Vis (University of Leicester), Kate Hudson (openjournalism.ca), Lulu Pinney (infographics specialist), Mariano Blejman (Hacks/Hackers), Sarah Cohen (Knight Professor of the Practice of Journalism and Public Policy, Sanford)
+Length: 1-2 pages per case study
+Editor: Liliana Bounegru (European Journalism Centre)
+
+
+
+
+The Data Journalism Handbook
+4.3 Visualising data
+4.3.1 Roles of visualisation in journalism
+4.3.2 Tools, tutorials and good examples of using visualisations to find stories
+4.3.3 Tools, tutorials and good examples of using visualisations to tell stories
+When to use and when not to use visualisations to tell a story
+Types of stories visualisations can tell
+Which is the right visualisation for your story?
+Examples of good use of visualisations to tell stories
+When is a visualisation good and when is it bad?
+Toolkits and tutorials
+
+
+
+////
+
+
+Roles of visualisation in journalism by Lulu Pinney
+
+The function of data visualisations in reportage is twofold. Firstly they are a tool for exploring the data to find where any stories are. Their second use is for telling a story. And it is worth noting that - for the same set of data - it is more than likely that the visuals best suited to finding a story will not be best suited to the telling of it.
+
+Using visualisations to explore data is a more objective exercise, and sometimes it is appropriate to create an interface so your audience can have a go themselves. Alternatively having explored and interpreted the data yourself, you can choose just to present the stories you have found in a more subjective - or editorial - manner to your audience, with or without supporting visualisations.
+
+more on this from Sarah Cohen at the end of Feb.; more specifically Mainly on the use of it inside the newsroom to hone the story -- expanding on that handout you found. The real weakness there is that there are not good, free tools to use when you're not willing to make your data public.
+////
+
+
+Toolkits and tutorials
+
+
+http://www.mirkolorenz.com/
+
+Tools as listed by NYT's Matt Ericson here: http://www.ericson.net/content/2011/04/international-journalism-festival-links/
+-http://www.google.com/fusiontables/embedviz?viz=MAP&q=select+col0,+col1,+col2,+col3,+col4,+col5,+col6,+col7,+col8,+col9,+col10,+col11,+col12,+col13,+col14,+col15,+col16,+col17,+col18,+col19,+col20,+col21,+col22+from+628653+&h=false&lat=51.502758957640296&lng=-0.00823974609375&z=12&t=1&l=col0[Google Fusion Tables Example from The Guardian]
+-http://www.tableausoftware.com/public/gallery/ken-griffey-viz[Tableau Public: Power Hitters]
+-http://projects.nytimes.com/new-york-schools-test-scores/counties/kings/districts/new-york-city-district-15/schools/p-s-24[Google Charts from New York State Test Scores - The New York Times]
+-http://www.nytimes.com/interactive/sports/soccer/2010-world-cup-team-rankings.html[HTML, CSS and Javascript: 2010 World Cup Rankings]
+-http://jquery.com/[jQuery: The Write Less, Do More, JavaScript Library]
+-http://jqueryui.com/[jQuery UI - Home]
+-http://mbostock.github.com/protovis/[Protovis]
+-http://raphaeljs.com/[Rapha√´l‚ÄîJavaScript Library]
+-http://www.r-project.org/[The R Project for Statistical Computing]
+-http://processing.org/[Processing.org]
+-
+-Google's tools http://code.google.com/apis/ajax/playground/[http://code.google.com/apis/ajax/playground/]
+-http://support.google.com/mapmaker/bin/static.py?hl=en&guide=30028&page=guide.cs[http://www.google.com/support/mapmaker/bin/static.py?page=guide.cs&guide=30028]
+-Image plot (Lev Manovich - Software Studies; explore patterns in large image collections) http://lab.softwarestudies.com/p/software.html[http://lab.softwarestudies.com/p/software.html]
+
+A quick exercise for aspiring data journalists (from Paul Bradshaw):
+http://onlinejournalismblog.com/2011/10/31/a-quick-exercise-for-aspiring-data-journalists/
+Visualizing Toronto's water usage: a tutorial
+http://datadrivenjournalism.net/resources/visualizing_torontos_water_usage_a_tutorial
+Data visualizations for non-programmers (via Knight Digital Media Center):
+http://multimedia.journalism.berkeley.edu/tutorials/intro-dataviz/
+Visualizing Data (Andy Kirk): http://www.visualisingdata.com/index.php/resources/
+How We Visualized 23 Years of Geo Bee Contents (via Datavisualization.ch):
+http://datavisualization.ch/opinions/how-we-visualized-23-years-of-geo-bee-contests/
+
+Scattered Examples
+http://www.guardian.co.uk/news/datablog/2011/oct/17/data-visualisation-visualization
+http://upload.wikimedia.org/wikipedia/commons/2/27/Snow-cholera-map-1.jpg
+http://www.guardian.co.uk/news/datablog/2010/aug/13/florence-nightingale-graphics
+
+Articles and personalities
+http://lilt.ilstu.edu/gmklass/pos138/datadisplay/sections/goodcharts.htm
+http://www.ericson.net/content/2011/10/when-maps-shouldnt-be-maps/
+
+Infographic and Information Design Conferences
+http://www.thedesignofunderstanding.com/[The Design of Understanding: January 2012, London]
+http://www.malofiej20.com/[Malofiej: March 2012, Pamplona, Spain]
+Information Design Conference: April 2012, London
+
+Books:
+Fresh Dialogue 9: In/Visible: Graphic Data Revealed
+Edward Tufte The Visual Display of Quantitative Information
+The Online Journalism Handbook: Skills to survive and thrive in the digital age (Liisa Rohumaa, Bournemouth Media School | Paul Bradshaw, Birmingham City University) - todo: to go in general section?
+
+
+http://catalogue.pearsoned.co.uk/educator/product/The-Online-Journalism-Handbook-Skills-to-survive-and-thrive-in-the-digital-age/9781405873406.page
+
+
+
+More resources:
+
+Exploring survey data with IBM Many Eyes
+
+http://www.opendatacookbook.net/wiki/recipe/exploring_survey_data_with_many_eyes
+
+Mapping:
+
+http://mapalist.com/
+http://geocommons.com/
+Costs money but recommended - ArcGIS http://www.esri.com/software/arcgis/index.html
+
+(Via Claire Miller)
+
+http://stamen.com/opensource[Stamen Design]
+-Try this http://wiki.openstreetmap.org/wiki/OpenLayers_Simple_Example[OpenLayers Simple Example]. A good sample is http://haiti.ushahidi.com/[Ushahidi's Haiti map].
+-There are other JavaScript libraries for overlaying information on maps, such as http://polymaps.org/[Polymaps]. And there are a number of other mapping platforms, such as Google Maps, which offers numerous http://code.google.com/apis/maps/index.html[mapping APIs]; http://developer.yahoo.com/maps/[Yahoo Maps Web Services], with its own APIs; the http://www.microsoft.com/maps/developers/web.aspx[Bing Maps] platform and APIs; and http://geocommons.com/[GeoCommons].
+-http://leaflet.cloudmade.com/[Leaflet]
+-http://jebruner.com/2011/11/how-to-build-an-interactive-map-with-open-source-tools/[How To Build an Interactive Map with Open-Source Tools]
+-http://blog.apps.chicagotribune.com/2011/03/08/making-maps-1/[Making maps, part 1: Less interactivity]
+
+http://theinformationlab.co.uk/blog/2011/9/23/blue-things-and-green-things.html[Blue things and Green things]
+-http://theinformationlab.co.uk/blog/2011/12/7/making-table-calculations-work-in-tableau.html[Making Table Calculations work in Tableau]
+-http://theinformationlab.co.uk/blog/2011/12/12/show-me-when-less-is-definitely-more.html[Show Me! ‚Äì When less is definitely more]
+-http://vimeo.com/19919944[Preprocess shapefile for Tableau Tutorial Video]
+-http://www.datarevelations.com/hey-your-tableau-public-viz-is-ugly-and-confusing.html[Hey! Your Tableau Public Viz is Ugly *and* Confusing]
+
+
+App Makers (via Claire Miller)
+www.appmakr.com
+Android training
+
+### Delivering a story through social media ###
+
+
+Author: Luca Dello Iacovo
+Editor: Lucy Chambers
+
+Ideas for points to cover:
+Ways to engage readers (encourage interaction)
+Presentation channels and things to bear in mind when using them
+Case studies, good uses, bad uses
+When social media is a good choice, when a bad choice
+
+
+------
+
+=== Citizen Engagement with Data Journalism (César Viana, Estacio de Sa University) ===
+
+////
+
+Insert: picture from projects
+
+////
+
+Journalism demands engagement with the public. This is a feature since the first newspapers that also influenced the creation of nation-states in the 17th century. At that time readers identified themselves with each other because at least they shared similar culture, imaginary, language and community interests. Whether this interaction is now through text, audio, audiovisual, animation or any other new visualization processes, trust and transparency are still crucial among journalists and citizen stakeholders.
+Much before having any kind of communication technology our civilization were founded on storytelling and connection among people. A story is relevant as far as the audiences feel represented on it. But it took us centuries to improve the ways to bring people, and nations, closer to each other in a global - and almost apt to be scrutinized - scene. But the challenge still resides on experimenting emerging principles and practice of citizen engagement on inclusive journalistic perspectives to foster information access and popular participation.
+Preparing and implementing editorial products based on datasets include as well participating on social conversations and considering user-centred design of information to better achieve citizen involvement. There are innovative ways to monitor feedbacks and civic participation on the social web and to encourage the creation of environments for dialog and social innovation.
+A news professional might be prepared to attend the demands of the public and influence their capacity to act alongside their peers. The more people take ownership of these communication resources; greater are the reflections of the journalistic efforts in the everyday of society and vice versa.
+Despite of being able to create data-driven journalism applications and services that are representative and able for accomplishing social improvements, the role of journalists is also enhance the social inclusion and education. A decisive way to do this is collaborate with the approach between the civic society stakeholders and the practitioners or researchers of ICT's into human-centred outlooks.
+The multidisciplinarity common to the variety of editorial sections of journalism has always collaborated with the interrelationship among different domains. When drawing or implementing strategies and plans consider leveraging opportunities and providing the knowledge and the skills to warrant inclusiveness, diversity and innovation in our societies. Make sure your project contributes to empower people through technology and/or media literacy.
+If only by consuming or sharing news, the public is involved in modeling of information systems. Therefore, it is necessary to provide the best resources for collaboration and joint construction of stories. There is a growing emergence of examples that stand out in this foray:
+
+http://www.propublica.org/nerds/item/introducing-docdiver[DocDiver] is an application to stimulate readers on working beside ProPublica investigative reporters' team to identify and share key bits of information in documents.
+
+http://www.documentcloud.org/home[DocumentCloud] is preparing a new feature to engage readers in discussing and crowdsourcing news by allowing them to add their own notes and comments to material collected and displayed.
+
+http://www.ft.com/intl/eu-funds[EUfunds] is collaboration between the Financial Times and the Bureau of Investigative Journalism to help readers on tracking European Union structural funds.
+
+https://www.drumbeat.org/en-US/journalism/about/[MoJo] is the Knight-Mozilla partnership to bring together technologists and journalists in developing innovative solutions.
+
+http://www.a24media.com/whatsyourstory/[Africa: What's Your Story] is a collaborative platform of the citizen news agency A24Media to implicate people from across the continent on sharing information about media freedom, corruption, health, education and other issues in video, text and audio.
+
+The collaborative ways of treating or recirculating information and the bias for popular mobilizations are already means for important changes in this recent world of new media, big data sources and participatory culture. Even if only around 30 percent of the world population was online by the end 2010 (source: http://www.itu.int/ITU-D/ict/publications/idi/2011/index.html[2011 ITU report]), there are space for commitment to spread the principles of freedom and to share experiences, best practice and opportunities to improve the capability of citizens and other stakeholders to write/interact/play/sense the next chapters of the history of press.
