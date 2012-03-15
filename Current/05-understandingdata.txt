@@ -253,11 +253,26 @@ Insert: picture of lots of tools arranged on screen, ready to go
 
 Psssss. That is the sound of your data decompressing from its airtight wrapper. Now what? What do you look for? And what tools do you use to get stuck in? We asked data journalists to tell us a bit about how they work with data. Here is what they said.
 
-*Brian Boyer, Chicago Tribune*
+*Brian Boyer, Developer at Chicago Tribune*
 
 ____
 Our tools of choice include Python and Django. For hacking, scraping and playing with data, and PostGIS, QGIS and the MapBox toolkit for building crazy web maps. R and NumPy + MatPlotLib are currently battling for supremacy as our kit of choice for exploratory data analysis, though our favorite data tool of late is homegrown: CSVKit. More or less everything we do is deployed in the cloud.
 ____
+
+*Scott Klein, Editor of News Applications at ProPublica*
+
+____
+We use:
+  * Google Refine and Microsoft Excel to clean data.
+  * SPSS and R to do statistics
+  * ArcGIS and QGIS to do GIS
+  * Git for source code management
+  * TextMate, Vim and Sublime Text for writing code
+  * Ruby on Rails and JavaScript for software development
+  * We built our own JavaScript framework called "Glass" that helps us build front-end heavy apps in JavaScript very quickly
+  * For databases, we use a mix of MySQL, PostgreSQL and SQL Server
+____
+
 
 === Using Data Visualisation to Find Insights in Data (Gregor Aisch, Open Knowledge Foundation) ===
 

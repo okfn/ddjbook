@@ -334,3 +334,59 @@ During the summer of 2011 the UK was hit by a wave of riots. Politicians suggest
 By using simple maps they showed the location of http://www.guardian.co.uk/news/datablog/interactive/2011/aug/09/uk-riots-incident-map[confirmed riots spots] and through mashing up deprivation data with where the riots took place started debunking the main political narrative that there was no link to http://www.guardian.co.uk/news/datablog/2011/aug/16/riots-poverty-map-suspects[poverty]. Both of these examples use off the shelf mapping tools and in the second example combine location data with another data set, to start making other connections and links.
 
 A final example worth mentioning here is the visualization the paper built around the use of social media. Politicians had started to suggest that social media use might have to be curtailed during such troubles in future, but offering little concrete evidence that social media, Twitter in this case, played a role in encouraging people to riot. A visualization of riot related http://www.guardian.co.uk/uk/2011/aug/24/twitter-study-post-riot-plans#_[hashtags] used during this period, highlighted that Twitter was mainly used to respond to the riots rather than to organize people to go looting, with #riotcleanup showing the most significant spike during the riot period.
+
+=== The Opportunity Gap (Scott Klein, ProPublica) ===
+
+## A case study on one of the projects you're most proud of. The questions below give an indication of the sort of things that would be interesting to include in the case study:
+
+[The Opportunity Gap](http://projects.propublica.org/schools)
+
+## Describe the project and its major findings.
+
+The Opportunity Gap used never-before-released U.S. Department of Education civil rights data and showed that some states, like Florida, have leveled the field and offer rich and poor students roughly equal access to high-level courses, while other states, like Kansas, Maryland and Oklahoma offer far less opportunity in districts with poorer families.
+
+## What does the project aim to achieve?
+
+## What data did you use and how did you obtain it? 
+
+The data included all public schools in districts with 3,000 students or more. More than three-quarters of all public-school children were represented. A reporter in our newsroom obtained the data and our Computer Assisted Reporting Director, cleaned it very extensively.
+
+## How long did you work on the project?
+
+It was roughly a three-month project.
+
+## How many people worked on it?
+
+The story and news application combined, seven people: Two editors, a reporter, a CAR person, and two developers. Naturally we weren't all working on it exxclusively throughout that period.
+
+## What were the skills necessary for this project? (e.g.: domain knowledge, coding, research, visualisation, etc.)
+
+It really required our combined skills -- deep domain knowledge on the part of the reporter, the CAR person, and the developer;  design and coding skills on the part of the developer, etc. -- but more importantly an ability to find the story in data, and also to know what data that wasn't already in our data set might help readers understand the story and draw conclusions.
+
+It also took editing -- not only for the story that went with it but for the news app itself. TK
+
+## What techniques and tools did you use?
+
+For the data cleaning and analysis we used mostly Excel and cleaning scripts, though we also used SQL Server CK. The news app is written in Ruby on Rails and uses JavaScript pretty exensively. 
+
+## How did you present your story? (visualisations, maps, articles, etc.)
+
+In addition to an overview story, our coverage included an interactive news application, which let readers understand and find examples within this large national data set that related to them. Using our news app, a reader could find their local school -- say, for example, [Central High School in Newark, N.J.](http://goo.gl/HJVCf)  -- and immediately see how well the school does in a wide variety of factors.  Then they could hit a button that says ["Compare to high and low poverty schools,"](http://goo.gl/WrAIi) and immediately see other high schools, their relative poverty, and the extent to which they offer higher math, Advanced Placement, and other important courses.  In our example, Central High is bookended by Millburn Sr. High. The Opportunity Gap shows how only 1% of Milburn students get Free or Reduced Price lunch but 72% of them are taking at least one AP course. In the other extreme, International High has 85% of its students getting Free/Reduced Price lunch and only 1% taking AP courses. 
+
+Through this example a reader can use something they know -- a local high school -- to understand something they don't know -- the distribution of educational access, and the extent to which poverty is a predictor of that access in their area.
+
+We also integrated the app with Facebook, so readers could log in to Facebook and our app would automatically let them know about schools that might interest them. 
+
+## What were the results (e.g. in terms of traffic and interaction with the users, impact on policy, etc.)?
+
+Traffic to all of our news apps are excellent, and we're particularly proud of the way this app tells a complex story -- and more to the point, helps readers tell their own particular story for themselves.
+
+## What were the challenges of this project?
+
+As with many projects that start with government data, the data needed a lot of cleaning. For instance, while there are 26 CK possible Advanced Placement coures, some schools reported having hundreds of them. This took lots of manual checking and phone calls to schools for confirmation and corrections.
+
+We also worked really hard at making sure the app told a "far" story and a "near" story. That is, the app needed to present the reader with a broad, abstract national picture -- specifically, a way to compare how states did relative to each other on educational access. But given that abstraction sometimes leaves readers confused as to their own stake, we also wanted readers to be able to find their own local school and compare it to example high and low-poverty schools in their area.
+
+## What advice would you give to aspiring data journalists based on this experience?
+
+Same as I'd give to any journalist -- know the material and be inquisitive! All of the rules that apply to other kinds of journalism apply here. You have to get the facts right, make sure you tell the story, and crucuially, make sure your news app doesn't disagree with a story you're writing -- because if it does, one of the two might be wrong.

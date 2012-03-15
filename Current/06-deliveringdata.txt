@@ -118,6 +118,52 @@ News application development has come a long way in a very short time. News Apps
 
 News Apps 2.0, where the industry is headed, is about combining the storytelling and public service strengths of journalism with the product development discipline and expertise of the technology world. The result, no doubt, will be an explosion of innovation around ways to make data relevant, interesting and especially useful to our audience – and at the same time hopefully helping journalism do the same.
 
+=== News Apps at Propublica (Scott Klein, ProPublica) ===
+
+## A section on how to build a news app (how do you decide when to build a news app and how do you go about it (practical guide)?)
+
+## Things to include: theoretical introduction, step by step tutorial, tips and tricks for how newsrooms can produce data driven applications (with examples and case studies). Would be interesting to answer (some of) these questions in the section:
+
+## What is a news app?
+
+A news application is a broad, deep interactive database that tells a news story.
+
+## Who are news apps for?
+
+By exposing specific data to them, a news app can tell each reader's story. It can help a reader understand their personal stake in a broad national phenomenon, and help them attach what they know to what they don't know to encourage a deep understanding of abstract concepts.
+
+## How do you decide on when to build an app?
+
+We tend to build news apps when we have a data set (or think we can acquire a data set) that is both national and granular enough to expose details.
+
+## What should a good news app include?
+
+Just like any good story, a news app has a headline, a byline, a lede, and a nut. Some of these concepts can be hard to distinguish in a piece of interactive software, but they're there. 
+
+Also, a news app should be generative -- meaning it should generate more reporting. ProPublica's best apps have been used as sources in hundreds of local stories. Example TK.
+
+## What are the successful and not so successful examples? What can be learned from them?
+
+One of the very best news apps is Mapping L.A. (url tk), which started out as a crowdsourced map of Los Angeles's many neighborhoods, which had no good, independent, widely-accepted set of boundaries. After that initial project, the Times has been able to report out things like crime rate by neighborhood, school quality by neighborhood, etc. which they wouldn't have been able to do before.
+
+So not only is this app both broad and specific, it's generative, it tells people's own stories, etc.
+
+## What are the resources (skills, costs, etc.) needed?
+
+The resources necessary ranges pretty widely. The New York Times has dozens of people working on news apps and on very complex graphics. But Talking Points Memo made a cutting edge poll tracker app with two staffers, neither of whom had computer science degrees.
+
+## What are the steps to take when you want to build a data driven application?
+
+Like most newsroom-based coders, we follow a modified Agile methodology. We iterate quickly and show drafts to the other folks in the newsoom we're working with. Most importantly we work really closely with reporters and read drafts -- even early ones. 
+
+## What useful lessons did you learn from your own experience?
+
+## Why should newsrooms be interested in producing data driven applications? / What is the potential of such projects? 
+
+It's great journalism, it's hugely popular -- ProPublica's most popular features are news apps, and if we don't do it somebody else will -- and think of all the scoops we'd miss!
+
+Most importantly, newsrooms should know that they can do this. It's easier than it looks.
+
 === Data Visualisation in Journalism: An Introduction (Sarah Cohen, Washington Post) ===
 
 Waiting for text.
@@ -218,151 +264,132 @@ There has been a clear trend in last 2-3 years to create interactive graphs and 
 
 === Data Driven Apps at Internews in Kenya (Mark Irungu, Internews Network) ===
 
-On the 6th of July 2011, the Kenya government became the first in Africa to have an open data portal to the public. Making government data open is not a very popular idea that regimes would readily embrace in Africa, not with the rampant corruption and mismanagement of public funds. Understandably, the Kenyan Government has received a lot of accolades for that. 
+On the 6th of July 2011, the Kenyan government became the first in Africa to have a national open data portal. Making government data open is not a very popular idea that regimes would readily embrace in Africa, not with the rampant corruption and mismanagement of public funds. Understandably, the Kenyan Government has received a lot of accolades for that.
 
+While this World Bank supported initiative received a lot of praise globally (from the New York Times to government heads in the developed world) the scenario was different locally. It was great news in the techie world but just another tiny story in the world of journalism. The story was not covered beyond the day of the launch. Few journalists visited portal after the launch. The data is accessible online and just like all data sets; it is not in the smallest way friendly to the eye, at least not a journalist's eye.
 
-While this World Bank supported initiative received a lot of praise globally (from the New York Times to government heads in the developed world) the scenario was different locally. It was great news in the techie world but just another tiny story in the world of journalism. The story was not covered beyond the day of the launch. Few journalists visited portal after the launch! The data is accessible online and just like all data sets; it is not in the smallest way friendly to the eye, at least not a journalist's eye.
+*The GAP*
 
-The GAP
+The techies have taken the idea and run with it, trying to think of applications that could be developed to mine the data, clean the data and visualise it making it more accessible to people beyond the developer community.
 
-Whereas the techies have taken the idea and ran with it, trying to think of apps that could be developed to mine the data, clean the data and visualize it making it more accessible to people beyond the developer community.. 
-A new digital divide exists, not just in Kenya between journalists and developers in working with Open Data. Journalists need to learn more on the mechanics of using data. Developers, also called techies, also have a lot to learn. . Developers may be brilliant with code, but have a lot to learn with regard to content, the opposite is true for journalists. Why not leverage these strengths to form a 'tag team'? They do not necessarily have to be at the same place at the same time, all we need is an interface co connect them. What the data world needs is a good app that can serve these groups..
+A new digital divide exists, not just in Kenya, between journalists and developers in working with data. Journalists need to learn more about the mechanics of using data. Developers, also called techies, also have a lot to learn. Developers may be brilliant with code, but have a lot to learn with regard to content, the opposite is true for journalists. Why not leverage these strengths to form a `tag team'? They do not necessarily have to be at the same place at the same time, all we need is an interface co connect them. What the data world needs is a good app that can serve these groups.
 
-The APP
+*The APP*
 
-The power of data cannot be under estimated. It is time that newsrooms and journalists moved away from the "he said, she said" reporting. Numbers don't lie, they can help journalists produce in-depth features, and explore untold stories and trends that are not immediately known or visible to the general public.. Unfortunately, journalists in Kenya have not made good use of the opened data. I work at Internews in Kenya - a media development organisation that trains and supports journalists to be better storytellers, In our journalism workshops we have designed a number of courses to help journalists use numbers and data better for their storytelling. This is important as it helps journalists to enrich their enquiry and stories 
+The power of data cannot be under estimated. It is time that newsrooms and journalists moved away from the ``he said, she said'' reporting. Numbers can help journalists produce in-depth features, and explore untold stories and trends that are not immediately known or visible to the general public. Unfortunately, journalists in Kenya have not made good use of the opened data. I work at Internews in Kenya - a media development organisation that trains and supports journalists to be better storytellers. In our journalism workshops we have designed a number of courses to help journalists use numbers and data better for their storytelling. This is important as it helps journalists to enrich their enquiry and stories.
 
-It is with this realization that the idea of developing an app to query KODI was born. There is need for a a solution that would help journalists clean up raw data in the back end and help journalist to identify emerging stories and trends.That app should also help in presenting the content in visually appealing ways. 
+It is with this realisation that the idea of developing an app to query KODI was born. There is need for a a solution that would help journalists clean up raw data in the back end and help journalist to identify emerging stories and trends.That app should also help in presenting the content in visually appealing ways. 
 
 The app should:
+
 1. Query the entire Kenya open data portal.
-2. Clean the data/ provide a friendly interface for cleaning the data.
-3. Visualize the data.
+2. Clean the data / provide a friendly interface for cleaning the data.
+3. Visualise the data.
 4. Generate reports that can be used as is.
 
+*The Target*
 
+We are facing a unique scenario. Who were we targeting? We have had to determine whether this is going to be a case of old hands, new tricks or new hands, new tricks. Traditional journalism has undergone a radical evolution process with the development of the web. Maybe that was enough. Yes there is a significant gap between journalists and techies, but we have also established that the desire to among journalists to learn and possibly close this gap is very strong . The `evolved' traditional journalist has been showing willingness to undergo a second metamorphosis and the upcoming journalist doesn't mind this baptism of fire. The app we are working will serve journalists at all levels.
 
-The Target
+*The Team and the Technology*
 
-We are facing a unique scenario. Who were we targeting? We have had to determine whether this is going to be a case of old hands, new tricks or new hands, new tricks. Traditional journalism has undergone a radical evolution process with the coming in of web 2.0. Maybe that was enough. Yes there is a significant gap between journalists and techies, but we have also established that the desire to among journalists to learn and possibly close this gap is very strong . The 'evolved' traditional journalist has been showing willingness to undergo a second metamorphosis and the upcoming journalist doesn't mind this baptism of fire. The app we are working will serve journalists at all levels.
+Over the past 8 years, Internews has worked in Kenya with journalists to build capacity in health and conflict sensitive reporting through training, mentoring, travel grants and availing resources for journalists at the Nairobi and Eldoret offices. The idea of developing an app has come hand in hand with the idea of setting up a Center for Digital journalism at the Kenya office. This centre does more or less what Internews has been doing but at a digital scale. The centre also `incubates' upcoming and evolving data/digital journalists and has facilities that aid such journalists in production of complex and compelling stories.
 
-The Team and the Technology
-
-Over the past 8 years, Internews has worked in Kenya with journalists to build capacity in health and conflict sensitive reporting through training, mentoring, travel grants and availing resources for journalists at the Nairobi and Eldoret offices. The idea of developing an APP has come hand in hand with the idea of setting up a Center for Digital journalism at the Kenya office. This center does more or less what Internews has been doing but at a digital scale. The center also 'incubates' upcoming and evolving data/ digital journalists and has facilities that aid such journalists in production of complex and compelling stories.
-
-To develop this app, we have had to face the fact that we do not know everything and we needed to talk to those who may have taken our path before leveraging on our relationship with various developer communities in Nairobi to form a team that would work towards our end product. Our first choice approach was the use of PHP ZEND framework and ADOBE flex and flash builder 4.5 for php. We initially felt these platforms would be sufficient to start us off. However, along the way we have picked up on other technologies that we believe will spice up the end result e.g. the DATA journalism developer studio running on open Linux. The tool will run across all platforms; web, desktop, mobile. With the high uptake and use of mobile phones in Kenya, it is Important that all Open data tools should be able to run on mobile platforms (J2ME, Android).
+To develop this app, we have had to face the fact that we do not know everything and we needed to talk to those who may have taken our path before leveraging on our relationship with various developer communities in Nairobi to form a team that would work towards our end product. Our first choice approach was the use of PHP ZEND framework and ADOBE flex and flash builder 4.5 for php. We initially felt these platforms would be sufficient to start us off. However, along the way we have picked up on other technologies that we believe will spice up the end result e.g. the Data Journalism Developer Studio running on open Linux. The tool will run across all platforms; web, desktop, mobile. With the high uptake and use of mobile phones in Kenya, it is Important that all Open data tools should be able to run on mobile platforms (J2ME, Android).
 
 Developers vary in coding strengths and language preferences. After determining which languages our platform would run on, we have had to identify strong team members that would deliver the quality of code that would make this world-class product. We have also distinguished those working on the front end (user experience) and those working on the back end (dirty work). The two teams have to sync at the application level and there is need for a strong working relationship.
 
-
-
-Kenya has clearly made some bold steps but there is still a lot of ground to cover. 
-The biggest challenge is not coming up with the idea but in having a worthy team. An outcome based approach team that endears its energies to the overall objective makes product successful. If used well, Data can be life changing. Electoral dynamics especially in voting patterns in Kenya have been devoid of content and objectivity. With available data, this and many other systems in Kenya can change for the better. 
-
+Kenya has clearly made some bold steps but there is still a lot of ground to cover. The biggest challenge is not coming up with the idea but in having a worthy team. An outcome based approach team that endears its energies to the overall objective makes product successful. If used well, data can be life changing. Electoral dynamics especially in voting patterns in Kenya have been devoid of content and objectivity. With available data, this and many other systems in Kenya can change for the better. 
 
 **2. How to build a news app**
 
-A news app is a software (web, desktop, mobile,ussd) that acts as an interface between the database layer of the information architecture and the client side. News apps make data friendlier to the client as compared to the format and layout at the storage engine. 
+A news app is a software (web, desktop, mobile, USSD) that acts as an interface between the database layer of the information architecture and the client side. News apps make data friendlier to the client as compared to the format and layout at the storage engine. 
 
 News Apps vary in type:
 
-1.	Curation- This is an app that gathers already existing information and brings it to one platform based on a particular keyword(s). This kind of app may not necessarily have its own storage engine, some depend on a 'Google type' indexing mechanism that crawls the net and indexes searchable information. Examples of Curation APPS; Storify, Storyful.
+1. Curation- This is an app that gathers already existing information and brings it to one platform based on a particular keyword(s). This kind of app may not necessarily have its own storage engine, some depend on a 'Google type' indexing mechanism that crawls the net and indexes searchable information. Examples of Curation APPS; Storify, Storyful.
 
-2.	News Portals- these are online news portals that deliver news in real time. News websites, news applications running on mobile platforms , aggregated feed readers fall in this category
+2. News Portals- these are online news portals that deliver news in real time. News websites, news applications running on mobile platforms, aggregated feed readers fall in this category.
 
+3. Citizen reporting- these are apps whose main source of data is the citizen. These apps provide an interface for citizen-journalism and then visualise the data graphically or on a map. E.g.: Ushahidi, crowdmap, swiftriver.
 
-3.	Citizen reporting- these are apps whose main source of data is the citizen. These apps provide an interface for citizen-journalism and then visualize the data graphically or on a map. E.g.: Ushahidi, crowdmap, swiftriver
+4. Data apps - These are apps that query DATA sets from governments, organisations, civil society etc. These Apps may have their own storage engine that is updated regularly from the main data source e.g. World Bank finances, Kenya open data. Examples of such applications: CDF monitor (Kenya) Internews Open DATA app (Kenya).
 
-4.	DATA apps - These are apps that query DATA sets from governments, organizations, civil society etc. These Apps may have their own storage engine that is updated regularly from the main data source e.g. World Bank finances, Kenya open data. Examples of such applications: CDF monitor (Kenya) Internews Open DATA app(Kenya)
+*Why and for who?*
 
+News Apps are not for journalists only. Most news apps are coded to produce interactive and friendly reports that can be used by any news savvy person. The act of interacting with a news app looking for news is in itself journalism. Newsrooms, News organisations, governments, and civil society should commission development of news apps based on need.
 
-Why and for who?
+In the age of open source tools, re-inventing the wheel is not necessary. When making the decision to develop a news app, it is imperative to survey the current news landscape and identify tools that do at least half of what you'd like to see. Chances are that in most instances you may just combine two different tools with great precision. For example, when working on large data sets you may be looking for a tool that will clean the data and also visualise it in clean interactive graphs, charts, bubbles and possibly maps. You may want, in this instance, to clean the data on Google Refine, and then export the data to Tile Mill to visualise it on a map and to infogr.am to plot it on a matrix! 
 
-News Apps are not for journalists only. Most news apps are coded to produce interactive and friendly reports that can be used by any news savvy person. The act of interacting with a news app looking for news is in itself journalism. Newsrooms, News organizations, governments, and civil society should commission development of news apps based on need.
+However, there are rare scenarios like that of Kenya where relationships between datasets need to be established on the fly in order to generate some visualisations that may require you to develop an app altogether. This saves the non-techie journalist the hassle, for example, of trying to join a table with all constituencies in Kenya with another with their latitude and longitude co-ordinates in order to plot the info on a map.
 
-In the age of Open Source tools, re-inventing the wheel is not necessary. When making the decision to develop a news app, it is imperative to survey the current news landscape and identify tools that do at least half of what you'd like to see. Chances are that in most instances you may just combine two different tools with great precision. For example, when working on large data sets you may be looking for a tool that will clean the data and also visualize it in clean interactive graphs, charts, bubbles and possibly maps. You may want, in this instance, to clean the data on Google refine, and then export the data to Tile Mill to visualize it on a map and to infogr.am to plot it on a matrix! 
-
-However, there are rare scenarios like that of Kenya where relationships between datasets need to be established on the fly in order to generate some visualizations that may require you to develop an app altogether. This saves the non-techie journalist the hustle e.g. of trying to join a table with all constituencies in Kenya with another with their Longitude and latitude co-ordinates in order to plot the info on a map.
-
-The main idea of developing a news app should be motivated by the need to make data friendlier. If your news app does not make your numbers sexy/savvy then it's not worth the time. And money! 
+The main idea of developing a news app should be motivated by the need to make data friendlier. If your news app does not make your numbers easier to understand then it is not worth the time and money.
 
 A good news app should:
 
 1. Mine the data- extracting data sets from the source.
 2. Clean the data- pick out anomalies in the data and highlight them to the user. The user then corrects the anomalies.
 3. Export data- have export data functionality.
-4. Visualize the data
+4. Visualise the data
 
-Open source apps have indeed made things easier for all of us; the ability to even alter the source code of a free product release under the GPNU license is particularly enticing. It is however important to apply news apps to the context for which they were developed and not to the context that cuts costs for you as a news organization. 
+Open source apps have indeed made things easier for all of us; the ability to even alter the source code of a free product release under the GPL license is particularly enticing. It is however important to apply news apps to the context for which they were developed and not to the context that cuts costs for you as a news organisation. 
 
-A classical example is the USHAHIDI platform; Ushahidi was built mainly for crisis citizen reporting. It worked perfect during the post election violence in Kenya and mapping of hotspots, and even better during the Haiti earthquake and the BP oil spill. But it stops working when used for activities that do not engage citizens to report e.g. mapping out country offices of an organization. 
+A classical example is the Ushahidi platform; Ushahidi was built mainly for crisis citizen reporting. It worked perfect during the post election violence in Kenya and mapping of hotspots, and even better during the Haiti earthquake and the BP oil spill. But it stops working when used for activities that do not engage citizens to report e.g. mapping out country offices of an organisation. 
 
-
-Packaging 
+*Packaging*
  
-The success or failure of an app is strongly dependent on how it is packaged. Packaging in this case refers mainly to the platforms for which it is built. Developers should aim at presenting very flexible and useable apps. Limiting an APP to one operating system e.g. windows is a big setback and significantly contributes to the failure of the app.
+The success or failure of an app is strongly dependent on how it is packaged. Packaging in this case refers mainly to the platforms for which it is built. Developers should aim at presenting very flexible and useable apps. Limiting an app to one operating system e.g. Windows is a big setback and significantly contributes to the failure of the app.
 
 To counter such issues, developers are encouraged to come up with fully functional online versions of applications before thinking of the desktop app. An online app only locks out someone without a browser! Desktop versions and mobile versions should be added features and not the other way round.
 
+*Resources*
 
-Resources
-
-Having powerful computers, big screens, servers and test platforms is a good thing when developing a news app, having good human resources is even better. The skill set required in this case is unique: a combination of UX, backend and security is required. Developers should take advantage and participate in online communities, developer meet ups, hackerthons, workshops and boot camps to sharpen their skills. Technology, just like traditional journalism, is constantly evolving and every developer should work with this realization. Laxity is not an option
+Having powerful computers, big screens, servers and test platforms is a good thing when developing a news app, having good human resources is even better. The skill set required in this case is unique: a combination of UX, backend and security is required. Developers should take advantage and participate in online communities, developer meet ups, hackathons, workshops and boot camps to sharpen their skills. Technology, just like traditional journalism, is constantly evolving and every developer should work with this realisation. Laxity is not an option.
 
 === Public Data Goes Social (Oluseun Onigbinde, BudgIT Nigeria) ===
 
+Data is invaluable. Access to data has the potential to illuminate issues in a way which triggers results. Nevertheless, poor handling of data can put facts in an opaque structure which communicates nothing. If it doesn't promote discussion or provide contextual understanding, data may be of limited value to the public.
+
+Nigeria returned to democracy in 1999 after lengthy years of military rule. Probing the facts behind data was taken as an affront to authority and was seen to be trying question the stained reputation of the junta. The Official Secrets Act compelled civil servants not to share government information. Even after thirteen years of return to democracy, accessing public data can be a difficult task. Data about public expenditure communicates little to the majority of the public who are not well versed in financial accounting and complex arithmetic. 
+
+With the rise of mobile devices and an increasing number of Nigerians online, with BudgIT we saw a huge opportunity to use use data visualisation technologies to explain and engage people around public expenditure. To do this we have had to engage users across all platforms and to reach out to citizens via NGOs. This project is about making public data a social object and building an extensive network that demands change.
+
 image::Figures/06-YY.png[width=600]
 
-Data is invaluable. To the uninformed person where information asymmetry thrives, access to data illuminates the path to facts and provokes emotions that trigger results. Nevertheless, poor handling of data puts valuable facts in an opaque structure that communicates nothing. Data could be in a maze of thick document riddled with complex terms or iterations of figures that doesn't connect the user.  Not being able to promote discussion nor give provide contextual understanding, data may could be worthless. 
+To successfully engage with users, we have to understand what they want. What does the Nigerian citizen care about? Where do they feel an information gap? How can we make the data relevant to their lives? BudgIT's immediate target is the average literate Nigerian connected to online forums and social media. In order to compete for the limited attention of users immersed in a wide variety of interests (gaming, reading, socialising) we need to present the data in a brief and concise manner. After broadcasting a snapshot of the data as a Tweet or an infographic, there's an opportunity for a more sustained engagement with a more interactive experience to give users a bigger picture.
 
-Nigeria returned to democracy in 1999 after lengthy years of military rule. Data under the barrel of the gun was an exclusive preserve of rulers as probing the facts behind data is taken as an affront to authority and strive to question the stained reputation of the junta. Civil servants were bound by the Official Secrets Act not to share government information hereby putting the citizens in the dark. Even after thirteen years of return to democracy, there is clearly a gap in accessing public data with some government officials still stricken with military era hangover. Data especially in terms of public expenditure communicates little to the larger sections of public who are not versed in financial accounting nor have requisite understanding to evaluate the complex arithmetic. 
+When visualising data it is important to understand the level of data literacy of our users. As beautiful and sophisticated as they may be, complex diagrams and interactive applications might not meaningfully communicate to our users based on their previous experiences with interpreting data. A good visualisation will speak to the user in a language they can understand, and bring forth a story that they can easily connect with.
 
-BudgIT, creative startup sees a huge opportunity in using creative data visualization to stimulate interests concerning public expenditure. Understanding the ubiquity of the mobile device within the Nigerian locality and the increasing number of Nigerians online, BudgIT sees the opportunity to engage Nigerians and explain public expenditure in a simpler way. This thrives on building engagement across all platforms, encouraging the community to action via NGOs and reaching out to everyone to promote citizen participation. This is about making public data a social object and building an extensive network that demands change. 
+We have engaged over 10,000 Nigerians over the budget and we profile them into three categories to ensure that optimum value is delivered. The categories are briefly explained below:
 
-*Building The Community*
-
-Across our interactions with users, we see a gulf in understanding what the budget is and what the citizens usually expect. We have engaged over 10,000 Nigerians over the budget and we profile them into three to ensure optimum value is delivered. The categories are briefly explained below: 
-
-*Singular Users*:  These are users who want information in simple and quick format. There are interested in data but not in a deeper scale of analyzing the content or probing further. A series of simple tweets is enough for them to retell the stories or interactive applications that give a snapshot. 
-
-*Closed Loop Users*:  A set of  users who stimulate a discussion pattern, engage the data channel effectively to increase their knowledge of subject matter or  challenge the assumptions of data. These set of users are adherents of the platform via social media, hence they ensure in building the platform through feedack systems or referral to their social connections. 
-
-*The Data Hog*: This set of users want the raw datasets to rework visualization or do extensive analysis for personal or enterprise purposes. We simply give them the data for their definitive purposes.  
-
-
-*Engaging the Citizen*
-
-Across every society lies a literacy span and engaging every component is highly critical to the societal growth and stability. There is always a storyboard in every life that volumes of data can be matched with. People constantly want to be more informed especially concerning issues that they find difficult to understand. Engaging citizens is to take critical analysis of the target users at a time and itemize the possible profiles. A look at user profile demands a thorough analysis of their empathy, attention and insight towards the data available to them. What does the Nigerian citizen care about? Where is the information gap? How quickly can we reach out to them and place data in the storyboard of their lives? A critical understanding of the user's psychology and the perceived response to the data is the first needed level of analysis. BudgIT's immediate reach is to the average literate Nigerian connected to online forums and social media. Most online users amidst the array of interests in gaming, reading and sharing social connections within a limited timeframe will definitely need data in a brief and concise manner. After a snapshot of data  either as a tweet or infographics, there's an opportunity to build linked data on other platforms where the big picture can be set and interaction can be enhanced.  
-
-An important angle of visualization to us is understanding the data appreciation level of the users. Complex diagrams, superb infographics and aesthetic interactive applications might not convey the exact meaning to user based on his/her previous approach to data. Data vizualization needs to take into consideration how users can easily grasp the vizualized data and subject it to personal interpretation. A good visualization transfers knowledge and mostly important brings forth a story the user can easily connect with. 
+  * _Occasional Users_. These are users who want information simply and quickly. They are interested in getting a picture of the data, not detailed analytics. We can engage them via Tweets or interactive graphics.
+  * _Active Users_. Users who stimulate discussion, and use the data to increase their knowledge of a given area or challenge the assumptions of the data. For these users we want to provide feedback mechanisms and the possibility to share insights with their peers via social networks.
+  * _Data Hogs_: These users want raw data for visualisation or analysis. We simply give them the data for their purposes.
 
 image::Figures/06-ZZ.png[width=600]
 
-For us in BudgIT, our engagement model is anchored on the following: 
+With BudgIT, our user engagement is based on the following: 
 
-*Stimulating discussion around Trends*: In engaging with users on public data, BudgIT keeps track of online and offline discussions and seeks to provide data to enliven the interactions. A glaring example was the fuel strikes in January 2012 where there was a constant agitation among the protesters on the need to reduce the size of governance. BudgIT tracking the discussion via social media in 36 active hours quickly built an app that allows citizens to cut the Nigerian budget. The huge response with over 3,000 users who interacted with the budget using the app refined our  engagement model. We keep looking for trends in the polity and matching it with relevant data quickly rendered into tweets or infographic display that quickly  extends our influence. 
+  * _Stimulating Discussion Around Current Trends_. BudgIT keeps track of online and offline discussions and seeks to provide data around these topics. For example, with the fuel strikes in January 2012 there was constant agitation among the protesters on the need to reinstate fuel subsidies and reduce extravagant and unnecessary public expenditure. BudgIT tracked the discussion via social media and in 36 busy hours built an app that allows citizens to reorganise the Nigerian budget.
+  * _Good Feedback Mechanisms_. We engage with users through discussion channels and social media. Many users want to know about stories behind the data and many ask for our opinion. We make sure that our responses only explain the facts behind the data and our not biased by our personal or political views. We need to keep feedback channels open, to actively respond to comments and to engage the users creatively to ensure the community built around the data is sustained.
+  * _Make it Local_. For a dataset targeted at a particular group, BudgIT aims to localise its content and to promote a channel of discussion that connects to the needs and interests of particular groups of users. In particular we're interested in engaging users around issues they care about via SMS.
 
-*Constructive feedback mechanism and Balanced outlook*: Data speaks volumes and individuals subject it to personal interpretations. In the engagement with users, feedback is enabled through discussion boards or retweets. Most users throw up discussions that tend to ask about stories behind the data and seeking opinions of BudgIT. Its of utmost priority to ensure that opinions only explain the facts  behind the data and does not conform to individual disposition to the subject matter. It's most necessary to build up feedback channels and engage the users creatively to ensure the community built around the data is sustained. 
-
-*Localize Outlook of Data*: For a dataset targeted at a particular group, BudgIT is building competency to localize its content and promote a channel of discussion that connects to the users. This involves taking a cultural outlook at the icons, symbols, objects and language to ensure that engagement concerning the budget flows seamlessly. This phase of engagement is with the grassroots who  mostly don't have access to Internet but only possess SMS-based mobile phones. 
-
-After making the public expenditure data  available in an easy-to-read format as shown on our portal yourbudgit.com, we reach out to the citizens through the civil society organizations to ensure that citizens monitor capital projects in the budget. We also plan to develop a participatory framework where citizens and government institutions can meet in town halls to define key items in the budget that needs to be prioritized. Once we get citizens to be aware of capital projects in the budget and connect them with civil societies where BudgIT is not located, citizens can track report projects and report status. Ensuring that citizens of any literacy span are armed with data and possess a clear path to demand action, BudgIT is crossing the rubicon from open data to open action.
-
+After making expenditure data available on yourbudgit.com, we reach out to citizens through various NGOs. We also plan to develop a participatory framework where citizens and government institutions can meet in town halls to define key items in the budget that needs to be prioritised. 
 
 === Engaging Your Audience (Duncan Geere, Wired.co.uk) ===
 
-Almost as important as publishing the data in the first place is getting reaction from your audience. You're human - you're going to make mistakes, miss things and get the wrong idea from time to time. Your audience is one of the most useful assets that you've got -- they can fact-check and point out things that you may not have considered.
+Almost as important as publishing the data in the first place is getting a reaction from your audience. You're human - you're going to make mistakes, miss things and get the wrong idea from time to time. Your audience is one of the most useful assets that you've got - they can fact-check and point out things that you may not have considered.
 
-Engaging that audience is tricky, though. You're dealing with a group of people who've been conditioned over years of internet use to hop from site to site, leaving nothing but a sarcastic comment in their wake. Building a level of trust between you and your users is crucial -- they need to know what they're going to get, know how they can react to it and offer feedback, and know that that feedback is going to be listened to.
+Engaging that audience is tricky, though. You're dealing with a group of people who've been conditioned over years of internet use to hop from site to site, leaving nothing but a sarcastic comment in their wake. Building a level of trust between you and your users is crucial - they need to know what they're going to get, know how they can react to it and offer feedback, and know that that feedback is going to be listened to.
 
-But first you need to think about what audience you've got, or want to get. That will both inform and be informed by the kind of data that you're working with -- if it's specific to a particular sector, then you're going to want to explore particular communications with that sector. Are there trade bodies that you can get in touch with, that will be willing to publicise the resources that you've got and the work that you've done to a wider audience? Is there a community website or a messageboard that you can get in touch with?
+But first you need to think about what audience you've got, or want to get. That will both inform and be informed by the kind of data that you're working with. If it's specific to a particular sector, then you're going to want to explore particular communications with that sector. Are there trade bodies that you can get in touch with that might be willing to publicise the resources that you've got and the work that you've done to a wider audience? Is there a community website or a forum that you can get in touch with?
 
 Social media is an important tool, too, though it again depends on the type of data that you're working with. If you're looking at global shipping statistics, for example, you're unlikely to find a group on Facebook or Twitter that'll be especially interested in your work. On the other hand if you're sifting through corruption indices across the world, or local crime statistics, that's likely to be something that's going to be of interest to a rather wider audience.
 
 Then you need to think about how those people are going to interact with your work. Sure, they might read the story that you've written and look at the infographics or maps, but giving your users an outlet to respond is immensely valuable. More than anything it's likely to give you greater insight into the subject you're writing about, informing future work on the topic.
 
-It goes without saying that you need to publish the raw data alongside your articles, but think about if there's other ways that you can get the audience to interact. Keep an eye on metrics on which parts of your datasets are getting attention -- it's likely that the most trafficked areas could have something to say that you might have missed.
+It goes without saying that you need to publish the raw data alongside your articles, but think about if there's other ways that you can get the audience to interact. Keep an eye on metrics on which parts of your datasets are getting attention - it's likely that the most trafficked areas could have something to say that you might have missed.
 
-Think beyond the comment box, too. Can you attach comments to particular cells in a spreadsheet? Or a particular region of an infographic? Make sure that other users can see those comments too -- they have almost as much value as the original data, in a lot of cases.
+Think beyond the comment box, too. Can you attach comments to particular cells in a spreadsheet? Or a particular region of an infographic? Make sure that other users can see those comments too - they have almost as much value as the original data, in a lot of cases.
 
-Finally, other people might want to publish their own infographics and stories on the same sources of data -- think about how best to tie that information together. You could use a hashtag specific to the dataset, for example, or if it's highly pictorial then you could share it in a Flickr group. Having a route to share information more confidentially could be useful too -- in some cases it might not be safe for people to publicly share their contributions to a dataset, or they might simply not be comfortable doing so.
+Finally, other people might want to publish their own infographics and stories on the same sources of data - think about how best to tie that information together. You could use a hashtag specific to the dataset, for example, or if it's highly pictorial then you could share it in a Flickr group. Having a route to share information more confidentially could be useful too -- in some cases it might not be safe for people to publicly share their contributions to a dataset, or they might simply not be comfortable doing so.
