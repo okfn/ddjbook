@@ -1,7 +1,73 @@
 == 6. Delivering data ==
 
-=== Get Your Data Out: Tips and Tricks (Various Contributors) ===
+=== Put Your Data Online (Various Contributors) ===
 
+Increasingly news organisations are putting datasets that they work with online for readers to explore and reuse. In this chapter data journalists tell us how to do it, and what the results are.
+
+  * Tools and technologies for publishing data (Google Spreadsheets vs. Tableau vs. roll your own)
+  * Explicitly enabling others to reuse data using an open license / legal tool
+  * Linking or embedding data
+  * Who is interested in data?
+  * How do people engage with data? Commenting? Flagging?
+  * How have people reused data that you've published in unexpected ways.
+
+*To Visualise or Not to Visalise?*
+
+[quote, Aaron Pilhofer (New York Times)]
+____
+There are times when data can tell a story better than words or photos, and this is why terms like ``news application'' and ``data visualization'' have attained buzzword status in so many newsrooms of late. Also fueling interest is the bumper crop of new tools and technologies designed to help even the most technically challenged journalist turn data into a piece of visual storytelling-many of them free.
+
+Tools like Google Fusion Tables, Many Eyes, Tableau, Dipity and others make it easier than ever to create maps, charts, graphs or even full-blown data applications that heretofore were the domain of specialists. But with the barrier to entry now barely a speed bump, the question facing journalists now less about whether you can turn your dataset into a visualization, but whether you should.
+
+http://www.niemanlab.org/2011/10/word-clouds-considered-harmful/[Bad data visualization] is worse in many respects than none at all, but journalists have few resources (until now) available to learn the right way to approach visual storytelling.
+____
+
+*Which is the Right Visualisation for Your Story?*
+
+[quote, Lulu Pinney (?? need to check this) (BBC)]
+____
+Not all types of visualisations are appropriate for all data sets. When you are deciding on a visualisation, keep in mind that you are trying to tell a story and that some types of visualisations will tell that story better than others.
+
+A map, for example, will highlight geographical distribution of a variable, but it will suppress quantitative comparisons or changes over time. The bottom chart isn't eye candy, but it is very functional; not a single pixel is wasted. Every dot conveys information relevant to the data set, and important relationships are immediately visually evident. How much of your chart is wasted on decoration, and how much communicates information?
+____
+
+*Maps*
+
+[quote, (?? need to check this)]
+____
+Maps can be a powerful tool to visualize data when geographical information plays a fundamental role in the telling of the story. They can be used to overlay more than one data sets to show concepts such as areas of overlap or divergence, concentrations, etc. Further, they put data in the context of the viewer's understanding of the area and, for local maps, tap into their daily experience.
+
+Your audience must immediately (or at least clearly) intuit the information you're presenting from the visual markers. Choosing the appropriate overlays is essential. Objects can be plotted and made clickable for more information, the size of markers can be used to indicate quantity or severity (with or without a legend), overlays or polygons can represent zones.
+
+It's important to note that the fact that data can be mapped http://www.ericson.net/content/2011/10/when-maps-shouldnt-be-maps/[does not mean that it should be mapped]. If location isn't central to the narrative, the presence of a map will probably be distracting.
+____
+
+*Using Motion Graphics*
+[quote, (?? need to check this - possibly Lu Lu?)]
+____
+
+With a tight script, well timed animations and clear explanations motion graphics can serve to bring complex numbers or ideas to life, guiding your audience through the story. Hans Rosling's video lectures are a good example of how data can come to life to tell a story on the screen. Whether or not you agree with their methodology I also think the Economist's http://www.economist.com/blogs/multimedia/2011/02/unrest_arab_world[Shoe-throwers' index] is a good example of using video to tell a numbers-based story. You wouldn't, or shouldn't, present this graphic as a static image. There's far too much going on. But having built up to it step by step you're left with an understanding of how and why they got to this index.
+____
+
+There's also:
+
+____
+Sound and Motion: Primarily leading to motion graphics, a massively growing field. Simultaneously reinforcing what your audience is hearing from a voice-over with explanatory visuals provides a very powerful and memorable way of telling a story.
+____
+
+*When is a visualisation good and when is it bad?*
+
+____
+A good visualisation clarifies, explains, reveals or adds meaning. It makes the audience say 'ah-ha, I get it'. They take away with them the story you set out to tell.
+
+A good visualisation can turn bad however if no-one sees it, or knows how to use it. In both cases your time and effort will have been wasted. Design and UX can help solve this.
+
+If a visualisation confuses or misleads then it is bad, regardless of how pretty or user-friendly it might be. It still has to be good journalism, even if it is visual.
+
+In reality most visualisations add little over and above what you can just write in words or say into a microphone. When presented side by side they are not wasted: saying the same thing two different ways plays to the fact that every audience is made up of a mix of both visual and verbal people. However since visualisations such as these have the potential to work harder it is a shame not to have made them do so.
+
+It is in a big middle-ground of OK-ness that most visualisations lurk. And the two things that will elevate a visualisation from being OK to good is knowing your story and knowing your audience. Use both of these, from the outset, to inform your decisions and the resulting visualisation stands every chance of being a great one.
+____
 
 
 === How to Build a News App (Chase Davis, Center for Investigative Reporting) ===
@@ -59,492 +125,74 @@ Waiting for text.
 === Using Visualisations to Tell Stories (Geoff McGhee, Stanford University) ===
 
 Waiting for text.
- 
-=== Using Data Visualisation to Find Stories (Gregor Aisch, Open Knowledge Foundation) ===
-
-Visualization is critical to data analysis. It provides a front line of attack, revealing intricate structure in data that cannot be absorbed in any other way. We discover unimagined effects, and we challenge imagined ones.
-
-(quote by William S. Cleveland in the preface of his book 'Visualising data')
-
-Everything is visualised
-Q: When do you need to visualise a dataset to explore it and find a story? When don√î√∏Œ©t you need to?
-
-Data by itself, consisting of bits and bytes stored in a file on a computer hard-drive, is invisible. In order to be able to see and make any sense of data, we need to visualise it. In this chapter I'm going to use a broader understanding of the term visualising, that includes even pure textual representations of data. For instance, just loading a dataset into a spreadsheet software can be considered as data visualisation. The invisible data suddenly turns into a visible 'picture' on our screen. Thus, the questions should not be whether journalists need to visualise data or not, but which kind of visualisation may be the most useful in which situation. In other words: when does it makes sense to go beyond the table visualisation.
-
-The short answer is: almost always. Tables alone are definitely not sufficient to give us some kind of overview or big picture of a dataset. Also tables alone don't allow us to immediately identify patterns within the data. The most common example here are geographical patterns which can only be observed after visualizing data on a map. But there are also other kinds of patterns which we will see later in this chapter.
-
-How can visualisation help us to discover a story in a dataset?
-How do you go about discovering a story? What tools do you use? What √î√∏Œ©protocol√î√∏Œ© do you follow? What clues do you follow, what do you pay attention to? (lessons, tips, advice).
-
-Well, discovering a story through visualisation is a rather big goal to start with. In fact, there is no set of rules or "protocol" that will guarantee us to discover a story. Instead, I think it makes more sense to seek for smaller chunks of knowledge, from now on called insights.
-
-Every new visualisation is likely to give us some insights into our data. Some of those insights might be already known (but maybe not proven yet) while other insights might be completely new or even surprising to us. While some of those new insights might actually mean the beginning of a story, others could just be the result of errors in the data.
-
-In order to make the finding of insights in data more effective, I find the following process very helpful:
-
-
-
-Each of these steps will be discussed further in this section.
-
-Visualise data
-Visualising data is the central point of this process. Each visualisation provides a unique perspective on the dataset.
-
-Some of the most important types of visualisations:
-
-table - displaying the raw numbers
-charts - (http://www.flickr.com/photos/amit-agarwal/3196386402/sizes/l/)
-maps - displaying geographical context
-graphs - displaying relations in networks
-
-Todo:
-
-explain the vis types in more detail (provide examples)
-maybe mention a few tools which can be used for data vis.
-Analyse and interpret what you see
-Once you have visualized your data, the next crucial step is to learn something from the picture you created. Of course, you can't learn nothing from looking at a visualization. But you should take yourself some time to really get into what you see. We need to ask us the following questions:
-
-What can I see in this image? Are there any patterns?
-What does this mean in the context of the data?
-Sometimes you might end up with visualization that, despite of eventual beauty, seem to tell you nothing of value about your data. But, again, for this process it's important that you force yourself to identify some new insights.
-
-Document your insights and next steps
-If you think of this process as a journey through the dataset, the documentation is your travel diary. It will tell you where you have traveled to, what you have seen there and how you made your decisions for your next steps. You can even start your documentation before taking the first look at the data.
-
-In most cases when we start to work with a previously unseen dataset we are already filled up with expectations and assumptions about the data. Obviously, there is some kind of reason why we are interested that dataset. It's a good idea to start the documentation by writing down these initial thoughts. This helps us to identify our bias and reduces the risk of mis-interpretation of the data by just finding what we actually wanted to find.
-
-I really think that the documentation is the most important step of the process; and it is also the one we're most likely to tend to skip. As you will see in the following sample session, the described process involves a lot of plotting and data wrangling. Looking at a set of 15 charts you created might be very confusing, especially after some time has passed. In fact, those charts are only valuable (to you or any other person you want to communicate your findings) if presented in the context in which they have been created.
-
-Therefor you should take the time to document a few things while you are going to this process. The goal is not to write epic stories, but to keep notes about some really important questions:
-
-Why have I created this chart?
-What have I done to the data to create it?
-What insights have I found from this chart?
-You can choose whatever format is convenient to you. Every tool that allows you to insert a sequence of texts and images (like PowerPoint or Word does) is perfect.
-
-Transform data
-Naturally, with your new insights gathered from the last visualization you might have an idea of what you want to see next. You might have found some interesting pattern in the dataset which you now want to inspect in more detail.
-
-Possible transformations are:
-
-zoom into a. (e.g. limit to a certain time span)
-filter
-aggregate
-outlier removal
-Now the time has come where we can really move on. The good news is that we've already solved the hardest question of moving on, that is: in which direction should be move on? Remember that insight you got from the last visualization? The one you've written down in you story documentation? The next step is trying to remove this insight from our data. The theory behind this is that every insight in your data might prevent us from seeing some other insights. Removing something we already know is no problem, as long as we're keeping everything for our records. And this is what I call the transform step.
-
-Which tools to use
-Every data visualization tool available is good at something. However, here are a few requirements for choosing the right tools:
-
-Visualisation and data wrangling should be easy and cheap. If changing parameters of the visualizations takes you hours, you won't experiment that much. That doesn't necessarily mean that you don't need to learn how to use the tool. But once you learned it, it should be really efficient.
-For some reasons it makes much sense to choose a tool that covers both the data wrangling and the data visualisation issues. Separating the tasks in different tools means that you have to import and export your data very often.
-The sample visualizations in the next section were created using the R, which is kind of the swiss army knife of scientific data visualisation.
-
-Example session: making sense of US election contribution data
-Examples of how to explore a dataset with a visualisation tool with a step by step description of the √î√∏Œ©protocol√î√∏Œ© followed to find the story.
-
-Let us have look at the US Presidential Campaign Finance database which contains about 450,000 contributions to US Presidential candidates. The CSV file is 60 megabytes and way to large to handle it easily in Excel.
-
-In the first step I will explicitly write down my initial assumptions on the FEC contributions dataset:
-
-Obama get's the most contributions (since he's the president and has the highest popularity)
-The number of donations increases as the time moves closer to election date.
-Obama gets more small donations than republican candidates.
-To answer the first question we need to transform the data. Instead of each single contributions we need to sum the total amounts contributed to each candidate. After visualising the results in a sorted table we can confirm our assumption that Obama would raise the most money.
-
-Candidate	 Amount ($)
-Obama, Barack	 72,453,620.39
-Romney, Mitt	 50,372,334.87
-Perry, Rick	 18,529,490.47
-Paul, Ron	 11,844,361.96
-Cain, Herman	 7,010,445.99
-Gingrich, Newt	 6,311,193.03
-Pawlenty, Timothy	 4,202,769.03
-Huntsman, Jon	 2,955,726.98
-Bachmann, Michelle	 2,607,916.06
-Santorum, Rick	 1,413,552.45
-Johnson, Gary Earl	 413,276.89
-Roemer, Charles E. 'Buddy' III	 291,218.80
-McCotter, Thaddeus G	 37,030.00
-But despite of showing the minimum and maximum amounts and the order the table does not tell very much about the underlying patterns in candidate ranking. Here is another view on the data, a chart type that is called dot chart in which we can see everything that is shown in the table plus the patterns within the field. For instance, the dot chart allows us to immediately compare the distance between Obama and Romney and Romney and Perry without needing to subtract values. (Footnote: The shown dot chart was created using R. You can find links to the source codes at the end of this chapter).
-
-
-
-Now, let us proceed with a bigger picture of the dataset. As a first step I visualised all contributed amounts over time in a simple plot. We can see that almost all donations are very very small compared to three really big outliers. Further investigation returns that these huge contribution are coming from the "Obama Victory Fund 2012" (also known as Super PAC) and were made on June 29th ($450k), September 29th ($1.5mio) and December 30th ($1.9mio).
-
-
-
-While the contributions by Super PACs alone is undoubtedly the biggest story in the data, it might be also interesting to look beyond it. The point now is that these big contributions disturb our view on the smaller contributions coming from individuals, so we're going to remove them from the data. This transform is commonly known as outlier removal. After visualizing again, we can see that most of the donations are within the range of $10k and -$5k.
-
-
-
-According to the contribution limits placed by the FECA individuals are not allowed to donate more than $2500 to each candidate. As we see in the plot, there are numerous donations made above that limit. In particular two big contributions in May attract our attention. It seems that they are 'mirrored' in negative amounts (refunds) June and July. Further investigation in the data reveals the following transactions:
-
-On May 10 Stephen James Davis, San Francisco, employed at Banneker Partners (attorney), has donated $25,800 to Obama.
-On May 25 Cynthia Murphy, Little Rock, employed at the Murphy Group (public relations), has donated $33,300 to Obama.
-On June 15 the amount of $30,800 was refunded to Cynthia Murphy, which reduced the donated amount to $2500.
-On July 8 the amount $25,800 was refunded to Stephen James Davis, which reduced the donated amount to $0.
-What's interesting about these numbers? The $30,800 refunded to Cynthia Murphy equals the maximum amount individuals may give to national party committees per year. Maybe she just wanted to combine both donations in one transaction which was rejected. The $25,800 refunded to Stephen James Davis possibly equals the $30,800 minus $5000 (the contribution limit to any other political committee).
-
-Another interesting finding in the last plot is a horizontal line pattern for contributions to Republican candidates at $5000 and -$2500. To see them in more detail, I visualised just the Republican donations. The resulting graphic is kind of the perfect example for patterns in data that would be invisible without data visualisation.
-
-
-
-What we can see is that there are many $5000 donations to Republican candidates. In fact, a look up in the data returns that these are 1243 donations, which is only 0.3% of the total number of donations, but since those donations are evenly spread across time, the line appears. The interesting thing about the line is that donations by individuals were limited to $2500. Consequently, every dollar above that limited was refunded to the donors, which results in the second line pattern at -$2500. In contrast, the contributions to Barack Obama don't show a similar pattern.
-
-
-
-So, it might be interesting to find out why thousands of Republican donors did not notice the donation limit for individuals. To further analyze this topic, we can have a look at the total number of $5k donations per candidate.
-
-
-
-Of course, this is a rather distorted view since it does not consider the total amounts of donations received by each candidate. The next plot shows the percentage of $5k donations per candidate.
-
-
-
-What learn from this
-Often, such a visual analysis of a new dataset feels like an exciting journey to an unknown country. You start as a foreigner with just the data and your assumptions, but with every step you make, with every chart you render, you get new insights about the topic. Based on those insights you make decisions for your next steps and what issues are worth further investigation. As you might have seen in this chapter, this process of visualizing, analyzing and transformation of data could be repeated nearly infinitely.
-
-Source codes for the generated graphics
-All of the charts shown in this chapter were created using the wonderful and powerful software R. Created mainly as a scientific visualization tool, it is hard to find any visualization or data wrangling technique that is not already built into R. For those who are interested in how to visualise and wrangle data using R, here's the source code of the charts generated in this chapter. Also, there is a wide range of books and tutorials available.
-
-dotchart: contributions per candidate
-plot: all contributions over time
-plot: contributions by authorized committees
-Further Reading
-The author of this chapter has been influenced by the book Visualizing Data by William S. Cleveland, published in 1993.
-
-
-
-
-=== Data Visualisation at the New York Times (Aron Pilhofer, New York Times) ===
-
-////
-
-Insert: pictures from projects
-
-////
-
-There are times when data can tell a story better than words or photos, and this is why terms like "news application" and "data visualization" have attained buzzword status in so many newsrooms of late. Also fueling interest is the bumper crop of new tools and technologies designed to help even the most technically challenged journalist turn data into a piece of visual storytelling-many of them free.
-
-Tools like Google Fusion Tables, Many Eyes, Tableau, Dipity and others make it easier than ever to create maps, charts, graphs or even full-blown data applications that heretofore were the domain of specialists. But with the barrier to entry now barely a speed bump, the question facing journalists now less about whether you can turn your dataset into a visualization, but whether you should.
-
-http://www.niemanlab.org/2011/10/word-clouds-considered-harmful/[Bad data visualization] is worse in many respects than none at all, but journalists have few resources (until now) available to learn the right way to approach visual storytelling.
-
-Types of stories visualisations can tell
-
-NYT's deputy graphics director Matthew Ericson provides a list of different functions that visualisations can play in a story (http://www.ericson.net/content/2011/04/international-journalism-festival-links/)
-
-Provide Context
-
-http://www.nytimes.com/interactive/2011/03/13/world/asia/satellite-photos-japan-before-and-after-tsunami.html[Satellite Photos - Japan Before and After Tsunami]
-Compare satellite images of areas of Japan before and after the disaster.
-
-http://www.nytimes.com/interactive/2011/04/02/world/asia/assessing-the-radiation-danger.html[Assessing the Radiation Danger, Near and Far]
-Assessments of the radiation from the Fukushima Daiichi nuclear power plant by the Japanese authorities, the International Atomic Energy Agency and others.
-
-http://www.nytimes.com/packages/flash/newsgraphics/2011/0311-japan-earthquake-map/?view=daiichi[Map of Radiation Readings Near Fukushima Daiichi]
-
-http://www.nytimes.com/interactive/2009/11/06/business/economy/unemployment-lines.html[The Jobless Rate for People Like You - Interactive Graphic - NYTimes.com]
-
-Not all groups have felt the recession equally.
-Obama's 2012 Budget Proposal: How It's Spent - NYTimes.com
-Explore every nook and cranny of President Obama's budget proposal.
-
-Reveal Patterns
-
-http://www.nytimes.com/interactive/2009/03/10/us/20090310-immigration-explorer.html[Interactive Map Showing Immigration Data Since 1880]
-See how foreign-born groups settled in your area and across the United States from 1880 to 2000.
-http://www.nytimes.com/packages/html/newsgraphics/pages/hp/2008/2008-11-05-1300.html[The Shifts in the Map - How Obama Won]
-Find breaking news, multimedia, reviews & opinion on Washington, business, sports, movies, travel, books, jobs, education, real estate, cars & more.
-http://www.nytimes.com/interactive/2009/06/23/us/Geothermal.html?ref=geothermalpower[The Danger of Digging Deeper]
-A project financed by the Energy Department aims to capture geothermal energy from hot bedrock - a process that can cause earthquakes.
-
-Describe Processes
-
-http://www.nytimes.com/interactive/2011/03/12/world/asia/what-happens-in-a-nuclear-meltdown.html[What Happens in a Nuclear Meltdown]
-The operating reactors at Fukushima Daiichi power station automatically shut down during the earthquake. But after cooling failures, two of them went into partial meltdown.
-http://www.nytimes.com/interactive/2009/08/01/arts/dance/20090803-merce-graphic.html[Dissecting a Dance]
-Alastair Macaulay, The Times's chief dance critic, analyzes Merce Cunningham's "Biped."
-Explain the Geography
-http://www.nytimes.com/packages/flash/newsgraphics/2011/0311-japan-earthquake-map/[Map of the Damage From the Japanese Earthquake]
-http://www.nytimes.com/interactive/2010/05/01/us/20100501-oil-spill-tracker.html[Map and Estimates of the Oil Spill in the Gulf of Mexico - Interactive Map - NYTimes.com]
-The spreading slick, day by day, and a chart of how much oil has been spilled.
-
-Report and Research
-
-http://www.nytimes.com/2007/04/17/us/20070417_SHOOTING_GRAPHIC.html[Virginia Tech Shooting - New York Times]
-A recounting of the events on the day of the deadliest shooting rampage in American history. From official and survivor accounts of the shooting at Virginia Tech.
-http://www.nytimes.com/interactive/2011/03/16/world/asia/japan-nuclear-evaculation-zone.html[Map of Evacuation Zones Around Japan Nuclear Plant - Interactive Feature - NYTimes.com]
-Map of the evacuations zones recommended by the American Embassy in Tokyo and Japanese officials.
-What's the Story?
-http://www.nytimes.com/interactive/2010/06/29/magazine/rivera-pitches.html[How Mariano Rivera Dominates Hitters]
-The closer has confounded hitters with mostly one pitch: his signature cutter.
-http://elections.nytimes.com/2010/results/house[House Map - Election Results 2010]
-http://elections.nytimes.com/2010/results/house/big-board[House Big Board - Election Results 2010]
-http://projects.nytimes.com/toxic-waters/contaminants/ia/johnson/ia5225079-iowa-city-water-department[Iowa City Water Department Water System - Interactive Database - The New York Times]
-
-Sketch with Data
-
-http://www.nytimes.com/interactive/2010/01/10/nyregion/20100110-netflix-map.html[A Peek Into Netflix Queues - Interactive Graphic - NYTimes.com]
-Story+Data > Data
-http://elections.nytimes.com/2010/results/house/preview[Preview of Key House Races - Election Results 2010]
-http://www.nytimes.com/interactive/2009/01/17/washington/20090117_ADDRESSES.html[Inaugural Words - 1789 to the Present]
-http://www.nytimes.com/interactive/2009/07/02/business/economy/20090705-cycles-graphic.html[Turning a Corner?]
-http://www.nytimes.com/interactive/2007/09/22/business/20070923_NURSING_GRAPHIC.html[Layers of Ownership]
-The Information Is What's Important
-http://www.accuweather.com/en/us/new-york-ny/10017/daily-weather-forecast/3712_pc[New York, NY 10017 Today's Weather Forecast - AccuWeather.com]
-http://weather.ericson.net/weather/forecast/New-York-NY[weather.ericson.net: New York, NY Weather]
-http://www.nytimes.com/interactive/2011/03/13/world/asia/satellite-photos-japan-before-and-after-tsunami.html[Satellite Photos - Japan Before and After Tsunami]
-Compare satellite images of areas of Japan before and after the disaster.
-http://www.nytimes.com/packages/flash/newsgraphics/2011/0311-japan-earthquake-map/?view=daiichi[Map of Radiation Readings Near Fukushima Daiichi]
-http://www.nytimes.com/interactive/2010/02/26/sports/olympics/20100226-olysymphony.html[Fractions of a Second: An Olympic Musical - Interactive Graphic - NYTimes.com]
-
-
-=== Which Visualisation is Right For Your Story? (Various Contributors) ===
-
-Types of graphs/visualizations: choosing an appropriate visualization tool
-Comparison
-Distribution
-Data-ink / data-pixel ratio
-Color
-Grid lines
-Typography
-2D v.s. 3D
-Integrity
-Time-based; interactive experiences
-
-
-http://www.propublica.org/nerds/item/timelinesetter-a-new-way-to-displaytimelines-on-the-web[TimelineSetter: A New Way to Display Timelines on the Web]
-http://www.tiki-toki.com/[Tiki Toki]
-
-(Lulu: I'd add in:)
-Sound and Motion
-Layout
-Keys (or legends)
-Platform
-
-
-
-
-Which is the right visualisation for your story?
-
-
-Not all types of visualisations are appropriate for all data sets. When you are deciding on a visualisation, keep in mind that you are trying to tell a story and that some types of visualisations will tell that story better than others.
-
-A map, for example, will highlight geographical distribution of a variable, but it will suppress quantitative comparisons or changes over time.
-The bottom chart isn't eye candy, but it is very functional; not a single pixel is wasted. Every dot conveys information relevant to the data set, and important relationships are immediately visually evident. How much of your chart is wasted on decoration, and how much communicates information?
-
-Maps (David)
-Maps can be a powerful tool to visualize data when geographical information plays a fundamental role in the telling of the story. They can be used to overlay more than one data sets to show concepts such as areas of overlap or divergence, concentrations, etc. Further, they put data in the context of the viewer's understanding of the area and, for local maps, tap into their daily experience.
-
-Your audience must immediately (or at least clearly) intuit the information you're presenting from the visual markers. Choosing the appropriate overlays is essential. Objects can be plotted and made clickable for more information, the size of markers can be used to indicate quantity or severity (with or without a legend), overlays or polygons can represent zones.
-
-There are many tools that simplify the creation of maps from digital data. 
-http://code.google.com/apis/maps/index.html
-
-This classic map shows the advance and retreat of Napolean's army in Russia using width to indicate army size, color to represent direction and a sharp aesthetic to show the severity of the event. http://www.edwardtufte.com/tufte/posters
-
-It's important to note that the fact that data can be mapped does not mean that it should be mapped. If location isn't central to the narrative, the presence of a map will probably be distracting. http://www.ericson.net/content/2011/10/when-maps-shouldnt-be-maps/
-
-Graphs
-There are many ways to use graphs to visualize data. Data sets that focus on pairs of information such as quantity x over time or age over height are often prime. A third piece of data can usually be shown through size or color of data points. For trending information and regular distributions, such as population over time lines can connect points. Multiple sets of relevant information can also be plotted so long as they are distinguished. This can be helpful in showing upper and lower bounds or the way in which two related quantities move together over time.
-
-It is important to keep your target audience in mind when using graphs, more so even than most other forms of visualization. Graphs are technical things. If they aren't clear or contain extraneous information, they can lead to confusion and even viewers to drawing wrong conclusions. (This is also true of graphs that are clear, but less so.) Further, what is lacking in understanding is often overcompensated in conviction. Many misconceptions have been fueled and spread through misleading graphs, or proper graphs accompanied by misleading captions.
-
-Charts
-Charts can focus a great deal of attention on a small amount of information or used in a similar way as graphs to show relationships and trends. As with graphs, the choices made in creating the graph is service of the story is vitally important.
-
-(Lulu) Motion Graphics is one to add to taxomony:
-Motion graphics
-With a tight script, well timed animations and clear explanations motion graphics serve to bring complex numbers or ideas to life, guiding your audience through the story.
-http://www.nytimes.com/interactive/2010/06/29/magazine/rivera-pitches.html[How Mariano Rivera dominates hitters]
-NYT's Joe Ward, sports graphics editor, is interviewed here on the making of it, a case-study of a piece of data journalism that might have been an interactive but resulted in a narrated piece of animated graphic video:
-Example 2: http://www.ted.com/talks/lang/en/hans_rosling_on_global_population_growth.html[The Hans Rosling video] is another good example of this type of presentation.
-Example 3: Whether or not you agree with their methodology I think the Economist's http://www.economist.com/blogs/multimedia/2011/02/unrest_arab_world[Shoe-throwers' index] is a good example of using video to tell a numbers-based story. You wouldn't, or shouldn't, present this graphic as a static image. There's far too much going on. But having built up to it step by step you're left with an understanding of how and why they got to this index.
-
-Custom Graphics and Interactives
-If you have an interesting story and the requisite production skills or resources, data visualization can become a deeply artistic endeavor. As a journalist, it is important to keep an editorial eye on custom graphics and interactives to ensure they stay on story, as there is a tendency with strong creative designers or coders to move toward showcases for aesthetics or functionality. See the case studies and appendix for more on custom visualizations.
-
-(Lulu) Agrees...
-Don't be tempted to throw an uber-complex interactive interface at the audience just because you've spent days developing it. If it has led you to some good stories then it has been worthwhile, but a simpler visualisation that tells a specific story might be more appropriate for the final presentation.
-
-Making choices about which charts to use, great overview here: http://i.imgur.com/YjWta.jpg
-
-Interaction
-(Lulu)
-Depending on what you want your audience to take away, different types of interaction can be used, as illustrated by these examples:
-- Story-telling: http://www.nytimes.com/interactive/2009/07/02/business/economy/20090705-cycles-graphic.html[NYT: Turning a Corner (Economic Cycles)]
-- No story, free data exploration by user: http://www.neighbourhood.statistics.gov.uk/HTMLDocs/dvc3/projections.html[ONS: Population Pyramids]
-- Learn by having a go: BERG/BBC: http://howbigreally.com/[How big really?]
-
-When you think you're nearly there, try out your visualisation on a handful of other people. Observe them using it, exploring it. It becomes very clear very quickly what users do and don't 'get'. If your users don't realise there's another screen to progress to, all your hard work will have been wasted. Go back and adjust your work to address the obstacles that you saw users encounter.
-
-Examples of good use of visualisations to tell stories
-
-
-NYtimes election visualization (Aron)
-Progressively updated through election night
-Lead shown clearly at top (speaks to 'why do I care')
-More information below deepening information
-
-
-When is a visualisation good and when is it bad?
-
-A good visualisation clarifies, explains, reveals or adds meaning. It makes the audience say 'ah-ha, I get it'. They take away with them the story you set out to tell.
-
-A good visualisation can turn bad however if no-one sees it, or knows how to use it. In both cases your time and effort will have been wasted. Design and UX can help solve this.
-
-If a visualisation confuses or misleads then it is bad, regardless of how pretty or user-friendly it might be. It still has to be good journalism, even if it is visual.
-
-In reality most visualisations add little over and above what you can just write in words or say into a microphone. When presented side by side they are not wasted: saying the same thing two different ways plays to the fact that every audience is made up of a mix of both visual and verbal people. However since visualisations such as these have the potential to work harder it is a shame not to have made them do so.
-
-It is in a big middle-ground of OK-ness that most visualisations lurk. And the two things that will elevate a visualisation from being OK to good is knowing your story and knowing your audience. Use both of these, from the outset, to inform your decisions and the resulting visualisation stands every chance of being a great one.
-
-
-(bad example) NYTimes election 2004 (Aron - needs input)
-http://www.nytimes.com/packages/html/politics/2004_ELECTIONRESULTS_GRAPHIC/
-What is the important thing?
-Location is shown first but the location of the state isn't important.
-Burrying the lead
-
-
-
-Data-to-pixel ratio
-BAD	GOOD
-Use language to sound intelligent/ interesting/ like a brilliant writer.	Use language to illuminate meaning in a concise way
-Use design language to make things pretty/ interesting/ convince everyone you're a brilliant designer.	Use design language to illuminate meaning in a concise way.
-
-
-
-
-How do you use design language to illuminate meaning in a concise way? (Just ask Tufte!)
-Colour: use colour sparingly to highlight information that is more important than others, or show the distinction between two sets of variables. Choose colours that are distinct enough that colourblind individuals are able to read your visualization, and don't use extra colours or patterns unnecessarily.
-
-
-(Lulu) Colour accessibility tools:
-Color Oracle: Shows you in real time what people with common color vision impairments will see http://colororacle.cartography.ch/
-snook.ca: Allows you to check colour contrast of a foreground colour against a different background colour: http://snook.ca/technical/colour_contrast/colour.html
-Grid lines: grid lines do not add important information to your chart; remove them, and ask yourself if the chart still communicates its message as effectively. If you must use them, make sure they are as visually minimal as possible
-
-
-(Lulu)
-Typography: Complement the story's hierarchy with a visual hierarchy:
-
-
-- make the title both big and insightful
-- label key points directly and bold them up
-- hand-hold the user through the structure of the story by distinguishing header text from body text
-2D v.s. 3D: Never, ever use 3D graphs. They distract from information and add nothing.
-
-
-(Lulu)
-Sound and Motion: Primarily leading to motion graphics, a massively growing field. Simultaneously reinforcing what your audience is hearing from a voice-over with explanatory visuals provides a very powerful and memorable way of telling a story.
-Layout: Size, position, white space are the variables you have to play with. As a rule of thumb adjust these so the design works for the extreme cases - longest labels, most data, biggest sample, and their smallest counterparts too. Then the rest should all fall into line.
-Keys (or legends): Avoid using them whenever possible. It's much more effective to label lines, points, bars directly. If you do have to use a key, put it at the top, in a prominent position.
-Platform: Design for the platform that your visualisation is going to live on. If both print and online, re-design it to work on the other one. A print graphic directly uploaded to a website rarely works as well as it could online, and vice versa of course. It's almost always necessary to re-work.
 
 === How Data Visualisation is Used at the Most Read Daily Newspaper in Norway (John Bones, Verdens Gang) ===
 
-////
+News journalism is about bringing new information to the reader as quickly as possible. The fastest way may be a video, a photo, a text, a graph, a table or a combination of these. Concerning visualisations, the purpose should be the same: quick information. New data tools enable journalists to find stories they couldn't otherwise find, and present stories in new ways. Here are a few examples showing how data visualisation is used in the most read newspaper in Norway, Verdens Gang (VG).
 
-Insert: pictures from projects
+*1. When the Visualisation is the Story*
 
-////
+_Here is Crime Happening - Hour by Hour_
 
-Some comments: 
-* English translation of the titles.
-* Tools being used are mentioned.
-* We don't develop protocols/guides. 
-* Lessons learned: Great variations!
-* Links: Only when it is on the web, not in the paper product.
-John
-Visualizing the data
-News journalism is about bringing new information as fast as possible to the reader. The fastest way may be a video, a photo, a text, a graph, a table or a combination of the different methods. 
-Concerning visualizations, the purpose should be the same: Quick information. The introduction of new data tools has given journalists the possibilities of making stories they could not do without them, new possibilities to find stories and new ways of presenting them. 
-Here are some examples showing how data visualization is used in the most read newspaper in Norway, Verdens Gang (VG).
+image::Figures/06-BB.png[width=600]
 
-**1. When the visualization is the story:**
- 
-Translation: Here is crime happening - hour by hour
-Link: http://www.vgtv.no/#!id=46131
+In [this animated heatmap combined with a simple bar chart](http://www.vgtv.no/#!id=46131) you can watch see crime incidents occur on a map of downtown Oslo, hour by hour, over the weekend for several months. In the same animated heatmap, you can see the number of police officers working at the same time. When crime really is happening, the number of police officers is at the bottom.
 
-In this animated heatmap combined with a simple bar chart you can follow the development of crime downtown Oslo, Norway, hour by hour, during the weekend for several months. In the same animated heatmap, you can see the number of police officers working at the same time. When crime really is happening, the number of police officers is at the bottom.
 Tools used: ArcView with Spatial Analyst.
 
-
-**2. When the visualization helps us finding the story:**
+*2. When the Visualisation Helps us Find the story*
  
+_The Network of Movie Stars_
 
-Translation: The network of the movie people
-Skuespillere = actors/actresses
-Regiss‚àö‚àèrer = directors
-In this Social Network Analysis, VG downloaded all relations in all Norwegian movies during more than ten years. Who were playing with whom, and which actors and actresses were playing with the different directors? A database with all relevant content was exported to UCINET, a program for social network analysis, and then it was quite easy to see who were connected with whom with different strength of ties. 
-. 
-Translation: Rich children are playing together
-The same methods were used when downloading 157 friendlists from Facebook. These 157 people were sons and daughters of the richest people in Norway, and the social network analysis was showing that heirs of the richest persons in Norway also herited their parents' network.
+In this Social Network Analysis, VG downloaded all relations in all Norwegian movies during more than ten years. Who acts with whom, and which actors work with different directors? A database with all relevant content was exported to UCINET, a program for social network analysis. It was then quite easy to see who was connected with whom, with different strength of ties.
+
+_Rich children are playing together_
+
+The same methods were used when downloading 157 lists of friends from Facebook. These 157 people were sons and daughters of the richest people in Norway, and the social network analysis showed that heirs of the richest persons in Norway also inherited their parents' network. The graphics were all finished manually using Photoshop.
+
 Tools used: Access, Excel Notepad, Ucinet.
-Before publication, the designer downloaded the Ucinet illustration file as a JPG-file and used it as a background when working in Adobe Illustrator. There all is handmade, before the finish in Adoble Photoshop. 
 
-Lessons learned: When making social network analysis, we get an enormous amount of data. When making the presentation, we have to do manual work at the end; make some choices. 
+Lessons: When making social network analysis, we get an enormous amount of data. When making the presentation, we had to do a lot of manual work at the end.
+
 Anecdotes: The most central person in the movie network denied there was a network!
 
-
-**3. When the visualization is telling the story:**
+**3. When the Visualisation is Telling the Story**
  
-Translation: Out of the ghetto.
-Pakistanis of the middle class are moving out of downtown Oslo
-These mapping examples are showing the intern migration in Oslo, based upon data from The Norwegian Bureau of Statistics. The angle for the story is the development among the biggest immigration groups in Oslo, and the reader does not have to read the text to understand the news. 
+_Out of the Ghetto_
+
+One story looked at internal migration in Oslo, based on data from The Norwegian Bureau of Statistics. The angle for the story is the development among the biggest immigration groups in Oslo, and the reader does not have to read the text to understand the news.
+
 Tools used: Excel, Access, ArcView.
+
 Lessons learned: Too much text on the pages. It would have been better to concentrate 100 percent on the graphs.
 
-**4. When the visualization is supplying the text:**
+**4. When the Visualisation is Supplying the Text**
  
-Translation: Erna is the queen of the applauses
-Antall ord = the number of words
-Vokabular = vocabulary
-Setningslengde = length of periods
-Ord pr. minutt = words pronounced each minute
-Link: http://www.vg.no/nyheter/innenriks/valg-2009/artikkel.php?artid=570321
+_Erna is the Queen of Applause_
 
-This visualization is based upon text mining of the speeches held by the seven Norwegian party leaders during their Conventions. All speeches were analyzed, and the analyses gave the angles to make some stories. Every story was linking to the graph, and the readers could play around, studying the language of the politicians.
+For http://www.vg.no/nyheter/innenriks/valg-2009/artikkel.php?artid=570321[this visualization] we text mined speeches held by the seven Norwegian party leaders during their conventions. All speeches were analysed, and the analyses supplied angles for some stories. Every story was linked to the graph, and the readers could explore and study the language of politicians.
+
 Tools used: Excel, Access, Flash and Illustrator.
-Lessons learned: In 2012 we would have made the interactive graph in Javascrips.
+
+Lessons: In 2012 we would have made the interactive graph in Javascript.
+
 We do not yet have good tools for text mining.
 
-**5. When the visualization is an integrated part:**
+**5. When the Visualisation is an Integrated Part**
  
-Translation: Mekka of the slots in the north (of Norway)
+Mekka of the slots in the north (of Norway)
+
 This story is about the use of slots in the different parts of Norway. The text, the tables, the graph and the photo are all parts of an integrated solution.
+
 Tools used: Most important was Access database. The mapping solution is made in ArcView.
 
-
-
-**6. When the graphs are interactive:**
-
+**6. When the Graphs are Interactive:**
  
-Translation: Here people are using most of their income on Lotto
-Link: http://www.vg.no/nyheter/innenriks/artikkel.php?artid=569832
+_Here People are Using Most of their Income on Lotto_
 
+http://www.vg.no/nyheter/innenriks/artikkel.php?artid=569832[This story] is based on data from the Norwegian Bureau of Statistics, taxpayers data and data from the national Lotto monopolist. In this interactive graph, the reader could find different kinds of information from each Norwegian county and municipality. The actual table is showing the percent of the income used on games.
 
-This story is based upon a database containing data from the Norwegian Bureau of Statistics, taxpayers data and data from the national Lotto monopolist. In this interactive graph, the reader could find different kind of information from each Norwegian county and municipality. The actual table is showing the percent of the income used on games.
 Tools used: Access, Excel, MySql, Flash
-
-
- 
-Translation:
-Poeng landet har gitt = points given.
-Poeng landet f‚àö‚Ä¢r = points received.
-Differanse mellom gir og f‚àö‚Ä¢r = the difference between what you give and what you get.
-Poeng mottatt ‚àö‚Ä¢r for ‚àö‚Ä¢r = points received each year.
-MGP vinner ‚àö‚Ä¢r for ‚àö‚Ä¢r = the winner each year.
-LILIANA:
-Link DEAD AT THE MOMENT. WE COULD REACTIVATE IT IF YOU WANT TO.
-
-
-After downloading all points given in The Eurovision Song Contest from 1994 to 2009 into a database, VG made this interactive graph, documenting who is voting for whom. In this interactivity of entertainment, the reader could click at each country to get all information interesting him or her.
-Tools used: Access, Excel, MySql, Flash
-
-
  
 Translation of the column titles: Pristilskudd = price given by the dairy.
 Produksjonstilskudd = national subsidies
@@ -554,34 +202,21 @@ The data in this table is containing farm subsidies to all Norwegian farmers, so
 Tools used: Access, Excel, MySql.
 Lessons learned: This table and the stories connected to it was the most read that day. The graphs do not necessarily need to be fancy to capture readers.
 
-**7. When the visualization is user-generated:**
+**7. When the Visualisation is User-generated:**
  
-Translation: Here people is most afraid in Oslo
-Link: http://www.vg.no/nyheter/innenriks/artikkel.php?artid=10091789
+_Here People Are Most Afraid in Oslo_
 
-This Google heat map is based upon information given by 16 000 readers. There had been several rapes downtown Oslo, and the readers could click at a Google map to show were in Oslo they did not feel safe.
+http://www.vg.no/nyheter/innenriks/artikkel.php?artid=10091789[This Google heat map] is based upon information given by 16 000 readers. There had been several rapes downtown Oslo, and the readers could click at a Google map to show were in Oslo they did not feel safe.
+
 Tools used: Google Fusion Tables with heatmap, Google maps, MySql. 
 
-Do not give them all!
-So; when do we need to visualize a story? Most of the times we do not need to do it, but sometimes we have to do so to help the readers. Stories containing a huge number of data quite often need visualization. However, we have to be quite critical when choosing what kind of data we are going to present. OK, we know everything about the stuff, but what kind of basic information does the reader really need to know? Perhaps a table is enough, or a simple graph showing a development from year A to year C.
-When working with data journalism, the point is not necessarily to present huge amounts of data. The data gives us, as reporters, the possibilities to make stories we could not do without our data knowledge. It's all about journalism!
-Like a good picture
-A clear trend the last 2-3 years has been to create interactive graphs and tables, and then the reader has the possibility to go into the debth of the themes. 
-A good visualization is like a good picture: You understand what it is about just by looking on it a moment or two. When starting to study the picture, or the graph, you see and enjoy more and more of the details.
-The visualization is bad when the reader does not know where to start or where to stop, and when the visualization is overloaded by details. Perhaps a long text had been better?
-The question of quality is also a platform question. A perfect and big print visualization can not be automatically adopted to the web or the smart phone platforms. But that is another discussion.
+*Concluding Notes*
 
+When do we need to visualise a story? Most of the times we do not need to do it, but sometimes we want to do so to help our readers. Stories containing a huge amount of data quite often need visualisation. However, we have to be quite critical when choosing what kind of data we are going to present. We know all kinds of stuff when we report about something, but does the reader really need to know for the story? Perhaps a table is enough, or a simple graph showing a development from year A to year C. When working with data journalism, the point is not necessarily to present huge amounts of data. It's about journalism!
 
+There has been a clear trend in last 2-3 years to create interactive graphs and tables which enable the reader to drill down into different themes. A good visualisation is like a good picture. You understand what it is about just by looking at it for a moment or two. The more you look at the visual the more you see. The visualisation is bad when the reader does not know where to start or where to stop, and when the visualisation is overloaded by details. In this scenario, perhaps a piece of text would be better?
 
 === Data Driven Apps at Internews in Kenya (Mark Irungu, Internews Network) ===
-
-////
-
-Insert: ask liliana for images for this case study
-
-////
-
-
 
 On the 6th of July 2011, the Kenya government became the first in Africa to have an open data portal to the public. Making government data open is not a very popular idea that regimes would readily embrace in Africa, not with the rampant corruption and mismanagement of public funds. Understandably, the Kenyan Government has received a lot of accolades for that. 
 
@@ -641,8 +276,8 @@ News Apps vary in type:
 4.	DATA apps - These are apps that query DATA sets from governments, organizations, civil society etc. These Apps may have their own storage engine that is updated regularly from the main data source e.g. World Bank finances, Kenya open data. Examples of such applications: CDF monitor (Kenya) Internews Open DATA app(Kenya)
 
 
-
 Why and for who?
+
 News Apps are not for journalists only. Most news apps are coded to produce interactive and friendly reports that can be used by any news savvy person. The act of interacting with a news app looking for news is in itself journalism. Newsrooms, News organizations, governments, and civil society should commission development of news apps based on need.
 
 In the age of Open Source tools, re-inventing the wheel is not necessary. When making the decision to develop a news app, it is imperative to survey the current news landscape and identify tools that do at least half of what you'd like to see. Chances are that in most instances you may just combine two different tools with great precision. For example, when working on large data sets you may be looking for a tool that will clean the data and also visualize it in clean interactive graphs, charts, bubbles and possibly maps. You may want, in this instance, to clean the data on Google refine, and then export the data to Tile Mill to visualize it on a map and to infogr.am to plot it on a matrix! 
@@ -676,6 +311,8 @@ Having powerful computers, big screens, servers and test platforms is a good thi
 
 === Public Data Goes Social (Oluseun Onigbinde, BudgIT Nigeria) ===
 
+image::Figures/06-YY.png[width=600]
+
 Data is invaluable. To the uninformed person where information asymmetry thrives, access to data illuminates the path to facts and provokes emotions that trigger results. Nevertheless, poor handling of data puts valuable facts in an opaque structure that communicates nothing. Data could be in a maze of thick document riddled with complex terms or iterations of figures that doesn't connect the user.  Not being able to promote discussion nor give provide contextual understanding, data may could be worthless. 
 
 Nigeria returned to democracy in 1999 after lengthy years of military rule. Data under the barrel of the gun was an exclusive preserve of rulers as probing the facts behind data is taken as an affront to authority and strive to question the stained reputation of the junta. Civil servants were bound by the Official Secrets Act not to share government information hereby putting the citizens in the dark. Even after thirteen years of return to democracy, there is clearly a gap in accessing public data with some government officials still stricken with military era hangover. Data especially in terms of public expenditure communicates little to the larger sections of public who are not versed in financial accounting nor have requisite understanding to evaluate the complex arithmetic. 
@@ -698,6 +335,8 @@ Across our interactions with users, we see a gulf in understanding what the budg
 Across every society lies a literacy span and engaging every component is highly critical to the societal growth and stability. There is always a storyboard in every life that volumes of data can be matched with. People constantly want to be more informed especially concerning issues that they find difficult to understand. Engaging citizens is to take critical analysis of the target users at a time and itemize the possible profiles. A look at user profile demands a thorough analysis of their empathy, attention and insight towards the data available to them. What does the Nigerian citizen care about? Where is the information gap? How quickly can we reach out to them and place data in the storyboard of their lives? A critical understanding of the user's psychology and the perceived response to the data is the first needed level of analysis. BudgIT's immediate reach is to the average literate Nigerian connected to online forums and social media. Most online users amidst the array of interests in gaming, reading and sharing social connections within a limited timeframe will definitely need data in a brief and concise manner. After a snapshot of data  either as a tweet or infographics, there's an opportunity to build linked data on other platforms where the big picture can be set and interaction can be enhanced.  
 
 An important angle of visualization to us is understanding the data appreciation level of the users. Complex diagrams, superb infographics and aesthetic interactive applications might not convey the exact meaning to user based on his/her previous approach to data. Data vizualization needs to take into consideration how users can easily grasp the vizualized data and subject it to personal interpretation. A good visualization transfers knowledge and mostly important brings forth a story the user can easily connect with. 
+
+image::Figures/06-ZZ.png[width=600]
 
 For us in BudgIT, our engagement model is anchored on the following: 
 

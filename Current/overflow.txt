@@ -631,3 +631,198 @@ https://www.drumbeat.org/en-US/journalism/about/[MoJo] is the Knight-Mozilla par
 http://www.a24media.com/whatsyourstory/[Africa: What's Your Story] is a collaborative platform of the citizen news agency A24Media to implicate people from across the continent on sharing information about media freedom, corruption, health, education and other issues in video, text and audio.
 
 The collaborative ways of treating or recirculating information and the bias for popular mobilizations are already means for important changes in this recent world of new media, big data sources and participatory culture. Even if only around 30 percent of the world population was online by the end 2010 (source: http://www.itu.int/ITU-D/ict/publications/idi/2011/index.html[2011 ITU report]), there are space for commitment to spread the principles of freedom and to share experiences, best practice and opportunities to improve the capability of citizens and other stakeholders to write/interact/play/sense the next chapters of the history of press.
+
+------
+
+
+
+=== Data Visualisation at the New York Times (Aron Pilhofer, New York Times) ===
+
+
+*Types of stories visualisations can tell*
+
+NYT's deputy graphics director Matthew Ericson provides a list of different functions that visualisations can play in a story (http://www.ericson.net/content/2011/04/international-journalism-festival-links/)
+
+Provide Context
+
+http://www.nytimes.com/interactive/2011/03/13/world/asia/satellite-photos-japan-before-and-after-tsunami.html[Satellite Photos - Japan Before and After Tsunami]
+Compare satellite images of areas of Japan before and after the disaster.
+
+http://www.nytimes.com/interactive/2011/04/02/world/asia/assessing-the-radiation-danger.html[Assessing the Radiation Danger, Near and Far]
+Assessments of the radiation from the Fukushima Daiichi nuclear power plant by the Japanese authorities, the International Atomic Energy Agency and others.
+
+http://www.nytimes.com/packages/flash/newsgraphics/2011/0311-japan-earthquake-map/?view=daiichi[Map of Radiation Readings Near Fukushima Daiichi]
+
+http://www.nytimes.com/interactive/2009/11/06/business/economy/unemployment-lines.html[The Jobless Rate for People Like You - Interactive Graphic - NYTimes.com]
+
+Not all groups have felt the recession equally.
+Obama's 2012 Budget Proposal: How It's Spent - NYTimes.com
+Explore every nook and cranny of President Obama's budget proposal.
+
+Reveal Patterns
+
+http://www.nytimes.com/interactive/2009/03/10/us/20090310-immigration-explorer.html[Interactive Map Showing Immigration Data Since 1880]
+See how foreign-born groups settled in your area and across the United States from 1880 to 2000.
+http://www.nytimes.com/packages/html/newsgraphics/pages/hp/2008/2008-11-05-1300.html[The Shifts in the Map - How Obama Won]
+Find breaking news, multimedia, reviews & opinion on Washington, business, sports, movies, travel, books, jobs, education, real estate, cars & more.
+http://www.nytimes.com/interactive/2009/06/23/us/Geothermal.html?ref=geothermalpower[The Danger of Digging Deeper]
+A project financed by the Energy Department aims to capture geothermal energy from hot bedrock - a process that can cause earthquakes.
+
+Describe Processes
+
+http://www.nytimes.com/interactive/2011/03/12/world/asia/what-happens-in-a-nuclear-meltdown.html[What Happens in a Nuclear Meltdown]
+The operating reactors at Fukushima Daiichi power station automatically shut down during the earthquake. But after cooling failures, two of them went into partial meltdown.
+http://www.nytimes.com/interactive/2009/08/01/arts/dance/20090803-merce-graphic.html[Dissecting a Dance]
+Alastair Macaulay, The Times's chief dance critic, analyzes Merce Cunningham's "Biped."
+Explain the Geography
+http://www.nytimes.com/packages/flash/newsgraphics/2011/0311-japan-earthquake-map/[Map of the Damage From the Japanese Earthquake]
+http://www.nytimes.com/interactive/2010/05/01/us/20100501-oil-spill-tracker.html[Map and Estimates of the Oil Spill in the Gulf of Mexico - Interactive Map - NYTimes.com]
+The spreading slick, day by day, and a chart of how much oil has been spilled.
+
+Report and Research
+
+http://www.nytimes.com/2007/04/17/us/20070417_SHOOTING_GRAPHIC.html[Virginia Tech Shooting - New York Times]
+A recounting of the events on the day of the deadliest shooting rampage in American history. From official and survivor accounts of the shooting at Virginia Tech.
+http://www.nytimes.com/interactive/2011/03/16/world/asia/japan-nuclear-evaculation-zone.html[Map of Evacuation Zones Around Japan Nuclear Plant - Interactive Feature - NYTimes.com]
+Map of the evacuations zones recommended by the American Embassy in Tokyo and Japanese officials.
+What's the Story?
+http://www.nytimes.com/interactive/2010/06/29/magazine/rivera-pitches.html[How Mariano Rivera Dominates Hitters]
+The closer has confounded hitters with mostly one pitch: his signature cutter.
+http://elections.nytimes.com/2010/results/house[House Map - Election Results 2010]
+http://elections.nytimes.com/2010/results/house/big-board[House Big Board - Election Results 2010]
+http://projects.nytimes.com/toxic-waters/contaminants/ia/johnson/ia5225079-iowa-city-water-department[Iowa City Water Department Water System - Interactive Database - The New York Times]
+
+Sketch with Data
+
+http://www.nytimes.com/interactive/2010/01/10/nyregion/20100110-netflix-map.html[A Peek Into Netflix Queues - Interactive Graphic - NYTimes.com]
+Story+Data > Data
+http://elections.nytimes.com/2010/results/house/preview[Preview of Key House Races - Election Results 2010]
+http://www.nytimes.com/interactive/2009/01/17/washington/20090117_ADDRESSES.html[Inaugural Words - 1789 to the Present]
+http://www.nytimes.com/interactive/2009/07/02/business/economy/20090705-cycles-graphic.html[Turning a Corner?]
+http://www.nytimes.com/interactive/2007/09/22/business/20070923_NURSING_GRAPHIC.html[Layers of Ownership]
+The Information Is What's Important
+http://www.accuweather.com/en/us/new-york-ny/10017/daily-weather-forecast/3712_pc[New York, NY 10017 Today's Weather Forecast - AccuWeather.com]
+http://weather.ericson.net/weather/forecast/New-York-NY[weather.ericson.net: New York, NY Weather]
+http://www.nytimes.com/interactive/2011/03/13/world/asia/satellite-photos-japan-before-and-after-tsunami.html[Satellite Photos - Japan Before and After Tsunami]
+Compare satellite images of areas of Japan before and after the disaster.
+http://www.nytimes.com/packages/flash/newsgraphics/2011/0311-japan-earthquake-map/?view=daiichi[Map of Radiation Readings Near Fukushima Daiichi]
+http://www.nytimes.com/interactive/2010/02/26/sports/olympics/20100226-olysymphony.html[Fractions of a Second: An Olympic Musical - Interactive Graphic - NYTimes.com]
+
+------
+
+
+=== Which Visualisation is Right For Your Story? (Various Contributors) ===
+
+Types of graphs/visualizations: choosing an appropriate visualization tool
+Comparison
+Distribution
+Data-ink / data-pixel ratio
+Color
+Grid lines
+Typography
+2D v.s. 3D
+Integrity
+Time-based; interactive experiences
+
+
+http://www.propublica.org/nerds/item/timelinesetter-a-new-way-to-displaytimelines-on-the-web[TimelineSetter: A New Way to Display Timelines on the Web]
+http://www.tiki-toki.com/[Tiki Toki]
+
+(Lulu: I'd add in:)
+Sound and Motion
+Layout
+Keys (or legends)
+Platform
+
+
+-----
+
+
+
+
+There are many tools that simplify the creation of maps from digital data. 
+http://code.google.com/apis/maps/index.html
+
+This classic map shows the advance and retreat of Napolean's army in Russia using width to indicate army size, color to represent direction and a sharp aesthetic to show the severity of the event. http://www.edwardtufte.com/tufte/posters
+
+
+
+Graphs
+There are many ways to use graphs to visualize data. Data sets that focus on pairs of information such as quantity x over time or age over height are often prime. A third piece of data can usually be shown through size or color of data points. For trending information and regular distributions, such as population over time lines can connect points. Multiple sets of relevant information can also be plotted so long as they are distinguished. This can be helpful in showing upper and lower bounds or the way in which two related quantities move together over time.
+
+It is important to keep your target audience in mind when using graphs, more so even than most other forms of visualization. Graphs are technical things. If they aren't clear or contain extraneous information, they can lead to confusion and even viewers to drawing wrong conclusions. (This is also true of graphs that are clear, but less so.) Further, what is lacking in understanding is often overcompensated in conviction. Many misconceptions have been fueled and spread through misleading graphs, or proper graphs accompanied by misleading captions.
+
+Charts
+Charts can focus a great deal of attention on a small amount of information or used in a similar way as graphs to show relationships and trends. As with graphs, the choices made in creating the graph is service of the story is vitally important.
+
+(Lulu) Motion Graphics is one to add to taxomony:
+
+
+------
+
+Interaction
+(Lulu)
+Depending on what you want your audience to take away, different types of interaction can be used, as illustrated by these examples:
+- Story-telling: http://www.nytimes.com/interactive/2009/07/02/business/economy/20090705-cycles-graphic.html[NYT: Turning a Corner (Economic Cycles)]
+- No story, free data exploration by user: http://www.neighbourhood.statistics.gov.uk/HTMLDocs/dvc3/projections.html[ONS: Population Pyramids]
+- Learn by having a go: BERG/BBC: http://howbigreally.com/[How big really?]
+
+When you think you're nearly there, try out your visualisation on a handful of other people. Observe them using it, exploring it. It becomes very clear very quickly what users do and don't 'get'. If your users don't realise there's another screen to progress to, all your hard work will have been wasted. Go back and adjust your work to address the obstacles that you saw users encounter.
+
+Examples of good use of visualisations to tell stories
+
+
+NYtimes election visualization (Aron)
+Progressively updated through election night
+Lead shown clearly at top (speaks to 'why do I care')
+More information below deepening information
+
+-----
+
+
+(bad example) NYTimes election 2004 (Aron - needs input)
+http://www.nytimes.com/packages/html/politics/2004_ELECTIONRESULTS_GRAPHIC/
+What is the important thing?
+Location is shown first but the location of the state isn't important.
+Burrying the lead
+
+
+
+Data-to-pixel ratio
+BAD	GOOD
+Use language to sound intelligent/ interesting/ like a brilliant writer.	Use language to illuminate meaning in a concise way
+Use design language to make things pretty/ interesting/ convince everyone you're a brilliant designer.	Use design language to illuminate meaning in a concise way.
+
+
+
+
+How do you use design language to illuminate meaning in a concise way? (Just ask Tufte!)
+Colour: use colour sparingly to highlight information that is more important than others, or show the distinction between two sets of variables. Choose colours that are distinct enough that colourblind individuals are able to read your visualization, and don't use extra colours or patterns unnecessarily.
+
+
+(Lulu) Colour accessibility tools:
+Color Oracle: Shows you in real time what people with common color vision impairments will see http://colororacle.cartography.ch/
+snook.ca: Allows you to check colour contrast of a foreground colour against a different background colour: http://snook.ca/technical/colour_contrast/colour.html
+Grid lines: grid lines do not add important information to your chart; remove them, and ask yourself if the chart still communicates its message as effectively. If you must use them, make sure they are as visually minimal as possible
+
+
+(Lulu)
+Typography: Complement the story's hierarchy with a visual hierarchy:
+
+
+- make the title both big and insightful
+- label key points directly and bold them up
+- hand-hold the user through the structure of the story by distinguishing header text from body text
+2D v.s. 3D: Never, ever use 3D graphs. They distract from information and add nothing.
+
+
+(Lulu)
+
+
+Layout: Size, position, white space are the variables you have to play with. As a rule of thumb adjust these so the design works for the extreme cases - longest labels, most data, biggest sample, and their smallest counterparts too. Then the rest should all fall into line.
+Keys (or legends): Avoid using them whenever possible. It's much more effective to label lines, points, bars directly. If you do have to use a key, put it at the top, in a prominent position.
+Platform: Design for the platform that your visualisation is going to live on. If both print and online, re-design it to work on the other one. A print graphic directly uploaded to a website rarely works as well as it could online, and vice versa of course. It's almost always necessary to re-work.
+
+
+----
+image::Figures/04-GG.jpg[width=600]

@@ -98,6 +98,16 @@ Lamentably the act of reading this book will not supply you with a comprehensive
 
 The Data Journalism Handbook is a work in progress. If you think there is anything which needs to be amended or is conspicuously absent, then please flag it for inclusion in the next version. It is also freely available under a http://creativecommons.org/licenses/by-sa/2.5/[Creative Commons Attribution Sharealike] license, and we strongly encourage you to share it with anyone that you think might be interested in reading it.
 
+////
+
+Very lucky to have input we've had
+Contributors list reads like a who's who of data journalism
+Book captures passion and enthusiasm of a movement
+Insight behind the scenes, stories behind the stories
+
+////
+
+
 _Liliana Bounegru (https://twitter.com/bb_liliana[@bb_liliana])_ +
 _Lucy Chambers (https://twitter.com/lucyfedia[@lucyfedia])_ +
 _Jonathan Gray (https://twitter.com/jwyg[@jwyg])_ +
