@@ -118,7 +118,7 @@ News application development has come a long way in a very short time. News Apps
 
 News Apps 2.0, where the industry is headed, is about combining the storytelling and public service strengths of journalism with the product development discipline and expertise of the technology world. The result, no doubt, will be an explosion of innovation around ways to make data relevant, interesting and especially useful to our audience – and at the same time hopefully helping journalism do the same.
 
-=== News Apps at Propublica (Scott Klein, ProPublica) ===
+=== News Apps at ProPublica (Scott Klein, ProPublica) ===
 
 A news application is a broad, deep interactive database that tells a news story. By exposing specific data to them, a news app can tell each reader's story. It can help a reader understand their personal stake in a broad national phenomenon, and help them attach what they know to what they don't know to encourage a deep understanding of abstract concepts.
 

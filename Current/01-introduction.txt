@@ -214,6 +214,23 @@ ____
 One of my favorite pieces of data journalism is the ``Murder Mysteries'' project by Tom Hargrove of the Scripps Howard News Service. He built from government data and public records requests a demographically-detailed database of more than 185,000 unsolved murders, and then designed an algorithm to search it for patterns suggesting the possible presence of serial killers.  This project has it all: hard work gathering a database better than the government’s own, clever analysis using social science techniques, and interactive presentation of the data online so readers can explore it themselves.
 ____
 
+
+*Iraqi War Logs*
+
+Link: http://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs
+
+[quote, Cynthia O'Murchu (Financial Times)]
+____
+Jonathan Stray and Julian Burgess’ work on http://jonathanstray.com/a-full-text-visualization-of-the-iraq-war-logs[Iraq War Logs] is an inspiring foray into text analysis and visualisation using experimental techniques to gain insight into themes worth exploring further within a large textual dataset. 
+
+By means of text-analytics techniques and algorithms, Jonathan and Julian, created a method that showed clusters of keywords contained in thousands of US-government reports on the Iraq war leaked by Wikileaks in visual form.
+
+Though there are limitations to the methods presented and the approach is experimental, it presents an innovative approach. 
+Rather than trying to read all the files or reviewing the War Logs with a preconceived notion of what may be found by inputting particular keywords and reviewing the output, this technique calculates and visualises topics/keywords of particular relevance. 
+
+With increasing amounts of data (both textual (emails, reports…) and numeric) coming into the public domain, finding ways to pinpoint key areas of interest will become more and more important - it is an exciting sub-field of data journalism.
+____
+
 === Data Journalism in Perspective (Liliana Bounegru, European Journalism Centre) ===
 
 This section will look at:
