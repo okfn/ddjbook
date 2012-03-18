@@ -350,6 +350,8 @@ With BudgIT, our user engagement is based on the following:
 
 After making expenditure data available on yourbudgit.com, we reach out to citizens through various NGOs. We also plan to develop a participatory framework where citizens and government institutions can meet in town halls to define key items in the budget that needs to be prioritised. 
 
+The project has received coverage in local and foreign media, from http://www.cp-africa.com/2012/01/13/budgit-launches-cut-government-waste-application-for-the-2012-nigerian-budget/[CP-Africa] to the http://www.bbc.co.uk/news/world-africa-16591389[BBC]. We have undertaken a review of 2002-2011 budget for the security sector for an AP journalist, Yinka Ibukun. Most media organisations are `data hogs' and have requested data from us to use for their reportage. We are planning further collaborations with journalists and news organisations in the coming months.
+
 === Engaging Your Audience (Duncan Geere, Wired.co.uk) ===
 
 Almost as important as publishing the data in the first place is getting a reaction from your audience. You're human - you're going to make mistakes, miss things and get the wrong idea from time to time. Your audience is one of the most useful assets that you've got - they can fact-check and point out things that you may not have considered.
