@@ -143,6 +143,8 @@ If your colleagues are sceptical about the value of access to information reques
 
 If you want to analyse, explore or manipulate data using a computer then you should explicitly ask for data in an electronic, machine-readable format. You may wish to clarify this by specifying, for example, that you require budgetary information in a format ``suitable for analysis with accounting software''. You may also wish to explicitly ask for information in `disaggregated' or `granular' form. You can read more about this point in http://www.access-info.org/documents/Access_Docs/Advancing/Beyond_Access_7_January_2011_web.pdf[this report].
 
+_If you need further help with making your FOI request, you can also consult the http://www.legalleaks.info/toolkit.html[Legal Leaks toolkit for journalists]._
+
 === Wobbing Works. Use it! (Brigitte Alfter, Freelance Journalist) ===
 
 Using freedom of information legislation - or wobbing, as it is sometimes called - is an excellent tool. But it requires method and, often, persistence. Here are three examples illustrating the strengths and challenges of wobbing from my work as an investigative journalist.
@@ -403,3 +405,10 @@ When you do publish data, include an explicit IP statement, in particular an ope
 === Anecdotes and War Stories (Various Contributors) ===
 
 We asked leading data journalists about their experiences getting hold of data. Here is what they said.
+
+*You don't need new data to make a scoop*
+
+[quote, Jonathan Stray (Associated Press)]
+____
+Sometimes the data is already public and available, but no one has looked at it closely. In the case of the AP's report on 4,500 pages of declassified documents describing the actions of private security contractors during the Iraq war, the material was obtained by an independent journalist over several years, using Freedom of Information requests addressed to the U.S. State Department. They scanned the paper results and uploaded them to DocumentCloud, which made it possible for us to do our comprehensive analysis.
+____
