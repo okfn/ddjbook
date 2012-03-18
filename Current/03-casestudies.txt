@@ -183,7 +183,7 @@ This illustrated some advantages of releasing the raw data to accompany a data-d
 
 image::Figures/03-DD.png[width=600]
 
-In the spring of 2012, there are many ongoing trials about the campaign election funding of Finnish general elections of 2007.
+In recent months there have been ongoing trials related to the election campaign funding of the Finnish general elections of 2007.
 
 After the elections in 2007, the press found out that the laws on publicising campaign funding had no effect on politicians. Basically, campaign funding has been used to buy favours from politicians, who have then failed to declare their funding as mandated by Finnish law.
 
