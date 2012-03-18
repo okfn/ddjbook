@@ -26,7 +26,7 @@ Insert: picture from project
 
 ////
 
-A http://www.ft.com/cms/s/0/920fcd2c-8aca-11e0-b2f1-00144feab49a.html[Financial Times investigation] into the quality of care provided in care homes began with a simple question: is care provided by private providers better than that offered by the non-profit sector or the government?
+A http://www.ft.com/cms/s/0/920fcd2c-8aca-11e0-b2f1-00144feab49a.html[Financial Times investigation] into the private care home industry exposed how some private equity investors turned elderly care into a profit machine and highlighted the deadly human costs of a business model that favoured investment returns over good care.
 
 The analysis was timely, because the financial problems of Southern Cross, then the country's largest care home operator, were coming to a head. The government had for decades promoted a privatisation drive in the care sector and continued to tout the private sector for its astute business practices.
 
@@ -362,3 +362,55 @@ As with many projects that start with government data, the data needed a lot of 
 We also worked really hard at making sure the app told a ``far'' story and a ``near'' story. That is, the app needed to present the reader with a broad, abstract national picture - specifically, a way to compare how states did relative to each other on educational access. But given that abstraction sometimes leaves readers confused as to their own stake, we also wanted readers to be able to find their own local school and compare it to example high and low-poverty schools in their area.
 
 If I were to advise aspiring data journalists interested in taking on this kind of project, I'd say you have to know the material and be inquisitive! All of the rules that apply to other kinds of journalism apply here. You have to get the facts right, make sure you tell the story, and crucially, make sure your news app doesn't disagree with a story you're writing - because if it does, one of the two might be wrong.
+
+=== The Eurozone Meltdown (Sarah Slobin, Wall Street Journal) ===
+
+So we're http://on.wsj.com/tYM82O[covering the Eurozone meltdown]. Every bit of it. The drama as governments clash and life savings are lost. The bond markets, the reaction from world leaders. Austerity measures and protests against austerity measures. Daily, in the Wall Street Journal, there are charts on jobs loss, industrial production, declining GDP, interest rates, inflation, job loss. It is incremental. It is numbing.
+
+The page one editors call a meeting to discuss ideas for year-end coverage and as we leave the meeting I find myself wondering, what must it be like to be living through this?
+
+Is this like 2008 when I was laid off and dark news was incessant? We talked about jobs and work and money every night at dinner nearly forgetting how it might upset my daughter. And weekends, they were the worst. I tried to deny the fear that seemed to have a permanent grip at the back of my neck and the anxiety tightening my rib cage. Is this what was it like to be a family in Greece? In Spain?
+
+I turned back and followed Mike Allen, the page one editor into his office and pitched the idea of telling the crisis through families in Eurozone by looking first at the data, finding what made up a family, using the demographic profiles to find the right structure and then surfacing that along with the pictures and interviews – audio of the generations. We'd use beautiful portraiture and the voices. And the data.
+
+Back at my desk, I wrote a précis and drew a logo.
+
+image::Figures/03-ZZ-01.png[width=600]
+
+The next three weeks I chased numbers. I read white papers, and looked for surveys, interviewed experts on family composition. With my editor we chose the countries. We gathered a team to discuss the visual approach and thought about which reporters could deliver the words, the audio and the story. Matt Craig, the page one photo editor set to work finding the shooters. Matt Murray, the Deputy Managing Editor for world coverage sent a memo to the bureau chiefs requesting the reporters. (This was crucial - sign-off from the top.)
+
+But first the data. I looked broadly at the countries. What were the factors driving the downturn? What were birth rates and the composition of a typical family?
+
+image::Figures/03-ZZ-02.png[width=200]
+
+I did this for a week before I got lost in the weeds and started to doubt myself. Maybe this was the wrong approach. Maybe it wasn't about countries, but it was about fathers and mothers, and children and grandparents. The data grew.
+
+image::Figures/03-ZZ-03.png[width=600]
+
+And shrank. Sometimes I spent hours gathering numbers only to find out that they told me, well, nothing. That I had dug up the entirely wrong set of numbers. Sometimes the data were just too old.
+
+image::Figures/03-ZZ-04.png[width=600]
+
+And then the data grew again as I realised I still had questions, and I didn't understand the families.
+
+I needed to see it, to shape it. So I made a series of charts, and began to arrange and edit them.
+
+image::Figures/03-ZZ-05.png[width=600]
+image::Figures/03-ZZ-06.png[width=600]
+
+As the charts emerged, so did a cohesive picture of the families. We launched. I called each reporter, invited them to the project. I sent them the charts, the broad pitch and an open invitation to find stories that they felt had meaning, that would bring the crisis closer to our readers.
+
+From here on in I would be up early to check my email to be mindful of the time-zone gap. The reporters came back with lovely subjects, summaries and surprises that I hadn't anticipated.
+
+For photography we knew we wanted portraits of the generations. Matt came back with a vision of having his photographers follow the family member through a day in their lives. He chose visual journalists who had covered the world, covered news and even covered war. Matt wanted each shoot to end sitting down at the dinner table. Sam Enriquez, our editor, suggested we include the menus.
+
+From here it was a question of waiting to see what story the photos told. Waiting to see what the families said. We designed the look of the interactive. I stole a palette from a Tintin novel, we worked through the interaction. And when it was all together and we had storyboards, we added back in some, not much but some of the original charts. Just enough to punctuate each story, just enough to harden the themes. The data became a pause in the story, a way to switch gears.
+
+image::Figures/03-ZZ-07.png[width=600]
+image::Figures/03-ZZ-08.png[width=600]
+
+In the end, the data were the people, they were the photographs and the stories. They were what was framing each narrative and driving the tension between the countries.
+
+By the time we published, right before the New Year as we were all contemplated what was on the horizon, I knew all the family members by name. I still wonder how they are now. And if this doesn’t seem like a data project, that’s fine by me. Because those moments which are documented in Life in the Eurozone – these stories of sitting down for a meal and talking about work and life with your family was something we were able to share with our readers. Understanding the data is what made it possible.
+
+image::Figures/03-ZZ-09.png[width=600]

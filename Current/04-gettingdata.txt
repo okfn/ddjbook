@@ -2,7 +2,7 @@
 
 === A Five Minute Field Guide (Various Contributors) ===
 
-Contributors: Brian Boyer, J. F. Keefe, Friedrich Lindenberg, Jane Park.
+Contributors: Brian Boyer (Chicago Tribune), Jane Park (Creative Commons), John Keefe (WNYC), Chrys Wu (Hacks/Hackers), Friedrich Lindenberg (Open Knowledge Foundation)
 
 Looking for data on a particular topic or issue? Not sure what exists or where to find it? Don't know where to start? In this section we look at how to get started with finding public data sources on the web.
 
