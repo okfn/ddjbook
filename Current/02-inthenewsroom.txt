@@ -291,13 +291,13 @@ After RegioHack, we noticed that journalists considered data journalism as a via
 
 What did we learn? We learned a lot, but we also came along a lot of obstacles. We recognized these four:
 
-*1. Where to begin: question or data?* Almost all projects stalled when searching for information. What datasets are interesting? Where do we find those? And does this answer our research question? When when we found an interesting dataset, it mostly didn't answer the question asked.
+*1. Where to begin: question or data?* Almost all projects stalled when searching for information. Most of the time, they began with a journalistic question. But then? What data is available? Where can you find it? And when you find this data, can you answer your question with it. Journalists usually know where they can find information when doing research for an article. With data journalism, most journalists don't know what information is available.
 
-*2. Uneven distribution of technical skills.* Technical knowledge was not distributed evenly among the participants. A small group of programmers carried the weight of doing the scraping and visualizing. We expected this in advance, so we assigned a central desk with technical skills (Tableau, custom visualisations, Excel, etc.). In addition to what knowledge every project group had, this central desk could help the groups out with problems.
+*2. Little technical knowledge*. Data journalism is quite a technical discipline. Sometimes you have to scrape, other times you'll have to do some programming to visualise your results. For excellent data journalism, you'll need two aspects: the journalistic insight of an experienced journalist and the technical know-how of a digital all-rounder. During RegioHack, this was not a common presence.
 
-*3. Datasets not being combined.* Participants didn't combine many datasets. Instead, they took one dataset, tried to visualize it and draw conclusions based on the results. This isn't wrong, but data journalism gets more interesting in the interconnections of datasets.
+*3. Is it news?* Participants mostly used one dataset to discover news, instead of searching interconnections between different sources. The reason for this: you need some statistical knowledge to to verify news from data journalism.
 
-*4. Not always clear how to proceed.* What above all comes down to, is that there's no routine. The participants have some skills under their belt, but don't know how and when to use them. One journalist compared it with baking a cake. `We have all the ingredients: flour, eggs, milk, etcetera. Now we throw it all in a bag, shake it and hope a cake comes out of it.' Indeed, we have all the ingredients, but don't know what the recipe is.
+*4. What's the routine?* What above all comes down to, is that there’s no routine. The participants have some skills under their belt, but don’t know how and when to use them. One journalist compared it with baking a cake. ‘We have all the ingredients: flour, eggs, milk, etcetera. Now we throw it all in a bag, shake it and hope a cake comes out of it.’ Indeed, we have all the ingredients, but don’t know what the recipe is.
 
 What now? Our first experiences with data journalism could help other journalists or programmers aspiring the same field of work and we are working to produce a report.
 
