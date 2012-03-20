@@ -826,3 +826,163 @@ Platform: Design for the platform that your visualisation is going to live on. I
 
 ----
 image::Figures/04-GG.jpg[width=600]
+
+
+---
+
+##############################################################
+##############################################################
+##############################################################
+MATERIAL FROM SIMON ROGERS
+##############################################################
+##############################################################
+##############################################################
+
+
+What about rights clearance? While you should always clear all of this with your legal team, as a rule of thumb: if it is published by government you should be able to ask forgiveness not permission; if it is published by an organisation that doesn't make money selling data you shouldn't have to worry too much; if it is published by a organisation that does make money from selling data, then you should definitely ask permission.
+
+How do you choose what stories to focus on? 
+
+Idea for story
+Or something someone is obsessed about
+How do you choose?
+You have to pick stuff that is interesting to you
+If its interesting to me then at least one person is going to read it ;-)
+80% of time faffing about with data - gov data often needs cleaning up
+Tons of stuff in PDF
+Spending data - lots of stuff is incorrect
+
+Excel more than anything else
+Google Refine
+One example of really unstructured data was riots. Court reports including on riot offences
+Quicker to pay 7 people for a week than to scrape it
+Painful
+Had to pick out cases manually
+Ended up typing it in
+
+Once you have the data
+
+Don't have a lot of time
+
+Often you want to have lots of time, things on boil for months
+
+Rarely have time
+
+Fusion tables is easiest mapping tool - easiest tool to map data quickly
+E.g. Wikileaks - throw data in and make a map in half an hour
+
+Design house for visualisation
+
+Tableux - but not available for Macs
+
+Still use Many Eyes, but still a bit passe
+
+Tree map for text - neat visual trick
+
+In house tools - e.g. sortable tables on a page very quickly
+
+Reorder table to see order
+
+Amount of time spent on an article is 6 minutes - compared to average of 1 minutes
+
+Map of where verified instances were happening
+
+Mapping addresses of people involved in riots with poverty indicators. Took a couple of days. Had 1000 cases. Made it onto front page of paper.
+
+Working on project on riots with Rowntree Foundation.
+
+Something started with Itoworld
+
+3-4 major crowdsourcing exercise
+
+Simon Willison
+
+450,000 documents
+
+Much easier to navigate MP expenses
+
+Enter data - capturing structured data on expenses
+
+Tip off tool
+
+50% done
+
+Make it a game - gave people tasks
+
+Look at Cabinet, etc.
+
+Learnt a lot from doing it once.
+
+Maritime museum are crowdsourcing records - 10 people for each one and cross checking.
+
+James Ball did
+
+Best crowdsourcing thing we ever did was with Olympic ticketing system.
+
+If you can pledge money you get tickets, lots of people didn't get tickets.
+
+How many people applied for tickets and how many they got.
+
+Google Form - makes a spreadsheet.
+
+Sarah Palin emails. Lots of PDFs. 1000s of emails.
+
+List all of #occupy protests that are happening. Verified by people other than people occupying. Google Form on report. This is our list are there any we've missed. Had 1500-2000 responses. 500 duplicates. Putting them on Google Fusion tables.
+
+1st year: Simon - with access to people in the Guardian
+Two researchers: Lisa + Amy
+Three: James Ball - does more longer term stuff
+Simon does quicker stuff
+
+Some access to developers, but mainly try and do stuff that anyone can replicate. Try to do things which other people can replicate and provide input and feedback etc.
+
+Wary of doing anything too complicated. Or doing analysis that is done by experts.
+
+Forced by necessity to do things that anyone can do.
+
+Swamps of stuff - "what can you do with this data" - Flickr group. Good people post stuff. 1400 active members.
+
+Off the shelf Web 2.0.
+
+There are going to be people who can do better stuff than us. We focus on getting good reportage, and focusing on what we do best.
+
+Publish everything using Google Spreadsheets.
+
+Wanted to have proper database, but couldn't get any dev time.
+
+Tony Hirst has done amazing things.
+
+So much stuff you can build off Google Spreadsheets.
+
+Whole Guardian site is open source - CMS.
+
+Datablog has highlighted tools that are part of CMS but no-one else really used.
+
+NYT does get work embedding short video clips in stories.
+
+North and South of Italy with GDP.
+
+Really lucky: sit right next to main news at Guardian. Find stories from data and talk to news editor.
+
+Workflow starts in Excel. Such an easy way to quickly work out if there's something the data. Then if you have a sense that there is something in it then go to news desk. Then look at how we should visualise it or show it on the page. Then write the post that goes with it. Cut down version of spreadsheet next to the text editor. Often doing analysis while writing to pick out interesting things. Then publish post. Spend time Tweeting, writing to different people and making sure that it is linked to from all the right places.
+
+Half traffic from some posts will come from Twitter/FB.
+
+Arguments to convince colleagues. Comes from stories: COINS, Wikileaks + riots. Newspapers are driven by the stories and traffic.
+
+COINS: 5-6 specialists reporters from the Guardian working on it.
+Wikileaks: big. Iraq and Afghanistan.
+Spending over 25k: government gave data in advance. Team working on it. Team of 5-6 specialists. Including people like Polly Curtis.
+Riots: another big one. 550k in two days.
+
+Twitter: #uksnow tweeted postcode + how deep snow was. Looking at hashtags.
+
+6 minutes is a good number. Key metrics is time on the page.
+
+Data blog got 2.5 million unique hits. Guardian gets 52 million as a whole.
+
+Hashtags: people doing work with sentiment analysis. Lots of interesting stuff you can do with hashtags. Riots data. Fantastic set of data. #Riotcleanup was biggest tag.
+
+Trying to be the place where you get meaningful information on a given topic. Trying to be the main source for a given topic.
+
+Short pieces + longer

@@ -1,24 +1,6 @@
 == 1. Introduction ==
 
-////
-
-Section graphic from Kate
-
-////
-
 === What Is Data Journalism? (Paul Bradshaw, City University) ===
-
-////
-
-Comments:
-
-Made minor revisions to the text.
-
-This is opening section, hence very important to set the scene and explain what data journalism is.
-
-Could we expand this section so that each of the examples mentioned below has a sentence or two explaining what it is about, and how it augments and is distinctive from traditional journalism?
-
-////
 
 What is data journalism? I could answer, simply, that it is journalism done with data. But that doesn't help much.
 
@@ -80,18 +62,6 @@ And, increasingly, journalists see that particular opportunity. The European Jou
 Will data journalism remain the preserve of a small handful of pioneers - or will every news organisation soon have its own dedicated data journalism team? We hope this handbook will help more journalists and newsrooms to take advantage of this emerging field.
 
 === Why Is Data Journalism Important? (Various Contributors) ===
-
-////
-
-Todo: add quotes from Simon Rogers on how data journalism is just journalism done well
-
-Todo: review secondary literature and see if there are other quotes we could use or adapt, or if there is anyone else that we should ask.
-
-Todo: ask Chris Taggart for something on this - along lines of his talk in Utrecht.
-
-Todo: ask nearly everyone who can write well who has contributed to the handbook for quotes on this. We can pick the best ones.
-
-////
 
 We asked some of data journalism's leading practitioners and proponents why they think data journalism is an important development. Here is what they said.
 
@@ -222,6 +192,36 @@ Around the globe, in fact, the bond between data and journalism is growing stron
 Today, making sense of big data, particularly unstructured data, will be a central goal for data scientists around the world, whether they work in newsrooms, Wall Street or Silicon Valley. Notably, that goal will be substantially enabled by a growing set of common tools, whether they're employed by government technologists opening Chicago, healthcare technologists or newsroom developers.
 ____
 
+*Our Lives are Data*
+
+[quote, Chris Taggart (Open Corporates)]
+____
+Good data journalism is hard, because good journalism is hard. It means figuring out how to get the data, how to understand it, and how to find the story. Sometimes there are dead ends, and sometimes there's no great story. After all if it were just a matter of pressing the right button, it wouldn't be journalism. But that's what makes it worthwhile, and -- in a world where our lives are increasingly data -- essential for a free and fair society.
+____
+
+*Saving Time*
+
+[quote, Pedro Markun (Transparência Hacker)]
+____
+Journalists don't have time to waste transcribing things by hand and messing around trying to get data out of PDFs so learning a little bit of code, or knowing where to look for people who can help is incredibly valuable.
+
+One reporter from Folha de São Paulo was working with the public budget for the house of chambers here in the city and called me to thank us for putting up the accounts of the municipality of Sao Paolo online - http://cmsp.topical.com.br/ (two days work from a single hacker!). He said he had been transcribing them by hand for the past three months! Trying to build up a story. I also remember solving a 'pdf issue' for 'Contas Abertas', a parlimentary monitoring news organization in 15minutes and 15 lines of code that solved a months worth work.
+____
+
+
+*An Essential Part of the Journalists' Toolkit*
+
+[quote, Cynthia O'Murchu (Financial Times)]
+____
+I think it's important to stress the ``journalism'' or reporting aspect of `data journalism'. The exercise should not be about just analysing data or visualising data for the sake of it, but to use it as a tool to get closer to the truth of what is going on in the world. I see the ability to be able to analyse and interpret data as an essential part of today's journalists' toolkit, rather than a separate discipline. Ultimately, it is all about good reporting, and telling stories in the most appropriate way.
+
+Data journalism is another way to scrutinise the world and hold the powers that be to account. With an increasing amount of data available, now more than ever it is important that journalists are of aware of it and how to work with it. This should be a tool in the toolkit of any journalist: whether learning how to work with data directly, or collaborating with someone who can.
+
+Its real power is in helping you to obtain information that would otherwise be very difficult to find or to prove. A good example of this is Steve Doig's Hurricane Andrew story, where he joined two different datasets: one mapping the level of destruction caused by the hurricane and one showing wind speeds. This allowed him to pinpoint areas where there had been widespread building code violations. This was back in 1992 and its a great inspiration of what is possible.
+
+Ideally you use the data to pinpoint outliers, areas of interest, or things which are surprising. In this sense data can act as a lead or a tip off. While this is interesting, data in itself is not enough. You still need to do the reporting to explain what it means.
+____
+
 === Favourite Examples (Various Contributors) ===
 
 We asked some of our contributors for their favourite examples of data journalism and what they liked about them. Here they are.
@@ -252,6 +252,101 @@ Rather than trying to read all the files or reviewing the War Logs with a precon
 
 With increasing amounts of data (both textual (emails, reports…) and numeric) coming into the public domain, finding ways to pinpoint key areas of interest will become more and more important - it is an exciting sub-field of data journalism.
 ____
+
+
+*Texas Tribune Salary Database*
+
+[quote, Simon Rogers (Guardian Datablog)]
+
+____
+My favourite example of data journalism? I love the work that small independent organisations are performing every day, such as Propublica or the Texas Tribune who have a great data reporter in Ryan Murphy. If I have to choose, I'm going to pick an example from the Texas Tribune.
+
+What the example is
+Texas Tribune Salary Database (http://www.texastribune.org/library/data/government-employee-salaries/)
+
+What does it do?
+Collects 660,000 government employee salaries into a database for users to search and help generate stories from. You can search by agency, name or salary
+
+Why you like it
+It's simple, meaningful and is making inaccessible information public. It's simple to use and automatically generates stories
+
+Why it is new/interesting/important/distinctive
+It's a great example of why the Texas Tribune gets most of its traffic from the data pages
+____
+
+
+
+Dollars for Doctors - Propublica
+http://www.propublica.org/series/dollars-for-docs
+
+
+What the example is: it´s a news application that gathers drug companies data and produces many stories on doctors in the US who receive payments from this companies , to act as speakers, consultants or advisors.
+What does it do: besides reporting, it allows people to seach by doctor´s name, by drug company or by state.  The company comparison chart exhibits the level of disclosure of each company http://projects.propublica.org/docdollars/companies
+
+
+Why you like it: this news application started with 7 and now features 12 drug companies. It shows data in context, it allows people to search and extract reports by companies, doctors or state. The payments per state charts are easy to use and navigate : http://projects.propublica.org/docdollars/states/colorado
+
+
+Why it is new/interesting/important/distinctive: because it builds and shares data that is unique presented in a friendly way , allowing the audience to ask questions to this datasets and report locally for what is relevant to each one. The open tools (including a widget!) and mindset of Propublica´s team , and the generosity to share their knowledge are part of their success.
+
+
+MP´s Expenses - The Guardian 
+http://mps-expenses.guardian.co.uk/
+
+What the example is: the example consists in a crowdsourcing application developed to make the audience help detect, classify and priorize investigative paths in two different  MPs expenses documentation sets released by Parliament after a long battle of FOI requests by different parties.
+What does it do: the application offers users who volunteer a way to help filter PDFs  presented at random and to categorize them topically and classify those who need further investigation.
+Why you like it: I like it because it mixes a large unstructured data set with the a large audience, offering to participate to get a structured output, a database.
+Why it is new/interesting/important/distinctive:
+learning experience: from the first to the second phase, in which the dataset was smaller, they got it fully reviewed.
+Impact: the MPs returned up to 500.000 pounds  and now they are more careful about the expenses they register, someone else is watching...
+
+
+Do no Harm - Las vegas Sun
+http://www.lasvegassun.com/hospital-care/
+
+What the example is:  based on the analysis of 2,9 million hospital billing records which revealed more than 3600 preventable injuries, infections and surgical mistakes, The Las Vegas Sun published this special series in 2010. The Sun obtained data through a public records request and identified more than 300 cases in which patients died because of mistakes that could have been prevented.
+What does it do : this series contain different data elements as:
+ 
+An interactive graphic which allows the reader to see by hospital, where surgical injuries happened more often than would be expected
+http://www.lasvegassun.com/hospital-care/surgical-injuries-interactive/
+.
+A map with a timeline that shows infections spreqading hospital by hospital : http://www.lasvegassun.com/hospital-care/infections-interactive/
+ 
+An interactive graphic that allows the online user to sort by preventable injuries or by hospital to see where people are getting hurt: http://www.lasvegassun.com/hospital-care/events-chart/
+Why you like it :
+Usability: easy to understand and navigate. Users can search by name. hospital or injury.
+Impact: the Nevada legislature responded with six pieces of legislation
+http://www.lasvegassun.com/news/2011/apr/14/health-care-transparency-bills-pass-key-milestone-/
+Why it is new/interesting/important/distinctive: The data cleaning process. One of the journalists, Alex Richards, sent data back to hospitals and to the state -at least a dozen times- to get mistakes corrected. Via Al Tompkins from Poynter Institute, April 22, 2011. http://www.poynter.org/latest-news/als-morning-meeting/128672/las-vegas-sun-pulitzer-finalists-explain-how-they-turned-data-into-web-gold/
+
+
+Mapping LA- Los Angeles Times
+http://projects.latimes.com/mapping-la/neighborhoods/
+
+What the example is: an interactive map of Los Angeles with:  Crime, Schools, and Demographics data from which a Blog post and social media content is produced as data updates are released. http://projects.latimes.com/mapping-la/neighborhoods/
+Why you like it: it´s a different way of telling many many stories, almost without words starting from an interactive map and datasets. For eg. Crime LA: focuses on crime detecting different zones of risk of categorized crimes: http://projects.latimes.com/mapping-la/neighborhoods/neighborhood/hollywood/crime/
+Why it is new/interesting/important/distinctive: because it tells so many stories as the data model allows, and automatically generates basic reporting with main rates for calculations on crime or deaths, besides showing census demographics data. The human reporting goes for the main stories, but in one way or the other, everyone is informed.
+ 
+Angélica Peralta Ramos
+Multimedia Development Manager – Data Project Manager
+LA NACION  - Buenos Aires. Argentina
+
+Quote from Brian Boyer:
+
+http://www.propublica.org/special/message-machine-you-probably-dont-know-janet
+http://www.propublica.org/nerds/item/when-are-190-emails-like-six-emails
+
+I love ProPublica's <"Message Machine"> story and <nerd blog post>. It
+all got started when some Twitterers expressed their curiosity about
+having received different emails from the Obama campaign. The folks at
+ProPublica noticed, and asked their audience to forward any emails
+they got from the campaign. The presentation is elegant, a visual diff
+of several different emails that were sent out that evening. It's
+awesome because they gathered their own data (admittedly a small
+sample, but big enough to tell the story). But it's even more awesome
+because they're telling the story of an emerging phenomena, big data
+used in political campaigns to target messages to specific
+individuals. It is just a taste of things to come.
 
 === Data Journalism in Perspective (Liliana Bounegru, European Journalism Centre) ===
 

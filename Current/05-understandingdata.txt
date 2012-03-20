@@ -94,6 +94,8 @@ There are at least three key concepts you need to understand when starting a dat
   * Data often is messy and needs to be cleaned.
   * Data may have undocumented features
 
+image::Figures/05-MM.png[width=600]
+
 *Know the Questions You Want to Answer*
 
 In many ways, working with data is like interviewing a live source. You ask questions of the data and get it to reveal the answers. But just as a source can only give answers about which he or she has information, a data set can only answer questions for which it has the right records and the proper variables. This means that you should consider carefully what questions you need to answer even before you acquire your data. Basically, you work backwards. First, list the data-evidenced statements you want to make in your story. Then decide which variables and records you would have to acquire and analyse in order to make those statements.
@@ -273,6 +275,83 @@ We use:
   * For databases, we use a mix of MySQL, PostgreSQL and SQL Server
 ____
 
+
+*Gregor Aisch, Data Visualisation Guru at Vis4*
+
+____
+Why Python? 
+Python is a wonderful open source programming language which is easy to read and write (e.g. you don't have to type a semi-colon after each line). More importantly, Python has a tremendous user base and therefor has plugins (called packages) for literally everything you need.
+
+I would consider Django as something rarely needed by data journos. It is a Python web application framework, aka a tool to create big, database driven web applications. It is definitely too heavy weighted for small interactive infographics. 
+
+Why QGIS?
+QGis is also open source and provides a wide range of GIS functionality needed by data journalists who deal with geo data every now and then. Need to convert geodata from one format into another? QGis can handle nearly every geodata format out there (shapefile, kml, geojson, ...). Need to cut out a few regions? QGis can do this as well. Plus there is a huge community around QGis so you find tons of resources like tutorials out in the web. For instance: http://wiki.awf.forst.uni-goettingen.de/wiki/index.php/QGIS_tutorial_2012
+
+Why R?
+Created mainly as a scientific visualization tool, it is hard to find any visualization method or data wrangling technique that is not already built into R. R is a universe in its own, you can also call it the Mekka of visual data analysis. One drawback is that you need to learn (yet another) programming language, since R ships with it's own language. But once you have taken the initial climb on the learning curve, there's no tool more powerful than R. Trained data journos can use R to analyze huge dataset which extends the limits of Excel (for instance, if you have a table with a million rows). 
+
+What's really nice about R is that you're able to keep an exact 'protocol' of what you're doing with the data along the entire process from reading a CSV file to generating charts. For instance, this is such a protocol: https://gist.github.com/1769733 which was used to generate this chart: http://ddj.vis4.net/img/ddjbook/contr_per_cand.png. What's so cool about these protocols (which are more precisely called "scipts")? If the data changes, you can re-generate the chart using one click. If someone is curious about the integrity of your chart, you can show the exact source which allows everyone to recreate the exact chart on their own (or maybe find the mistakes you made).
+
+(example is taken from my chapter "finding insights in data" (http://ddj.vis4.net/2012-02-07-finding-insights-in-data/)
+
+NumPy + MatPlotLib is kind of a way of doing the same thing in Python. It's an option if you're already well trained in Python. In fact, NumPy and MatPlotLib are two examples of Python packages. They can be used for data analysis and data visualization.
+
+Note that both R and MatPlotLib are limited to static visualizations. They cannot be used to create interactive charts with tooltips and more advanced stuff. 
+
+I'm not using MapBox, but I've heard it is a great tool if you want to provide more experienced maps based on OpenStreetMap. MapBox, for instance, allows you to customize the map styles (colors, labels, etc). There's also a companion of MapBox, called Leaflet. Leaflet is basically a higher level JavaScript library for mapping that allows you to easily switch between map providers (OSM, MapBox, Google Maps, Bing, ...).
+
+RaphaelJS is a rather low-level visualization library which allows you to work with basic primitives (like circles, lines, texts), and to animate them, add interactions etc. There's no thing like a ready to use bar chart in it, so you have to draw a set of rectangles yourself. 
+
+However, the good thing of Raphael is that everything you create will also work in Internet Explorer. That's not the case with many other (amazing) visualization libraries like d3. Sadly, so many users are still using IE and thus no newsroom can afford to ignore 30% of their users.
+
+Besides of RaphaelJS, there's also the option of creating a Flash fallback for IE. That is basically what the NYT is doing. This means that you have to develop each application twice.
+
+I'm still not convinced about the "best" process of shipping viz for IE and modern browsers. Often I find that RaphaelJS application are running horribly slow on IE, like ten times slower as they run in Flash or modern browsers. So Flash fallbacks might be a better option if you want to provide high quality animated visualizations for all users.
+____
+
+*Pedro Markun, Transparencia Hacker*
+
+____
+As a grassroots community without a techical bias we at Transparency Hackers use a lot of different tools and programming languages. Every member has it's own set of preferences and this great variety is both our strength and our weaknesss. Some of us are actually building a 'THacker Linux Distro' which we could live-boot anywhere and start hacking data. This toolkit has some interesting tools and libraries for handling data like Refine, RStudio and OpenOffice Calc (usually an overlooked tool by savyy people, but really usefull for quick/small stuff).
+
+Also we've been using a lot of Scraperwiki capacibilities to quickly prototype and save data results online.
+
+For dataviz and graphs there are a lot of tools-of-choice. Python and NumPy are really powerfull. A few people in the community have been playing with R but at the end of the day I still think javascript plotting graph libs like D3, Flot and RaphaelJS ends up being used in the majority of the projects.
+
+Finally, we've been experimenting a lot with mapping and Tilemill has been a really interesting tool to develop on.
+____
+
+*Steve Doig, Professor at the Cronkite School of Journalism*
+
+Tools of choice for Steve Doig, a professor at the Cronkite School of Journalism who consults on data analysis for investigative projects.
+
+____
+My go-to tool is Excel, which can handle the majority of CAR problems and has the advantages of being easy to learn and available to most reporters. When I need to merge tables, I typically use Access, but then export the merged table back into Excel for further work. I use ESRI’s ArcMap for geographic analyses; it’s powerful and is used by the agencies that gather geocoded data. TextWrangler is great for examining text data with quirky layouts and delimiters, and can do sophisticated search-and-replace with regular expressions. When statistical techniques like linear regression are needed, I use SPSS; it has a friendly point-and-click menu. For really heavy lifting, like working with datasets that have millions of records that may need serious filtering and programmed variable transformations, I use SAS software.
+____
+
+*Lisa Evans, Data Journalist at the Guardian Datablog*
+
+____
+At the Guardian Datablog we really like to interact with our readers and allowing them to replicate our data journalism quickly means they can build on the work we do and sometimes spot things we haven't. So the more intuitive the data tools the better. We try to pick tools that anyone could get the hang of without learning a programming language or having special training and without a hefty fee attached.
+
+We're currently using Google products quite heavily for this reason. All the datasets we tidy and release are available as a Google spreadsheet which means people with a Google account can download the data, import it into their own account and make their own charts, sort the data and create pivot tables or they can import the data into a tool of their choice.
+
+To map data we use Google Fusion tables. When we create heat maps in Fusion we share our kml shape files so that readers can download and build their own heat maps maybe adding extra layers of data onto the Datablog's original map. The other nice feature of these Google tools is that they work on the many platforms our readers use to access the blog, such as their desktop, their mobile and tablets.
+
+In addition to Google spreadsheets and Fusion we use two other tools in our daily work. The first is tableau is visualise multi-dimensional data sets, the second is ManyEyes for quick analysis of data. None of these tools are perfect so we continue to look for better visualisation tools that our readers will enjoy.
+____
+
+*Cynthia O'Murchu, Financial Times*
+
+____
+Am I ever going to be a coder? Very unlikely! I certainly don't think that all reporters need to know how to code. But I do think it is valuable for them to have a more general awareness of what is possible.
+
+If you're starting out, walk don't run. You need to persuade your colleagues and editors that working with data can get you stories that you wouldn't otherwise get and that it's worthwhile doing. Once they see the value of this approach, you can expand into doing more complex stories and projects.
+
+My advice is to learn Excel and do some simple stories first. Start out small and work your way up to database analysis and mapping. You can do so much in Excel - it's an extremely powerful tool and most people don't even use a fraction of its functionality. If you can, go on a course on Excel for journalists such as the one offered by the Centre for Investigative Journalism.
+
+With respect to interpreting data: don't take this lightly. You have to be conscientious. Pay attention to detail and question your results. Keep notes on how you're processing the data and keep a copy of the original data. It is easy to make a mistake. I always do my analysis two or three times practically from scratch. Even better is if you can get your editor or someone else to analyse the data separately and compare the results.
+____
 
 === Using Data Visualisation to Find Insights in Data (Gregor Aisch, Open Knowledge Foundation) ===
 

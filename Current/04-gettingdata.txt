@@ -412,3 +412,10 @@ We asked leading data journalists about their experiences getting hold of data. 
 ____
 Sometimes the data is already public and available, but no one has looked at it closely. In the case of the AP's report on 4,500 pages of declassified documents describing the actions of private security contractors during the Iraq war, the material was obtained by an independent journalist over several years, using Freedom of Information requests addressed to the U.S. State Department. They scanned the paper results and uploaded them to DocumentCloud, which made it possible for us to do our comprehensive analysis.
 ____
+
+
+[quote, Jack Gillum (Associated Press)]
+
+____
+A few months ago, I wanted to parse (then-presidential candidate) Texas Gov. Rick Perry’s phone logs. It was the result of a long-awaited state public-records request. The data essentially came in the form of 120-plus pages of fax-quality documents. It was an endeavor that required data entry and cleanup, followed by a WhitePages.com API to reverse-lookup the phone numbers. Mashing together names with state and federal (FEC) election data, http://www.boston.com/news/politics/articles/2011/12/06/perry_called_top_donors_from_work_phones/[we found] that Perry reached out to campaign and super PAC donors from state work phones, a frowned-upon practice that raised questions about ties between he and a ``super PAC'' working in his favor.
+____

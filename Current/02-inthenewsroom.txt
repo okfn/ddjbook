@@ -2,24 +2,6 @@
 
 === How the News Apps Team at Chicago Tribune Works (Brian Boyer, Chicago Tribune) ===
 
-////
-
-321 words
-
-Comments:
-
-Short and sweet.
-
-No suggested changes, except minor formatting. Ready to send back to him to revise/approve.
-
-Nice how it is, but there could be more detail, if Brian has anything to add. E.g. perhaps give a few examples of data-driven apps that CT has done, how these differed from other forms of reporting, what they brought to the newsroom that was new. Also could cover what other people in the newsroom originally thought about the apps team, how it got started, etc.
-
-Todo:
-
-ask Brian for a nice picture of Chicago Tribune hackers. Perhaps of 5 minute standup meeting - or of developers programming in pairs?
-
-////
-
 The news applications team at the Chicago Tribune is a band of happy hackers embedded in the newsroom. We work closely with editors and reporters to help: (1) research and report stories, (2) illustrate stories online and (3) build evergreen web resources for the fine people of Chicagoland.
 
 It's important that we sit in the newsroom. We usually find work via face-to-face conversations with reporters. They know that we're happy to help write a screen scraper for a crummy government website, tear up a stack of PDFs, or otherwise turn non-data into something you can analyze. It's sort of our team's loss leader -- this way we find out about potential data projects at their outset.
@@ -29,6 +11,21 @@ Unlike many teams in this field, our team was founded by technologists for whom 
 We work in an agile fashion. To make sure we're always in sync, every morning begins with a 5-minute stand up meeting. We frequently program in pairs -- two developers at one keyboard are often more productive than two developers at two keyboards. Most projects don't take more than a week to produce, but on longer projects we work in week-long iterations, and show our work to stakeholders -- reporters and editors usually -- every week. "Fail fast" is the mantra. If you're doing it wrong, you need to know as soon as possible, especially when you're coding on a deadline!
 
 There's a tremendous upside to hacking iteratively, on a deadline: We're always updating our toolkit. Every week we crank out an app or two, then, unlike normal software shops, we can put it to the back of our mind and move on to the next project. It's a joy we share with the reporters, every week we learn something new.
+
+Question: who comes up with the idea of building a specific app/ who takes the initiative: e.g.: the developers team, the reporters, ...?
+
+All app ideas come from the reporters and editors in the newsroom. This, I believe, sets us apart from apps teams in other newsrooms, who frequently spawn their own ideas. We've built strong personal and professional relationships in the newsroom, and folks know that when they have data, they come to us.
+
+Question: what do you aim to achieve with the news apps? why do you build them? could you give a couple of examples with links to successful apps you built?
+
+We love pageviews, and we love the accolades of our peers, but that's weak sauce. The motivation should always be impact - in people's lives, on the law, on holding politicians accountable, etc. The written piece will speak to the trend and humanize it with a few anecdotes. But what's the reader to do when they've finished the story? Is their family safe? Are their children being educated properly? Our work sings when it helps a reader find his or her *own* story in the data. Examples of impactful, personalized work include our Nursing Home Safety Reports and School Report Card apps. http://nursinghomes.apps.chicagotribune.com/ http://schools.chicagotribune.com/
+
+Question: who are the apps being built for and how are they being used? e.g.: are they used by reporters to search for info in their work, are they embedded in articles, is there a special section on the website for them, etc.? can you provide a link?
+
+Much of our work in the newsroom is reporter support. We help reporters dig through data, turn PDFs back into spreadsheets, screen-scrape websites, etc. It's a service that we like to provide because it gets us in early on the data work that's happening in the newsroom. Some of that work becomes a news application - a map, table, or sometimes a larger-scale website.
+
+Before, we linked to the app from the written story, which didn't result in much traffic. These days apps run near the top of our website, and the app links through to the story, which works nicely for both the app and the story. There is a (section of the website for our work), but it's not well-trafficked. But that's not surprising. ``Hey, today I want some data'' isn't a very big use case. http://www.chicagotribune.com/news/data/
+
 
 === Behind the Scenes at the Guardian Datablog (Simon Rogers, Guardian) ===
 
@@ -81,13 +78,6 @@ NH wanted his data published because otherwise the facts would be left to untrai
 I can’t think of a better rationale now for what we’re trying to do. Now what once was a back page story can now make front page news.
 
 ===  The ABC's Data Journalism Play (Wendy Carlisle, Australian Broadcasting Corporation) ===
-
-////
-
-1134 words
-
-////
-
 
 Now in its 70th year the Australian Broadcasting Corporation is Australia's national public broadcaster. Annual funding is around AUS$1bn which delivers seven radio networks, 60 local radio stations, three digital television services, a new international television service and an online platform to deliver this ever expanding offering of digital and user generated content. At last count there were in excess of 4,500 full time equivalent staff and nearly 70% of them make content.
 
@@ -223,13 +213,6 @@ Waiting for a reply.
 
 === How to Hire a Hacker (Lucy Chambers, Open Knowledge Foundation) ===
 
-////
-
-430 words
-
-////
-
-
 One of the things that I am regularly asked by journalists is 'how do I get a coder to help me with my project?'. Don't be deceived into thinking this is a one-way process; civic-minded hackers and data-wranglers are often just as keen to get in touch with journalists. 
 
 Journalists are power-users of data driven tools and services. From the perspective of developers: journalists think outside the box to use data tools in contexts developers haven't always considered before (feedback is invaluable!) they also help to build context and buzz around projects and help to make them relevant. It is a symbiotic relationship.
@@ -258,6 +241,14 @@ Here are a few more ideas:
   * *Local interest communities*. You could try doing a quick search for an area of expertise in your area (e.g. `javascript' + `london'). Sites such as Meetup.com can also be a great place to start.
   * *Hackathons and competitions*. Whether or not there is prize money available: app and visualisation competitions and development days are often fruitful ground for collaboration and making connections.
   * *Ask a nerd!* Nerds hang around with more nerds. Word of mouth is always a good way to find good people to work with.
+
+Once you've found a hacker, how do you know if they are any good? We asked Alastair Dant, the Guardian's Lead Interactive Technologist, for his views on how to spot a good one:
+
+  * *They code the full stack*. When dealing with deadlines, it's better to be a jack of all trades than a master of one. News apps require data wrangling, dynamic graphics and derring-do.
+  * *They see the whole picture*. Holistic thinking favours narrative value over technical detail. I'd rather hear one note played with feeling than unceasing virtuosity in obscure scales. Find out how happy someone is to work alongside a designer.
+  * *They tell a good story*. Narrative presentation requires arranging things in space and time. Find out what project they're most proud of and ask them to walk you through how it was built – this will reveal as much about their ability to communicate as their technical understanding.
+  * *They talk things through*. Building things fast requires mixed teams working towards common goals. Each participant should respect their fellows and be willing to negotiate. Unforeseen obstacles often require rapid re-planning and collective compromise.
+  * *They teach themselves*. Technology moves fast. It's a struggle to keep up with. Having met good developers from all sorts of backgrounds, the most common trait is a willingness to learn new stuff on demand.
 
 === Harnessing External Expertise Through Hackthons (Jerry Vermanen, De Stentor) ===
 
@@ -434,19 +425,29 @@ Our job as data journalists is to provide the framework or environment for this.
 
 There is still a lot to learn about and to experiment with. But luckily there is the games industry, which has been innovating with respect to digital narratives, ecosystems and interfaces for several decades now. So when developing data journalism applications we should watch closely how game design works and how stories are told in games. Why are casual games like Tetris such fun? And what makes the open worlds of sandbox games like Grand Theft Auto or Skyrim rock?
 
-=== Kaas og Mulvad: Semi-finished Content for Stakeholder Groups (Mark Lee Hunter and Luk N. Van Wassenhove) ===
+=== Kaas og Mulvad: Semi-finished Content for Stakeholder Groups (Mark Lee Hunter and Luk N. Van Wassenhove, INSEAD) ===
 
-////
+image::Figures/02-MM.png[width=600]
 
-Insert: pictures from projects
+Stakeholder media is an emerging sector, largely overlooked by media theorists, which has the potential to have a tremendous impact either through online networks or by providing content to news media. It can be defined as (usually online) media that is controlled by organisational or institutional stakeholders, and which is used to advance certain interests and communities. NGOs typically create such media; so do consumer groups, professional associations, labour unions, etc. The key limit on its ability to influence public opinion or other stakeholders is often that it lacks capacity to undertake discovery of important information, even more so than the downsized news media. Kaas og Mulvad, a for-profit Danish corporation, is one of the first investigative media enterprises that provides expert capacity to these stakeholder outlets.
 
-////
+The firm originated in 2007 as a spinoff of the non-profit Danish Institute for Computer-Assisted Reporting (Dicar), which sold investigative reports to media and trained journalists in data analysis. Its founders, Tommy Kaas and Nils Mulvad, were previously reporters in the news industry. Their new firm offers what they call ``data plus journalistic insight'' - that is, content which remains semi-finished, requiring further editing or rewriting - mainly to stakeholder media, which finalise the content into news releases or stories and distribute it through both news media and their own outlets (such as websites). Direct clients include government institutions, PR firms, labour unions and NGOs such as EU Transparency and the World Wildlife Fund. The NGO work includes monitoring farm and fishery subsidies, and regular updates on EU lobbyist activities generated through ``scraping'' of pertinent websites. Indirect clients include foundations that fund NGO projects.The firm also works with the news industry - for example, a tabloid newspaper purchased their celebrity monitoring service.
 
-Stakeholder media often lack capacity even more cruelly than do the news media, and the function of Kaas og Mulvad, a for-profit Danish corporation, is to provide it. The firm originated in 2007 as a spinoff of the non-profit Danish Institute for Computer-Assisted Reporting (Dicar), which sold investigative reports to media and trained journalists in data analysis. Its founders, Tommy Kaas and Nils Mulvad, were previously reporters in the news industry. Their new firm offers what they call "data plus journalistic insight" to stakeholder media, which finalise the content and distribute it to news media, as well as through their own media.  Direct clients include government institutions, PR firms, labour unions and NGOs such as EU Transparency and the World Wildlife Fund. The NGO work includes monitoring farm and fishery subsidies, and regular updates on EU lobbyist activities generated through "scraping" of pertinent websites. Indirect clients include foundations that fund NGO projects. The firm also works with the news industry: a tabloid newspaper purchased a celebrity monitoring service.
+Data journalism projects in their portfolio include:
 
-**1. Processes: Innovative IT plus analysis**
+  * http://46.38.167.183/unemployment/?focus=map[Unemployment Map for 3F] - 
+A data visualisation with key figures about unemployment in Denmark - in general and among unskilled workers - undertaken for 3F, which is the union for unskilled labour in Denmark.
+  * http://fagbladet3f.dk/temaer/udkant/kort[Living Conditions for 3F] - Another project for 3F shows how different living conditions are in different parts of Denmark. The map shows 24 different indicators for living conditions.
+  * http://www.ugebreveta4.dk/2012/201206/Mandag/Sjaellaenderne_er_fanget_i_gaeld/Ugebreveta4s_kortlaegning_af_daarlige_betalere.aspx[Debt for ``Ugebrevet A4''] - A project that calculates a ``debt index'' – and visualizes the differences in private economy.
+  * Dangerous Facilities in Denmark - A project which maps and analyses the proximity of dangerous facilities to kindergartens and other day care institutions, undertaken for ``Børn&Unge'', a magazine published by BUPL, the Danish Union of Early Childhood and Youth Educators.
 
-The firm undertakes about 100 projects per year, ranging in duration from a few hours to a few months. It also continuously invests in projects that expand its capacity and offerings. The celebrity monitoring service was one such experiment. Another involved scraping the Internet for news of home foreclosures and creating maps of the events. The partners say that their first criteria for projects is whether they enjoy the work and learn from it; markets are sought after a new service is defined. They make it clear that in the news industry, they found it difficult to develop new methods and new business. Comments Mulvad:
+Kass og Mulvad are not the first journalists to work with stakeholder media. Greenpeace, for example, routinely engages journalists as collaborators for its reports. But we know of no other firm whose offerings to stakeholder media are data-driven; it is much more typical for journalists to work with NGOs as reporters, editors or writers. The current focus in computer-assisted news media is on search and discovery (think of Wikileaks); here again Kaas og Mulvad innovate, by focusing on data analysis. Their approach requires not only programming skills, but also understanding of what kind of information can make an impactful story. It can safely be said that anyone wishing to imitate their service would probably have to acquire those two skill sets through partnership, because individuals rarely possess both.
+
+ **1. Processes: Innovative IT plus analysis**
+
+The firm undertakes about 100 projects per year, ranging in duration from a few hours to a few months. It also continuously invests in projects that expand its capacity and offerings. The celebrity monitoring service was one such experiment. Another involved scraping the Internet for news of home foreclosures and creating maps of the events. The partners say that their first criteria for projects is whether they enjoy the work and learn from it; markets are sought after a new service is defined. They make it clear that in the news industry, they found it difficult to develop new methods and new business.
+
+Comments Mulvad:
 
 ____
 We have no editors or bosses to decide which projects we can do, which software or hardware we can buy. We can buy the tools according to project needs - like the best solutions for text scraping and mining. Our goal is to be cutting edge in these areas. We try to get customers who are willing to pay, or if the project is fun we do it for a lower charge.
@@ -458,14 +459,10 @@ Turnover in 2009 was approximately 2.5 million Danish kroner, or €336,000. The
 
 **3. Key insights of this example**
 
-  * The news industry's crisis of declining capacity is also a crisis of under-utilisation of capacity. Kaas and Mulvad had to leave the news industry to do work they valued, and that pays. Nothing prevented a news organisation from capturing that value.
-  * In at least some markets, there exists a profitable market for semi-finished content that serves the interests of stakeholder groups.
-  * However, this opportunity raises the issue of how much control journalists can exercise over the presentation and use of their work by third parties. We recall that this issue already exists within the news industry (where editors can impose changes on a journalist's product), and it has existed within other media industries (such as the film industry, where conflicts between directors and studios over "final cuts" are hardly rare). It is not a particular moral hazard of stakeholder media.
-  * From a revenue standpoint, a single product or service is not enough. Successful watchdog enterprises would do better to take a portfolio approach, in which consulting, teaching, speaking and other services bring in extra revenue, support the watchdog brand, and enrich the lifestyle of the operators.
-
-=== When Code Pays for Words (Clément Renaud, Sharism Lab?) ===
-
-Example from OWNI
+  * The news industry's crisis of declining capacity is also a crisis of under- utilisation of capacity. Kaas and Mulvad had to leave the news industry to do work they valued, and that pays. Nothing prevented a news organisation from capturing that value.
+  * In at least some markets, there exists a profitable market for ``semi-finished'' content that can serve the interests of stakeholder groups.
+  * However, this opportunity raises the issue of how much control journalists can exercise over the presentation and use of their work by third parties. We recall that this issue already exists within the news industry (where editors can impose changes on a journalist's product), and it has existed within other media industries (such as the film industry, where conflicts between directors and studios over ``final cuts'' are hardly rare). It is not a particular moral hazard of stakeholder media, but it will not disappear, either. More attention is needed to the ethics of this growing reality and market.
+  * From a revenue standpoint, a single product or service is not enough. Successful watchdog enterprises would do better to take a portfolio approach, in which consulting, teaching, speaking and other services bring in extra revenue, support the watchdog brand.
 
 === Following the Money: Data Journalism and Cross-Border Collaboration (Paul Radu, Organized Crime and Corruption Reporting Project) ===
 
