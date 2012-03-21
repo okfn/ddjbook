@@ -2,14 +2,7 @@
 
 === For the Great Unnamed ===
 
-////
-
-Add nice pictures from MozFest
-
-////
-
 image::Figures/00-01.jpg[width=600]
-
 
 The Data Journalism Handbook was born at a 48 hour workshop at MozFest 2011 in London. It subsequently spilled over into an international, collaborative effort involving dozens of data journalism's leading advocates and best practitioners.
 
@@ -18,13 +11,6 @@ In the 6 months that passed between the book's inception to its first full relea
 To all of those people who have contributed and are not listed below, we say two things. Firstly, thank you. Secondly, can please tell us who you are so that we can give credit where credit is due.
 
 === Contributor List ===
-
-////
-
-54 listed so far
-Could add one line biographies for each person - highlighting their interest in data journalism, and/or what they've contributed to in the book. Could be nice but could get cluttered. To discuss.
-
-////
 
   * Gregor Aisch, Open Knowledge Foundation
   * Brigitte Alfter, Freelance Journalist
@@ -84,29 +70,15 @@ Could add one line biographies for each person - highlighting their interest in 
 
 === Preface ===
 
-////
-
-Insert nice picture related to development of the book
-
-////
-
 This book is intended to be a useful resource for anyone who thinks that they might be interested in becoming a data journalist, or dabbling in data journalism.
 
 Lots of people have contributed to writing it, and through our editorial we have tried to let their different voices and views shine through. We hope that it reads like a rich and informative conversation about what data journalism is, why it is important, and how to do it.
 
 Lamentably the act of reading this book will not supply you with a comprehensive repertoire of all if the knowledge and skills you need to become a data journalist. This would require a vast library manned by hundreds of experts able to help answer questions on hundreds of topics. Luckily this library exists and it is called the internet. Instead we hope this book will give you a sense of how to get started and where to look if you want to go further. Examples and tutorials serve to be illustrative rather than exhaustive.
 
+We count ourselves very lucky to have had all the time, energy, and patience that we've had from all of our contributors and have tried our best to use this wisely. We hope that - in addition to being a useful reference source - the book does something to document the passion and enthusiasm, the vision and energy of a nascent movement. The book attempts to give a sense of what happens behind the scenes, the stories behind the stories.
+
 The Data Journalism Handbook is a work in progress. If you think there is anything which needs to be amended or is conspicuously absent, then please flag it for inclusion in the next version. It is also freely available under a http://creativecommons.org/licenses/by-sa/2.5/[Creative Commons Attribution Sharealike] license, and we strongly encourage you to share it with anyone that you think might be interested in reading it.
-
-////
-
-Very lucky to have input we've had
-Contributors list reads like a who's who of data journalism
-Book captures passion and enthusiasm of a movement
-Insight behind the scenes, stories behind the stories
-
-////
-
 
 _Liliana Bounegru (https://twitter.com/bb_liliana[@bb_liliana])_ +
 _Lucy Chambers (https://twitter.com/lucyfedia[@lucyfedia])_ +

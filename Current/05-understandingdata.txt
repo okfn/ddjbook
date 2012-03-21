@@ -353,6 +353,20 @@ My advice is to learn Excel and do some simple stories first. Start out small an
 With respect to interpreting data: don't take this lightly. You have to be conscientious. Pay attention to detail and question your results. Keep notes on how you're processing the data and keep a copy of the original data. It is easy to make a mistake. I always do my analysis two or three times practically from scratch. Even better is if you can get your editor or someone else to analyse the data separately and compare the results.
 ____
 
+*Scott Klein, ProPublica*
+
+____
+The ability to write and deploy complex software as quickly as a reporter can write a story is a pretty new thing. It used to take a lot longer. Things changed thanks to the development of two free/open source rapid development frameworks: Django and Ruby on Rails, both of which were first released in the mid-2000s.
+
+Django, which is built on top of the Python programming language, was developed by Adrian Holovaty and a team working in a newsroom -- the Lawrence Journal-World in Lawrence, Kansas. Ruby on Rails was developed in Chicago by by David Heinemeier Hansson and 37Signals, a web application company.
+
+Though the two frameworks take different approaches to the "MVC pattern," they're both excellent and make it possible to build even very complex web applications very quickly. They take away some of the rudimentary work of building an app. Things like creating and fetching items from the database, and matching URLs to specific code in an app are built into the frameworks, so developers don't need to write code to do those basic things like that.
+
+While there hasn't been a formal survey of news app teams in the U.S., it's generally understood that most teams use one of these two frameworks for database-backed news apps. At ProPublica we use Ruby on Rails.
+
+The development of rapid web server "slice" provisioning services like Amazon Web Services also took away some of what used to make deploying a web app a slow process.
+____
+
 === Using Data Visualisation to Find Insights in Data (Gregor Aisch, Open Knowledge Foundation) ===
 
 [quote, William S. Cleveland, Visualising Data]

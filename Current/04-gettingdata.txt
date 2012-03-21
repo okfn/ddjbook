@@ -2,6 +2,8 @@
 
 === A Five Minute Field Guide (Various Contributors) ===
 
+image::Figures/04-01.png[width=600]
+
 Contributors: Brian Boyer (Chicago Tribune), Jane Park (Creative Commons), John Keefe (WNYC), Chrys Wu (Hacks/Hackers), Friedrich Lindenberg (Open Knowledge Foundation)
 
 Looking for data on a particular topic or issue? Not sure what exists or where to find it? Don't know where to start? In this section we look at how to get started with finding public data sources on the web.
@@ -18,7 +20,7 @@ While they may not always be easy to find, many databases on the web are indexed
 
 Over the last few years a number of dedicated data portals, data hubs and other data sites have appeared on the web. These are a good place to get acquainted with the kinds of data that is out there. For starters you might like to take a look at:
 
-  * Official data portals. The government's willingness to release a given dataset will vary from country to country. A growing number of countries are launching data portals (inspired by the U.S.'s data.gov and the U.K.'s data.gov.uk) to promote the civic and commercial re-use of government information. An up-to-date, global index of such sites can be found at datacatalogs.org. Another handy site is the http://www.guardian.co.uk/world-government-data[Guardian World Government Data], a meta search engine that includes many international government data catalogues.
+  * Official data portals. The government's willingness to release a given dataset will vary from country to country. A growing number of countries are launching data portals (inspired by the U.S.'s data.gov and the U.K.'s data.gov.uk) to promote the civic and commercial re-use of government information. An up-to-date, global index of such sites can be found at http://datacatalogs.org/[datacatalogs.org]. Another handy site is the http://www.guardian.co.uk/world-government-data[Guardian World Government Data], a meta search engine that includes many international government data catalogues.
   * http://thedatahub.org/[The Data Hub]. A community-driven resource run by the Open Knowledge Foundation that makes it easy to find, share and reuse openly available sources of data, especially in ways that are machine-automated.
   * https://scraperwiki.com/[ScraperWiki]. an online tool to make the process of extracting "useful bits of data easier so they can be reused in other apps, or rummaged through by journalists and researchers." Most of the scrapers and their databases are public and can be re-used.
   * The http://data.worldbank.org/[World Bank] and http://data.un.org/[United Nations] data portals provide high-level indicators for all countries, often for many years in the past.

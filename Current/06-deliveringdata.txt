@@ -45,7 +45,6 @@ ____
 *Using Motion Graphics*
 [quote, (?? need to check this - possibly Lu Lu?)]
 ____
-
 With a tight script, well timed animations and clear explanations motion graphics can serve to bring complex numbers or ideas to life, guiding your audience through the story. Hans Rosling's video lectures are a good example of how data can come to life to tell a story on the screen. Whether or not you agree with their methodology I also think the Economist's http://www.economist.com/blogs/multimedia/2011/02/unrest_arab_world[Shoe-throwers' index] is a good example of using video to tell a numbers-based story. You wouldn't, or shouldn't, present this graphic as a static image. There's far too much going on. But having built up to it step by step you're left with an understanding of how and why they got to this index.
 ____
 

@@ -1,6 +1,86 @@
 ##############################################################
 ##############################################################
 ##############################################################
+FROM SECTION 1
+##############################################################
+##############################################################
+##############################################################
+
+
+
+*A new "flavor" of information that reaches a new group of consumers*
+
+[quote, Tom Fries (Bertelsmann Foundation)]
+____
+In the same way that consumers of the arts might prefer painting to poetry, fashion to film, consumers of information find it easier, or more fun, to consumer information of one type vs. another. A long essay on the Arab Spring reaches a different audience than a 90-second news segment on the same topic. The addition of meaningful and substantial data as a ``format'' for information that could also be delivered in other ways reaches a new segment of information consumers.
+____
+
+*As a source of new perspectives*
+
+[quote, Tom Fries (Bertelsmann Foundation)]
+____
+Good data journalism allows information consumers to see relationships, proportions and other qualities in ways that other formats do not, and different portrayals of information tell different stories, even with the same data.
+____
+
+*As a teaching tool for journalists*
+
+[quote, Tom Fries (Bertelsmann Foundation)]
+____
+In the same way that learning a new language allows a person to begin to make a different set of concepts concrete, learning the skills and tools associated with data journalism improves the thinking of journalists who take the time to do it. The process of adding data journalism to the "toolbox" of the average journalist also forces collaboration with categories of professionals with which journalists are usually not accustomed to working such as developers or designers.
+____
+
+*As a forensic tool for readers*
+
+[quote, Tom Fries (Bertelsmann Foundation)]
+____
+Journalists, and news outlets generally, betray their perspective in the data that they choose to present, and how they choose to present it. A discerning reader can see the output as a "tell" of a journalist's or organization's political or intellectual disposition.
+____
+
+*Redressing the balance of power*
+
+[quote, Andrew Mackenzie (Independent Researcher)]
+____
+"The task of journalism is to hold power to account. The corporate sector and governments have Big Data, and they know more about you than you know about them. Data journalism can help redress the balance of power."
+____
+
+############
+
+Mapping LA- Los Angeles Times
+http://projects.latimes.com/mapping-la/neighborhoods/
+
+What the example is: an interactive map of Los Angeles with:  Crime, Schools, and Demographics data from which a Blog post and social media content is produced as data updates are released. http://projects.latimes.com/mapping-la/neighborhoods/
+Why you like it: it´s a different way of telling many many stories, almost without words starting from an interactive map and datasets. For eg. Crime LA: focuses on crime detecting different zones of risk of categorized crimes: http://projects.latimes.com/mapping-la/neighborhoods/neighborhood/hollywood/crime/
+Why it is new/interesting/important/distinctive: because it tells so many stories as the data model allows, and automatically generates basic reporting with main rates for calculations on crime or deaths, besides showing census demographics data. The human reporting goes for the main stories, but in one way or the other, everyone is informed.
+
+*Dollars for Doctors*
+http://www.propublica.org/series/dollars-for-docs
+
+
+What the example is: it´s a news application that gathers drug companies data and produces many stories on doctors in the US who receive payments from this companies , to act as speakers, consultants or advisors.
+What does it do: besides reporting, it allows people to seach by doctor´s name, by drug company or by state.  The company comparison chart exhibits the level of disclosure of each company http://projects.propublica.org/docdollars/companies
+
+
+Why you like it: this news application started with 7 and now features 12 drug companies. It shows data in context, it allows people to search and extract reports by companies, doctors or state. The payments per state charts are easy to use and navigate : http://projects.propublica.org/docdollars/states/colorado
+
+
+Why it is new/interesting/important/distinctive: because it builds and shares data that is unique presented in a friendly way , allowing the audience to ask questions to this datasets and report locally for what is relevant to each one. The open tools (including a widget!) and mindset of Propublica´s team , and the generosity to share their knowledge are part of their success.
+
+
+MP´s Expenses - The Guardian 
+http://mps-expenses.guardian.co.uk/
+
+What the example is: the example consists in a crowdsourcing application developed to make the audience help detect, classify and priorize investigative paths in two different  MPs expenses documentation sets released by Parliament after a long battle of FOI requests by different parties.
+What does it do: the application offers users who volunteer a way to help filter PDFs  presented at random and to categorize them topically and classify those who need further investigation.
+Why you like it: I like it because it mixes a large unstructured data set with the a large audience, offering to participate to get a structured output, a database.
+Why it is new/interesting/important/distinctive:
+learning experience: from the first to the second phase, in which the dataset was smaller, they got it fully reviewed.
+Impact: the MPs returned up to 500.000 pounds  and now they are more careful about the expenses they register, someone else is watching...
+
+
+
+##############################################################
+##############################################################
+##############################################################
 FROM SECTION 2
 ##############################################################
 ##############################################################
