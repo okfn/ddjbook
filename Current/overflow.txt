@@ -910,6 +910,91 @@ image::Figures/04-GG.jpg[width=600]
 
 ---
 
+=== Data Driven Apps at Internews in Kenya (Mark Irungu, Internews Network) ===
+
+On the 6th of July 2011, the Kenyan government became the first in Africa to have a national open data portal. Making government data open is not a very popular idea that regimes would readily embrace in Africa, not with the rampant corruption and mismanagement of public funds. Understandably, the Kenyan Government has received a lot of accolades for that.
+
+While this World Bank supported initiative received a lot of praise globally (from the New York Times to government heads in the developed world) the scenario was different locally. It was great news in the techie world but just another tiny story in the world of journalism. The story was not covered beyond the day of the launch. Few journalists visited portal after the launch. The data is accessible online and just like all data sets; it is not in the smallest way friendly to the eye, at least not a journalist's eye.
+
+*The GAP*
+
+The techies have taken the idea and run with it, trying to think of applications that could be developed to mine the data, clean the data and visualise it making it more accessible to people beyond the developer community.
+
+A new digital divide exists, not just in Kenya, between journalists and developers in working with data. Journalists need to learn more about the mechanics of using data. Developers, also called techies, also have a lot to learn. Developers may be brilliant with code, but have a lot to learn with regard to content, the opposite is true for journalists. Why not leverage these strengths to form a `tag team'? They do not necessarily have to be at the same place at the same time, all we need is an interface co connect them. What the data world needs is a good app that can serve these groups.
+
+*The APP*
+
+The power of data cannot be under estimated. It is time that newsrooms and journalists moved away from the ``he said, she said'' reporting. Numbers can help journalists produce in-depth features, and explore untold stories and trends that are not immediately known or visible to the general public. Unfortunately, journalists in Kenya have not made good use of the opened data. I work at Internews in Kenya - a media development organisation that trains and supports journalists to be better storytellers. In our journalism workshops we have designed a number of courses to help journalists use numbers and data better for their storytelling. This is important as it helps journalists to enrich their enquiry and stories.
+
+It is with this realisation that the idea of developing an app to query KODI was born. There is need for a a solution that would help journalists clean up raw data in the back end and help journalist to identify emerging stories and trends.That app should also help in presenting the content in visually appealing ways. 
+
+The app should:
+
+1. Query the entire Kenya open data portal.
+2. Clean the data / provide a friendly interface for cleaning the data.
+3. Visualise the data.
+4. Generate reports that can be used as is.
+
+*The Target*
+
+We are facing a unique scenario. Who were we targeting? We have had to determine whether this is going to be a case of old hands, new tricks or new hands, new tricks. Traditional journalism has undergone a radical evolution process with the development of the web. Maybe that was enough. Yes there is a significant gap between journalists and techies, but we have also established that the desire to among journalists to learn and possibly close this gap is very strong . The `evolved' traditional journalist has been showing willingness to undergo a second metamorphosis and the upcoming journalist doesn't mind this baptism of fire. The app we are working will serve journalists at all levels.
+
+*The Team and the Technology*
+
+Over the past 8 years, Internews has worked in Kenya with journalists to build capacity in health and conflict sensitive reporting through training, mentoring, travel grants and availing resources for journalists at the Nairobi and Eldoret offices. The idea of developing an app has come hand in hand with the idea of setting up a Center for Digital journalism at the Kenya office. This centre does more or less what Internews has been doing but at a digital scale. The centre also `incubates' upcoming and evolving data/digital journalists and has facilities that aid such journalists in production of complex and compelling stories.
+
+To develop this app, we have had to face the fact that we do not know everything and we needed to talk to those who may have taken our path before leveraging on our relationship with various developer communities in Nairobi to form a team that would work towards our end product. Our first choice approach was the use of PHP ZEND framework and ADOBE flex and flash builder 4.5 for php. We initially felt these platforms would be sufficient to start us off. However, along the way we have picked up on other technologies that we believe will spice up the end result e.g. the Data Journalism Developer Studio running on open Linux. The tool will run across all platforms; web, desktop, mobile. With the high uptake and use of mobile phones in Kenya, it is Important that all Open data tools should be able to run on mobile platforms (J2ME, Android).
+
+Developers vary in coding strengths and language preferences. After determining which languages our platform would run on, we have had to identify strong team members that would deliver the quality of code that would make this world-class product. We have also distinguished those working on the front end (user experience) and those working on the back end (dirty work). The two teams have to sync at the application level and there is need for a strong working relationship.
+
+Kenya has clearly made some bold steps but there is still a lot of ground to cover. The biggest challenge is not coming up with the idea but in having a worthy team. An outcome based approach team that endears its energies to the overall objective makes product successful. If used well, data can be life changing. Electoral dynamics especially in voting patterns in Kenya have been devoid of content and objectivity. With available data, this and many other systems in Kenya can change for the better. 
+
+**2. How to build a news app**
+
+A news app is a software (web, desktop, mobile, USSD) that acts as an interface between the database layer of the information architecture and the client side. News apps make data friendlier to the client as compared to the format and layout at the storage engine. 
+
+News Apps vary in type:
+
+1. Curation- This is an app that gathers already existing information and brings it to one platform based on a particular keyword(s). This kind of app may not necessarily have its own storage engine, some depend on a 'Google type' indexing mechanism that crawls the net and indexes searchable information. Examples of Curation APPS; Storify, Storyful.
+
+2. News Portals- these are online news portals that deliver news in real time. News websites, news applications running on mobile platforms, aggregated feed readers fall in this category.
+
+3. Citizen reporting- these are apps whose main source of data is the citizen. These apps provide an interface for citizen-journalism and then visualise the data graphically or on a map. E.g.: Ushahidi, crowdmap, swiftriver.
+
+4. Data apps - These are apps that query DATA sets from governments, organisations, civil society etc. These Apps may have their own storage engine that is updated regularly from the main data source e.g. World Bank finances, Kenya open data. Examples of such applications: CDF monitor (Kenya) Internews Open DATA app (Kenya).
+
+*Why and for who?*
+
+News Apps are not for journalists only. Most news apps are coded to produce interactive and friendly reports that can be used by any news savvy person. The act of interacting with a news app looking for news is in itself journalism. Newsrooms, News organisations, governments, and civil society should commission development of news apps based on need.
+
+In the age of open source tools, re-inventing the wheel is not necessary. When making the decision to develop a news app, it is imperative to survey the current news landscape and identify tools that do at least half of what you'd like to see. Chances are that in most instances you may just combine two different tools with great precision. For example, when working on large data sets you may be looking for a tool that will clean the data and also visualise it in clean interactive graphs, charts, bubbles and possibly maps. You may want, in this instance, to clean the data on Google Refine, and then export the data to Tile Mill to visualise it on a map and to infogr.am to plot it on a matrix! 
+
+However, there are rare scenarios like that of Kenya where relationships between datasets need to be established on the fly in order to generate some visualisations that may require you to develop an app altogether. This saves the non-techie journalist the hassle, for example, of trying to join a table with all constituencies in Kenya with another with their latitude and longitude co-ordinates in order to plot the info on a map.
+
+The main idea of developing a news app should be motivated by the need to make data friendlier. If your news app does not make your numbers easier to understand then it is not worth the time and money.
+
+A good news app should:
+
+1. Mine the data- extracting data sets from the source.
+2. Clean the data- pick out anomalies in the data and highlight them to the user. The user then corrects the anomalies.
+3. Export data- have export data functionality.
+4. Visualise the data
+
+Open source apps have indeed made things easier for all of us; the ability to even alter the source code of a free product release under the GPL license is particularly enticing. It is however important to apply news apps to the context for which they were developed and not to the context that cuts costs for you as a news organisation. 
+
+A classical example is the Ushahidi platform; Ushahidi was built mainly for crisis citizen reporting. It worked perfect during the post election violence in Kenya and mapping of hotspots, and even better during the Haiti earthquake and the BP oil spill. But it stops working when used for activities that do not engage citizens to report e.g. mapping out country offices of an organisation. 
+
+*Packaging*
+ 
+The success or failure of an app is strongly dependent on how it is packaged. Packaging in this case refers mainly to the platforms for which it is built. Developers should aim at presenting very flexible and useable apps. Limiting an app to one operating system e.g. Windows is a big setback and significantly contributes to the failure of the app.
+
+To counter such issues, developers are encouraged to come up with fully functional online versions of applications before thinking of the desktop app. An online app only locks out someone without a browser! Desktop versions and mobile versions should be added features and not the other way round.
+
+*Resources*
+
+Having powerful computers, big screens, servers and test platforms is a good thing when developing a news app, having good human resources is even better. The skill set required in this case is unique: a combination of UX, backend and security is required. Developers should take advantage and participate in online communities, developer meet ups, hackathons, workshops and boot camps to sharpen their skills. Technology, just like traditional journalism, is constantly evolving and every developer should work with this realisation. Laxity is not an option.
+
+
 ##############################################################
 ##############################################################
 ##############################################################
@@ -1047,6 +1132,8 @@ Really lucky: sit right next to main news at Guardian. Find stories from data an
 Workflow starts in Excel. Such an easy way to quickly work out if there's something the data. Then if you have a sense that there is something in it then go to news desk. Then look at how we should visualise it or show it on the page. Then write the post that goes with it. Cut down version of spreadsheet next to the text editor. Often doing analysis while writing to pick out interesting things. Then publish post. Spend time Tweeting, writing to different people and making sure that it is linked to from all the right places.
 
 Half traffic from some posts will come from Twitter/FB.
+
+
 
 Arguments to convince colleagues. Comes from stories: COINS, Wikileaks + riots. Newspapers are driven by the stories and traffic.
 

@@ -4,8 +4,6 @@
 
 image::Figures/04-01.png[width=600]
 
-Contributors: Brian Boyer (Chicago Tribune), Jane Park (Creative Commons), John Keefe (WNYC), Chrys Wu (Hacks/Hackers), Friedrich Lindenberg (Open Knowledge Foundation)
-
 Looking for data on a particular topic or issue? Not sure what exists or where to find it? Don't know where to start? In this section we look at how to get started with finding public data sources on the web.
 
 *1. Streamlining Your Search.*
@@ -61,9 +59,9 @@ When you know more about what you are looking for, you may have a bit more luck 
 
 If you believe that a government body has the data you need, a Freedom of Information request may be your best tool. See below for more information on how to file one.
 
-=== Your Right to Data (Various Contributors) ===
+_This section was written by Brian Boyer (Chicago Tribune), John Keefe (WNYC), Friedrich Lindenberg (Open Knowledge Foundation), Jane Park (Creative Commons), Chrys Wu (Hacks/Hackers)._
 
-Contributors: Helen Darbishire (Access Info), Fabrizio Scrollini (London School of Economics), Martin Rosenbaum (BBC)
+=== Your Right to Data (Various Contributors) ===
 
 image::Figures/04-AA.png[width=600]
 
@@ -145,7 +143,7 @@ If your colleagues are sceptical about the value of access to information reques
 
 If you want to analyse, explore or manipulate data using a computer then you should explicitly ask for data in an electronic, machine-readable format. You may wish to clarify this by specifying, for example, that you require budgetary information in a format ``suitable for analysis with accounting software''. You may also wish to explicitly ask for information in `disaggregated' or `granular' form. You can read more about this point in http://www.access-info.org/documents/Access_Docs/Advancing/Beyond_Access_7_January_2011_web.pdf[this report].
 
-_If you need further help with making your FOI request, you can also consult the http://www.legalleaks.info/toolkit.html[Legal Leaks toolkit for journalists]._
+_This section was written by Helen Darbishire (Access Info), Martin Rosenbaum (BBC), and Fabrizio Scrollini (London School of Economics). If you need further help with making your FOI request, you can also consult the http://www.legalleaks.info/toolkit.html[Legal Leaks toolkit for journalists]._
 
 === Wobbing Works. Use it! (Brigitte Alfter, Freelance Journalist) ===
 
@@ -187,9 +185,11 @@ Lessons: Don't take no for an answer when it's about transparency. Be persistent
 
 Recent history can be utterly painful for entire populations, particularly after wars and in times of transition. So how can journalists obtain hard data to investigate, when - for example - last decade's war profiteers are now in power? This was the task that a team of Slovenian, Croatian and Bosnian journalists set out to pursue.
 
+The team set out to investigate arms trades in former Yugoslavia during the UN embargo in the early 1990s. The basis of the work were documents from parliamentary inquiries into this subject. In order to document the routes of the shipment and understand the structure of the trading, transports had to be traced by vessel number in ports and license plates of trucks.
+
 Slovenian parliamentary commissions have held inquiries into the question of profiteering from the Balkan wars, but have never reached a conclusion. Yet there was an extremely valuable trail of declassified documents and data, including 6000 pages which the Slovene team obtained through a freedom of information request.
 
-In this case the data had to be extracted from the documents and sorted in databases. For example, transports had to be traced by vessel number in ports and license plates of trucks. By augmenting the data with further data, analysis and research, they were able to map numerous of the routes of the http://www.kaasogmulvad.dk/unv/kiev/Arms%20smuggling%20-%20TRILOGY%20In%20the%20Name%20of%20the%20State%20-%20Matej%20Surc,%20Blaz%20Zgaga%20-%20Slovenia.pdf[illegal weapon trade].
+In this case the data had to be extracted from the documents and sorted in databases. By augmenting the data with further data, analysis and research, they were able to map numerous of the routes of the http://www.kaasogmulvad.dk/unv/kiev/Arms%20smuggling%20-%20TRILOGY%20In%20the%20Name%20of%20the%20State%20-%20Matej%20Surc,%20Blaz%20Zgaga%20-%20Slovenia.pdf[illegal weapon trade].
 
 The team succeeded and the results are http://www.journalismfund.eu/index.php?page=10&detail=154&be785f3421ff8f5ed50dfda00382b66049da3f53=a499c267af42d8392057f24e3fa5b9ca[unique] and have already http://www.journalismfund.eu/index.php?page=9&detail=155[won the team their first award]. Most importantly the story matters for the entire region and may well be picked up by journalists in other countries through which the deadly cargo has passed.
 
@@ -317,6 +317,10 @@ You can now see a basic scraper operating: it downloads the web page, transforms
 
 As you're trying to solve these challenges, have a look around ScraperWiki: there are many useful examples in the existing scrapers - and quite often, the data is pretty exciting, too. This way, you don't need to start off your scraper from scratch: just choose one that is similar, fork it and adapt to your problem.
 
+=== Data Sources for Journalists (Pete Warden) ===
+
+Waiting for text.
+
 === Crowdsourcing Data at the Guardian Datablog (Marianne Bouchart, Data Journalism Blog) ===
 
 Crowdsourcing, http://en.wikipedia.org/wiki/Crowdsourcing[according to Wikipedia], is "a distributed problem-solving and production process that involves outsourcing tasks to a network of people, also known as the crowd". For this chapter Marianne Bouchart (Data Journalism Blog) interviewed Simon Rogers and James Ball from the Guardian Datablog about how they use crowdsourcing tools and methods to generate or add value to datasets.
@@ -379,45 +383,74 @@ We decided to use Google Docs because it gives complete control over the results
 
 In terms of advice for data journalists who want to use crowdsourcing: you have to have very specific things you want to know. Ask things that get multiple choice responses as much as possible. Try to get some basic demographics of who you are talking to so you can see if your sample might be biased. If you are asking for amounts and things like this, try in the guidance to specify that it's in digits, that they have to use a specific currency and things like that. A lot won't, but the more you hold their hand through, the better. And always, always add a comment box because a lot of people will fill out the other things but what they really want is to give you their opinion on the story. Especially on a consumer story or an outrage.
 
-=== Reusing, Republishing, Rights (Various Contributors) ===
+=== Using and Sharing Data: the Black Letter, Fine Print, and Reality (Mike Linksvayer, Creative Commons) ===
+
+In this chapter we'll have a quick look at the state of the law with respect to data and databases, and what you can do to open up your data using readily available public licenses and legal tools. Don't let any of the following dampen your enthusiasm for data driven journalism. Legal restrictions on data usually won't get in your way, and you can easily make sure they won't get in the way of others using data you've published.
+
+To state the obvious, obtaining data has never been easier. Before the widespread publishing of data on the web, even if you had identified a dataset you needed, you'd need to ask whoever had a copy to make it accessible to you, possibly involving paper and the post or a personal visit. Now, you have your computer ask their computer to send a copy to your computer. Conceptually similar, but you have a copy right now, and they (the creator or publisher) haven't done anything, and probably have no idea that you have downloaded a copy.
+ 
+What about downloading data with a program (sometimes called ``scraping'') and terms of service (ToS)? Consider the previous paragraph: your browser is just such a program. Might ToS permit access by only certain kinds of programs? If you have inordinate amounts of time and money to spend reading such documents and perhaps asking a lawyer for advice, by all means, do. But usually, just don't be a jerk: if your program hammers a site, your network may well get blocked from accessing the site in question and perhaps you will have deserved it. There is now a large body of practice around accessing and scraping data from the web. If you plan to do this, reading about examples at a site like ScraperWiki will give you a head start.
+ 
+Once you have some data of interest, you can query, pore over, sort, visualise, correlate and perform any other kind of analysis you like using your copy of the data. You can publish your analysis, which can cite any datum. There's a lot to the catchphrase ``facts are free'' (as in free speech), but maybe this is only a catchphrase among those who think too much about the legalities of databases, or even more broadly (and more wonkily), data governance.
+
+What if, being a good or aspiring to be good data-driven journalist, you intend to publish not just your analysis, including some facts or data points, but also the datasets/databases you used - and perhaps added to - in conducting your analysis? Or maybe you're just curating data and haven't done any analysis - good, the world needs data curators. If you're using data collected by some other entity, there could be a hitch. (If your database is wholly assembled by you, read the next paragraph anyway as motivation for the sharing practices in the next next paragraph.)
+
+If you're familiar with how copyright restricts creative works - if the copyright holder hasn't given permission to use a work (or the work is in the public domain or your use might be covered by exceptions and limitations such as fair use) and you use - distribute, perform, etc. - the work anyway, the copyright holder could force you to stop. Although facts are free, collections of facts can be restricted very similarly, though there's more variation in the relevant laws than there is for copyright as applied to creative works. Briefly, a database can be subject to copyright, as a creative work. In many jurisdictions, by the ``sweat of the brow'', merely assembling a database, even in an uncreative fashion, makes the database subject to copyright. In the United States in particular, there tends to be a higher minimum of creativity for copyright to apply (Feist, a case about a phone book, is the U.S. classic if you want to look it up). But in some jurisdictions there are also ``database rights'' which restrict databases, separate from copyright (though there is lots of overlap in terms of what is covered, in particular where creativity thresholds for copyright are nearly nonexistent). The best known of such are the European Union's ``sui generis'' database rights. Again, especially if you're in Europe, you may want to make sure you have permission before publishing a database from some other entity.
+
+Obviously such restrictions aren't the best way to grow an ecosystem of data driven journalism (nor are they good for society at large – social scientists and others told the EU they wouldn't be before ``sui generis'' came about, and studies since have shown them to be right). Fortunately, as a publisher of a database, you can remove such restrictions from the database (assuming it doesn't have elements that you don't have permission to grant further permissions around), essentially by granting permission in advance. You can do this by releasing your database under a public license or public domain dedication - just as many programmers release their code under a free and open source license, so that others can build on their code (as data driven journalism often involves code, not just data, of course you should release your code too, so that your data collection and analysis are reproducible). There are lots of reasons for opening up your data. For example, your audience might create new visualisations or applications with it that you can link to - as the Guardian do with their data visualisation Flickr pool. Your datasets can be combined with other datasets to give you and your readers greater insight into a topic. Things that others do with your data might give you leads for new stories, or ideas for stories, or ideas for other data driven projects. And they will certainly bring you kudos.
 
 image::Figures/04-GG.jpg[width=600]
 
-In many jurisdictions around the world datasets and databases can be are covered by rights which mean that you have to ask for permission before you can legally reuse them. In this section we look at how you can get - and give - a green light to reuse datasets.
-
-Most of the new Open Data portals being set up by governments now make clear that the data that is released can be used free of charge. The same goes for information obtained through Freedom of Information Requests. If you have scraped the data from the website of a public body,  on reuse. Sometimes there will be intellectual property limitations, but normally the only requirement is that you cite the source of the information.
-
-When talking about databases and intellectual property we need to distinguish between the structure and the content of a database (when we use the term 'data' we shall mean the content of the database itself). Structural elements include things like the field names and a model for the data -- the organization of these fields and their inter-relation.
-
-In many jurisdictions it is likely that the structural elements of a database will be covered by copyright (it depends somewhat on the level of 'creativity' involved in creating this structure).
+When one realises that releasing works under public licenses is a necessity, the question becomes: which license? That tricky question will frequently be answered by the project or community whose work you're building on, or that you hope to contribute your work to – use the license they use. If you need to dig deeper, start from the set of licenses that are free and open – meaning that anyone has permission, for any use (attribution and sharing alike might be required). What the Free Software Definition and Open Source Definition do for software, the http://opendefinition.org/[Open Knowledge Definition] does for all other knowledge, including databases: define what makes a work open, and what open licenses allow users to do.
  
-The distinction between the "contents" of a database and the collection is especially crucial for factual databases since no jurisdiction grants a monopoly right in the individual facts (the "contents") even though it may grant right(s) in them as a collection.
+You can visit the Open Knowledge Definition website to see the http://opendefinition.org/licenses/[current set of licenses which qualify]. In summary, there are basically three classes of open licenses:
 
-To illustrate, consider the simple example of a database which lists the melting point of various substances. While the database as a whole might be protected by law so that one is not allow to access, reuse or redistribute it without permission this would never prevent you from stating the fact that substance Y melts at temperature Z.
+  * public domain dedications, which also serve as maximally permissive licenses - there are no conditions put upon using the work;
+  * permissive or attribution-only licenses - giving credit is the only substantial condition;
+  * and copyleft, reciprocal, or share-alike licenses - which also require that modified works, if published, be shared under the same license.
+
+Note if you're using a dataset published by someone else under an open license, consider the above paragraph a very brief guide as to how to fulfil the conditions of that open license. The licenses you're most likely to encounter, from Creative Commons, Open Data Commons, and various governments, usually feature a summary that will easily allow you to see what the substantial conditions are. Typically the license will be noted on a web page from which a dataset may be downloaded (or ``scraped'', as of course web pages can contain datasets) or in a conspicuous place within the dataset itself, depending on format. This marking is what you should do as well, when you open up your datasets.
+
+Going back to the beginning, what if the dataset you need to obtain is still not available online, or behind a some kind of access control? Consider, in addition to asking for access yourself, asking for the data to be opened up for the world to reuse. You could give some pointers to some of the great things that can happen with their data if they do this.
  
-You can read more about the situation your jurisdiction in the http://opendefinition.org/guide/data/[Guide to Open Data Licensing].
-
-If you find you are having problems with your right to reuse information, then please let the campaign group Access Info Europe know (helpdesk@access-info.org). Access Info will help you with legal advice and will try to find lawyers in your country should that be necessary.
-Success? What now...? Share the data...
-
-When you publish your project, do the rest of us a favor and include the data you've collected! It would be a damned shame if all that beautiful data you dug up (cleaned up, formatted and augmented) went stale on your hard drive. Let others source-check your story and perhaps even find different stories in the data.
-
-When you do publish data, include an explicit IP statement, in particular an open license like the Creative Commons Zero or Attribution terms or the Open Database License (ODbL). If the data is government information not covered by copyright, publish it using Creative Commons' PD Mark dedication to make it clear that the data will be available in the public domain forever and for others to reuse!
+Sharing with the world might bring to mind that privacy and other considerations and regulations might come into play for some datasets. Indeed, just because open data lowers many technical and copyright and copyright-like barriers, doesn't mean you don't have to follow other applicable laws. But that's as it always was, and there are tremendous resources and sometimes protections for journalists should your common sense indicate a need to investigate those.
+ 
+Good luck! But in all probability you'll need more of it for other areas of your project than you'll need for managing the (low) legal risks.
 
 === Anecdotes and War Stories (Various Contributors) ===
 
 We asked leading data journalists about their experiences getting hold of data. Here is what they said.
 
-*You don't need new data to make a scoop*
+*You Don't Need New Data to Make a Scoop*
 
 [quote, Jonathan Stray (Associated Press)]
 ____
 Sometimes the data is already public and available, but no one has looked at it closely. In the case of the AP's report on 4,500 pages of declassified documents describing the actions of private security contractors during the Iraq war, the material was obtained by an independent journalist over several years, using Freedom of Information requests addressed to the U.S. State Department. They scanned the paper results and uploaded them to DocumentCloud, which made it possible for us to do our comprehensive analysis.
 ____
 
+*Trawling Through Phone Logs*
 
 [quote, Jack Gillum (Associated Press)]
 
 ____
-A few months ago, I wanted to parse (then-presidential candidate) Texas Gov. Rick Perry’s phone logs. It was the result of a long-awaited state public-records request. The data essentially came in the form of 120-plus pages of fax-quality documents. It was an endeavor that required data entry and cleanup, followed by a WhitePages.com API to reverse-lookup the phone numbers. Mashing together names with state and federal (FEC) election data, http://www.boston.com/news/politics/articles/2011/12/06/perry_called_top_donors_from_work_phones/[we found] that Perry reached out to campaign and super PAC donors from state work phones, a frowned-upon practice that raised questions about ties between he and a ``super PAC'' working in his favor.
+A few months ago, I wanted to parse (then-presidential candidate) Texas Gov. Rick Perry's phone logs. It was the result of a long-awaited state public-records request. The data essentially came in the form of 120-plus pages of fax-quality documents. It was an endeavour that required data entry and cleanup, followed by a WhitePages.com API to reverse-lookup the phone numbers. Mashing together names with state and federal (FEC) election data, http://www.boston.com/news/politics/articles/2011/12/06/perry_called_top_donors_from_work_phones/[we found] that Perry reached out to campaign and super PAC donors from state work phones, a frowned-upon practice that raised questions about ties between he and a ``super PAC'' working in his favor.
+____
+
+*Know Your Rights*
+
+[quote, Simon Rogers (Guardian Datablog)]
+____
+When you are publishing data, should you worry about copyright and other rights in data? While you should always clear all of this with your legal team, as a rule of thumb: if it is published by government you should be able to ask forgiveness not permission; if it is published by an organisation that doesn't make money selling data you shouldn't have to worry too much; if it is published by a organisation that does make money from selling data, then you should definitely ask permission.
+____
+
+*Using FOI to Understand Spending*
+
+[quote, Lisa Evans (Guardian Datablog)]
+____
+I've used FOI in couple of different ways to help cover COINS, the UK Government's biggest database of spending, budget and financial information. At the beginning of 2010 there was talk from George Osborne that if he became Chancellor he would release the COINS database to facilitate greater transparency in the Treasury. At this time it seemed a good idea to investigate the data in and structure of COINS so I sent a few FOI requests, one for the http://www.whatdotheyknow.com/request/schema_for_coins_database[schema of the database] one for the http://www.whatdotheyknow.com/request/training_materials_for_coins[guidance] Treasury workers receive when they work with COINS, and one for the Treasury http://www.whatdotheyknow.com/request/request_for_the_contract_with_in[contract]
+with the database provider. All of which resulted in publication of useful data. I also requested all the http://www.whatdotheyknow.com/request/programme_objects_from_the_coins#incoming-78133[spending codes] in the database, which was also published. All of this helped to understand COINS when George Osborne became chancellor in May 2010 and published COINS in June 2010. The COINs data was used in a number of websites encouraging the public to investigate the data - including http://openspending.org/[OpenSpending.org] and the Guardian's http://coins.guardian.co.uk/coins-explorer/search[Coins Data Explorer]. 
+
+After further investigation it seemed that a large part of the database was missing: the Whole of Government Accounts (WGA) which is 1,500 sets of accounts for public funded bodies. I used FOI to http://www.whatdotheyknow.com/request/whole_of_government_accounts_200[request the 2008/09 WGA data] but to no avail. I also asked for the report from the audit office for WGA - which I hoped would explain the reasons the WGA was not in a suitable state to be released. That was http://www.whatdotheyknow.com/request/whole_of_government_accounts_dry#comment-13231[also refused].
+
+In December 2011 the WGA was released in the COINS data. However I wanted to make sure there was enough guidance to create the complete set of accounts for each of the 1,500 bodies included in the WGA exercise. This brings me on to the second way I used FOI: to ensure the data released under the UK transparency agenda is well explained and contains what it should. I put in a FOI request for the http://www.whatdotheyknow.com/request/cash_flow_and_balance_sheet_for#outgoing-186582[full set of accounts] for every public body included in WGA.
 ____

@@ -1,41 +1,32 @@
 == 6. Delivering data ==
 
-=== Put Your Data Online (Various Contributors) ===
+=== Presenting Data to the Public (Various Contributors) ===
 
-Increasingly news organisations are putting datasets that they work with online for readers to explore and reuse. In this chapter data journalists tell us how to do it, and what the results are.
-
-  * Tools and technologies for publishing data (Google Spreadsheets vs. Tableau vs. roll your own)
-  * Explicitly enabling others to reuse data using an open license / legal tool
-  * Linking or embedding data
-  * Who is interested in data?
-  * How do people engage with data? Commenting? Flagging?
-  * How have people reused data that you've published in unexpected ways.
+There are lots of different ways to present your data to the public - from publishing raw datasets with stories, to creating beautiful visualisations and interactive web applications. To open this section, we asked leading data journalists for tips on how to present data to the public.
 
 *To Visualise or Not to Visalise?*
 
 [quote, Aaron Pilhofer (New York Times)]
 ____
-There are times when data can tell a story better than words or photos, and this is why terms like ``news application'' and ``data visualization'' have attained buzzword status in so many newsrooms of late. Also fueling interest is the bumper crop of new tools and technologies designed to help even the most technically challenged journalist turn data into a piece of visual storytelling-many of them free.
+There are times when data can tell a story better than words or photos, and this is why terms like ``news application'' and ``data visualisation'' have attained buzzword status in so many newsrooms of late. Also fuelling interest is the bumper crop of (often free) new tools and technologies designed to help even the most technically challenged journalist turn data into a piece of visual storytelling.
 
-Tools like Google Fusion Tables, Many Eyes, Tableau, Dipity and others make it easier than ever to create maps, charts, graphs or even full-blown data applications that heretofore were the domain of specialists. But with the barrier to entry now barely a speed bump, the question facing journalists now less about whether you can turn your dataset into a visualization, but whether you should.
-
-http://www.niemanlab.org/2011/10/word-clouds-considered-harmful/[Bad data visualization] is worse in many respects than none at all, but journalists have few resources (until now) available to learn the right way to approach visual storytelling.
+Tools like Google Fusion Tables, Many Eyes, Tableau, Dipity and others make it easier than ever to create maps, charts, graphs or even full-blown data applications that heretofore were the domain of specialists. But with the barrier to entry now barely a speed bump, the question facing journalists now less about whether you can turn your dataset into a visualisation, but whether you should. http://www.niemanlab.org/2011/10/word-clouds-considered-harmful/[Bad data visualization] is worse in many respects than none at all.
 ____
 
 *Which is the Right Visualisation for Your Story?*
 
-[quote, Lulu Pinney (?? need to check this) (BBC)]
+[quote, Lulu Pinney (BBC)]
 ____
 Not all types of visualisations are appropriate for all data sets. When you are deciding on a visualisation, keep in mind that you are trying to tell a story and that some types of visualisations will tell that story better than others.
 
 A map, for example, will highlight geographical distribution of a variable, but it will suppress quantitative comparisons or changes over time. The bottom chart isn't eye candy, but it is very functional; not a single pixel is wasted. Every dot conveys information relevant to the data set, and important relationships are immediately visually evident. How much of your chart is wasted on decoration, and how much communicates information?
 ____
 
-*Maps*
+*Putting Data on Maps*
 
 [quote, (David Erwin, New York Times)]
 ____
-Maps can be a powerful tool to visualize data when geographical information plays a fundamental role in the telling of the story. They can be used to overlay more than one data sets to show concepts such as areas of overlap or divergence, concentrations, etc. Further, they put data in the context of the viewer's understanding of the area and, for local maps, tap into their daily experience.
+Maps can be a powerful tool to visualise data when geographical information plays a fundamental role in the telling of the story. They can be used to overlay multiple datasets to show concepts such as areas of overlap or divergence, concentrations, etc. Further, they put data in the context of the viewer's understanding of the area and, for local maps, tap into their daily experience.
 
 Your audience must immediately (or at least clearly) intuit the information you're presenting from the visual markers. Choosing the appropriate overlays is essential. Objects can be plotted and made clickable for more information, the size of markers can be used to indicate quantity or severity (with or without a legend), overlays or polygons can represent zones.
 
@@ -43,31 +34,24 @@ It's important to note that the fact that data can be mapped http://www.ericson.
 ____
 
 *Using Motion Graphics*
-[quote, (?? need to check this - possibly Lu Lu?)]
-____
-With a tight script, well timed animations and clear explanations motion graphics can serve to bring complex numbers or ideas to life, guiding your audience through the story. Hans Rosling's video lectures are a good example of how data can come to life to tell a story on the screen. Whether or not you agree with their methodology I also think the Economist's http://www.economist.com/blogs/multimedia/2011/02/unrest_arab_world[Shoe-throwers' index] is a good example of using video to tell a numbers-based story. You wouldn't, or shouldn't, present this graphic as a static image. There's far too much going on. But having built up to it step by step you're left with an understanding of how and why they got to this index.
-____
 
-There's also:
-
+[quote, Lulu Pinney (BBC)]
 ____
-Sound and Motion: Primarily leading to motion graphics, a massively growing field. Simultaneously reinforcing what your audience is hearing from a voice-over with explanatory visuals provides a very powerful and memorable way of telling a story.
+With a tight script, well timed animations and clear explanations motion graphics can serve to bring complex numbers or ideas to life, guiding your audience through the story. Hans Rosling's video lectures are a good example of how data can come to life to tell a story on the screen. Whether or not you agree with their methodology I also think the Economist's http://www.economist.com/blogs/multimedia/2011/02/unrest_arab_world[Shoe-throwers' index] is a good example of using video to tell a numbers-based story. You wouldn't, or shouldn't, present this graphic as a static image. There's far too much going on. But having built up to it step by step you're left with an understanding of how and why they got to this index. With motion graphics and animated shorts, you can reinforce what your audience is hearing from a voice-over with explanatory visuals provides a very powerful and memorable way of telling a story.
 ____
 
-*When is a visualisation good and when is it bad?*
+*Telling the World*
 
+[quote, Simon Rogers (Guardian Datablog)]
 ____
-A good visualisation clarifies, explains, reveals or adds meaning. It makes the audience say 'ah-ha, I get it'. They take away with them the story you set out to tell.
+Our workflow usually starts in Excel. It is such an easy way to quickly work out if there's something interesting in the data. If we have a sense that there is something in it then we go to the news desk.  We're really lucky as we sit right next to main news desk at the Guardian. Then we look at how we should visualise it or show it on the page. Then we write the post that goes with it. When I'm writing I usually have a cut down version of the spreadsheet next to the text editor. Often I'll do bits of analysis while I'm writing to pick out interesting things. Then I'll publish the post and spend a bit of time Tweeting about it, writing to different people and making sure that it is linked to from all the right places.
 
-A good visualisation can turn bad however if no-one sees it, or knows how to use it. In both cases your time and effort will have been wasted. Design and UX can help solve this.
+Half of the traffic from some of our posts will come from Twitter and Facebook. We're pretty proud that the average amount of time spent on a Datablog article is 6 minutes, compared to an average of 1 minute for the rest of the Guardian website. 6 minutes is a pretty good number and time spent on the page is one of the key metrics when analysing our traffic.
 
-If a visualisation confuses or misleads then it is bad, regardless of how pretty or user-friendly it might be. It still has to be good journalism, even if it is visual.
+This also helps to convince our colleagues about the value of what we're doing. That and the big data-driven stories that we've worked on that everyone else in the newsroom knows: COINS, Wikileaks and the UK riots. For the COINS spending data, we had 5-6 specialist reporters at the Guardian working to give their views about the data when it was released by the UK Government. We also had another team of 5-6 when the UK government spending over £25k data was released - including well known reporters like Polly Curtis. Wikileaks was also obviously very big, with lots of stories about Iraq and Afghanistan. The riots was also pretty big, with over 550k hits in two days.
 
-In reality most visualisations add little over and above what you can just write in words or say into a microphone. When presented side by side they are not wasted: saying the same thing two different ways plays to the fact that every audience is made up of a mix of both visual and verbal people. However since visualisations such as these have the potential to work harder it is a shame not to have made them do so.
-
-It is in a big middle-ground of OK-ness that most visualisations lurk. And the two things that will elevate a visualisation from being OK to good is knowing your story and knowing your audience. Use both of these, from the outset, to inform your decisions and the resulting visualisation stands every chance of being a great one.
+But it is not just about the short term hits: it is also about being a reliable source of useful information. We try to be the place where you can get good, meaningful information on topics that we cover.
 ____
-
 
 === How to Build a News App (Chase Davis, Center for Investigative Reporting) ===
 
@@ -129,45 +113,122 @@ A news app should tell a story, and just like any good news story, it needs a he
 
 Also, a news app should be generative - meaning it should generate more stories and more reporting. ProPublica's best apps have been used as the basis for local stories.
 
-For instance, take our http://
-projects.propublica.org/docdollars[Dollars for Docs] news app. It tracked, for the first time, millions of dollars of payments by drug companies to doctors - for consulting, speaking, and so on. The news app we built lets readers look up their own doctor and see the payments they've received. Reporters at other news organisations also used the data. More than 125 local news organisations, including the Boston Globe, Chicago Tribune and the St. Louis Post-Dispatch did investigative stories on local doctors based on Dollars for Docs data.
+For instance, take our http://projects.propublica.org/docdollars[Dollars for Docs] news app. It tracked, for the first time, millions of dollars of payments by drug companies to doctors - for consulting, speaking, and so on. The news app we built lets readers look up their own doctor and see the payments they've received. Reporters at other news organisations also used the data. More than 125 local news organisations, including the Boston Globe, Chicago Tribune and the St. Louis Post-Dispatch did investigative stories on local doctors based on Dollars for Docs data.
 
 A few of these local stories were the result of formal partnerships, but the majority were done quite independently – in some cases, we didn't have much if any knowledge that the story was being worked on until it came out. As a small but national news organisation, this kind of thing is crucial for us. We can't have local knowledge in 125 cities, but if our data can help reporters who have local knowledge tell stories with impact, we're fulfilling our mission.
 
 image::Figures/06-FF.png[width=600]
 
-One of my favorite news apps is the Los Angeles Times's http://projects.latimes.com/mapping-la/neighborhoods/[Mapping L.A.], which started out as a crowdsourced map of Los Angeles's many neighborhoods, which up until Mapping L.A. launched had no independent, widely-accepted set of boundaries. After the initial crowdsourcing project, the Times has been able to use neighborhoods as a framing device for great data reporting - things like crime rate by neighborhood, school quality by neighborhood, etc., which they wouldn't have been able to do before. So not only is Mapping L.A. both broad and specific, it's generative, and it tells people's own stories.
+One of my favourite news apps is the Los Angeles Times's http://projects.latimes.com/mapping-la/neighborhoods/[Mapping L.A.], which started out as a crowdsourced map of Los Angeles's many neighbourhoods, which up until Mapping L.A. launched had no independent, widely-accepted set of boundaries. After the initial crowdsourcing project, the Times has been able to use neighbourhoods as a framing device for great data reporting - things like crime rate by neighbourhood, school quality by neighbourhood, etc., which they wouldn't have been able to do before. So not only is Mapping L.A. both broad and specific, it's generative, and it tells people's own stories.
 
-The resources necessary to build a news app range pretty widely. The New York Times has dozens of people working on news apps and on interactive graphics. But http:/
-/polltracker.talkingpointsmemo.com/[Talking Points Memo] made a cutting edge political poll tracker app with two staffers, neither of whom had computer science degrees.
+The resources necessary to build a news app range pretty widely. The New York Times has dozens of people working on news apps and on interactive graphics. But http://polltracker.talkingpointsmemo.com/[Talking Points Memo] made a cutting edge political poll tracker app with two staffers, neither of whom had computer science degrees.
 
 Like most newsroom-based coders, we follow a modified Agile methodology to build our apps. We iterate quickly and show drafts to the other folks in the newsroom we're working with. Most importantly we work really closely with reporters and read their drafts - even early ones. We work much more like reporters than like traditional programmers. In addition to writing code, we call sources, gather information and build expertise. It would be pretty difficult to make a good news app using material we don't understand.
 
 Why should newsrooms be interested in producing data-driven news apps? Three reasons: It's great journalism, it's hugely popular - ProPublica's most popular features are news apps - and if we don't do it somebody else will. Think of all the scoops we'd miss! Most importantly, newsrooms should know that they can all do this too. It's easier than it looks.
 
-=== News Apps at ProPublica (Scott Klein, ProPublica) ===
+=== Visualisation as the Workhorse of Data Journalism (Sarah Cohen, Washington Post) ===
 
-A news application is a broad, deep interactive database that tells a news story. By exposing specific data to them, a news app can tell each reader's story. It can help a reader understand their personal stake in a broad national phenomenon, and help them attach what they know to what they don't know to encourage a deep understanding of abstract concepts.
+Before you launch into trying to chart or map your data, take a minute to think about the many roles that static and interactive graphic elements play in your journalism.
 
-We tend to build news apps when we have a dataset (or think we can acquire a dataset) that is both national and granular enough to expose details.
+In the reporting phase, visualisations can:
 
-Just like any good story, a news app has a headline, a byline, a lead, and a nut. Some of these concepts can be hard to distinguish in a piece of interactive software, but they're there.
+  * Help you identify themes and questions for the rest of your reporting
+  * Identify outliers - good stories, or perhaps errors, in your data
+  * Help you find typical examples
+  * Show you holes in your reporting
 
-Also, a news app should be generative - meaning it should generate more reporting. ProPublica's best apps have been used as sources in hundreds of local stories.
+Visualisations also play multiple roles in publishing:
 
-image::Figures/06-FF.png[width=600]
+  * Illustrate a point made in a story in a more compelling way
+  * Remove unnecessarily technical information from prose
+  * Particularly when they are interactive and allow exploration, provide transparency about your reporting process to your readers
 
-One of the very best news apps we've seen is the Los Angeles Times's http://projects.latimes.com/mapping-la/neighborhoods/[Mapping L.A.], which started out as a crowdsourced map of Los Angeles's many neighbourhoods, which have no good, independent, widely-accepted set of boundaries. After that initial project, the Times has been able to report out things like crime rate by neighbourhood, school quality by neighbourhood, and many other things which they wouldn't have been able to do before. So not only is this app both broad and specific, it's generative, it tells people's own stories, etc.
+These roles suggest you should start early and often with visualisations in your reporting, whether or not you start electronic data or records. Don't consider it a separate step – something to be considered after the story is largely written. Let this work help guide your reporting.
 
-The resources necessary to build a news app ranges pretty widely. The New York Times has dozens of people working on news apps and on very complex graphics. But Talking Points Memo made a cutting edge poll tracker app with two staffers, neither of whom had computer science degrees.
+Getting started sometimes means just putting in a visual form the notes you've already taken. Consider this graphic, which ran in the Washington Post in 2006:
 
-Like most newsroom-based coders, we follow a modified Agile methodology to build our apps. We iterate quickly and show drafts to the other folks in the newsroom we're working with. Most importantly we work really closely with reporters and read drafts - even early ones. 
+////
+image::Figures/06-MM.png[width=600]
+////
 
-Why should newsrooms be interested in producing data-driven news apps? It's great journalism, it's hugely popular -- ProPublica's most popular features are news apps, and if we don't do it somebody else will -- and think of all the scoops we'd miss! Most importantly, newsrooms should know that they can do this too. It's easier than it looks.
+It shows the portion of farm income associated with subsidies and key events over the past 45 years, and was built over a series of months. Finding data that could be used over time with similar definitions and similar meanings was a challenge. Investigating all of the peaks and troughs helped us keep context in mind as we did the rest of our reporting. It also meant that one chore was pretty much finished before the stories were written.
 
-=== Data Visualisation in Journalism: An Introduction (Sarah Cohen, Washington Post) ===
+*TIPS FOR EXPLORATION*
 
-Waiting for text.
+Here are some tips for using visualisation to start exploring your datasets.
+
+*1. Use Small Multiples to Quickly Orient Yourself in a Large Dataset*
+
+I used this technique at the Washington Post when we were looking into a tip that the George W. Bush administration was awarding grants on political, not substantive, grounds. Most of these aid programs are done by formula, and others have been funded for years, so we were curious whether we might see the pattern by looking at nearly 1,500 different discretionary streams.
+
+////
+image::Figures/06-NN.png[width=600] 
+////
+
+I created a graph for each program, with the red dots indicating a presidential election year and the green dots indicating a congressional year. The problem: Yes, there was a spike in the six months before the presidential election in several of these programs - the red dots with the peak numbers next to them – but it's the wrong election year. Instead of George W. Bush's re-election bid, the peak as consistently for the 2000 presidential election, when Bill Clinton was in the White House and his vice president, Al Gore, was running for the office.
+
+This was really easy to see in a series of graphs rather than a table of numbers, and an interactive form let us check various types of grants, regions and agencies. Maps in small multiples can be a way to show time and place on a static image that's easy to compare - sometimes even easier than an interactive.
+
+This example was created with a short program written in PHP, but it's now much easier to do with Excel 2007 and 2010's sparklines. Edward Tufte, the visualisation expert, invented these ``intense, simple, word-like graphics'' to convey information in a glance across a large dataset. You now see them everywhere, from the little graphs under stock market quotations to win-loss records in sports.
+
+*2. Look at Your Data Upside Down and Sideways*
+
+When you're trying to understand a story or a dataset, there's no wrong way to look at it - try it every way you can think of, and you'll get a different perspective. If you're reporting on crime, you might look at one set of charts with change in violent crimes in a year; another might be the percent change; the other might be a comparison to other cities; and another might be a change over time. Use raw numbers, percentages and indexes.
+
+Look at them on different scales. Try following the rule that the x-axis must be zero. Then break that rule and see if you learn more. Try out logarithms and square roots for data with odd distributions.
+
+Keep in mind the research done on visual perception. William Cleveland's experiments showed that the eye sees change in an image when the average slope is about 45 degrees. This suggests you ignore the admonitions to always start at zero and instead work toward the most insightful graphic.  Other research in epidemiology has suggested you find a target level as a boundary for your chart.  Each of these ways helps you see the data in different ways. When they've stopped telling you anything new, you know you're done.
+
+*3. Don't Assume*
+
+Now that you've looked at your data a variety of ways, you've probably found records that don't seem right - you may not understand what they meant in the first place, or there are some outliers that seem like they are typos, or there are trends that seem backwards.
+
+If you want to publish anything based on your early exploration or in a published visualisation, you have to resolve these questions and you can't make assumptions. They're either interesting stories or mistakes; interesting challenges to common wisdom or misunderstanding.
+
+It's not unusual for local governments to provide spreadsheets filled with errors, and it's also easy to misunderstand government jargon in a dataset.
+
+First, walk back your own work. Have you read the documentation, its caveats and does the problem exist in the original version of the data? If everything on your end seems right, then it's time to pick up the phone. You're going to have to get it resolved if you plan to use it, so you might as well get started now.
+
+That said, not every mistake is important. In campaign finance records, it's common to have several hundred postal codes that don't exist in a database of 100,000 records. As long as they're not all in the same city or within a candidate, the occasional bad data record just doesn't matter.
+
+The question to ask yourself is: if I were to use this, would readers have a fundamentally accurate view of what the data says?
+
+*4. Avoid Obsessing Over Precision*
+
+The flip side of not asking enough questions is obsessing over precision before it matters.  Your exploratory graphics should be generally correct, but don't worry if you have various levels of rounding, if they don't add up to exactly 100 percent or if you are missing one or two years' data out of 20. This is part of the exploration process. You'll still see the big trends and know what you have to collect before it's time for publication.
+
+In fact, you might consider taking away labelling and scale markers, much like the charts above, to even better get an overall sense of the data.
+
+*5. Create chronologies of cases and events*
+
+At the start of any complex story, begin building chronologies of key events and cases. You can use Excel, a Word document or a special tool like TimeFlow for the task, but at some point you will find a dataset you can layer behind it. Reading through it periodically will show you what holes are in your reporting that have to be filled out.
+
+*6. Meet with your graphics department early and often*
+
+Brainstorm about possible graphics with the artists and designers in your newsroom. They will have good ways to look at your data, suggestions of how it might work interactively, and know how to connect data and stories. It will make your reporting much easier if you know what you have to collect early on, or if you can alert your team that a graphic isn't possible when you can't collect it.
+
+*TIPS FOR PUBLICATION*
+
+You might have spent only a few days or few hours on your exploration, or your story might have taken months to report. But as it becomes time to move to publication, two aspects become more important.
+
+Remember that missing year you had in your early exploration? All of a sudden, you can't go any further without it.  All of that bad data you ignored in your reporting? It's going to come back to haunt you.
+ 
+The reason is that you can't write around bad data. For a graphic, you either have everything you need or you don't, and there's no middle ground. 
+
+*1. Match the Effort of the Data Collection with the Interactive Graphic*
+
+There's no hiding in an interactive graphic. If you are really going to have your readers explore the data any way they want, then every data element has to be what it claims to be. Users can find any error at any time, and it could haunt you for months or years.
+
+If you're building your own database, it means you should expect to proof read, fact check and copy edit the entire database. If you're using government records, you should decide how much spot-checking you'll do, and what you plan to do when you find the inevitable error.
+
+*2. Design for Two Types of Readers*
+
+The graphic - whether it's a standalone interactive feature or a static visualisation that goes with your story - should satisfy two different kinds of readers. It should be easy to understand at a glance, but complex enough to offer something interesting to people who want to go further. If you make it interactive, make sure your readers get something more than a single number or name.
+
+*3. Convey One Idea – Then Simplify*
+
+Make sure there is one single thing you want people to see? Decide on the overwhelming impression you want a reader to get, and make everything else disappear. In many cases, this means removing information even when the Internet allows you to provide everything. Unless your main purpose is in transparency of reporting, most of the details you collected in your timeline and chronology just aren't very important. In a static graphic, it will be intimidating. In an interactive graphic, it will be boring.
 
 === Using Visualisations to Tell Stories (Geoff McGhee, Stanford University) ===
 
@@ -262,90 +323,6 @@ Tools used: Google Fusion Tables with heatmap, Google maps, MySql.
 When do we need to visualise a story? Most of the times we do not need to do it, but sometimes we want to do so to help our readers. Stories containing a huge amount of data quite often need visualisation. However, we have to be quite critical when choosing what kind of data we are going to present. We know all kinds of stuff when we report about something, but does the reader really need to know for the story? Perhaps a table is enough, or a simple graph showing a development from year A to year C. When working with data journalism, the point is not necessarily to present huge amounts of data. It's about journalism!
 
 There has been a clear trend in last 2-3 years to create interactive graphs and tables which enable the reader to drill down into different themes. A good visualisation is like a good picture. You understand what it is about just by looking at it for a moment or two. The more you look at the visual the more you see. The visualisation is bad when the reader does not know where to start or where to stop, and when the visualisation is overloaded by details. In this scenario, perhaps a piece of text would be better?
-
-=== Data Driven Apps at Internews in Kenya (Mark Irungu, Internews Network) ===
-
-On the 6th of July 2011, the Kenyan government became the first in Africa to have a national open data portal. Making government data open is not a very popular idea that regimes would readily embrace in Africa, not with the rampant corruption and mismanagement of public funds. Understandably, the Kenyan Government has received a lot of accolades for that.
-
-While this World Bank supported initiative received a lot of praise globally (from the New York Times to government heads in the developed world) the scenario was different locally. It was great news in the techie world but just another tiny story in the world of journalism. The story was not covered beyond the day of the launch. Few journalists visited portal after the launch. The data is accessible online and just like all data sets; it is not in the smallest way friendly to the eye, at least not a journalist's eye.
-
-*The GAP*
-
-The techies have taken the idea and run with it, trying to think of applications that could be developed to mine the data, clean the data and visualise it making it more accessible to people beyond the developer community.
-
-A new digital divide exists, not just in Kenya, between journalists and developers in working with data. Journalists need to learn more about the mechanics of using data. Developers, also called techies, also have a lot to learn. Developers may be brilliant with code, but have a lot to learn with regard to content, the opposite is true for journalists. Why not leverage these strengths to form a `tag team'? They do not necessarily have to be at the same place at the same time, all we need is an interface co connect them. What the data world needs is a good app that can serve these groups.
-
-*The APP*
-
-The power of data cannot be under estimated. It is time that newsrooms and journalists moved away from the ``he said, she said'' reporting. Numbers can help journalists produce in-depth features, and explore untold stories and trends that are not immediately known or visible to the general public. Unfortunately, journalists in Kenya have not made good use of the opened data. I work at Internews in Kenya - a media development organisation that trains and supports journalists to be better storytellers. In our journalism workshops we have designed a number of courses to help journalists use numbers and data better for their storytelling. This is important as it helps journalists to enrich their enquiry and stories.
-
-It is with this realisation that the idea of developing an app to query KODI was born. There is need for a a solution that would help journalists clean up raw data in the back end and help journalist to identify emerging stories and trends.That app should also help in presenting the content in visually appealing ways. 
-
-The app should:
-
-1. Query the entire Kenya open data portal.
-2. Clean the data / provide a friendly interface for cleaning the data.
-3. Visualise the data.
-4. Generate reports that can be used as is.
-
-*The Target*
-
-We are facing a unique scenario. Who were we targeting? We have had to determine whether this is going to be a case of old hands, new tricks or new hands, new tricks. Traditional journalism has undergone a radical evolution process with the development of the web. Maybe that was enough. Yes there is a significant gap between journalists and techies, but we have also established that the desire to among journalists to learn and possibly close this gap is very strong . The `evolved' traditional journalist has been showing willingness to undergo a second metamorphosis and the upcoming journalist doesn't mind this baptism of fire. The app we are working will serve journalists at all levels.
-
-*The Team and the Technology*
-
-Over the past 8 years, Internews has worked in Kenya with journalists to build capacity in health and conflict sensitive reporting through training, mentoring, travel grants and availing resources for journalists at the Nairobi and Eldoret offices. The idea of developing an app has come hand in hand with the idea of setting up a Center for Digital journalism at the Kenya office. This centre does more or less what Internews has been doing but at a digital scale. The centre also `incubates' upcoming and evolving data/digital journalists and has facilities that aid such journalists in production of complex and compelling stories.
-
-To develop this app, we have had to face the fact that we do not know everything and we needed to talk to those who may have taken our path before leveraging on our relationship with various developer communities in Nairobi to form a team that would work towards our end product. Our first choice approach was the use of PHP ZEND framework and ADOBE flex and flash builder 4.5 for php. We initially felt these platforms would be sufficient to start us off. However, along the way we have picked up on other technologies that we believe will spice up the end result e.g. the Data Journalism Developer Studio running on open Linux. The tool will run across all platforms; web, desktop, mobile. With the high uptake and use of mobile phones in Kenya, it is Important that all Open data tools should be able to run on mobile platforms (J2ME, Android).
-
-Developers vary in coding strengths and language preferences. After determining which languages our platform would run on, we have had to identify strong team members that would deliver the quality of code that would make this world-class product. We have also distinguished those working on the front end (user experience) and those working on the back end (dirty work). The two teams have to sync at the application level and there is need for a strong working relationship.
-
-Kenya has clearly made some bold steps but there is still a lot of ground to cover. The biggest challenge is not coming up with the idea but in having a worthy team. An outcome based approach team that endears its energies to the overall objective makes product successful. If used well, data can be life changing. Electoral dynamics especially in voting patterns in Kenya have been devoid of content and objectivity. With available data, this and many other systems in Kenya can change for the better. 
-
-**2. How to build a news app**
-
-A news app is a software (web, desktop, mobile, USSD) that acts as an interface between the database layer of the information architecture and the client side. News apps make data friendlier to the client as compared to the format and layout at the storage engine. 
-
-News Apps vary in type:
-
-1. Curation- This is an app that gathers already existing information and brings it to one platform based on a particular keyword(s). This kind of app may not necessarily have its own storage engine, some depend on a 'Google type' indexing mechanism that crawls the net and indexes searchable information. Examples of Curation APPS; Storify, Storyful.
-
-2. News Portals- these are online news portals that deliver news in real time. News websites, news applications running on mobile platforms, aggregated feed readers fall in this category.
-
-3. Citizen reporting- these are apps whose main source of data is the citizen. These apps provide an interface for citizen-journalism and then visualise the data graphically or on a map. E.g.: Ushahidi, crowdmap, swiftriver.
-
-4. Data apps - These are apps that query DATA sets from governments, organisations, civil society etc. These Apps may have their own storage engine that is updated regularly from the main data source e.g. World Bank finances, Kenya open data. Examples of such applications: CDF monitor (Kenya) Internews Open DATA app (Kenya).
-
-*Why and for who?*
-
-News Apps are not for journalists only. Most news apps are coded to produce interactive and friendly reports that can be used by any news savvy person. The act of interacting with a news app looking for news is in itself journalism. Newsrooms, News organisations, governments, and civil society should commission development of news apps based on need.
-
-In the age of open source tools, re-inventing the wheel is not necessary. When making the decision to develop a news app, it is imperative to survey the current news landscape and identify tools that do at least half of what you'd like to see. Chances are that in most instances you may just combine two different tools with great precision. For example, when working on large data sets you may be looking for a tool that will clean the data and also visualise it in clean interactive graphs, charts, bubbles and possibly maps. You may want, in this instance, to clean the data on Google Refine, and then export the data to Tile Mill to visualise it on a map and to infogr.am to plot it on a matrix! 
-
-However, there are rare scenarios like that of Kenya where relationships between datasets need to be established on the fly in order to generate some visualisations that may require you to develop an app altogether. This saves the non-techie journalist the hassle, for example, of trying to join a table with all constituencies in Kenya with another with their latitude and longitude co-ordinates in order to plot the info on a map.
-
-The main idea of developing a news app should be motivated by the need to make data friendlier. If your news app does not make your numbers easier to understand then it is not worth the time and money.
-
-A good news app should:
-
-1. Mine the data- extracting data sets from the source.
-2. Clean the data- pick out anomalies in the data and highlight them to the user. The user then corrects the anomalies.
-3. Export data- have export data functionality.
-4. Visualise the data
-
-Open source apps have indeed made things easier for all of us; the ability to even alter the source code of a free product release under the GPL license is particularly enticing. It is however important to apply news apps to the context for which they were developed and not to the context that cuts costs for you as a news organisation. 
-
-A classical example is the Ushahidi platform; Ushahidi was built mainly for crisis citizen reporting. It worked perfect during the post election violence in Kenya and mapping of hotspots, and even better during the Haiti earthquake and the BP oil spill. But it stops working when used for activities that do not engage citizens to report e.g. mapping out country offices of an organisation. 
-
-*Packaging*
- 
-The success or failure of an app is strongly dependent on how it is packaged. Packaging in this case refers mainly to the platforms for which it is built. Developers should aim at presenting very flexible and useable apps. Limiting an app to one operating system e.g. Windows is a big setback and significantly contributes to the failure of the app.
-
-To counter such issues, developers are encouraged to come up with fully functional online versions of applications before thinking of the desktop app. An online app only locks out someone without a browser! Desktop versions and mobile versions should be added features and not the other way round.
-
-*Resources*
-
-Having powerful computers, big screens, servers and test platforms is a good thing when developing a news app, having good human resources is even better. The skill set required in this case is unique: a combination of UX, backend and security is required. Developers should take advantage and participate in online communities, developer meet ups, hackathons, workshops and boot camps to sharpen their skills. Technology, just like traditional journalism, is constantly evolving and every developer should work with this realisation. Laxity is not an option.
 
 === Public Data Goes Social (Oluseun Onigbinde, BudgIT Nigeria) ===
 
