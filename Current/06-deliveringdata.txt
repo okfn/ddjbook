@@ -53,6 +53,13 @@ This also helps to convince our colleagues about the value of what we're doing. 
 But it is not just about the short term hits: it is also about being a reliable source of useful information. We try to be the place where you can get good, meaningful information on topics that we cover.
 ____
 
+*Publishing the Data*
+
+[quote, Cheryl Phillips (Seattle Times)]
+____
+We often will embed our data onto our site in a visualisation and in a form that allows for easy download of the dataset. Our readers can explore the data behind the stories through interacting in the visualisation or using the data themselves in other ways. Why is this important? It increases the transparency of The Seattle Times. We are showing the readers the same data that we used to draw powerful conclusions. And who uses it? Our critics for sure, as well as those just interested in the story and all of its ramifications. By making the data available we also can enlist tips from these same critics and general readers on what we may have missed and what more we could explore - all valuable in the pursuit of journalism that matters.
+____
+
 === How to Build a News App (Chase Davis, Center for Investigative Reporting) ===
 
 image::Figures/06-AA.png[width=600]

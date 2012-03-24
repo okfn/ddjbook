@@ -143,7 +143,11 @@ If your colleagues are sceptical about the value of access to information reques
 
 If you want to analyse, explore or manipulate data using a computer then you should explicitly ask for data in an electronic, machine-readable format. You may wish to clarify this by specifying, for example, that you require budgetary information in a format ``suitable for analysis with accounting software''. You may also wish to explicitly ask for information in `disaggregated' or `granular' form. You can read more about this point in http://www.access-info.org/documents/Access_Docs/Advancing/Beyond_Access_7_January_2011_web.pdf[this report].
 
-_This section was written by Helen Darbishire (Access Info), Martin Rosenbaum (BBC), and Fabrizio Scrollini (London School of Economics). If you need further help with making your FOI request, you can also consult the http://www.legalleaks.info/toolkit.html[Legal Leaks toolkit for journalists]._
+*18. Asking About Organisations Exempt From FOI Laws*
+
+You may wish to find out about NGOs, private companies, religious organisations and/or other organisations which are not required to release documents under FOI laws. However, it is possible to find information about them by asking public bodies which are covered by FOI laws. For example, you could ask a government department or ministry if they have funded or dealt with a specific private company or NGO and request supporting documents.
+
+_This section was written by Helen Darbishire (Access Info), Djordje Padejski (Knight Journalism Fellow, Stanford University), Martin Rosenbaum (BBC), and Fabrizio Scrollini (London School of Economics). If you need further help with making your FOI request, you can also consult the http://www.legalleaks.info/toolkit.html[Legal Leaks toolkit for journalists]._
 
 === Wobbing Works. Use it! (Brigitte Alfter, Freelance Journalist) ===
 
@@ -453,4 +457,51 @@ with the database provider. All of which resulted in publication of useful data.
 After further investigation it seemed that a large part of the database was missing: the Whole of Government Accounts (WGA) which is 1,500 sets of accounts for public funded bodies. I used FOI to http://www.whatdotheyknow.com/request/whole_of_government_accounts_200[request the 2008/09 WGA data] but to no avail. I also asked for the report from the audit office for WGA - which I hoped would explain the reasons the WGA was not in a suitable state to be released. That was http://www.whatdotheyknow.com/request/whole_of_government_accounts_dry#comment-13231[also refused].
 
 In December 2011 the WGA was released in the COINS data. However I wanted to make sure there was enough guidance to create the complete set of accounts for each of the 1,500 bodies included in the WGA exercise. This brings me on to the second way I used FOI: to ensure the data released under the UK transparency agenda is well explained and contains what it should. I put in a FOI request for the http://www.whatdotheyknow.com/request/cash_flow_and_balance_sheet_for#outgoing-186582[full set of accounts] for every public body included in WGA.
+____
+
+
+
+*Getting Data from Paper Archives*
+
+[quote, Nicolas Kayser-Bril (J++)]
+
+____
+Right after Wikileak's release of US military documents in Afghanistan and Iraq, we decided to adapt the concept to celebrate the 50th anniversary of the Algerian War by publishing the Algerian War Diaries. We set out to collect and digitise the archives of the French Army in Algeria. These are available in the War ministry archive in Paris, albeit in a paper format. We sent out journalists and students to take photographs of the documents. We tried scanning them using a Canon P-150 portable scanner, but it didn't work mainly because much of the archives are stapled.
+
+In the end, about 10,000 pages were collected in a few weeks. We ran a text recognition software on them (Abbyy fine reader), which produced poor results. What's more, the ministry arbitrarily denied access to the most interesting boxes of archives. Above all, the ministry forbids anyone from republishing documents that can be freely photographed on location, so we decided that it wasn't worth the risk and the project was put on hold.
+____
+
+*When The Law Fails*
+
+[quote, Nicolas Kayser-Bril (J++)]
+
+____
+After reading a http://kuafu.umd.edu/~ginger/research/JEH-final.pdf[scholarly article] explaining that publishing the outcome of hygiene inspections in restaurants reduced the number of food-related illnesses in Los Angeles, I asked the Parisian hygiene services for the list of inspections. Following the procedure set out by the French FOIA, I waited 30 days for their refusal to answer, then went to the Access to Public Data Commission (CADA in French), which rules on the legitimacy of FOI requests. CADA upheld my demand and ordered the administration to release the data. The administration subsequently asked for 2-month's extra time, and CADA accepted that. Two months later, the administration still had done nothing.
+
+I tried to get some big-name (and big-pocketed) open data advocates to go to court (which is a €5000 affair and a sure win with such CADA support), but they were afraid to compromise their relations with official open data programs. This example is one among several where the French administration simply ignores the law and the official initiatives do nothing to support grassroots demands for data.
+____
+
+
+*Scraping A Public Database*
+
+[quote, Alexandre Léchenet (LeMonde.fr)]
+
+____
+Some French physicians are free to choose their own rates, so that one can pay between €70 and €500 for a 30-minute visit at an oncologist, for instance. This data regarding rates is legally public, but the administration provides only a hard-to-navigate online access to the database. In order to have a good view of the doctors' rates for Le Monde, I decided to scrape the entire DB.
+
+That's where the fun began. The front-end search form was a Flash application, that redirected to an HTML result page via a POST request. With help from Nicolas Kayser-Bril, it took us some time to figure out that the application used a third page as a ``hidden'' step between the search form and the result page. This page was actually used to store a cookie with values from the search form that was then accessed by the results page. It would have been hard to think of a more convoluted process, but the options of the cURL library in PHP make it easy to overcome the hurdles, once you know where they are! In the end, getting hold of the database was a 10-hour task, but it was worth it.
+____
+
+*FOI With Friends*
+
+[quote, Djordje Padejski (Knight Journalism Fellow, Stanford University)]
+
+____
+Many Balkan countries have issues with government corruption. Corruption is often even higher when it comes to accountability of the local governments in those countries. For several months a group of Serbian journalists around the Belgrade-based http://www.cins.org.rs/[Centre for Investigative Reporting] have been questioning different types of FOI documents from over 30 local municipalities in 2009. Prior to that, almost nothing was accessible to the public. The idea was to get the original government records and to put the data in spreadsheets, to run basic checks and comparisons among the municipalities and to get maximum and minimum figures. Basic indicators were budget numbers, regular and special expenses, salaries of officials, travel expenses, numbers of employees, cell phone expenses, per diems, public procurement figures and so on. It was the first time that reporters had asked for such
+information.
+
+The result was a comprehensive database which unravels numerous phoney representations, malfeasances and corruption cases. A list of the highest paid mayors indicated that a few of them were receiving more money than the Serbian president. Many other officials were overpaid, with many receiving enormous travel repayments and per diems. Our hard earned public procurement data helped to highlight an official mess. More than 150 stories came out of the database and many of them were picked up by the local and national media in Serbia.
+
+We learned that comparing the records with the comparable data from similar government
+entities can display deviations and shed light on probable corruption. Exaggerated and unusual expenses can be detected only by comparing.
 ____

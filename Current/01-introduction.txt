@@ -160,6 +160,13 @@ Its real power is in helping you to obtain information that would otherwise be v
 Ideally you use the data to pinpoint outliers, areas of interest, or things which are surprising. In this sense data can act as a lead or a tip off. While this is interesting, data in itself is not enough. You still need to do the reporting to explain what it means.
 ____
 
+*A Way to See Things You Might Not Otherwise See*
+
+[quote, Cheryl Phillips (Seattle Times)]
+____
+Some stories can only be understood and explained through analysing - and sometimes visualising - the data. Connections between powerful people or entities would go unrevealed, deaths caused by drug policies that would remain hidden, environmental policies that hurt our landscape would continue unabated. But each of the above was changed because of data that journalists have obtained, analysed and provided to readers. The data can be as simple as a basic spreadsheet or a log of cell phone calls, or complex as school test scores or hospital infection data, but inside it all are stories worth telling.
+____
+
 === Favourite Examples (Various Contributors) ===
 
 We asked some of our contributors for their favourite examples of data journalism and what they liked about them. Here they are.

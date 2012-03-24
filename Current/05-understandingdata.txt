@@ -296,6 +296,13 @@ The development of rapid web server ``slice'' provisioning services like Amazon 
 Apart from that, we pretty standard tools to work with data: Google Refine and Microsoft Excel to clean data; SPSS and R to do statistics; ArcGIS and QGIS to do GIS; Git for source code management; TextMate, Vim and Sublime Text for writing code; and a mix of MySQL, PostgreSQL and SQL Server for databases. We built our own JavaScript framework called ``Glass'' that helps us build front-end heavy apps in JavaScript very quickly.
 ____
 
+*Cheryl Phillips, Seattle Times*
+
+____
+Sometimes the best tool can be the simplest tool - the power of a spreadsheet is easy to underestimate. But using a spreadsheet back when everything was in DOS enabled me to understand a complex formula for the partnership agreement for the owners of The Texas Rangers - back when George W. Bush was one of the key owners. A spreadsheet can help me flag outliers or mistakes in calculations. I can write clean-up scripts and more. It is a basic in the toolbox for a data journalist. That said, my favourite tools have even more power - SPSS for statistical analysis and mapping programs that enable me to see patterns geographically.
+____
+
+
 *Gregor Aisch, Vis4*
 
 ____
