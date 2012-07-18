@@ -1,11 +1,77 @@
-<isbn>9781449330064</isbn>
-<edition>1</edition>
-<author><firstname>Jonathan</firstname><surname>Gray</surname><authorblurb><para>The European Journalism Centre provides training to enhance the quality of journalistic coverage of European current affairs and to provide strategic support for the European media.&lt;br /&gt;
-  &lt;br /&gt;
-  The Open Knowledge Foundation seeks a world in which open knowledge is ubiquitous and routine – both online and offline – and promotes open knowledge because of its potential to deliver far-reaching societal benefits.</para></authorblurb></author>
-<author><firstname>Liliana</firstname><surname>Bounegru</surname><authorblurb><para>The European Journalism Centre provides training to enhance the quality of journalistic coverage of European current affairs and to provide strategic support for the European media.&lt;br /&gt;
-  &lt;br /&gt;
-  The Open Knowledge Foundation seeks a world in which open knowledge is ubiquitous and routine – both online and offline – and promotes open knowledge because of its potential to deliver far-reaching societal benefits.</para></authorblurb></author>
-<author><firstname>Lucy</firstname><surname>Chambers</surname><authorblurb><para>The European Journalism Centre provides training to enhance the quality of journalistic coverage of European current affairs and to provide strategic support for the European media.&lt;br /&gt;
-  &lt;br /&gt;
-  The Open Knowledge Foundation seeks a world in which open knowledge is ubiquitous and routine – both online and offline – and promotes open knowledge because of its potential to deliver far-reaching societal benefits.</para></authorblurb></author>
+<othercredit role='proofreader'>
+  <firstname>O'Reilly Production Services</firstname>
+  </othercredit>
+<othercredit role='interiordesigner'>
+  <firstname>David</firstname>
+  <surname>Futato</surname>
+</othercredit>
+<othercredit role='illustrator'>
+  <firstname>Kate</firstname>
+  <surname>Hudson</surname>
+</othercredit>
+<othercredit role='coverdesigner'>
+  <firstname>Karen</firstname>
+  <surname>Montgomery</surname>
+</othercredit>
+
+<!-- All rights reserved. -->
+<publisher>
+  <publishername>O&#x2019;Reilly Media, Inc.    </publishername>
+  <address format='linespecific'>
+      <street>1005 Gravenstein Highway North</street>
+      <city>Sebastopol</city>
+      <state>CA</state>
+      <postcode>95472</postcode>
+    </address>
+</publisher>
+
+<legalnotice role='printlocation'>
+  <para>A project of the European Journalism Centre and the Open Knowledge Foundation.</para>
+  <para>Printed in the United States of America.</para>
+</legalnotice>
+
+<legalnotice role='printer'>
+  <para>[LSI]</para>
+</legalnotice>
+
+<legalnotice role='use'>
+  <para>O&#x2019;Reilly books may be purchased for educational, business, or sales promotional use. Online editions are also available for most
+    titles (<ulink role='orm:hideurl:ital' url='http://my.safaribooksonline.com/?portal=oreilly'>http://my.safaribooksonline.com</ulink>). For more information, contact our corporate/institutional sales department:
+    800-998-9938 or <email>corporate@oreilly.com</email>.  </para>
+</legalnotice>
+
+<legalnotice role='trademarks'>
+  <para>Nutshell Handbook, the Nutshell Handbook logo, and the O&#x2019;Reilly logo
+    are registered trademarks of O&#x2019;Reilly Media, Inc. <emphasis>The Data Journalism Handbook</emphasis>
+    and related trade dress are trademarks of O&#x2019;Reilly Media, Inc.    </para>
+  <para>Many of the designations used by manufacturers and sellers to distinguish
+    their products are claimed as trademarks. Where those designations appear
+    in this book, and O&#x2019;Reilly Media, Inc., was aware of a trademark claim,
+    the designations have been printed in caps or initial caps.    </para>
+</legalnotice>
+
+<legalnotice role='damages'>
+  <para>While every precaution has been taken in the preparation of this book,
+    the publisher and authors assume no responsibility for errors or omissions,
+    or for damages resulting from the use of the information contained herein.</para>
+  <para/>
+  <para><inlinemediaobject><imageobject role="print"><imagedata fileref="/work/isbn13s/9781449330064/figs/print/logo.pdf" format="PDF" width="0.5in" /></imageobject><imageobject role="web"><imagedata fileref="/work/isbn13s/9781449330064/figs/web/logo.png" format="PNG" width="0.5in" /></imageobject></inlinemediaobject>  <emphasis>The Data Journalism Handbook</emphasis> can be freely copied, redistributed and reused under the <phrase role="keep-together">terms of</phrase> the <ulink url='http://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike license</ulink>. Contributors to <emphasis>The Data Journalism Handbook</emphasis> retain copyright over their respective contributions, and have kindly agreed to release them under the terms of this license.</para>
+</legalnotice>
+<isbn>9781449330064</isbn><edition>1</edition>
+<editor role="compiler"><firstname>Jonathan</firstname><surname>Gray</surname>
+  <authorblurb><para><emphasis role="strong">Jonathan Gray</emphasis> is Head of Community and Culture at the Open Knowledge Foundation (<ulink url='http://okfn.org'></ulink>), an award-winning non-profit organization dedicated to promoting open data, open content, and the public domain in a wide variety of different fields. He founded several data journalism projects at the OKFN, including OpenSpending.org, which maps public spending around the world, and Europe's Energy, which puts EU energy targets into context. He is doing research in philosophy and the history of ideas at Royal Holloway, University of London. More about him can be found at <ulink url='jonathangray.org'></ulink>.</para></authorblurb>
+</editor>
+<editor role="compiler"><firstname>Liliana</firstname><surname>Bounegru</surname>
+  <authorblurb><para><emphasis role="strong">Liliana Bounegru</emphasis> is editor of <ulink role='orm:hideurl' url='http://datadrivenjournalism.net/'>DataDrivenJournalism.net</ulink> and project manager on data journalism at the European Journalism Centre (<ulink url='http://www.ejc.net/'>http://www.ejc.net/</ulink>). Her work includes coordinating the <ulink role='orm:hideurl' url='http://www.datajournalismawards.org/'>Data Journalism Awards</ulink> and co-editing the <ulink role='orm:hideurl' url='http://www.datajournalismhandbook.org/'>Data Journalism Handbook</ulink>. Liliana also works as a researcher on the collaborative research project <ulink role='orm:hideurl' url='http://www.emapsproject.com/blog/'>EMAPS (Electronic Maps to Assist Public Science)</ulink>  and is a Research MA candidate in Media Studies at the University of Amsterdam. Her research focuses on the impact of technology on media, culture, and society. She blogs at <ulink role='orm:hideurl:ital' url='http://lilianabounegru.org/'>lilianabounegru.org</ulink>.</para></authorblurb>
+</editor>
+<editor role="compiler"><firstname>Lucy</firstname><surname>Chambers</surname>
+  <authorblurb><para><emphasis role="strong">Lucy Chambers</emphasis> is a Community Coordinator at the Open Knowledge Foundation. She works on the OKFN's OpenSpending.org project and Spending Stories, a Knight News Challenge Winner 2011—helping journalists build context around and fact check spending data. She also coordinates the data-driven journalism activities of the Foundation, running training sessions for journalists on how to find, work with, and present data.
+  </para></authorblurb>
+</editor>
+<editor role="coordinator"><firstname>The European Journalism Centre</firstname><surname/>
+  <authorblurb><para>The European Journalism Centre (<ulink url='http://www.ejc.net/'>http://www.ejc.net/</ulink>) provides training to enhance the quality of journalistic coverage of European current affairs and to provide strategic support for the <phrase role='keep-together'>European</phrase> media.</para></authorblurb>
+</editor>
+<editor role="coordinator"><firstname>The Open Knowledge Foundation</firstname><surname/>
+  <authorblurb><para>The Open Knowledge Foundation (<ulink url='http://okfn.org/'>http://okfn.org/</ulink>) seeks a world in which open knowledge is ubiquitous and routine—both online and offline—and promotes open knowledge because of its potential to deliver far-reaching societal benefits.</para></authorblurb>
+</editor>
+<editor><firstname>Shawn</firstname><surname>Wallace</surname></editor><editor role='production'><firstname>Kristen</firstname><surname>Borg</surname></editor><printhistory><formalpara><title>First Edition</title><para>July, 2012</para></formalpara></printhistory><revhistory><revision><date>2012-07-11</date><revremark>First release</revremark></revision></revhistory><legalnotice role='perfect'><para></para></legalnotice>
