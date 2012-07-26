@@ -1,3 +1,5 @@
 /pdf
 .svn
 *.DS_Store
+web/*.html
+web/_site/*
