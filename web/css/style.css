@@ -136,11 +136,14 @@ blockquote p,
 }
 
 .quoteblock {
-  padding-bottom: 2em;  
+  font-style: normal;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 0.9em;
 }
 
 .quoteblock .attribution {
-  float: right;
+  text-align: right;
   color: #666;
 }
 
