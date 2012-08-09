@@ -64,7 +64,7 @@ html, body {
 
 .sect1 .imageblock {
   display: inline-block;
-  float: right;
+  float: right !important;
   padding: 0;
   margin-top: -2em;
   padding-left: 1em;
@@ -140,11 +140,17 @@ blockquote p,
   color: #666;
 }
 
+.sidebarblock {
+  border: 1px solid #CCC;
+  padding: 1em;
+  background: #F1F1F1;
+}
+
 a {
   color: #e04349;
 }
 
-h2, h3, h4 {
+h2, h3, h4, div.title {
   font-family: 'AllerBold', 'OpenSansSemibold', Helvetica, sans-serif;
   color: #e04349;
   margin-bottom: 1em;
