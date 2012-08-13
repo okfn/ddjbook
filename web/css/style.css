@@ -151,9 +151,12 @@ blockquote p,
   display: none;
 }
 
+.quoteblock .attribution em:before {
+  content: ', ';
+}
+
 .quoteblock .attribution em {
   float: right;
-  margin-left: 0.5em;
 }
 
 .sidebarblock {
