@@ -22,43 +22,48 @@
 <body>
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <div class='wrapper'>
-    <div class='container header'>
-      <div class='row'>
-        <div class='title span7'>
-          The Data Journalism Handbook
-          <span class='version'>1.0</span>
+    <header>
+      <div class='container header'>
+        <div class='row'>
+          <div class='title span7'>
+            The Data Journalism Handbook
+            <span class='version'>1.0</span>
+          </div>
+          <div class='span5 right-align'>
+
+            <a class="btn btn-warning" href="http://shop.oreilly.com/product/0636920025603.do">
+              <i class='icon-book icon-white'></i>  Buy a copy</a>
+
+            <a class="btn btn-primary" data-toggle="modal" href="#get-updates">
+              <i class='icon-eye-open icon-white'></i>  Get Updates</a>
+
+            <a class="btn btn-inverse" data-toggle="modal" href="#give-feedback">
+              <i class='icon-inbox icon-white'></i>  Feedback</a>
+          </div>
         </div>
-        <div class='span5 right-align'>
 
-          <a class="btn btn-warning" href="http://shop.oreilly.com/product/0636920025603.do">
-            <i class='icon-book icon-white'></i>  Buy a copy</a>
-
-          <a class="btn btn-primary" data-toggle="modal" href="#get-updates">
-            <i class='icon-eye-open icon-white'></i>  Get Updates</a>
-
-          <a class="btn btn-inverse" data-toggle="modal" href="#give-feedback">
-            <i class='icon-inbox icon-white'></i>  Feedback</a>
-        </div>
+            <div id="cse" style="width: 100%;">Loading</div>
+  <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+  <script type="text/javascript">
+    google.load('search', '1', {language : 'en', style :
+  google.loader.themes.V2_DEFAULT});
+    google.setOnLoadCallback(function() {
+      var customSearchOptions = {};  var customSearchControl = new
+  google.search.CustomSearchControl(
+        '006112475414705326728:e3rnblhao8y', customSearchOptions);
+      customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+      customSearchControl.draw('cse');
+    }, true);
+  </script>
       </div>
+    </header>
 
-          <div id="cse" style="width: 100%;">Loading</div>
-<script src="http://www.google.com/jsapi" type="text/javascript"></script>
-<script type="text/javascript">
-  google.load('search', '1', {language : 'en', style :
-google.loader.themes.V2_DEFAULT});
-  google.setOnLoadCallback(function() {
-    var customSearchOptions = {};  var customSearchControl = new
-google.search.CustomSearchControl(
-      '006112475414705326728:e3rnblhao8y', customSearchOptions);
-    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-    customSearchControl.draw('cse');
-  }, true);
-</script>
-    </div>
     <div id="main" class="container">
       <div class='row'>
         <div class='span12'>
-          {{ content }}
+          <article>
+            {{ content }}
+          </article>
         </div>
       </div>
     </div>
@@ -99,30 +104,29 @@ google.search.CustomSearchControl(
     })();
   </script>
 
-  <div class='modal fade' id='get-updates'>
-    <div class="modal-header">
-      <h3>Subscribe to updates of the Handbook.</h3>
+  <aside>
+    <div class='modal fade' id='get-updates'>
+      <div class="modal-header">
+        <h3>Subscribe to updates of the Handbook.</h3>
 
-      <div class="modal-body">
-        <iframe style="height:50em; width:100%; border-width:0;" src="https://docs.google.com/spreadsheet/viewform?formkey=dElfSlJVTnZBM3VDV3hGZWxYSjlVSGc6MQ"></iframe>
+        <div class="modal-body">
+          <iframe style="height:50em; width:100%; border-width:0;" src="https://docs.google.com/spreadsheet/viewform?formkey=dElfSlJVTnZBM3VDV3hGZWxYSjlVSGc6MQ"></iframe>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class='modal fade' id='give-feedback' style="width:695px;">
-    <div class="modal-header">
-      <h3>Give us your feedback on the handbook.</h3>
-      <div class="modal-body">
-        <iframe style="height:60em; width:100%; border-width:0;" src="https://docs.google.com/a/ejc.net/spreadsheet/viewform?formkey=dFpWdV9xX1JTZXp4MDNPb0N3dWFWSXc6MQ#gid=0"></iframe>
+    <div class='modal fade' id='give-feedback' style="width:695px;">
+      <div class="modal-header">
+        <h3>Give us your feedback on the handbook.</h3>
+        <div class="modal-body">
+          <iframe style="height:60em; width:100%; border-width:0;" src="https://docs.google.com/a/ejc.net/spreadsheet/viewform?formkey=dFpWdV9xX1JTZXp4MDNPb0N3dWFWSXc6MQ#gid=0"></iframe>
+        </div>
       </div>
-    </div>
-   </div>
+     </div>
+   </aside>
 
 </body>
 </html>
-
-
-
 
 
 
